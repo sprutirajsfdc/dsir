@@ -44,25 +44,68 @@ export default class LeadPool extends NavigationMixin(LightningElement) {
     get bDisableLast() {
         return this.pageNumber === this.totalPages;
     }
-
-     @wire(getProperties)
+    @wire(getProperties)
     wiredProperties({ error, data }) {
         if (data) {
-            this.records = data.map(record => {
-                return {
-                    ...record,
-                    CreatedDateFormatted: this.formatDate(record.CreatedDate),
-                    LastModifiedDateFormatted: this.formatDate(record.LastActivityLoggedOn__c)
-                };
-            });
-            this.filteredRecords = this.records;
-            this.totalRecords = this.records.length;
-            this.totalPages = Math.ceil(this.totalRecords / this.pageSize);
-            this.paginationHelper();
+            console.log('Properties data:', data);
+            this.handlePropertiesData(data);
         } else if (error) {
-            console.error('Error fetching properties:', error);
+            console.error('Properties error:', error);
         }
     }
+
+     handlePropertiesData(data) {
+    try {
+        // Process the data
+        this.records = data.map(record => {
+            // Parse date/time values
+            const createdDate = this.parseDateTime(record.CreatedDate);
+            const lastModifiedDate = this.parseDateTime(record.LastActivityLoggedOn__c);
+
+            return {
+                ...record,
+                CreatedDateFormatted: createdDate,
+                LastModifiedDateFormatted: lastModifiedDate
+            };
+        });
+
+        this.filteredRecords = this.records;
+        this.totalRecords = this.records.length;
+        this.totalPages = Math.ceil(this.totalRecords / this.pageSize);
+        this.paginationHelper();
+    } catch (error) {
+        console.error('Error processing properties data:', error);
+    }
+}
+
+parseDateTime(dateTimeString) {
+    try {
+        // Ensure that dateTimeString is not null or empty
+        if (!dateTimeString) {
+            return ''; // or return null, depending on how you want to handle empty values
+        }
+
+        const dateTime = new Date(dateTimeString);
+        if (isNaN(dateTime.getTime())) {
+            throw new Error('Invalid date/time value: ' + dateTimeString);
+        }
+
+        const options = {
+            day: '2-digit',
+            month: '2-digit',
+            year: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit',
+            hour12: true
+        };
+
+        return new Intl.DateTimeFormat('en-GB', options).format(dateTime).replace(',', '');
+    } catch (error) {
+        console.error('Error parsing date/time:', error);
+        return ''; // or return null, depending on how you want to handle errors
+    }
+}
+
 
     @wire(getPicklistValues, { objectApiName: 'pba__Request__c', fieldApiName: 'pba__PropertyType__c' })
     typeOptionsHandler({ error, data }) {
@@ -297,6 +340,21 @@ export default class LeadPool extends NavigationMixin(LightningElement) {
         console.error('ProjectId is undefined or null. Cannot navigate.');
     }
     }
+
+    navigateToProject(event) {
+    const projectId = event.currentTarget.dataset.id;
+    if (projectId) {
+        console.log('projectId:', projectId);
+        // Construct the URL for the record page
+        const url = `/lightning/r/pba__Request__c/${projectId}/view`;
+
+        // Open the URL in a new tab
+        window.open(url, '_blank');
+    } else {
+        console.error('ProjectId is undefined or null. Cannot navigate.');
+    }
+}
+
     formatDate(dateString) {
         const date = new Date(dateString);
         const options = {

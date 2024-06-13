@@ -20,8 +20,8 @@
                 <lightning-input type="number" label="Bedrooms - Max" value={bedmax} onchange={handlebedroomMaxChange}></lightning-input>
                 <lightning-input type="date" label="Created Start Date" value={createStartDate} onchange={handleCreateStartDateChange}></lightning-input>
                 <lightning-input type="date" label="Created End Date" value={createEndDate} onchange={handleCreateEndDateChange}></lightning-input>
-                <lightning-input type="date" label="Last Activity Date Start" value={lastModifyStartDate} onchange={handleLastModifyStartDateChange}></lightning-input>
-                <lightning-input type="date" label="Last Activity Date End" value={lastModifyEndDate} onchange={handleLastModifyEndDateChange}></lightning-input>
+                <!-- <lightning-input type="date" label="Last Activity Date Start" value={lastModifyStartDate} onchange={handleLastModifyStartDateChange}></lightning-input>
+                <lightning-input type="date" label="Last Activity Date End" value={lastModifyEndDate} onchange={handleLastModifyEndDateChange}></lightning-input> -->
            
             </div>
             &nbsp;&nbsp;
@@ -40,7 +40,7 @@
                             <th>Price Min</th>
                             <th>Price Max</th>
                             <th>Created Date</th>
-                            <th>Last Activity Logged On</th>
+                            <!-- <th>Last Activity Logged On</th> -->
                         </tr>
                     </thead>
                     <tbody>
@@ -58,7 +58,7 @@
                                 <td>{unit.pba__ListingPrice_pb_min__c}</td>
                                 <td>{unit.pba__ListingPrice_pb_max__c}</td>
                                 <td>{unit.CreatedDateFormatted}</td>
-                                <td>{unit.LastModifiedDateFormatted}</td>
+                                <!-- <td>{unit.LastModifiedDateFormatted}</td> -->
                             </tr>
                         </template>
                     </tbody>
