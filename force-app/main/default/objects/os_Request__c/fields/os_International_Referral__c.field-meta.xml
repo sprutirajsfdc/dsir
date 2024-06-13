@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_International_Referral__c</fullName>
+    <externalId>false</externalId>
+    <label>International Referral</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inbound Sales</fullName>
+                <default>false</default>
+                <label>Inbound Sales</label>
+            </value>
+            <value>
+                <fullName>Inbound Rentals</fullName>
+                <default>false</default>
+                <label>Inbound Rentals</label>
+            </value>
+            <value>
+                <fullName>Outbound Sales</fullName>
+                <default>false</default>
+                <label>Outbound Sales</label>
+            </value>
+            <value>
+                <fullName>Outbound Rentals</fullName>
+                <default>false</default>
+                <label>Outbound Rentals</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

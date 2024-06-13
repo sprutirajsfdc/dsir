@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_s_Country_of_Registration</fullName>
+    <active>true</active>
+    <label>Customer&apos;s Country of Registration</label>
+    <picklistValues>
+        <picklist>os_Rating__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sanctioned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

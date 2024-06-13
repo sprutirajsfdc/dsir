@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agents_cannot_select_Win_V2</fullName>
+    <active>true</active>
+    <description>Agents and sales managers cannot select inquiries as &quot;won&quot;</description>
+    <errorConditionFormula>AND (
+OR(
+$Profile.Name = &apos;PB Agent&apos;,
+$Profile.Name = &apos;DP_AGENT&apos;,
+$Profile.Name = &apos;UK Agent&apos;,
+$Profile.Name = &apos;PB Sales Management&apos;)
+
+,
+ISCHANGED(os_Status__c),
+TEXT(os_Status__c)=&quot;Won&quot;,
+NOT(PRIORVALUE(os_Status__c)=&quot;Won&quot;)
+
+)</errorConditionFormula>
+    <errorDisplayField>os_Status__c</errorDisplayField>
+    <errorMessage>Agents cannot select &quot;Won&quot; as inquiry status. Status reserved for inquiries that have resulted in a logged transaction (closing).</errorMessage>
+</ValidationRule>

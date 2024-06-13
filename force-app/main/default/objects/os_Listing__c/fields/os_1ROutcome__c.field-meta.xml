@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_1ROutcome__c</fullName>
+    <externalId>false</externalId>
+    <label>1R- Outcome</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PIF submitted to Developer with 10% Payment</fullName>
+                <default>false</default>
+                <label>PIF submitted to Developer with 10% Payment</label>
+            </value>
+            <value>
+                <fullName>reservation issued by Developer</fullName>
+                <default>false</default>
+                <label>reservation issued by Developer</label>
+            </value>
+            <value>
+                <fullName>Reservation submitted by Buyer</fullName>
+                <default>false</default>
+                <label>Reservation submitted by Buyer</label>
+            </value>
+            <value>
+                <fullName>Reservation submitted by Buyer with 10%</fullName>
+                <default>false</default>
+                <label>Reservation submitted by Buyer with 10%</label>
+            </value>
+            <value>
+                <fullName>Reservation submitted by Buyer with 10% + 4%</fullName>
+                <default>false</default>
+                <label>Reservation submitted by Buyer with 10% + 4%</label>
+            </value>
+            <value>
+                <fullName>SPA issued by the Developer</fullName>
+                <default>false</default>
+                <label>SPA issued by the Developer</label>
+            </value>
+            <value>
+                <fullName>SPA signed by Buyer and submitted to Developer</fullName>
+                <default>false</default>
+                <label>SPA signed by Buyer and submitted to Developer</label>
+            </value>
+            <value>
+                <fullName>SPA executed by Developer</fullName>
+                <default>false</default>
+                <label>SPA executed by Developer</label>
+            </value>
+            <value>
+                <fullName>Property Available</fullName>
+                <default>false</default>
+                <label>Property Available</label>
+            </value>
+            <value>
+                <fullName>Oqood issued</fullName>
+                <default>false</default>
+                <label>Oqood issued</label>
+            </value>
+            <value>
+                <fullName>100% payment paid by buyer and title deed issued by Developer</fullName>
+                <default>false</default>
+                <label>100% payment paid by buyer and title deed issued by Developer</label>
+            </value>
+            <value>
+                <fullName>100% payment paid by buyer and title deed not issued by Developer</fullName>
+                <default>false</default>
+                <label>100% payment paid by buyer and title deed not issued by Developer</label>
+            </value>
+            <value>
+                <fullName>SPA issued to Sales team for Buyer&apos;s signature</fullName>
+                <default>false</default>
+                <label>SPA issued to Sales team for Buyer&apos;s signature</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Mobile_Phone_Is_mandotory</fullName>
+    <active>false</active>
+    <description>User Should not Create with out Mobile ,Phone &amp; email  It must have some value</description>
+    <errorConditionFormula>ISBLANK(Phone) &amp;&amp; ISBLANK(Email) &amp;&amp; ISBLANK(MobilePhone)</errorConditionFormula>
+    <errorMessage>Please provide either a Phone, Email, or Mobile Phone number.</errorMessage>
+</ValidationRule>

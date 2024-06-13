@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Checklist_listing_Fields</fullName>
+    <description>Checklist fields of Listing</description>
+    <displayedFields>
+        <field>os_Propertyfinder_Region__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>os_Apartment_House_Unit_Number__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Checklist listing Fields</label>
+</FieldSet>

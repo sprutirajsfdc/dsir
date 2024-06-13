@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Follow_up_Call_Lost__c</fullName>
+    <externalId>false</externalId>
+    <label>Follow up Call - Lost Inquiries</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bad customer service / Customer Complaint</fullName>
+                <default>false</default>
+                <label>Bad customer service / Customer Complaint</label>
+            </value>
+            <value>
+                <fullName>Not contacted - Found a suitable property</fullName>
+                <default>false</default>
+                <label>Not contacted - Found a suitable property</label>
+            </value>
+            <value>
+                <fullName>Client not contacted- Agent did not respond</fullName>
+                <default>false</default>
+                <label>Client not contacted- Agent did not respond</label>
+            </value>
+            <value>
+                <fullName>Client not contacted- Lead Redirected (Negative)</fullName>
+                <default>false</default>
+                <label>Client not contacted- Lead Redirected (Negative)</label>
+            </value>
+            <value>
+                <fullName>Client was not contacted by Agent - now not interested</fullName>
+                <default>false</default>
+                <label>Client was not contacted by Agent - now not interested</label>
+            </value>
+            <value>
+                <fullName>Client was not contacted by Agent- CCE connected the call to the agent</fullName>
+                <default>false</default>
+                <label>Client was not contacted by Agent- CCE connected the call to the agent</label>
+            </value>
+            <value>
+                <fullName>Client contacted by Agent</fullName>
+                <default>false</default>
+                <label>Client contacted by Agent</label>
+            </value>
+            <value>
+                <fullName>Client contacted by Agent - Client not Interested</fullName>
+                <default>false</default>
+                <label>Client contacted by Agent - Client not Interested</label>
+            </value>
+            <value>
+                <fullName>Client Requested Agent to Call back</fullName>
+                <default>false</default>
+                <label>Client Requested Agent to Call back</label>
+            </value>
+            <value>
+                <fullName>Client Requested Agent to send Email</fullName>
+                <default>false</default>
+                <label>Client Requested Agent to send Email</label>
+            </value>
+            <value>
+                <fullName>Client Requested Agent to send Whatsapp.</fullName>
+                <default>false</default>
+                <label>Client Requested Agent to send Whatsapp.</label>
+            </value>
+            <value>
+                <fullName>Client Not Contactable</fullName>
+                <default>false</default>
+                <label>Client Not Contactable</label>
+            </value>
+            <value>
+                <fullName>Client Didn&apos;t Respond</fullName>
+                <default>false</default>
+                <label>Client Didn&apos;t Respond</label>
+            </value>
+            <value>
+                <fullName>Client Not contacted by Agent - Requested to get back to the client</fullName>
+                <default>false</default>
+                <label>Client Not contacted by Agent - Requested to get back to the client</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

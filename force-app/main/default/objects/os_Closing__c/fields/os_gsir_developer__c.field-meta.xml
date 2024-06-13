@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_gsir_developer__c</fullName>
+    <externalId>false</externalId>
+    <label>Developer</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abwab Real Estate Limited Co (L.L.C)</fullName>
+                <default>false</default>
+                <label>Abwab Real Estate Limited Co (L.L.C)</label>
+            </value>
+            <value>
+                <fullName>Al Barari</fullName>
+                <default>false</default>
+                <label>Al Barari</label>
+            </value>
+            <value>
+                <fullName>Aldar</fullName>
+                <default>false</default>
+                <label>Aldar</label>
+            </value>
+            <value>
+                <fullName>Alpago Properties L.L.C</fullName>
+                <default>false</default>
+                <label>Alpago Properties L.L.C</label>
+            </value>
+            <value>
+                <fullName>Al Tamimi Investments Limited</fullName>
+                <default>false</default>
+                <label>Al Tamimi Investments Limited</label>
+            </value>
+            <value>
+                <fullName>Arada Developments Llc - Dubai Branch</fullName>
+                <default>false</default>
+                <label>Arada Developments Llc - Dubai Branch</label>
+            </value>
+            <value>
+                <fullName>Atlantis The Palm 2 Development L.L.C</fullName>
+                <default>false</default>
+                <label>Atlantis The Palm 2 Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Azizi Developments L.L.C</fullName>
+                <default>false</default>
+                <label>Azizi Developments L.L.C</label>
+            </value>
+            <value>
+                <fullName>Binghatti Developers Fze</fullName>
+                <default>false</default>
+                <label>Binghatti Developers Fze</label>
+            </value>
+            <value>
+                <fullName>Chi Development Group Limited</fullName>
+                <default>false</default>
+                <label>Chi Development Group Limited</label>
+            </value>
+            <value>
+                <fullName>Chi Sol Real Estate Development L.L.C</fullName>
+                <default>false</default>
+                <label>Chi Sol Real Estate Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Damac</fullName>
+                <default>false</default>
+                <label>Damac</label>
+            </value>
+            <value>
+                <fullName>Danube Properties Development L.L.C</fullName>
+                <default>false</default>
+                <label>Danube Properties Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Deyaar Development (P.J.S.C)</fullName>
+                <default>false</default>
+                <label>Deyaar Development (P.J.S.C)</label>
+            </value>
+            <value>
+                <fullName>District One - Fz</fullName>
+                <default>false</default>
+                <label>District One - Fz</label>
+            </value>
+            <value>
+                <fullName>Dubai Hills Estate L.L.C</fullName>
+                <default>false</default>
+                <label>Dubai Hills Estate L.L.C</label>
+            </value>
+            <value>
+                <fullName>Dubai Properties</fullName>
+                <default>false</default>
+                <label>Dubai Properties</label>
+            </value>
+            <value>
+                <fullName>Ellington</fullName>
+                <default>false</default>
+                <label>Ellington</label>
+            </value>
+            <value>
+                <fullName>Emaar</fullName>
+                <default>false</default>
+                <label>Emaar</label>
+            </value>
+            <value>
+                <fullName>Emaar Development P.J.S.C.</fullName>
+                <default>false</default>
+                <label>Emaar Development P.J.S.C.</label>
+            </value>
+            <value>
+                <fullName>Forum Group Dmcc</fullName>
+                <default>false</default>
+                <label>Forum Group Dmcc</label>
+            </value>
+            <value>
+                <fullName>G&amp;Co</fullName>
+                <default>false</default>
+                <label>G&amp;Co</label>
+            </value>
+            <value>
+                <fullName>G&amp;Co Real Estate Development Llc - Fz</fullName>
+                <default>false</default>
+                <label>G&amp;Co Real Estate Development Llc - Fz</label>
+            </value>
+            <value>
+                <fullName>Ithra Dubai</fullName>
+                <default>false</default>
+                <label>Ithra Dubai</label>
+            </value>
+            <value>
+                <fullName>Jumeira Bay L.L.C</fullName>
+                <default>false</default>
+                <label>Jumeira Bay L.L.C</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Islands Co. (L.L.C)</fullName>
+                <default>false</default>
+                <label>Jumeirah Islands Co. (L.L.C)</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Luxury Living L.L.C</fullName>
+                <default>false</default>
+                <label>Jumeirah Luxury Living L.L.C</label>
+            </value>
+            <value>
+                <fullName>Kerzner</fullName>
+                <default>false</default>
+                <label>Kerzner</label>
+            </value>
+            <value>
+                <fullName>Liv</fullName>
+                <default>false</default>
+                <label>Liv</label>
+            </value>
+            <value>
+                <fullName>L I V Real Estate Development L.L.C</fullName>
+                <default>false</default>
+                <label>L I V Real Estate Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Luxury Living</fullName>
+                <default>false</default>
+                <label>Luxury Living</label>
+            </value>
+            <value>
+                <fullName>Meeras</fullName>
+                <default>false</default>
+                <label>Meeras</label>
+            </value>
+            <value>
+                <fullName>Meraas Estates (L.L.C)</fullName>
+                <default>false</default>
+                <label>Meraas Estates (L.L.C)</label>
+            </value>
+            <value>
+                <fullName>Meraki Real Estate Development One Person L.L.C</fullName>
+                <default>false</default>
+                <label>Meraki Real Estate Development One Person L.L.C</label>
+            </value>
+            <value>
+                <fullName>Meydan Group (L.L.C)</fullName>
+                <default>false</default>
+                <label>Meydan Group (L.L.C)</label>
+            </value>
+            <value>
+                <fullName>Meydan Sobha</fullName>
+                <default>false</default>
+                <label>Meydan Sobha</label>
+            </value>
+            <value>
+                <fullName>Muraba Properties L.L.C</fullName>
+                <default>false</default>
+                <label>Muraba Properties L.L.C</label>
+            </value>
+            <value>
+                <fullName>Nakheel</fullName>
+                <default>false</default>
+                <label>Nakheel</label>
+            </value>
+            <value>
+                <fullName>Nakheel Investment Projects (L.L.C)</fullName>
+                <default>false</default>
+                <label>Nakheel Investment Projects (L.L.C)</label>
+            </value>
+            <value>
+                <fullName>Nshama Development L.L.C</fullName>
+                <default>false</default>
+                <label>Nshama Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Private Residences Dubai L.L.C</fullName>
+                <default>false</default>
+                <label>Private Residences Dubai L.L.C</label>
+            </value>
+            <value>
+                <fullName>Select</fullName>
+                <default>false</default>
+                <label>Select</label>
+            </value>
+            <value>
+                <fullName>Select Global Development L.L.C</fullName>
+                <default>false</default>
+                <label>Select Global Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Seven Tides Real Estate Development L.L.C</fullName>
+                <default>false</default>
+                <label>Seven Tides Real Estate Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Sky Overseas Real Estate Development L.L.C</fullName>
+                <default>false</default>
+                <label>Sky Overseas Real Estate Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Sky Palaces Real Estate Development L.L.C</fullName>
+                <default>false</default>
+                <label>Sky Palaces Real Estate Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Sobha</fullName>
+                <default>false</default>
+                <label>Sobha</label>
+            </value>
+            <value>
+                <fullName>Sobha Developers L.L.C (Branch)</fullName>
+                <default>false</default>
+                <label>Sobha Developers L.L.C (Branch)</label>
+            </value>
+            <value>
+                <fullName>The Heart Of Europe</fullName>
+                <default>false</default>
+                <label>The Heart Of Europe</label>
+            </value>
+            <value>
+                <fullName>The One Jbr L.L.C</fullName>
+                <default>false</default>
+                <label>The One Jbr L.L.C</label>
+            </value>
+            <value>
+                <fullName>Wasl</fullName>
+                <default>false</default>
+                <label>Wasl</label>
+            </value>
+            <value>
+                <fullName>Xv.A05.019 Limited</fullName>
+                <default>false</default>
+                <label>Xv.A05.019 Limited</label>
+            </value>
+            <value>
+                <fullName>Zabeel Investments (L.L.C)</fullName>
+                <default>false</default>
+                <label>Zabeel Investments (L.L.C)</label>
+            </value>
+            <value>
+                <fullName>Alta Real Estate Development L.L.C</fullName>
+                <default>false</default>
+                <label>Alta Real Estate Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Al Sharq Investment LLC</fullName>
+                <default>false</default>
+                <label>Al Sharq Investment LLC</label>
+            </value>
+            <value>
+                <fullName>Al Habtoor City Real Estate Development (Br. Of Dubai National Investment Co L.L.C)</fullName>
+                <default>false</default>
+                <label>Al Habtoor City Real Estate Development (Br. Of Dubai National Investment Co L.L.C)</label>
+            </value>
+            <value>
+                <fullName>Emaar Properties (P.J.S.C)</fullName>
+                <default>false</default>
+                <label>Emaar Properties (P.J.S.C)</label>
+            </value>
+            <value>
+                <fullName>Nakheel .(P J S C)</fullName>
+                <default>false</default>
+                <label>Nakheel .(P J S C)</label>
+            </value>
+            <value>
+                <fullName>Majid Al Futtaim Developments (L L C)</fullName>
+                <default>false</default>
+                <label>Majid Al Futtaim Developments (L L C)</label>
+            </value>
+            <value>
+                <fullName>Meraas Real Estates L.L.C</fullName>
+                <default>false</default>
+                <label>Meraas Real Estates L.L.C</label>
+            </value>
+            <value>
+                <fullName>Ellington Properties Development L.L.C</fullName>
+                <default>false</default>
+                <label>Ellington Properties Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Marina Liv Development (Br Of Marina 2 Group Limited ) - Dubai Branch</fullName>
+                <default>false</default>
+                <label>Marina Liv Development (Br Of Marina 2 Group Limited ) - Dubai Branch</label>
+            </value>
+            <value>
+                <fullName>Omniyat Middle East Real Estate Developments L.L.C</fullName>
+                <default>false</default>
+                <label>Omniyat Middle East Real Estate Developments L.L.C</label>
+            </value>
+            <value>
+                <fullName>Scope Investment L L C - Dubai Branch</fullName>
+                <default>false</default>
+                <label>Scope Investment L L C - Dubai Branch</label>
+            </value>
+            <value>
+                <fullName>Mag Property Development L.L.C</fullName>
+                <default>false</default>
+                <label>Mag Property Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Ready Property - Primary</fullName>
+                <default>false</default>
+                <label>Ready Property - Primary</label>
+            </value>
+            <value>
+                <fullName>Devco Real Estate Development L.L.C</fullName>
+                <default>false</default>
+                <label>Devco Real Estate Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Five Real Estate Development L.L.C</fullName>
+                <default>false</default>
+                <label>Five Real Estate Development L.L.C</label>
+            </value>
+            <value>
+                <fullName>Al Zorah Development (Private) Co. LTD</fullName>
+                <default>false</default>
+                <label>Al Zorah Development (Private) Co. LTD</label>
+            </value>
+            <value>
+                <fullName>Green Properties development Co</fullName>
+                <default>false</default>
+                <label>Green Properties development Co</label>
+            </value>
+            <value>
+                <fullName>DMCC</fullName>
+                <default>false</default>
+                <label>DMCC</label>
+            </value>
+            <value>
+                <fullName>Tilal Al Ghaf</fullName>
+                <default>false</default>
+                <label>Tilal Al Ghaf</label>
+            </value>
+            <value>
+                <fullName>AHS Properties</fullName>
+                <default>false</default>
+                <label>AHS Properties</label>
+            </value>
+            <value>
+                <fullName>Expo City Mangrove Residences Development FZCO</fullName>
+                <default>false</default>
+                <label>Expo City Mangrove Residences Development FZCO</label>
+            </value>
+            <value>
+                <fullName>Marsa Al Arab Residences LLC</fullName>
+                <default>false</default>
+                <label>Marsa Al Arab Residences LLC</label>
+            </value>
+            <value>
+                <fullName>EOME</fullName>
+                <default>false</default>
+                <label>EOME</label>
+            </value>
+            <value>
+                <fullName>Erth</fullName>
+                <default>false</default>
+                <label>Erth</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

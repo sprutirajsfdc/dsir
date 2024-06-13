@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Disposal__c</fullName>
+    <externalId>false</externalId>
+    <label>Disposal</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>By Auction</fullName>
+                <default>false</default>
+                <label>By Auction</label>
+            </value>
+            <value>
+                <fullName>Confidential</fullName>
+                <default>false</default>
+                <label>Confidential</label>
+            </value>
+            <value>
+                <fullName>By Tender</fullName>
+                <default>false</default>
+                <label>By Tender</label>
+            </value>
+            <value>
+                <fullName>Offers Invited</fullName>
+                <default>false</default>
+                <label>Offers Invited</label>
+            </value>
+            <value>
+                <fullName>Private Treaty</fullName>
+                <default>false</default>
+                <label>Private Treaty</label>
+            </value>
+            <value>
+                <fullName>Shared Ownership</fullName>
+                <default>false</default>
+                <label>Shared Ownership</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

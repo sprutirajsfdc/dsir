@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Price_Unit__c</fullName>
+    <externalId>false</externalId>
+    <label>Price Unit</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>sq_feet</fullName>
+                <default>false</default>
+                <label>sq_feet</label>
+            </value>
+            <value>
+                <fullName>sq_yards</fullName>
+                <default>false</default>
+                <label>sq_yards</label>
+            </value>
+            <value>
+                <fullName>sq_metres</fullName>
+                <default>false</default>
+                <label>sq_metres</label>
+            </value>
+            <value>
+                <fullName>acres</fullName>
+                <default>false</default>
+                <label>acres</label>
+            </value>
+            <value>
+                <fullName>hectares</fullName>
+                <default>false</default>
+                <label>hectares</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

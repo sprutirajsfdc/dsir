@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_gsir_community_propertybase__c</fullName>
+    <externalId>false</externalId>
+    <label>Community Propertybase</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Al Barari</fullName>
+                <default>false</default>
+                <label>Al Barari</label>
+            </value>
+            <value>
+                <fullName>Arabian Ranches</fullName>
+                <default>false</default>
+                <label>Arabian Ranches</label>
+            </value>
+            <value>
+                <fullName>Arabian Ranches 2</fullName>
+                <default>false</default>
+                <label>Arabian Ranches 2</label>
+            </value>
+            <value>
+                <fullName>Bluewaters</fullName>
+                <default>false</default>
+                <label>Bluewaters</label>
+            </value>
+            <value>
+                <fullName>Business Bay</fullName>
+                <default>false</default>
+                <label>Business Bay</label>
+            </value>
+            <value>
+                <fullName>City Walk</fullName>
+                <default>false</default>
+                <label>City Walk</label>
+            </value>
+            <value>
+                <fullName>DIFC</fullName>
+                <default>false</default>
+                <label>DIFC</label>
+            </value>
+            <value>
+                <fullName>Downtown Dubai</fullName>
+                <default>false</default>
+                <label>Downtown Dubai</label>
+            </value>
+            <value>
+                <fullName>Dubai Creek Harbour (The Lagoons)</fullName>
+                <default>false</default>
+                <label>Dubai Creek Harbour (The Lagoons)</label>
+            </value>
+            <value>
+                <fullName>Dubai Festival City</fullName>
+                <default>false</default>
+                <label>Dubai Festival City</label>
+            </value>
+            <value>
+                <fullName>Dubai Hills Estate</fullName>
+                <default>false</default>
+                <label>Dubai Hills Estate</label>
+            </value>
+            <value>
+                <fullName>Dubai Marina</fullName>
+                <default>false</default>
+                <label>Dubai Marina</label>
+            </value>
+            <value>
+                <fullName>Dubai Media City</fullName>
+                <default>false</default>
+                <label>Dubai Media City</label>
+            </value>
+            <value>
+                <fullName>Emirates Hills</fullName>
+                <default>false</default>
+                <label>Emirates Hills</label>
+            </value>
+            <value>
+                <fullName>Greens</fullName>
+                <default>false</default>
+                <label>Greens</label>
+            </value>
+            <value>
+                <fullName>Jumeirah</fullName>
+                <default>false</default>
+                <label>Jumeirah</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Beach Residence</fullName>
+                <default>false</default>
+                <label>Jumeirah Beach Residence</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Golf Estates</fullName>
+                <default>false</default>
+                <label>Jumeirah Golf Estates</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Islands</fullName>
+                <default>false</default>
+                <label>Jumeirah Islands</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Lake Towers</fullName>
+                <default>false</default>
+                <label>Jumeirah Lake Towers</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Park</fullName>
+                <default>false</default>
+                <label>Jumeirah Park</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Village Circle</fullName>
+                <default>false</default>
+                <label>Jumeirah Village Circle</label>
+            </value>
+            <value>
+                <fullName>Meadows</fullName>
+                <default>false</default>
+                <label>Meadows</label>
+            </value>
+            <value>
+                <fullName>Mohammed Bin Rashid City</fullName>
+                <default>false</default>
+                <label>Mohammed Bin Rashid City</label>
+            </value>
+            <value>
+                <fullName>Palm Jumeirah</fullName>
+                <default>false</default>
+                <label>Palm Jumeirah</label>
+            </value>
+            <value>
+                <fullName>Reem</fullName>
+                <default>false</default>
+                <label>Reem</label>
+            </value>
+            <value>
+                <fullName>The Hills</fullName>
+                <default>false</default>
+                <label>The Hills</label>
+            </value>
+            <value>
+                <fullName>The Lakes</fullName>
+                <default>false</default>
+                <label>The Lakes</label>
+            </value>
+            <value>
+                <fullName>The Springs</fullName>
+                <default>false</default>
+                <label>The Springs</label>
+            </value>
+            <value>
+                <fullName>The Views</fullName>
+                <default>false</default>
+                <label>The Views</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

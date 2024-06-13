@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Regions_Sharing_Rule__c</fullName>
+    <externalId>false</externalId>
+    <label>Secondary Regions (Sharing Rule)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>UK Sotheby&apos;s International Realty</fullName>
+                <default>false</default>
+                <label>UK Sotheby&apos;s International Realty</label>
+            </value>
+            <value>
+                <fullName>Luxhabitat Sotheby&apos;s International Realty</fullName>
+                <default>false</default>
+                <label>Luxhabitat Sotheby&apos;s International Realty</label>
+            </value>
+            <value>
+                <fullName>Saudi Arabia Sotheby&apos;s International Realty</fullName>
+                <default>false</default>
+                <label>Saudi Arabia Sotheby&apos;s International Realty</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

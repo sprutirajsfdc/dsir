@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Listing_Address__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK( os_Unit_Number__c ),&quot;&quot;,os_Unit_Number__c )
+&amp; IF(ISBLANK(os_Unit_Number__c ),&quot;&quot;,&quot;, &quot;)
+&amp; IF(ISBLANK( os_uaefields_Community_Propertyfinder__c ),&quot;&quot;,os_uaefields_Community_Propertyfinder__c )
+&amp; IF(ISBLANK(os_uaefields_Community_Propertyfinder__c ),&quot;&quot;,&quot;, &quot;)
+&amp; IF(ISBLANK( os_uaefields_Sub_CommunityPropertyfinder__c ),&quot;&quot;,os_uaefields_Sub_CommunityPropertyfinder__c )
+&amp; IF(ISBLANK(os_uaefields_Sub_CommunityPropertyfinder__c ),&quot;&quot;,&quot;, &quot;)
+&amp; IF(ISBLANK( os_uaefields_Property_Propertyfinder__c ),&quot;&quot;,os_uaefields_Property_Propertyfinder__c )
+&amp; IF(ISBLANK(os_uaefields_Property_Propertyfinder__c ),&quot;&quot;,&quot;, &quot;)
+&amp; IF(ISBLANK( os_Country__c ),&quot;&quot;,os_Country__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Listing Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

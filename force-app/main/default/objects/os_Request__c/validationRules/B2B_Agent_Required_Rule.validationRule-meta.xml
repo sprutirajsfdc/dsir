@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Agent_Required_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordType.Name = &apos;Exclusive Project&apos;,
+AND(
+ISPICKVAL(os_Status__c , &apos;Offering&apos;),
+ISPICKVAL(os_InquiryType__c , &apos;Agency&apos; ),
+ISBLANK(  os_B2B_Agent__c )
+),
+CreatedDate &gt; DATETIMEVALUE(&quot;2023-08-24 00:00:00&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>os_B2B_Agent__c</errorDisplayField>
+    <errorMessage>B2B Agent Required for Offering and Agency Inquiry</errorMessage>
+</ValidationRule>

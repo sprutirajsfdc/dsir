@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AML_Page</fullName>
+    <fields>Name</fields>
+    <fields>os_Contact__c</fields>
+    <fields>os_Inquiry__c</fields>
+    <fields>os_AML_Severity__c</fields>
+    <fields>os_AML_Severity_Color__c</fields>
+    <label>AML Page</label>
+</CompactLayout>

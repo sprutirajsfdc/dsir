@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_gsir_id_type__c</fullName>
+    <externalId>false</externalId>
+    <label>ID Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Permanent Residence</fullName>
+                <default>false</default>
+                <label>Permanent Residence</label>
+            </value>
+            <value>
+                <fullName>Employment Visa</fullName>
+                <default>false</default>
+                <label>Employment Visa</label>
+            </value>
+            <value>
+                <fullName>Passport</fullName>
+                <default>false</default>
+                <label>Passport</label>
+            </value>
+            <value>
+                <fullName>National ID</fullName>
+                <default>false</default>
+                <label>National ID</label>
+            </value>
+            <value>
+                <fullName>Driver License</fullName>
+                <default>false</default>
+                <label>Driver License</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

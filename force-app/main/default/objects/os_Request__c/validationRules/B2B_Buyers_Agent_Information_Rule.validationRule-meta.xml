@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Buyers_Agent_Information_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordType.Name = &apos;Exclusive Project&apos;,
+ISPICKVAL( os_Agency_Inquiry_Type__c , &apos;B2B Buyers&apos;),
+ISBLANK( os_B2B_Agent__c ) ,
+CreatedDate &gt; DATETIMEVALUE(&quot;2023-08-24 00:00:00&quot;),
+OR(
+ISBLANK( os_B2B_Buyers_Agent__c ) ,
+AND(
+ISBLANK( os_B2B_Buyers_Agent_Email__c ),
+ISBLANK( os_B2B_Buyers_Agent_Mobile__c )
+)
+)
+)</errorConditionFormula>
+    <errorMessage>Please fill these Fields for B2B Buyer&apos;s Agent Information -
+B2B Buyers Agent Name and choose either B2B Buyers Agent Email or B2B Buyers Agent Mobile.</errorMessage>
+</ValidationRule>

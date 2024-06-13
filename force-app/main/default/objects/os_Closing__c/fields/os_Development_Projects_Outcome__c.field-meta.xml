@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Development_Projects_Outcome__c</fullName>
+    <externalId>false</externalId>
+    <label>Development Projects Outcome(OLD)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hot</fullName>
+                <default>false</default>
+                <label>Hot</label>
+            </value>
+            <value>
+                <fullName>Cold</fullName>
+                <default>false</default>
+                <label>Cold</label>
+            </value>
+            <value>
+                <fullName>Warm</fullName>
+                <default>false</default>
+                <label>Warm</label>
+            </value>
+            <value>
+                <fullName>Agent Briefing</fullName>
+                <default>false</default>
+                <label>Agent Briefing</label>
+            </value>
+            <value>
+                <fullName>Offer</fullName>
+                <default>false</default>
+                <label>Offer</label>
+            </value>
+            <value>
+                <fullName>Lost</fullName>
+                <default>false</default>
+                <label>Lost</label>
+            </value>
+            <value>
+                <fullName>Reservation</fullName>
+                <default>false</default>
+                <label>Reservation</label>
+            </value>
+            <value>
+                <fullName>SPA issued</fullName>
+                <default>false</default>
+                <label>SPA issued</label>
+            </value>
+            <value>
+                <fullName>5% Received</fullName>
+                <default>false</default>
+                <label>5% Received</label>
+            </value>
+            <value>
+                <fullName>20% Received</fullName>
+                <default>false</default>
+                <label>20% Received</label>
+            </value>
+            <value>
+                <fullName>100% Received</fullName>
+                <default>false</default>
+                <label>100% Received</label>
+            </value>
+            <value>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+                <label>Site Visit</label>
+            </value>
+            <value>
+                <fullName>Signatures on SPA pending with Developer</fullName>
+                <default>false</default>
+                <label>Signatures on SPA pending with Developer</label>
+            </value>
+            <value>
+                <fullName>SPA issuance pending with Developer</fullName>
+                <default>false</default>
+                <label>SPA issuance pending with Developer</label>
+            </value>
+            <value>
+                <fullName>SPA signatures pending with client</fullName>
+                <default>false</default>
+                <label>SPA signatures pending with client</label>
+            </value>
+            <value>
+                <fullName>Oqood Registered</fullName>
+                <default>false</default>
+                <label>Oqood Registered</label>
+            </value>
+            <value>
+                <fullName>SPA Submitted to Developer</fullName>
+                <default>false</default>
+                <label>SPA Submitted to Developer</label>
+            </value>
+            <value>
+                <fullName>Fully Executed SPA ( signed by both Party )</fullName>
+                <default>false</default>
+                <label>Fully Executed SPA ( signed by both Party )</label>
+            </value>
+            <value>
+                <fullName>Executed SPA sent to client</fullName>
+                <default>false</default>
+                <label>Executed SPA sent to client</label>
+            </value>
+            <value>
+                <fullName>Oqood Registered and Executed SPA sent to client</fullName>
+                <default>false</default>
+                <label>Oqood Registered and Executed SPA sent to client</label>
+            </value>
+            <value>
+                <fullName>Title deed issued by Developer</fullName>
+                <default>false</default>
+                <label>Title deed issued by Developer</label>
+            </value>
+            <value>
+                <fullName>Title deed not issued by Developer</fullName>
+                <default>false</default>
+                <label>Title deed not issued by Developer</label>
+            </value>
+            <value>
+                <fullName>Developers Compliance Approved</fullName>
+                <default>false</default>
+                <label>Developers Compliance Approved</label>
+            </value>
+            <value>
+                <fullName>Reservation signed by buyer</fullName>
+                <default>false</default>
+                <label>Reservation signed by buyer</label>
+            </value>
+            <value>
+                <fullName>Reservation signed by buyer and down payment received</fullName>
+                <default>false</default>
+                <label>Reservation signed by buyer and down payment received</label>
+            </value>
+            <value>
+                <fullName>Form F signed by buyer &amp; seller</fullName>
+                <default>false</default>
+                <label>Form F signed by buyer &amp; seller</label>
+            </value>
+            <value>
+                <fullName>Developer NOC pending</fullName>
+                <default>false</default>
+                <label>Developer NOC pending</label>
+            </value>
+            <value>
+                <fullName>Transfer date confirmed</fullName>
+                <default>false</default>
+                <label>Transfer date confirmed</label>
+            </value>
+            <value>
+                <fullName>Transfer done</fullName>
+                <default>false</default>
+                <label>Transfer done</label>
+            </value>
+            <value>
+                <fullName>SPA Signed by Buyer</fullName>
+                <default>false</default>
+                <label>SPA Signed by Buyer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

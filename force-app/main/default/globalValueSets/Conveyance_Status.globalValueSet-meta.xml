@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+    </customValue>
+    <customValue>
+        <fullName>Contract Requested</fullName>
+        <default>false</default>
+        <label>Contract Requested</label>
+    </customValue>
+    <customValue>
+        <fullName>Document Pending</fullName>
+        <default>false</default>
+        <label>Document Pending</label>
+    </customValue>
+    <customValue>
+        <fullName>Drafting</fullName>
+        <default>false</default>
+        <label>Drafting</label>
+    </customValue>
+    <customValue>
+        <fullName>Signing</fullName>
+        <default>false</default>
+        <label>Signing</label>
+    </customValue>
+    <customValue>
+        <fullName>Contract Executed</fullName>
+        <default>false</default>
+        <label>Contract Executed</label>
+    </customValue>
+    <customValue>
+        <fullName>NOC Completed</fullName>
+        <default>false</default>
+        <label>NOC Completed</label>
+    </customValue>
+    <customValue>
+        <fullName>Transfer Completed</fullName>
+        <default>false</default>
+        <label>Transfer Completed</label>
+    </customValue>
+    <customValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+    </customValue>
+    <customValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+    </customValue>
+    <customValue>
+        <fullName>Exchanged</fullName>
+        <default>false</default>
+        <label>Exchanged</label>
+    </customValue>
+    <customValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+    </customValue>
+    <customValue>
+        <fullName>Fall Through</fullName>
+        <default>false</default>
+        <label>Fall Through</label>
+    </customValue>
+    <masterLabel>Conveyance Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

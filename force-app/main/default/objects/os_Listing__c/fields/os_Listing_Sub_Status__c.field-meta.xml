@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Listing_Sub_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Listing Sub Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>os_gsir_Listing_Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending AML</fullName>
+                <default>false</default>
+                <label>Pending AML</label>
+            </value>
+            <value>
+                <fullName>Content Creation</fullName>
+                <default>false</default>
+                <label>Content Creation</label>
+            </value>
+            <value>
+                <fullName>For Sale - Available</fullName>
+                <default>false</default>
+                <label>For Sale - Available</label>
+            </value>
+            <value>
+                <fullName>For Sale - Unavailable</fullName>
+                <default>false</default>
+                <label>For Sale - Unavailable</label>
+            </value>
+            <value>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+                <label>Reserved</label>
+            </value>
+            <value>
+                <fullName>To Let - Available</fullName>
+                <default>false</default>
+                <label>To Let - Available</label>
+            </value>
+            <value>
+                <fullName>To Let - Unavailable</fullName>
+                <default>false</default>
+                <label>To Let - Unavailable</label>
+            </value>
+            <value>
+                <fullName>Under Offer - Available</fullName>
+                <default>false</default>
+                <label>Under Offer - Available</label>
+            </value>
+            <value>
+                <fullName>Under Offer - Unavailable</fullName>
+                <default>false</default>
+                <label>Under Offer - Unavailable</label>
+            </value>
+            <value>
+                <fullName>Arranging Tenancy - Unavailable</fullName>
+                <default>false</default>
+                <label>Arranging Tenancy - Unavailable</label>
+            </value>
+            <value>
+                <fullName>Exchanged</fullName>
+                <default>false</default>
+                <label>Exchanged</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Off Market</fullName>
+                <default>false</default>
+                <label>Off Market</label>
+            </value>
+            <value>
+                <fullName>Archived</fullName>
+                <default>false</default>
+                <label>Archived</label>
+            </value>
+            <value>
+                <fullName>Tenancy Current - Unavailable</fullName>
+                <default>false</default>
+                <label>Tenancy Current - Unavailable</label>
+            </value>
+            <value>
+                <fullName>Tenancy Current - Available</fullName>
+                <default>false</default>
+                <label>Tenancy Current - Available</label>
+            </value>
+            <value>
+                <fullName>Tenancy Finished</fullName>
+                <default>false</default>
+                <label>Tenancy Finished</label>
+            </value>
+            <value>
+                <fullName>Tenancy Cancelled</fullName>
+                <default>false</default>
+                <label>Tenancy Cancelled</label>
+            </value>
+            <value>
+                <fullName>Sold</fullName>
+                <default>false</default>
+                <label>Sold</label>
+            </value>
+            <value>
+                <fullName>Let</fullName>
+                <default>false</default>
+                <label>Let</label>
+            </value>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+                <label>Withdrawn</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Pending AML</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Content Creation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>For Sale - Available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>For Sale - Unavailable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <valueName>Reserved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>To Let - Available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>To Let - Unavailable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Under Offer - Available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Under Offer - Unavailable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Arranging Tenancy - Unavailable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Exchanged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Completed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Off Market</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Archived</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Tenancy Current - Unavailable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Tenancy Current - Available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Tenancy Finished</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Tenancy Cancelled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Sold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Let</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Primary</controllingFieldValue>
+            <controllingFieldValue>Secondary</controllingFieldValue>
+            <valueName>Withdrawn</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

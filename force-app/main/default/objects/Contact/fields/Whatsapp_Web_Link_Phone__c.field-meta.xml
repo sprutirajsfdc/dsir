@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Whatsapp_Web_Link_Phone__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;https://wa.me/&quot; &amp; IF ( Contains( Phone , &quot; &quot; ), SUBSTITUTE( Phone , &quot; &quot;, &quot;&quot; ) ,
+IF ( Contains( Phone , &quot;+&quot; ), SUBSTITUTE( Phone , &quot;+&quot;, &quot;&quot; ),
+IF ( Contains( Phone , &quot;-&quot; ), SUBSTITUTE( Phone , &quot;-&quot;, &quot;&quot; ),
+IF ( Contains( Phone , &quot;(&quot; ), SUBSTITUTE( Phone , &quot;(&quot;, &quot;&quot; ),
+IF ( Contains( Phone , &quot;)&quot; ), SUBSTITUTE( Phone , &quot;)&quot;, &quot;&quot; ), Phone )))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Whatsapp Web Link Phone</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

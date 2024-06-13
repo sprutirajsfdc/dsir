@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_gsir_lead_source__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1 Residences East Tower</fullName>
+                <default>false</default>
+                <label>1 Residences East Tower</label>
+            </value>
+            <value>
+                <fullName>1 Residences PC</fullName>
+                <default>false</default>
+                <label>1 Residences PC</label>
+            </value>
+            <value>
+                <fullName>1 Residences - Sales Centre</fullName>
+                <default>false</default>
+                <label>1 Residences - Sales Centre</label>
+            </value>
+            <value>
+                <fullName>3rd Party Agency</fullName>
+                <default>false</default>
+                <label>3rd Party Agency</label>
+            </value>
+            <value>
+                <fullName>ActivePipe</fullName>
+                <default>false</default>
+                <label>ActivePipe</label>
+            </value>
+            <value>
+                <fullName>Agent Internal Referral</fullName>
+                <default>false</default>
+                <label>Agent Internal Referral</label>
+            </value>
+            <value>
+                <fullName>Agent to Agent deal</fullName>
+                <default>false</default>
+                <label>Agent to Agent deal</label>
+            </value>
+            <value>
+                <fullName>ALTA - Mr. C App</fullName>
+                <default>false</default>
+                <label>ALTA - Mr. C App</label>
+            </value>
+            <value>
+                <fullName>ALTA - Mr. C Website</fullName>
+                <default>false</default>
+                <label>ALTA - Mr. C Website</label>
+            </value>
+            <value>
+                <fullName>ALTA Website</fullName>
+                <default>false</default>
+                <label>ALTA Website</label>
+            </value>
+            <value>
+                <fullName>Al Zorah WA Marketing</fullName>
+                <default>false</default>
+                <label>Al Zorah WA Marketing</label>
+            </value>
+            <value>
+                <fullName>Atlantis the Royal - Landline</fullName>
+                <default>false</default>
+                <label>Atlantis the Royal - Landline</label>
+            </value>
+            <value>
+                <fullName>Atlantis the Royal - Sales Suite</fullName>
+                <default>false</default>
+                <label>Atlantis the Royal - Sales Suite</label>
+            </value>
+            <value>
+                <fullName>Atlantis the Royal - Website</fullName>
+                <default>false</default>
+                <label>Atlantis the Royal - Website</label>
+            </value>
+            <value>
+                <fullName>B2B Personal Relationship</fullName>
+                <default>false</default>
+                <label>B2B Personal Relationship</label>
+            </value>
+            <value>
+                <fullName>Baccarat Residences Sales Centre</fullName>
+                <default>false</default>
+                <label>Baccarat Residences Sales Centre</label>
+            </value>
+            <value>
+                <fullName>Canal Front Residences -Sales Center</fullName>
+                <default>false</default>
+                <label>Canal Front Residences -Sales Center</label>
+            </value>
+            <value>
+                <fullName>Canal Front Residences - What&apos;s app Agency Group</fullName>
+                <default>false</default>
+                <label>Canal Front Residences - What&apos;s app Agency Group</label>
+            </value>
+            <value>
+                <fullName>CCE - Did not probe</fullName>
+                <default>false</default>
+                <label>CCE - Did not probe</label>
+            </value>
+            <value>
+                <fullName>Client doenst want to provide</fullName>
+                <default>false</default>
+                <label>Client doenst want to provide</label>
+            </value>
+            <value>
+                <fullName>Commversion</fullName>
+                <default>false</default>
+                <label>Commversion</label>
+            </value>
+            <value>
+                <fullName>Crimtan</fullName>
+                <default>false</default>
+                <label>Crimtan</label>
+            </value>
+            <value>
+                <fullName>Criteo PC</fullName>
+                <default>false</default>
+                <label>Criteo PC</label>
+            </value>
+            <value>
+                <fullName>DIFC Office - Walkin</fullName>
+                <default>false</default>
+                <label>DIFC Office - Walkin</label>
+            </value>
+            <value>
+                <fullName>DMCC Developer</fullName>
+                <default>false</default>
+                <label>DMCC Developer</label>
+            </value>
+            <value>
+                <fullName>Drip Marketing</fullName>
+                <default>false</default>
+                <label>Drip Marketing</label>
+            </value>
+            <value>
+                <fullName>Dubizzle</fullName>
+                <default>false</default>
+                <label>Dubizzle</label>
+            </value>
+            <value>
+                <fullName>Existing Client</fullName>
+                <default>false</default>
+                <label>Existing Client</label>
+            </value>
+            <value>
+                <fullName>External Agent Referral</fullName>
+                <default>false</default>
+                <label>External Agent Referral</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Facebook/Instagram</fullName>
+                <default>false</default>
+                <label>Facebook/Instagram</label>
+            </value>
+            <value>
+                <fullName>Facebook Ads</fullName>
+                <default>false</default>
+                <label>Facebook Ads</label>
+            </value>
+            <value>
+                <fullName>Four Season Sales centre</fullName>
+                <default>false</default>
+                <label>Four Season Sales centre</label>
+            </value>
+            <value>
+                <fullName>Four seasons Retail</fullName>
+                <default>false</default>
+                <label>Four seasons Retail</label>
+            </value>
+            <value>
+                <fullName>FT Property Listings</fullName>
+                <default>false</default>
+                <label>FT Property Listings</label>
+            </value>
+            <value>
+                <fullName>Google Ads</fullName>
+                <default>false</default>
+                <label>Google Ads</label>
+            </value>
+            <value>
+                <fullName>Google AdWords</fullName>
+                <default>false</default>
+                <label>Google AdWords</label>
+            </value>
+            <value>
+                <fullName>Greens Office - Walk in</fullName>
+                <default>false</default>
+                <label>Greens Office - Walk in</label>
+            </value>
+            <value>
+                <fullName>Gulfnews</fullName>
+                <default>false</default>
+                <label>Gulfnews</label>
+            </value>
+            <value>
+                <fullName>GulfSIR.com</fullName>
+                <default>false</default>
+                <label>GulfSIR.com</label>
+            </value>
+            <value>
+                <fullName>Hash Digital</fullName>
+                <default>false</default>
+                <label>Hash Digital</label>
+            </value>
+            <value>
+                <fullName>ICD Referral</fullName>
+                <default>false</default>
+                <label>ICD Referral</label>
+            </value>
+            <value>
+                <fullName>Inbound Referral</fullName>
+                <default>false</default>
+                <label>Inbound Referral</label>
+            </value>
+            <value>
+                <fullName>Instagram</fullName>
+                <default>false</default>
+                <label>Instagram</label>
+            </value>
+            <value>
+                <fullName>Instagram Ads</fullName>
+                <default>false</default>
+                <label>Instagram Ads</label>
+            </value>
+            <value>
+                <fullName>Internal New Data</fullName>
+                <default>false</default>
+                <label>Internal New Data</label>
+            </value>
+            <value>
+                <fullName>Ithra Dubai</fullName>
+                <default>false</default>
+                <label>Ithra Dubai</label>
+            </value>
+            <value>
+                <fullName>James Edition</fullName>
+                <default>false</default>
+                <label>James Edition</label>
+            </value>
+            <value>
+                <fullName>Journal Organic</fullName>
+                <default>false</default>
+                <label>Journal Organic</label>
+            </value>
+            <value>
+                <fullName>Kerzner</fullName>
+                <default>false</default>
+                <label>Kerzner</label>
+            </value>
+            <value>
+                <fullName>Krisha.Kz Portal</fullName>
+                <default>false</default>
+                <label>Krisha.Kz Portal</label>
+            </value>
+            <value>
+                <fullName>Lead Farming - External Data</fullName>
+                <default>false</default>
+                <label>Lead Farming - External Data</label>
+            </value>
+            <value>
+                <fullName>Lead Farming - Internal Data</fullName>
+                <default>false</default>
+                <label>Lead Farming - Internal Data</label>
+            </value>
+            <value>
+                <fullName>Le Figaro</fullName>
+                <default>false</default>
+                <label>Le Figaro</label>
+            </value>
+            <value>
+                <fullName>Linkedin Ads</fullName>
+                <default>false</default>
+                <label>Linkedin Ads</label>
+            </value>
+            <value>
+                <fullName>ListGlobally</fullName>
+                <default>false</default>
+                <label>ListGlobally</label>
+            </value>
+            <value>
+                <fullName>DSIR- EDM</fullName>
+                <default>false</default>
+                <label>DSIR- EDM</label>
+            </value>
+            <value>
+                <fullName>LSIR - Events &amp; Road Shows</fullName>
+                <default>false</default>
+                <label>LSIR - Events &amp; Road Shows</label>
+            </value>
+            <value>
+                <fullName>LSIR - Facebook</fullName>
+                <default>false</default>
+                <label>LSIR - Facebook</label>
+            </value>
+            <value>
+                <fullName>LSIR - Instagram</fullName>
+                <default>false</default>
+                <label>LSIR - Instagram</label>
+            </value>
+            <value>
+                <fullName>LSIR - Instapage</fullName>
+                <default>false</default>
+                <label>LSIR - Instapage</label>
+            </value>
+            <value>
+                <fullName>LSIR - Kiosk</fullName>
+                <default>false</default>
+                <label>LSIR - Kiosk</label>
+            </value>
+            <value>
+                <fullName>LSIR - Lead Farming</fullName>
+                <default>false</default>
+                <label>LSIR - Lead Farming</label>
+            </value>
+            <value>
+                <fullName>LSIR - LinkedIn</fullName>
+                <default>false</default>
+                <label>LSIR - LinkedIn</label>
+            </value>
+            <value>
+                <fullName>LSIR - Magazine</fullName>
+                <default>false</default>
+                <label>LSIR - Magazine</label>
+            </value>
+            <value>
+                <fullName>LSIR - YouTube</fullName>
+                <default>false</default>
+                <label>LSIR - YouTube</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - AdWords</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - AdWords</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Affiliate</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Affiliate</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Blogs</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Blogs</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Chat</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Chat</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - DataSource</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - DataSource</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Edm</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Edm</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Event</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Event</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Lead Farming</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Lead Farming</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Mapto Media</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Mapto Media</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Networking</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Networking</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - PR</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - PR</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Printed Media</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Printed Media</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - PropertyFinder</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - PropertyFinder</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Referral</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Referral</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Signboards</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Signboards</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - SMS Campaign</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - SMS Campaign</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Social Media</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Social Media</label>
+            </value>
+            <value>
+                <fullName>luxhabitat.ae - Website Organic</fullName>
+                <default>false</default>
+                <label>luxhabitat.ae - Website Organic</label>
+            </value>
+            <value>
+                <fullName>Luxuryestate.com</fullName>
+                <default>false</default>
+                <label>Luxuryestate.com</label>
+            </value>
+            <value>
+                <fullName>Mansion Global</fullName>
+                <default>false</default>
+                <label>Mansion Global</label>
+            </value>
+            <value>
+                <fullName>MediaVantage ATR</fullName>
+                <default>false</default>
+                <label>MediaVantage ATR</label>
+            </value>
+            <value>
+                <fullName>Mr. C Kiosk</fullName>
+                <default>false</default>
+                <label>Mr. C Kiosk</label>
+            </value>
+            <value>
+                <fullName>Nakheel Center</fullName>
+                <default>false</default>
+                <label>Nakheel Center</label>
+            </value>
+            <value>
+                <fullName>One &amp; Only Royal Mirage Retail.</fullName>
+                <default>false</default>
+                <label>One &amp; Only Royal Mirage Retail.</label>
+            </value>
+            <value>
+                <fullName>One &amp; Only Sales Center</fullName>
+                <default>false</default>
+                <label>One &amp; Only Sales Center</label>
+            </value>
+            <value>
+                <fullName>one100palm.com</fullName>
+                <default>false</default>
+                <label>one100palm.com</label>
+            </value>
+            <value>
+                <fullName>OneandOnlyOneZaabeel Website</fullName>
+                <default>false</default>
+                <label>OneandOnlyOneZaabeel Website</label>
+            </value>
+            <value>
+                <fullName>One Zaabeel One&amp;Only Youtube</fullName>
+                <default>false</default>
+                <label>One Zaabeel One&amp;Only Youtube</label>
+            </value>
+            <value>
+                <fullName>OO Private Homes PC</fullName>
+                <default>false</default>
+                <label>OO Private Homes PC</label>
+            </value>
+            <value>
+                <fullName>Open House</fullName>
+                <default>false</default>
+                <label>Open House</label>
+            </value>
+            <value>
+                <fullName>Outbound Referral</fullName>
+                <default>false</default>
+                <label>Outbound Referral</label>
+            </value>
+            <value>
+                <fullName>OZ Residences PC</fullName>
+                <default>false</default>
+                <label>OZ Residences PC</label>
+            </value>
+            <value>
+                <fullName>Personal</fullName>
+                <default>false</default>
+                <label>Personal</label>
+            </value>
+            <value>
+                <fullName>Properstar</fullName>
+                <default>false</default>
+                <label>Properstar</label>
+            </value>
+            <value>
+                <fullName>Propertyfinder.ae</fullName>
+                <default>false</default>
+                <label>Propertyfinder.ae</label>
+            </value>
+            <value>
+                <fullName>Propertyfinder.ae - EDM</fullName>
+                <default>false</default>
+                <label>Propertyfinder.ae - EDM</label>
+            </value>
+            <value>
+                <fullName>Propertyfinder - Offplan</fullName>
+                <default>false</default>
+                <label>Propertyfinder - Offplan</label>
+            </value>
+            <value>
+                <fullName>Propertywifi.com</fullName>
+                <default>false</default>
+                <label>Propertywifi.com</label>
+            </value>
+            <value>
+                <fullName>PropGoLuxury</fullName>
+                <default>false</default>
+                <label>PropGoLuxury</label>
+            </value>
+            <value>
+                <fullName>Raffles - Retail</fullName>
+                <default>false</default>
+                <label>Raffles - Retail</label>
+            </value>
+            <value>
+                <fullName>Rera App</fullName>
+                <default>false</default>
+                <label>Rera App</label>
+            </value>
+            <value>
+                <fullName>RE Talk Mena</fullName>
+                <default>false</default>
+                <label>RE Talk Mena</label>
+            </value>
+            <value>
+                <fullName>Rezora.com</fullName>
+                <default>false</default>
+                <label>Rezora.com</label>
+            </value>
+            <value>
+                <fullName>Rightmove</fullName>
+                <default>false</default>
+                <label>Rightmove</label>
+            </value>
+            <value>
+                <fullName>Seaside Hills PC</fullName>
+                <default>false</default>
+                <label>Seaside Hills PC</label>
+            </value>
+            <value>
+                <fullName>Signboard</fullName>
+                <default>false</default>
+                <label>Signboard</label>
+            </value>
+            <value>
+                <fullName>SignifiMedia PC</fullName>
+                <default>false</default>
+                <label>SignifiMedia PC</label>
+            </value>
+            <value>
+                <fullName>SIR.com</fullName>
+                <default>false</default>
+                <label>SIR.com</label>
+            </value>
+            <value>
+                <fullName>SMS Marketing - 1 Residences</fullName>
+                <default>false</default>
+                <label>SMS Marketing - 1 Residences</label>
+            </value>
+            <value>
+                <fullName>Sotheby&apos;s Catalogue</fullName>
+                <default>false</default>
+                <label>Sotheby&apos;s Catalogue</label>
+            </value>
+            <value>
+                <fullName>Telegram</fullName>
+                <default>false</default>
+                <label>Telegram</label>
+            </value>
+            <value>
+                <fullName>Tiktok Marketing - 1 Residences</fullName>
+                <default>false</default>
+                <label>Tiktok Marketing - 1 Residences</label>
+            </value>
+            <value>
+                <fullName>Wasl Developer</fullName>
+                <default>false</default>
+                <label>Wasl Developer</label>
+            </value>
+            <value>
+                <fullName>Word of Mouth</fullName>
+                <default>false</default>
+                <label>Word of Mouth</label>
+            </value>
+            <value>
+                <fullName>Xentrix ATR</fullName>
+                <default>false</default>
+                <label>Xentrix ATR</label>
+            </value>
+            <value>
+                <fullName>Yandex Direct Campaign</fullName>
+                <default>false</default>
+                <label>Yandex Direct Campaign</label>
+            </value>
+            <value>
+                <fullName>ZoomProperty.com</fullName>
+                <default>false</default>
+                <label>ZoomProperty.com</label>
+            </value>
+            <value>
+                <fullName>Zoopla</fullName>
+                <default>false</default>
+                <label>Zoopla</label>
+            </value>
+            <value>
+                <fullName>DMCC Sales Center</fullName>
+                <default>false</default>
+                <label>DMCC Sales Center</label>
+            </value>
+            <value>
+                <fullName>UK sir.com</fullName>
+                <default>false</default>
+                <label>UK sir.com</label>
+            </value>
+            <value>
+                <fullName>ksa call center</fullName>
+                <default>false</default>
+                <label>ksa call center</label>
+            </value>
+            <value>
+                <fullName>ksa website</fullName>
+                <default>false</default>
+                <label>ksa website</label>
+            </value>
+            <value>
+                <fullName>ksa WhatsApp</fullName>
+                <default>false</default>
+                <label>ksa WhatsApp</label>
+            </value>
+            <value>
+                <fullName>UKSIR - EDM</fullName>
+                <default>false</default>
+                <label>UKSIR - EDM</label>
+            </value>
+            <value>
+                <fullName>KSA sales center</fullName>
+                <default>false</default>
+                <label>KSA sales center</label>
+            </value>
+            <value>
+                <fullName>LUUX Media UK agency</fullName>
+                <default>false</default>
+                <label>LUUX Media UK agency</label>
+            </value>
+            <value>
+                <fullName>Prime Location</fullName>
+                <default>false</default>
+                <label>Prime Location</label>
+            </value>
+            <value>
+                <fullName>LUUXMEDIA Campaign</fullName>
+                <default>false</default>
+                <label>LUUXMEDIA Campaign</label>
+            </value>
+            <value>
+                <fullName>We Chat</fullName>
+                <default>false</default>
+                <label>We Chat</label>
+            </value>
+            <value>
+                <fullName>KSA EDM</fullName>
+                <default>false</default>
+                <label>KSA EDM</label>
+            </value>
+            <value>
+                <fullName>Dunesberry Digital Agency</fullName>
+                <default>false</default>
+                <label>Dunesberry Digital Agency</label>
+            </value>
+            <value>
+                <fullName>ReverseAds Digital Agency</fullName>
+                <default>false</default>
+                <label>ReverseAds Digital Agency</label>
+            </value>
+            <value>
+                <fullName>Bank</fullName>
+                <default>false</default>
+                <label>Bank</label>
+            </value>
+            <value>
+                <fullName>Local Paper - Other Agent</fullName>
+                <default>false</default>
+                <label>Local Paper - Other Agent</label>
+            </value>
+            <value>
+                <fullName>Other Agent Buyer</fullName>
+                <default>false</default>
+                <label>Other Agent Buyer</label>
+            </value>
+            <value>
+                <fullName>Developer</fullName>
+                <default>false</default>
+                <label>Developer</label>
+            </value>
+            <value>
+                <fullName>P &amp; C client - Swiss Referral</fullName>
+                <default>false</default>
+                <label>P &amp; C client - Swiss Referral</label>
+            </value>
+            <value>
+                <fullName>Zabeel Saray Sales Center</fullName>
+                <default>false</default>
+                <label>Zabeel Saray Sales Center</label>
+            </value>
+            <value>
+                <fullName>TBC</fullName>
+                <default>false</default>
+                <label>TBC</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (DXB-DT)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (DXB-DT)</label>
+            </value>
+            <value>
+                <fullName>UK Letters Campaign</fullName>
+                <default>false</default>
+                <label>UK Letters Campaign</label>
+            </value>
+            <value>
+                <fullName>Spectre</fullName>
+                <default>false</default>
+                <label>Spectre</label>
+            </value>
+            <value>
+                <fullName>Existing Client - RPS</fullName>
+                <default>false</default>
+                <label>Existing Client - RPS</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (MA_Personal)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (MA_Personal)</label>
+            </value>
+            <value>
+                <fullName>We Call &amp; Telephone</fullName>
+                <default>false</default>
+                <label>We Call &amp; Telephone</label>
+            </value>
+            <value>
+                <fullName>SMS_SolRE</fullName>
+                <default>false</default>
+                <label>SMS_SolRE</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (External_Tahani)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (External_Tahani)</label>
+            </value>
+            <value>
+                <fullName>Juwai.com</fullName>
+                <default>false</default>
+                <label>Juwai.com</label>
+            </value>
+            <value>
+                <fullName>sothebysrealty.sa</fullName>
+                <default>false</default>
+                <label>sothebysrealty.sa</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (DXB_PJ)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (DXB_PJ)</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign - Lost Retargetting</fullName>
+                <default>false</default>
+                <label>SMS Campaign - Lost Retargetting</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (EH_DXB)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (EH_DXB)</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (DHE_DXB)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (DHE_DXB)</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (PJ_DXB)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (PJ_DXB)</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (Menassat_DB)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (Menassat_DB)</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (Alanazi_DB)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (Alanazi_DB)</label>
+            </value>
+            <value>
+                <fullName>Snapchat Ads</fullName>
+                <default>false</default>
+                <label>Snapchat Ads</label>
+            </value>
+            <value>
+                <fullName>Snapchat Organic</fullName>
+                <default>false</default>
+                <label>Snapchat Organic</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (EK_DB)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (EK_DB)</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (RR_BM)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (RR_BM)</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (AAI_DB)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (AAI_DB)</label>
+            </value>
+            <value>
+                <fullName>SMS_EK_BD_Platinum</fullName>
+                <default>false</default>
+                <label>SMS_EK_BD_Platinum</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign (AliGarni_AAS)</fullName>
+                <default>false</default>
+                <label>SMS Campaign (AliGarni_AAS)</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign</fullName>
+                <default>false</default>
+                <label>SMS Campaign</label>
+            </value>
+            <value>
+                <fullName>Lead Farming</fullName>
+                <default>false</default>
+                <label>Lead Farming</label>
+            </value>
+            <value>
+                <fullName>Linkedin</fullName>
+                <default>false</default>
+                <label>Linkedin</label>
+            </value>
+            <value>
+                <fullName>Lead Farming Internal Data March</fullName>
+                <default>false</default>
+                <label>Lead Farming Internal Data March</label>
+            </value>
+            <value>
+                <fullName>SMS</fullName>
+                <default>false</default>
+                <label>SMS</label>
+            </value>
+            <value>
+                <fullName>Outdoor Signage</fullName>
+                <default>false</default>
+                <label>Outdoor Signage</label>
+            </value>
+            <value>
+                <fullName>Cityscape</fullName>
+                <default>false</default>
+                <label>Cityscape</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Knightsbridge Office</fullName>
+                <default>false</default>
+                <label>Knightsbridge Office</label>
+            </value>
+            <value>
+                <fullName>St. John&apos;s Wood Office</fullName>
+                <default>false</default>
+                <label>St. John&apos;s Wood Office</label>
+            </value>
+            <value>
+                <fullName>Mayfair Office</fullName>
+                <default>false</default>
+                <label>Mayfair Office</label>
+            </value>
+            <value>
+                <fullName>paidsocial</fullName>
+                <default>false</default>
+                <label>paidsocial</label>
+            </value>
+            <value>
+                <fullName>Paidsearch</fullName>
+                <default>false</default>
+                <label>Paidsearch</label>
+            </value>
+            <value>
+                <fullName>Ritz Carlton Residences Business Bay Sales Center</fullName>
+                <default>false</default>
+                <label>Ritz Carlton Residences Business Bay Sales Center</label>
+            </value>
+            <value>
+                <fullName>DSIR.com</fullName>
+                <default>false</default>
+                <label>DSIR.com</label>
+            </value>
+            <value>
+                <fullName>Nobu Residences Sales Center</fullName>
+                <default>false</default>
+                <label>Nobu Residences Sales Center</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

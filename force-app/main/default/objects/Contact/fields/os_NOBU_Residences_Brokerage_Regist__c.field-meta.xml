@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_NOBU_Residences_Brokerage_Regist__c</fullName>
+    <externalId>false</externalId>
+    <label>NOBU Residences Brokerage Regist</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Registered</fullName>
+                <default>false</default>
+                <label>Registered</label>
+            </value>
+            <value>
+                <fullName>Draft Brokerage Agreement Sent to Agency</fullName>
+                <default>false</default>
+                <label>Draft Brokerage Agreement Sent to Agency</label>
+            </value>
+            <value>
+                <fullName>On hold Missing Documents</fullName>
+                <default>false</default>
+                <label>On hold Missing Documents</label>
+            </value>
+            <value>
+                <fullName>Pending for Signatures</fullName>
+                <default>false</default>
+                <label>Pending for Signatures</label>
+            </value>
+            <value>
+                <fullName>Document not given by the Agency</fullName>
+                <default>false</default>
+                <label>Document not given by the Agency</label>
+            </value>
+            <value>
+                <fullName>Registration in Process</fullName>
+                <default>false</default>
+                <label>Registration in Process</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

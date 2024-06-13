@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Winning_Inquiry_Blocks_Path</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISBLANK( os_Winning_Inquiry__c ),
+OR
+(
+(ISPICKVAL(os_Closing_Status__c ,&quot;Contract Approval&quot;)),
+(ISPICKVAL(os_Closing_Status__c ,&quot;In Transfer&quot;)),
+(ISPICKVAL(os_Closing_Status__c ,&quot;Pending Finance&quot;)),
+(ISPICKVAL(os_Closing_Status__c ,&quot;Rented&quot;)),
+(ISPICKVAL(os_Closing_Status__c ,&quot;Closed&quot;)),
+(ISPICKVAL(os_Closing_Status__c ,&quot;Cancelled&quot;)),
+(ISPICKVAL(os_Closing_Status__c ,&quot;Contract Request&quot;))
+))</errorConditionFormula>
+    <errorMessage>Please fill &quot;Winning Inquiry&quot; field.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Transaction_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+ISPICKVAL( os_Listing_Type__c , &apos;Sale&apos;),
+TEXT( os_gsir_Listing_Category__c ) = &apos;Primary - New Build&apos;,
+TEXT( os_gsir_Mandate__c ) = &apos;Exclusive&apos;
+), &apos;New Developments - Exclusive Project&apos;,
+IF(
+AND(
+ISPICKVAL(os_Listing_Type__c , &apos;Sale&apos;),
+TEXT(os_gsir_Listing_Category__c ) = &apos;Primary - New Build&apos;,
+TEXT(os_gsir_Mandate__c ) = &apos;Non Exclusive&apos;
+),
+&apos;Offplan Primary&apos;,
+IF(
+AND(
+ISPICKVAL(os_Listing_Type__c , &apos;Sale&apos;),
+TEXT(os_gsir_Listing_Category__c ) = &apos;Secondary - Second Hand&apos;,
+TEXT( os_uaefields_Completion_Status__c ) = &apos;Completed&apos;
+),
+&apos;Ready Property&apos;,
+IF(
+AND(
+ISPICKVAL(os_Listing_Type__c , &apos;Sale&apos;),
+TEXT(os_gsir_Listing_Category__c ) = &apos;Secondary - Second Hand&apos;,
+TEXT(os_uaefields_Completion_Status__c ) = &apos;Off Plan&apos;
+),
+&apos;Offplan Secondary&apos;,
+
+IF(
+AND(
+ISPICKVAL(os_Listing_Type__c , &apos;Sale&apos;),
+TEXT(os_gsir_Listing_Category__c ) = &apos;Primary - Developers stock&apos;,
+TEXT(os_gsir_Mandate__c ) = &apos;Non Exclusive&apos;
+),
+&apos;Offplan Primary&apos;,
+
+IF(
+ISPICKVAL(os_Listing_Type__c , &apos;Rent&apos;),
+&apos;Ready property&apos;,
+&apos;&apos;
+)
+)
+)
+)
+)
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Transaction Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

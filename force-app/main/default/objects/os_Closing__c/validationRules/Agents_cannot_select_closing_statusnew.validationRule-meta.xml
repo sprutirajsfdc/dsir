@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agents_cannot_select_closing_statusnew</fullName>
+    <active>true</active>
+    <description>Agents_cannot_select_closing_status</description>
+    <errorConditionFormula>AND
+(
+OR
+(
+(ISPICKVAL( os_Closing_Status__c ,&quot;In Transfer&quot;)),
+(ISPICKVAL(os_Closing_Status__c ,&quot;Pending Finance&quot;)),
+(ISPICKVAL(os_Closing_Status__c ,&quot;Rented&quot;)),
+(ISPICKVAL(os_Closing_Status__c ,&quot;Closed&quot;))
+),
+AND(ISCHANGED( os_Closing_Status__c )),
+OR
+(
+$User.ProfileId=&quot;00eHp000002zNevIAE&quot;,
+$User.ProfileId=&quot;00eHp000002zNewIAE&quot;,
+$User.ProfileId=&quot;00eHp000002zNhVIAU&quot;
+)
+)</errorConditionFormula>
+    <errorMessage>Agents can only move from Open to Contract Approval, please click &quot;Submit for Approval&quot;.</errorMessage>
+</ValidationRule>

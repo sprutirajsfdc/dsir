@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Channel_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Channel Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Call</fullName>
+                <default>false</default>
+                <label>Call</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Email Campaign</fullName>
+                <default>false</default>
+                <label>Email Campaign</label>
+            </value>
+            <value>
+                <fullName>Portal Inquiry</fullName>
+                <default>false</default>
+                <label>Portal Inquiry</label>
+            </value>
+            <value>
+                <fullName>SMS</fullName>
+                <default>false</default>
+                <label>SMS</label>
+            </value>
+            <value>
+                <fullName>SMS campaign</fullName>
+                <default>false</default>
+                <label>SMS campaign</label>
+            </value>
+            <value>
+                <fullName>Social Media Inquiry</fullName>
+                <default>false</default>
+                <label>Social Media Inquiry</label>
+            </value>
+            <value>
+                <fullName>Walkin</fullName>
+                <default>false</default>
+                <label>Walkin</label>
+            </value>
+            <value>
+                <fullName>WhatsApp</fullName>
+                <default>false</default>
+                <label>WhatsApp</label>
+            </value>
+            <value>
+                <fullName>Desktop Form</fullName>
+                <default>false</default>
+                <label>Desktop Form</label>
+            </value>
+            <value>
+                <fullName>E-mail</fullName>
+                <default>false</default>
+                <label>E-mail</label>
+            </value>
+            <value>
+                <fullName>Chat</fullName>
+                <default>false</default>
+                <label>Chat</label>
+            </value>
+            <value>
+                <fullName>Direct contact</fullName>
+                <default>false</default>
+                <label>Direct contact</label>
+            </value>
+            <value>
+                <fullName>Luxhabitat China (legacy)</fullName>
+                <default>false</default>
+                <label>Luxhabitat China (legacy)</label>
+            </value>
+            <value>
+                <fullName>Luxhabitat Office</fullName>
+                <default>false</default>
+                <label>Luxhabitat Office</label>
+            </value>
+            <value>
+                <fullName>Luxhabitat Russia (legacy)</fullName>
+                <default>false</default>
+                <label>Luxhabitat Russia (legacy)</label>
+            </value>
+            <value>
+                <fullName>Mobile Form</fullName>
+                <default>false</default>
+                <label>Mobile Form</label>
+            </value>
+            <value>
+                <fullName>phone</fullName>
+                <default>false</default>
+                <label>phone</label>
+            </value>
+            <value>
+                <fullName>Website Form</fullName>
+                <default>false</default>
+                <label>Website Form</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>CIF</fullName>
+                <default>false</default>
+                <label>CIF</label>
+            </value>
+            <value>
+                <fullName>meta</fullName>
+                <default>false</default>
+                <label>meta</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>twitter</fullName>
+                <default>false</default>
+                <label>twitter</label>
+            </value>
+            <value>
+                <fullName>youtube</fullName>
+                <default>false</default>
+                <label>youtube</label>
+            </value>
+            <value>
+                <fullName>snapchat</fullName>
+                <default>false</default>
+                <label>snapchat</label>
+            </value>
+            <value>
+                <fullName>tiktok</fullName>
+                <default>false</default>
+                <label>tiktok</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

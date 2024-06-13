@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Agency_Trade_License</fullName>
+    <active>true</active>
+    <description>Require Agency Trade License Number for Buyer when Inquiry Type is &apos;Agency&apos;.</description>
+    <errorConditionFormula>AND(
+ISNEW() ,
+IF(
+ISPICKVAL(  os_Winning_Inquiry__r.os_InquiryType__c  , &apos;Agency&apos;),
+ISBLANK(  os_Buyer_Tenant__r.os_Agency_Trade_License_No__c  ) ,
+null
+)
+)</errorConditionFormula>
+    <errorDisplayField>os_Buyer_Tenant__c</errorDisplayField>
+    <errorMessage>Please enter the &apos;Agency Trade License Number&apos; for the Buyer when the Inquiry Type is set to &apos;Agency&apos;.</errorMessage>
+</ValidationRule>

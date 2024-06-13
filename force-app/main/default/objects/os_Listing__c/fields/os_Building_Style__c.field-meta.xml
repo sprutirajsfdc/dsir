@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Building_Style__c</fullName>
+    <externalId>false</externalId>
+    <label>Building Style</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A Frame</fullName>
+                <default>false</default>
+                <label>A Frame</label>
+            </value>
+            <value>
+                <fullName>Art Deco</fullName>
+                <default>false</default>
+                <label>Art Deco</label>
+            </value>
+            <value>
+                <fullName>Bungalow</fullName>
+                <default>false</default>
+                <label>Bungalow</label>
+            </value>
+            <value>
+                <fullName>Cape Cod</fullName>
+                <default>false</default>
+                <label>Cape Cod</label>
+            </value>
+            <value>
+                <fullName>Colonial</fullName>
+                <default>false</default>
+                <label>Colonial</label>
+            </value>
+            <value>
+                <fullName>Contemporary</fullName>
+                <default>false</default>
+                <label>Contemporary</label>
+            </value>
+            <value>
+                <fullName>Conventional</fullName>
+                <default>false</default>
+                <label>Conventional</label>
+            </value>
+            <value>
+                <fullName>Cottage</fullName>
+                <default>false</default>
+                <label>Cottage</label>
+            </value>
+            <value>
+                <fullName>Craftsman</fullName>
+                <default>false</default>
+                <label>Craftsman</label>
+            </value>
+            <value>
+                <fullName>Creole</fullName>
+                <default>false</default>
+                <label>Creole</label>
+            </value>
+            <value>
+                <fullName>Dome</fullName>
+                <default>false</default>
+                <label>Dome</label>
+            </value>
+            <value>
+                <fullName>Dutch Colonial</fullName>
+                <default>false</default>
+                <label>Dutch Colonial</label>
+            </value>
+            <value>
+                <fullName>English</fullName>
+                <default>false</default>
+                <label>English</label>
+            </value>
+            <value>
+                <fullName>Federal</fullName>
+                <default>false</default>
+                <label>Federal</label>
+            </value>
+            <value>
+                <fullName>French</fullName>
+                <default>false</default>
+                <label>French</label>
+            </value>
+            <value>
+                <fullName>French Provincial</fullName>
+                <default>false</default>
+                <label>French Provincial</label>
+            </value>
+            <value>
+                <fullName>Georgian</fullName>
+                <default>false</default>
+                <label>Georgian</label>
+            </value>
+            <value>
+                <fullName>Gothic Revival</fullName>
+                <default>false</default>
+                <label>Gothic Revival</label>
+            </value>
+            <value>
+                <fullName>Greek Revival</fullName>
+                <default>false</default>
+                <label>Greek Revival</label>
+            </value>
+            <value>
+                <fullName>High Rise</fullName>
+                <default>false</default>
+                <label>High Rise</label>
+            </value>
+            <value>
+                <fullName>Historical</fullName>
+                <default>false</default>
+                <label>Historical</label>
+            </value>
+            <value>
+                <fullName>International</fullName>
+                <default>false</default>
+                <label>International</label>
+            </value>
+            <value>
+                <fullName>Italianate</fullName>
+                <default>false</default>
+                <label>Italianate</label>
+            </value>
+            <value>
+                <fullName>Loft</fullName>
+                <default>false</default>
+                <label>Loft</label>
+            </value>
+            <value>
+                <fullName>Mansion</fullName>
+                <default>false</default>
+                <label>Mansion</label>
+            </value>
+            <value>
+                <fullName>Mediterranean</fullName>
+                <default>false</default>
+                <label>Mediterranean</label>
+            </value>
+            <value>
+                <fullName>Modern</fullName>
+                <default>false</default>
+                <label>Modern</label>
+            </value>
+            <value>
+                <fullName>Mountain</fullName>
+                <default>false</default>
+                <label>Mountain</label>
+            </value>
+            <value>
+                <fullName>Neoclassical</fullName>
+                <default>false</default>
+                <label>Neoclassical</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Prairie</fullName>
+                <default>false</default>
+                <label>Prairie</label>
+            </value>
+            <value>
+                <fullName>Pueblo</fullName>
+                <default>false</default>
+                <label>Pueblo</label>
+            </value>
+            <value>
+                <fullName>Queen Anne</fullName>
+                <default>false</default>
+                <label>Queen Anne</label>
+            </value>
+            <value>
+                <fullName>Ranch</fullName>
+                <default>false</default>
+                <label>Ranch</label>
+            </value>
+            <value>
+                <fullName>Rustic</fullName>
+                <default>false</default>
+                <label>Rustic</label>
+            </value>
+            <value>
+                <fullName>Santa Fe</fullName>
+                <default>false</default>
+                <label>Santa Fe</label>
+            </value>
+            <value>
+                <fullName>Shed</fullName>
+                <default>false</default>
+                <label>Shed</label>
+            </value>
+            <value>
+                <fullName>Shingle</fullName>
+                <default>false</default>
+                <label>Shingle</label>
+            </value>
+            <value>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+                <label>Spanish</label>
+            </value>
+            <value>
+                <fullName>Spanish Eclectic</fullName>
+                <default>false</default>
+                <label>Spanish Eclectic</label>
+            </value>
+            <value>
+                <fullName>Split Level</fullName>
+                <default>false</default>
+                <label>Split Level</label>
+            </value>
+            <value>
+                <fullName>Stick</fullName>
+                <default>false</default>
+                <label>Stick</label>
+            </value>
+            <value>
+                <fullName>Tudor</fullName>
+                <default>false</default>
+                <label>Tudor</label>
+            </value>
+            <value>
+                <fullName>Victorian</fullName>
+                <default>false</default>
+                <label>Victorian</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Third_Party_Agency_Client__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Third Party Agency Client</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>CIF (.Third_Party_Agency_Client)</relationshipLabel>
+    <relationshipName>Third_Party_Agency_Client</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

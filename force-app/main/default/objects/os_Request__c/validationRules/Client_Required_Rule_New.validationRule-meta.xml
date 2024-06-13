@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client_Required_Rule_New</fullName>
+    <active>true</active>
+    <description>On Exclusive record type, If Status Offering then Client is required</description>
+    <errorConditionFormula>AND(
+NOT( ISPICKVAL(CurrencyIsoCode , &apos;GBP&apos;) ),
+RecordType.Name = &apos;Exclusive Project&apos;,
+ISPICKVAL(os_Status__c , &apos;Offering&apos;) ,
+CreatedDate &gt; DATETIMEVALUE(&quot;2023-08-24 00:00:00&quot;),
+ISBLANK( os_3rd_Party_Agency_Client__c)
+)</errorConditionFormula>
+    <errorDisplayField>os_3rd_Party_Agency_Client__c</errorDisplayField>
+    <errorMessage>Client Required for Offering</errorMessage>
+</ValidationRule>

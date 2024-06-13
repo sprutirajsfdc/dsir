@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Selling_Position__c</fullName>
+    <externalId>false</externalId>
+    <label>Selling Position</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Nothing to sell</fullName>
+                <default>false</default>
+                <label>Nothing to sell</label>
+            </value>
+            <value>
+                <fullName>Renting</fullName>
+                <default>false</default>
+                <label>Renting</label>
+            </value>
+            <value>
+                <fullName>selling with us</fullName>
+                <default>false</default>
+                <label>selling with us</label>
+            </value>
+            <value>
+                <fullName>Selling with other agent</fullName>
+                <default>false</default>
+                <label>Selling with other agent</label>
+            </value>
+            <value>
+                <fullName>Selling privately</fullName>
+                <default>false</default>
+                <label>Selling privately</label>
+            </value>
+            <value>
+                <fullName>Not yet on market</fullName>
+                <default>false</default>
+                <label>Not yet on market</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

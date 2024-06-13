@@ -1,0 +1,102 @@
+<template>
+    <div class="slds-box slds-box_x-small" style="background-color: rgb(1, 1, 56);color:white">
+        <h1 class="slds-align_absolute-center"><strong>INQUIRY LEAD POOL</strong></h1>
+    </div>
+    <lightning-card>
+        <div class="container">
+            <div class="Buttoncall">
+                <lightning-button class="slds-p-right_small" slot="actions" label="Reset" variant="Neutral" onclick={handleReset}></lightning-button>
+            </div>
+            <div class="search-bar">
+                <lightning-input type="text" label="Search Community" value={searchcommunity} onchange={handleSearchcommunity} field-level-help="Please select Community"></lightning-input>
+                <lightning-input type="text" label="Search Sub Community" value={searchSubcommunity} onchange={handleSearchSubcommunity} field-level-help="Please select Sub Community"></lightning-input>
+                <lightning-input type="text" label="Search Inquiry Name" value={searchKeyword} onchange={handleSearch} field-level-help="Please select inquiry Id"></lightning-input>
+                <lightning-combobox label="Inquiry Type" options={inquiryOptions} value={selectedinquiryTypeSearch} onchange={handleTYPESearch} field-level-help="Please select Inquiry Type"></lightning-combobox>
+                <lightning-combobox label="Status" options={statusOptions} value={selectedStatusSearch} onchange={handleStatusSearch} field-level-help="Please select Status"></lightning-combobox>
+                <lightning-combobox label="Property Type" options={typeOptions} value={selectedTypeSearch} onchange={handleViewSearch} field-level-help="Please select Property Type"></lightning-combobox>
+                <lightning-input type="number" label="Price - Min" value={pricemin} onchange={handlepriceMinChange}></lightning-input>
+                <lightning-input type="number" label="Price - Max" value={pricemax} onchange={handlepriceMaxChange}></lightning-input>
+                <lightning-input type="number" label="Bedrooms - Min" value={bedmin} onchange={handlebedroomMinChange}></lightning-input>
+                <lightning-input type="number" label="Bedrooms - Max" value={bedmax} onchange={handlebedroomMaxChange}></lightning-input>
+                <lightning-input type="date" label="Created Start Date" value={createStartDate} onchange={handleCreateStartDateChange}></lightning-input>
+                <lightning-input type="date" label="Created End Date" value={createEndDate} onchange={handleCreateEndDateChange}></lightning-input>
+                <lightning-input type="date" label="Last Activity Date Start" value={lastModifyStartDate} onchange={handleLastModifyStartDateChange}></lightning-input>
+                <lightning-input type="date" label="Last Activity Date End" value={lastModifyEndDate} onchange={handleLastModifyEndDateChange}></lightning-input>
+           
+            </div>
+            &nbsp;&nbsp;
+            <div class="container">
+                <table class="unit-table">
+                    <thead>
+                        <tr>
+                            <th>Inquiry Name</th>
+                            <th>Inquiry Type</th>
+                            <th>Status</th>
+                            <th>Community PropertyFinder</th>
+                            <th>Sub Community PropertyFinder</th>
+                            <th>Property Type</th>
+                            <th>Bedroom Min</th>
+                            <th>Bedroom Max</th>
+                            <th>Price Min</th>
+                            <th>Price Max</th>
+                            <th>Created Date</th>
+                            <th>Last Activity Logged On</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template for:each={recordsToDisplay} for:item="unit">
+                            <tr key={unit.Id}>
+                                <!-- <td class="link-style" onclick={navigateToProject} role="button" data-id={unit.Id}>{unit.Name}</td> -->
+                                <td class="link-style" onclick={navigateToProject} role="button" data-id={unit.Id}>{unit.Name}</td>
+                                <td>{unit.InquiryType__c}</td>
+                                <td>{unit.pba__Status__c}</td>
+                                <td>{unit.pba_uaefields__Community_Propertyfinder__c}</td>
+                                <td>{unit.pba_uaefields__Sub_Community_Propertyfinder__c}</td>
+                                <td>{unit.pba__PropertyType__c}</td>
+                                <td>{unit.pba__Bedrooms_pb_min__c}</td>
+                                <td>{unit.pba__Bedrooms_pb_max__c}</td>
+                                <td>{unit.pba__ListingPrice_pb_min__c}</td>
+                                <td>{unit.pba__ListingPrice_pb_max__c}</td>
+                                <td>{unit.CreatedDateFormatted}</td>
+                                <td>{unit.LastModifiedDateFormatted}</td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+            <div class="slds-grid slds-grid_vertical-align-center slds-grid_align-spread" style="padding-top: 0.5em;">
+                <div class="slds-col">
+                    <div class="slds-list_inline slds-p-bottom_xx-small">
+                        <label class="slds-text-color_weak slds-p-horizontal_x-small" for="recordsPerPage">Page Size:</label>
+                        <div class="slds-select_container">
+                            <select class="slds-select" id="recordsPerPage" onchange={handleRecordsPerPage}>
+                                <template for:each={pageSizeOptions} for:item="option">
+                                    <template lwc:if={option.selected}>
+                                        <option key={option.value} value={option.value} selected>{option.value}</option>
+                                    </template>
+                                    <template lwc:else>
+                                        <option key={option.value} value={option.value}>{option.value}</option>
+                                    </template>
+                                </template>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-align_absolute-center" style="height:5rem">
+                    <lightning-button disabled={bDisableFirst} icon-name="utility:jump_to_left" label="First" class="slds-p-horizontal_x-small" alternative-text="first page" onclick={firstPage}></lightning-button>
+                    <lightning-button disabled={bDisableFirst} icon-name="utility:chevronleft" label="Previous" alternative-text="Previous" onclick={previousPage}></lightning-button>
+                    &nbsp;
+                    <span class="slds-badge">Showing {pageNumber} of {totalPages} Page(s)</span>
+                    &nbsp;
+                    <lightning-button disabled={bDisableLast} icon-name="utility:chevronright" label="Next" alternative-text="Next" onclick={nextPage} class="slds-p-horizontal_x-small" icon-position="right"></lightning-button>
+                    <lightning-button disabled={bDisableLast} icon-name="utility:jump_to_right" label="Last" alternative-text="last page" onclick={lastPage} icon-position="right"></lightning-button>
+                </div>
+                <div class="slds-clearfix">
+                    <div class="slds-float_right">
+                        <span class="slds-badge"> Total Records: {totalRecords}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>

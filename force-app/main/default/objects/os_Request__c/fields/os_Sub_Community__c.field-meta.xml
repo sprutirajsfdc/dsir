@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Sub_Community__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Community</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Community__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Sub_Community</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>15 Northside</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>17 Icon Bay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>1 JBR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>2020 Marquis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>23 Marina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>29 Burj Boulevard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>32 Villas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>4Direction Residence 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>5242</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>Abidos Hotel Apartment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>Acacia Avenues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>Acuna</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>Address Harbour Point</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>Adel Al Hussaini Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>Adria Villas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>AG Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>Ahmed Al Abdulla Residence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>Ajmal Sarah Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>Aknan Villas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Akoya</controllingFieldValue>
+            <valueName>Akoya Drive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Akoya Fresh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Akoya Park</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Akoya Play</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Akoya Selfie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Abraj street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Aladdin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Anbar Villas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Andalus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Areifi Marina Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Atina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Attar Skyspiral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Awazi Residences</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Badia Hillside Village</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Badia Residences</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Bahia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Barari Villas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Barsha South Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Al Batha Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Barari</controllingFieldValue>
+            <valueName>Albizia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Dua&apos;a Marina Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Alexis Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Fahad 4 Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Fairooz Villas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Fardan Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Fattan Crystal Towers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Fattan Marine Towers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Alfred Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Habbai Karama Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Habtoor Business Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Habtoor City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Habtoor Polo Resort and Club - The Residences</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Habtoor Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Hamriya Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Hana Centre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Hoton Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Hudaiba Award Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Husn Marina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Ali Baba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jaddaf</controllingFieldValue>
+            <valueName>Al Jaddaf Residence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Jafiliya Villas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Kazim Towers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Alma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Maha Residence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Mahra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Majara</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Majid Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Manara Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Marjan Villas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Almasah Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Maskan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Maskan 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Masood Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Mass Villas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Meera Complex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Mesk Villas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Murjan Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Jafiliya</controllingFieldValue>
+            <valueName>Al Qudra 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Razi Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Reem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Rimmal Residences</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Ruwayyah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Saaha</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Sahab</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Salam Grand Hotel Apartments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Sayyah Residence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Seef Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Shafar Tower</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Shaiba Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Shebani Residence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Sufouh 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Al Khail Heights</controllingFieldValue>
+            <valueName>Al Sufouh 2</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

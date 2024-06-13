@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_ATR_Fee_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Develpment Projects Fee Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Paid to Agency</fullName>
+                <default>false</default>
+                <label>Paid to Agency</label>
+            </value>
+            <value>
+                <fullName>Paid to LSIR</fullName>
+                <default>false</default>
+                <label>Paid to LSIR</label>
+            </value>
+            <value>
+                <fullName>Not paid to Agency</fullName>
+                <default>false</default>
+                <label>Not paid to Agency</label>
+            </value>
+            <value>
+                <fullName>Not paid to LSIR</fullName>
+                <default>false</default>
+                <label>Not paid to LSIR</label>
+            </value>
+            <value>
+                <fullName>Paid to LSIR and Agency</fullName>
+                <default>false</default>
+                <label>Paid to LSIR and Agency</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

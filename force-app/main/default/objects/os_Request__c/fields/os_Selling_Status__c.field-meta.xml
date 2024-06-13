@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Selling_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Selling Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pre Appraisal</fullName>
+                <default>false</default>
+                <label>Pre Appraisal</label>
+            </value>
+            <value>
+                <fullName>Market Appraisal</fullName>
+                <default>false</default>
+                <label>Market Appraisal</label>
+            </value>
+            <value>
+                <fullName>For Sale - Available</fullName>
+                <default>false</default>
+                <label>For Sale - Available</label>
+            </value>
+            <value>
+                <fullName>For Sale - Unavailable</fullName>
+                <default>false</default>
+                <label>For Sale - Unavailable</label>
+            </value>
+            <value>
+                <fullName>Sold STC - Available</fullName>
+                <default>false</default>
+                <label>Sold STC - Available</label>
+            </value>
+            <value>
+                <fullName>Sold STC - Unavailable</fullName>
+                <default>false</default>
+                <label>Sold STC - Unavailable</label>
+            </value>
+            <value>
+                <fullName>Reserved</fullName>
+                <default>false</default>
+                <label>Reserved</label>
+            </value>
+            <value>
+                <fullName>Exchanged</fullName>
+                <default>false</default>
+                <label>Exchanged</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Sold Externally</fullName>
+                <default>false</default>
+                <label>Sold Externally</label>
+            </value>
+            <value>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+                <label>Withdrawn</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

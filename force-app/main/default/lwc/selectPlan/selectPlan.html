@@ -1,0 +1,19 @@
+<template>
+    <div class="maintopic">
+        <lightning-combobox 
+            label="Select Payment Plan" 
+            options={plans} 
+            onchange={handlePlanChange}
+            value={selectedPlanId} 
+            field-level-help="Please select Payment Plan">
+        </lightning-combobox>
+    </div>
+
+    <template if:true={isPlanOne}>
+        <c-plan-One></c-plan-One>
+    </template>         
+    <template if:true={isPlanTwo}>
+        <c-plan-Two></c-plan-Two>
+    </template>
+    
+</template>

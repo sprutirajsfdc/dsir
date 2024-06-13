@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Draft</fullName>
+                <default>false</default>
+                <label>Draft</label>
+            </value>
+            <value>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+                <label>Submitted</label>
+            </value>
+            <value>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+                <label>On Hold</label>
+            </value>
+            <value>
+                <fullName>AML Rejected</fullName>
+                <default>false</default>
+                <label>AML Rejected</label>
+            </value>
+            <value>
+                <fullName>KYC Pending</fullName>
+                <default>false</default>
+                <label>KYC Pending</label>
+            </value>
+            <value>
+                <fullName>KYC Submitted</fullName>
+                <default>false</default>
+                <label>KYC Submitted</label>
+            </value>
+            <value>
+                <fullName>KYC Approved</fullName>
+                <default>false</default>
+                <label>KYC Approved</label>
+            </value>
+            <value>
+                <fullName>KYC Rejected</fullName>
+                <default>false</default>
+                <label>KYC Rejected</label>
+            </value>
+            <value>
+                <fullName>KYC Completed</fullName>
+                <default>false</default>
+                <label>KYC Completed</label>
+            </value>
+            <value>
+                <fullName>Compliance Review</fullName>
+                <default>false</default>
+                <label>Compliance Review</label>
+            </value>
+            <value>
+                <fullName>Document Pending</fullName>
+                <default>false</default>
+                <label>Document Pending</label>
+            </value>
+            <value>
+                <fullName>3rd Party Review</fullName>
+                <default>false</default>
+                <label>3rd Party Review</label>
+            </value>
+            <value>
+                <fullName>TOB Pending</fullName>
+                <default>false</default>
+                <label>TOB Pending</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agency_Inquiry_Type</fullName>
+    <active>true</active>
+    <description>This VR forces selection of &apos;Agency Inquiry Type&apos; when the Inquiry type &apos;Agency&apos;</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(  os_InquiryType__c , &quot;Agency&quot;),
+ISPICKVAL(  os_Agency_Inquiry_Type__c ,&quot;&quot; )
+)</errorConditionFormula>
+    <errorDisplayField>os_Agency_Inquiry_Type__c</errorDisplayField>
+    <errorMessage>Please select the Agency Inquiry Type</errorMessage>
+</ValidationRule>

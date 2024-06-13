@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_Would_You_Like_Us_To_Contact_You__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <label>How Would You Like Us To Contact You</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

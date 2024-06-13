@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inquiry_Unit_Status_Available_New</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( ISPICKVAL(CurrencyIsoCode , &apos;GBP&apos;) ),
+ISNEW(), RecordType.DeveloperName = &apos;Exclusive_Project&apos;, NOT(ISBLANK(  os_Unit__c )) , NOT(ISPICKVAL(  os_Unit__r.os_Status__c  , &apos;Available&apos;)) )</errorConditionFormula>
+    <errorMessage>You can not create Inquiry for Unit which is not Available</errorMessage>
+</ValidationRule>

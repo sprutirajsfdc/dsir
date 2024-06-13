@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_LeadRoutingSource__c</fullName>
+    <externalId>false</externalId>
+    <label>Routing Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ALL C&amp;S Team</fullName>
+                <default>false</default>
+                <label>ALL C&amp;S Team</label>
+            </value>
+            <value>
+                <fullName>ALL Call Center team</fullName>
+                <default>false</default>
+                <label>ALL Call Center team</label>
+            </value>
+            <value>
+                <fullName>All Gulf SIR</fullName>
+                <default>false</default>
+                <label>All Gulf SIR</label>
+            </value>
+            <value>
+                <fullName>All Offplan Team</fullName>
+                <default>false</default>
+                <label>All Offplan Team</label>
+            </value>
+            <value>
+                <fullName>All SPF Team</fullName>
+                <default>false</default>
+                <label>All SPF Team</label>
+            </value>
+            <value>
+                <fullName>Core Area 1_Downtown Leasing Team</fullName>
+                <default>false</default>
+                <label>Core Area 1_Downtown Leasing Team</label>
+            </value>
+            <value>
+                <fullName>Core Area 1_Dubai marina Sales Team</fullName>
+                <default>false</default>
+                <label>Core Area 1_Dubai marina Sales Team</label>
+            </value>
+            <value>
+                <fullName>Core Area 1_Emirates Hills</fullName>
+                <default>false</default>
+                <label>Core Area 1_Emirates Hills</label>
+            </value>
+            <value>
+                <fullName>Core Area 2_Jumeirah Golf Estate</fullName>
+                <default>false</default>
+                <label>Core Area 2_Jumeirah Golf Estate</label>
+            </value>
+            <value>
+                <fullName>Core Area 3_Dubai marina Leasing Team</fullName>
+                <default>false</default>
+                <label>Core Area 3_Dubai marina Leasing Team</label>
+            </value>
+            <value>
+                <fullName>Core Area 3_Dubai marina Sales Team</fullName>
+                <default>false</default>
+                <label>Core Area 3_Dubai marina Sales Team</label>
+            </value>
+            <value>
+                <fullName>Core Area 5_Palm Apartments team</fullName>
+                <default>false</default>
+                <label>Core Area 5_Palm Apartments team</label>
+            </value>
+            <value>
+                <fullName>Core Area 5_Palm Villa team</fullName>
+                <default>false</default>
+                <label>Core Area 5_Palm Villa team</label>
+            </value>
+            <value>
+                <fullName>Core Area 6_Luxury Rental Team</fullName>
+                <default>false</default>
+                <label>Core Area 6_Luxury Rental Team</label>
+            </value>
+            <value>
+                <fullName>Core Area 7_Al barari Team</fullName>
+                <default>false</default>
+                <label>Core Area 7_Al barari Team</label>
+            </value>
+            <value>
+                <fullName>Core Area 8_Jumeirah park Team</fullName>
+                <default>false</default>
+                <label>Core Area 8_Jumeirah park Team</label>
+            </value>
+            <value>
+                <fullName>Core Area 9_MBRC Team</fullName>
+                <default>false</default>
+                <label>Core Area 9_MBRC Team</label>
+            </value>
+            <value>
+                <fullName>HERE Client Rep Team</fullName>
+                <default>false</default>
+                <label>HERE Client Rep Team</label>
+            </value>
+            <value>
+                <fullName>Generic Team # 1</fullName>
+                <default>false</default>
+                <label>Generic Team # 1</label>
+            </value>
+            <value>
+                <fullName>Generic Team # 2</fullName>
+                <default>false</default>
+                <label>Generic Team # 2</label>
+            </value>
+            <value>
+                <fullName>Generic Team # 3</fullName>
+                <default>false</default>
+                <label>Generic Team # 3</label>
+            </value>
+            <value>
+                <fullName>Generic Team # 4</fullName>
+                <default>false</default>
+                <label>Generic Team # 4</label>
+            </value>
+            <value>
+                <fullName>Generic Team # 5</fullName>
+                <default>false</default>
+                <label>Generic Team # 5</label>
+            </value>
+            <value>
+                <fullName>Generic Team # 6</fullName>
+                <default>false</default>
+                <label>Generic Team # 6</label>
+            </value>
+            <value>
+                <fullName>Generic Team # 7</fullName>
+                <default>false</default>
+                <label>Generic Team # 7</label>
+            </value>
+            <value>
+                <fullName>Generic Team # 8</fullName>
+                <default>false</default>
+                <label>Generic Team # 8</label>
+            </value>
+            <value>
+                <fullName>Generic Team # 9</fullName>
+                <default>false</default>
+                <label>Generic Team # 9</label>
+            </value>
+            <value>
+                <fullName>Generic Team # 10</fullName>
+                <default>false</default>
+                <label>Generic Team # 10</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

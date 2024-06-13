@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Lead_Source_Channel__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Source Channel</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Affiliate</fullName>
+                <default>false</default>
+                <label>Affiliate</label>
+            </value>
+            <value>
+                <fullName>Blogs</fullName>
+                <default>false</default>
+                <label>Blogs</label>
+            </value>
+            <value>
+                <fullName>Chat</fullName>
+                <default>false</default>
+                <label>Chat</label>
+            </value>
+            <value>
+                <fullName>DataSource</fullName>
+                <default>false</default>
+                <label>DataSource</label>
+            </value>
+            <value>
+                <fullName>Display Dynamic rmkt</fullName>
+                <default>false</default>
+                <label>Display Dynamic rmkt</label>
+            </value>
+            <value>
+                <fullName>EDM</fullName>
+                <default>false</default>
+                <label>EDM</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Instagram</fullName>
+                <default>false</default>
+                <label>Instagram</label>
+            </value>
+            <value>
+                <fullName>Instapage</fullName>
+                <default>false</default>
+                <label>Instapage</label>
+            </value>
+            <value>
+                <fullName>Lead farming</fullName>
+                <default>false</default>
+                <label>Lead farming</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Magazine</fullName>
+                <default>false</default>
+                <label>Magazine</label>
+            </value>
+            <value>
+                <fullName>Networking</fullName>
+                <default>false</default>
+                <label>Networking</label>
+            </value>
+            <value>
+                <fullName>One zaabeel residences display</fullName>
+                <default>false</default>
+                <label>One zaabeel residences display</label>
+            </value>
+            <value>
+                <fullName>One zaabeel residences search</fullName>
+                <default>false</default>
+                <label>One zaabeel residences search</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Signboard</fullName>
+                <default>false</default>
+                <label>Signboard</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign</fullName>
+                <default>false</default>
+                <label>SMS Campaign</label>
+            </value>
+            <value>
+                <fullName>Website Organic</fullName>
+                <default>false</default>
+                <label>Website Organic</label>
+            </value>
+            <value>
+                <fullName>Youtube</fullName>
+                <default>false</default>
+                <label>Youtube</label>
+            </value>
+            <value>
+                <fullName>Linkedin Organic</fullName>
+                <default>false</default>
+                <label>Linkedin Organic</label>
+            </value>
+            <value>
+                <fullName>Linkedin Ads</fullName>
+                <default>false</default>
+                <label>Linkedin Ads</label>
+            </value>
+            <value>
+                <fullName>Twitter Organic</fullName>
+                <default>false</default>
+                <label>Twitter Organic</label>
+            </value>
+            <value>
+                <fullName>Twitter Ads</fullName>
+                <default>false</default>
+                <label>Twitter Ads</label>
+            </value>
+            <value>
+                <fullName>Facebook Organic</fullName>
+                <default>false</default>
+                <label>Facebook Organic</label>
+            </value>
+            <value>
+                <fullName>Facebook Ads</fullName>
+                <default>false</default>
+                <label>Facebook Ads</label>
+            </value>
+            <value>
+                <fullName>Instagram Organic</fullName>
+                <default>false</default>
+                <label>Instagram Organic</label>
+            </value>
+            <value>
+                <fullName>Instagram Ads</fullName>
+                <default>false</default>
+                <label>Instagram Ads</label>
+            </value>
+            <value>
+                <fullName>Google Ads</fullName>
+                <default>false</default>
+                <label>Google Ads</label>
+            </value>
+            <value>
+                <fullName>Youtube Organic</fullName>
+                <default>false</default>
+                <label>Youtube Organic</label>
+            </value>
+            <value>
+                <fullName>Youtube Ads</fullName>
+                <default>false</default>
+                <label>Youtube Ads</label>
+            </value>
+            <value>
+                <fullName>Snapchat Ads</fullName>
+                <default>false</default>
+                <label>Snapchat Ads</label>
+            </value>
+            <value>
+                <fullName>Snapchat Organic</fullName>
+                <default>false</default>
+                <label>Snapchat Organic</label>
+            </value>
+            <value>
+                <fullName>SMS_Bandari_AS</fullName>
+                <default>false</default>
+                <label>SMS_Bandari_AS</label>
+            </value>
+            <value>
+                <fullName>B2B Bandari</fullName>
+                <default>false</default>
+                <label>B2B Bandari</label>
+            </value>
+            <value>
+                <fullName>DXB-DT</fullName>
+                <default>false</default>
+                <label>DXB-DT</label>
+            </value>
+            <value>
+                <fullName>MA_Personal</fullName>
+                <default>false</default>
+                <label>MA_Personal</label>
+            </value>
+            <value>
+                <fullName>SolRE</fullName>
+                <default>false</default>
+                <label>SolRE</label>
+            </value>
+            <value>
+                <fullName>External_Tahani</fullName>
+                <default>false</default>
+                <label>External_Tahani</label>
+            </value>
+            <value>
+                <fullName>DXB_PJ</fullName>
+                <default>false</default>
+                <label>DXB_PJ</label>
+            </value>
+            <value>
+                <fullName>Lost Retargetting</fullName>
+                <default>false</default>
+                <label>Lost Retargetting</label>
+            </value>
+            <value>
+                <fullName>EH_DXB</fullName>
+                <default>false</default>
+                <label>EH_DXB</label>
+            </value>
+            <value>
+                <fullName>DHE_DXB</fullName>
+                <default>false</default>
+                <label>DHE_DXB</label>
+            </value>
+            <value>
+                <fullName>PJ_DXB</fullName>
+                <default>false</default>
+                <label>PJ_DXB</label>
+            </value>
+            <value>
+                <fullName>Menassat_DB</fullName>
+                <default>false</default>
+                <label>Menassat_DB</label>
+            </value>
+            <value>
+                <fullName>Alanazi_DB</fullName>
+                <default>false</default>
+                <label>Alanazi_DB</label>
+            </value>
+            <value>
+                <fullName>EK_DB</fullName>
+                <default>false</default>
+                <label>EK_DB</label>
+            </value>
+            <value>
+                <fullName>RR_BM</fullName>
+                <default>false</default>
+                <label>RR_BM</label>
+            </value>
+            <value>
+                <fullName>AAI_DB</fullName>
+                <default>false</default>
+                <label>AAI_DB</label>
+            </value>
+            <value>
+                <fullName>EK_BD_Platinum</fullName>
+                <default>false</default>
+                <label>EK_BD_Platinum</label>
+            </value>
+            <value>
+                <fullName>AliGarni_AAS</fullName>
+                <default>false</default>
+                <label>AliGarni_AAS</label>
+            </value>
+            <value>
+                <fullName>Book a viewing EDM</fullName>
+                <default>false</default>
+                <label>Book a viewing EDM</label>
+            </value>
+            <value>
+                <fullName>Personal_Ahmad_Al_Saeed</fullName>
+                <default>false</default>
+                <label>Personal_Ahmad_Al_Saeed</label>
+            </value>
+            <value>
+                <fullName>AA_B2B_MAS</fullName>
+                <default>false</default>
+                <label>AA_B2B_MAS</label>
+            </value>
+            <value>
+                <fullName>SpotOn Agency</fullName>
+                <default>false</default>
+                <label>SpotOn Agency</label>
+            </value>
+            <value>
+                <fullName>(LF_ID_MAR)</fullName>
+                <default>false</default>
+                <label>(LF_ID_MAR)</label>
+            </value>
+            <value>
+                <fullName>Lead Farming Internal Data March</fullName>
+                <default>false</default>
+                <label>Lead Farming Internal Data March</label>
+            </value>
+            <value>
+                <fullName>Book a Viewing SMS</fullName>
+                <default>false</default>
+                <label>Book a Viewing SMS</label>
+            </value>
+            <value>
+                <fullName>Register Interest Button</fullName>
+                <default>false</default>
+                <label>Register Interest Button</label>
+            </value>
+            <value>
+                <fullName>Book a viewing EDM (Open House event)</fullName>
+                <default>false</default>
+                <label>Book a viewing EDM (Open House event)</label>
+            </value>
+            <value>
+                <fullName>Book a viewing SMS (Open House event)</fullName>
+                <default>false</default>
+                <label>Book a viewing SMS (Open House event)</label>
+            </value>
+            <value>
+                <fullName>Register Interest CityScapes</fullName>
+                <default>false</default>
+                <label>Register Interest CityScapes</label>
+            </value>
+            <value>
+                <fullName>AA_DamJeddah_Tower</fullName>
+                <default>false</default>
+                <label>AA_DamJeddah_Tower</label>
+            </value>
+            <value>
+                <fullName>Alsfgat_Alawal_Ahmad</fullName>
+                <default>false</default>
+                <label>Alsfgat_Alawal_Ahmad</label>
+            </value>
+            <value>
+                <fullName>Riyadh Billboard</fullName>
+                <default>false</default>
+                <label>Riyadh Billboard</label>
+            </value>
+            <value>
+                <fullName>Abdulrahman_Abdulaziz</fullName>
+                <default>false</default>
+                <label>Abdulrahman_Abdulaziz</label>
+            </value>
+            <value>
+                <fullName>Private_Aljazi</fullName>
+                <default>false</default>
+                <label>Private_Aljazi</label>
+            </value>
+            <value>
+                <fullName>Arabin_mumtalkat</fullName>
+                <default>false</default>
+                <label>Arabin_mumtalkat</label>
+            </value>
+            <value>
+                <fullName>meta</fullName>
+                <default>false</default>
+                <label>meta</label>
+            </value>
+            <value>
+                <fullName>twitter</fullName>
+                <default>false</default>
+                <label>twitter</label>
+            </value>
+            <value>
+                <fullName>snapchat</fullName>
+                <default>false</default>
+                <label>snapchat</label>
+            </value>
+            <value>
+                <fullName>tiktok</fullName>
+                <default>false</default>
+                <label>tiktok</label>
+            </value>
+            <value>
+                <fullName>FS-AUH Tenant</fullName>
+                <default>false</default>
+                <label>FS-AUH Tenant</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

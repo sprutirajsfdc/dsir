@@ -1,0 +1,21 @@
+.maintopic {
+    margin-bottom: 20px;
+}
+
+.custom-combobox {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.plan-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.plan-container c-plan-one,
+.plan-container c-plan-two {
+    display: block;
+}

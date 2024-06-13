@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Current_Status_CC__c</fullName>
+    <externalId>false</externalId>
+    <label>Current Status - CC</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Listing Revived by CC</fullName>
+                <default>false</default>
+                <label>Listing Revived by CC</label>
+            </value>
+            <value>
+                <fullName>Listing Live</fullName>
+                <default>false</default>
+                <label>Listing Live</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

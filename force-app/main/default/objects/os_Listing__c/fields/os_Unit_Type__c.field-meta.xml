@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Unit_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Unit Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Simplex</fullName>
+                <default>false</default>
+                <label>Simplex</label>
+            </value>
+            <value>
+                <fullName>Duplex</fullName>
+                <default>false</default>
+                <label>Duplex</label>
+            </value>
+            <value>
+                <fullName>Triplex</fullName>
+                <default>false</default>
+                <label>Triplex</label>
+            </value>
+            <value>
+                <fullName>Single Detached</fullName>
+                <default>false</default>
+                <label>Single Detached</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

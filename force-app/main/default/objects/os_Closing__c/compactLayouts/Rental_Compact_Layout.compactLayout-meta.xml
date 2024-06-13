@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rental_Compact_Layout</fullName>
+    <fields>os_Listing__c</fields>
+    <fields>os_ClosingDate__c</fields>
+    <fields>OwnerId</fields>
+    <fields>os_Internal_Commission_Amount__c</fields>
+    <fields>os_Listing_Unit_Number__c</fields>
+    <label>Rental Compact Layout</label>
+</CompactLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_gsir_vacant_on_transfer__c</fullName>
+    <externalId>false</externalId>
+    <label>Status On Transfer</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tenanted on Transfer</fullName>
+                <default>false</default>
+                <label>Tenanted on Transfer</label>
+            </value>
+            <value>
+                <fullName>Owner_Occupied_On_Transfer</fullName>
+                <default>false</default>
+                <label>Owner_Occupied_On_Transfer</label>
+            </value>
+            <value>
+                <fullName>Under_Construction</fullName>
+                <default>false</default>
+                <label>Under_Construction</label>
+            </value>
+            <value>
+                <fullName>Vacant on Transfer</fullName>
+                <default>false</default>
+                <label>Vacant on Transfer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

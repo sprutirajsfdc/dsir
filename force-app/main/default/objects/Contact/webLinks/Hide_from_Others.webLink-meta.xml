@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hide_from_Others</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Hide from Others</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/48.0/apex.js&quot;)}
+var contactId = &quot;{!Contact.Id}&quot;;
+
+// Update the checkbox field on the contact record
+var contactToUpdate = new sforce.SObject(&quot;Contact&quot;);
+contactToUpdate.Id = contactId;
+contactToUpdate.Hide__c = true; // Set checkbox to true to hide the record
+
+var result = sforce.connection.update([contactToUpdate]);
+
+// Reload the page to reflect changes
+window.location.reload();</url>
+</WebLink>

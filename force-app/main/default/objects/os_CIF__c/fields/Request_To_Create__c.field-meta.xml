@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_To_Create__c</fullName>
+    <externalId>false</externalId>
+    <label>Request To Create</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contact Only</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Contact Only</label>
+            </value>
+            <value>
+                <fullName>Inquiry Only</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Inquiry Only</label>
+            </value>
+            <value>
+                <fullName>Contact &amp; Inquiry Both</fullName>
+                <color>#FFFFFF</color>
+                <default>false</default>
+                <label>Contact &amp; Inquiry Both</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

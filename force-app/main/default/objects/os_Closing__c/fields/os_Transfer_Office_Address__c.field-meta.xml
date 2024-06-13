@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Transfer_Office_Address__c</fullName>
+    <externalId>false</externalId>
+    <label>Transfer Office Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DUBAI ELECTRICITY &amp; WATER AUTHORITY</fullName>
+                <default>false</default>
+                <label>DUBAI ELECTRICITY &amp; WATER AUTHORITY</label>
+            </value>
+            <value>
+                <fullName>ROADS &amp; TRANSPORT AUTHORITY</fullName>
+                <default>false</default>
+                <label>ROADS &amp; TRANSPORT AUTHORITY</label>
+            </value>
+            <value>
+                <fullName>ALMANARA REALESTATE REGISTRATION TRUSTEE ONE PERSON COMPANY L.L.C</fullName>
+                <default>false</default>
+                <label>ALMANARA REALESTATE REGISTRATION TRUSTEE ONE PERSON COMPANY L.L.C</label>
+            </value>
+            <value>
+                <fullName>AL TABU REGISTRATION TRUSTEE</fullName>
+                <default>false</default>
+                <label>AL TABU REGISTRATION TRUSTEE</label>
+            </value>
+            <value>
+                <fullName>TAMLEEK REAL ESTATE REGISTRATION TRUSTEE L.L.C</fullName>
+                <default>false</default>
+                <label>TAMLEEK REAL ESTATE REGISTRATION TRUSTEE L.L.C</label>
+            </value>
+            <value>
+                <fullName>AMANAH TRUST REAL ESTATE REGISTRATION TRUSTEE L.L.C</fullName>
+                <default>false</default>
+                <label>AMANAH TRUST REAL ESTATE REGISTRATION TRUSTEE L.L.C</label>
+            </value>
+            <value>
+                <fullName>AFNAN REAL ESTATE REGISTRATION TRUSTE L.L.C</fullName>
+                <default>false</default>
+                <label>AFNAN REAL ESTATE REGISTRATION TRUSTE L.L.C</label>
+            </value>
+            <value>
+                <fullName>DORCHESTER PROPERTIES REGISTRATION TRUSTEE L.L.C</fullName>
+                <default>false</default>
+                <label>DORCHESTER PROPERTIES REGISTRATION TRUSTEE L.L.C</label>
+            </value>
+            <value>
+                <fullName>INJAZ REAL ESTATE REGISTRATION TRUSTEE L.L.C</fullName>
+                <default>false</default>
+                <label>INJAZ REAL ESTATE REGISTRATION TRUSTEE L.L.C</label>
+            </value>
+            <value>
+                <fullName>SEAL REAL ESTATE REGISTRATION AGENT L.L.C</fullName>
+                <default>false</default>
+                <label>SEAL REAL ESTATE REGISTRATION AGENT L.L.C</label>
+            </value>
+            <value>
+                <fullName>On Time Real Estate Registration</fullName>
+                <default>false</default>
+                <label>On Time Real Estate Registration</label>
+            </value>
+            <value>
+                <fullName>FAST TRACK REAL ESTATE REGISTRATION AGENT</fullName>
+                <default>false</default>
+                <label>FAST TRACK REAL ESTATE REGISTRATION AGENT</label>
+            </value>
+            <value>
+                <fullName>MUBAYAA REAL ESTATE REGISTRATION TRUSTEE L.L.C</fullName>
+                <default>false</default>
+                <label>MUBAYAA REAL ESTATE REGISTRATION TRUSTEE L.L.C</label>
+            </value>
+            <value>
+                <fullName>APPROVED PROPERTY REGISTRATION L.L.C</fullName>
+                <default>false</default>
+                <label>APPROVED PROPERTY REGISTRATION L.L.C</label>
+            </value>
+            <value>
+                <fullName>TAWTHEEQ REAL ESTATE REGISTRATION L.L.C</fullName>
+                <default>false</default>
+                <label>TAWTHEEQ REAL ESTATE REGISTRATION L.L.C</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

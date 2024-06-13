@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Is_Open__c</fullName>
+    <description>If Status = Available Then True Is Open
+Else If Status = Registered Then True Is Open
+Else If Status = Commission Then True Is Open
+Else If Status = Closed Then True Is Open</description>
+    <externalId>false</externalId>
+    <formula>(IF( OR(
+ISPICKVAL(  os_Status__c ,&apos;Available&apos;),
+ISPICKVAL( os_Status__c ,&apos;Registered DLD&apos;),
+ISPICKVAL( os_Status__c ,&apos;Commission&apos;),
+ISPICKVAL( os_Status__c ,&apos;Closed&apos;)
+),True,False))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Based On Status Display Is Open Checkbox</inlineHelpText>
+    <label>Is Open</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

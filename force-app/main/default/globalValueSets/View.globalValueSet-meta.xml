@@ -1,0 +1,2405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Deluxe Palm View</fullName>
+        <default>false</default>
+        <label>Deluxe Palm View</label>
+    </customValue>
+    <customValue>
+        <fullName>Deluxe Sea View</fullName>
+        <default>false</default>
+        <label>Deluxe Sea View</label>
+    </customValue>
+    <customValue>
+        <fullName>Address Lake Hotel and Dubai Mall</fullName>
+        <default>false</default>
+        <label>Address Lake Hotel and Dubai Mall</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Qudra Road</fullName>
+        <default>false</default>
+        <label>Al Qudra Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Seef Tower and Partial Palm</fullName>
+        <default>false</default>
+        <label>Al Seef Tower and Partial Palm</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Seef Tower and Partial Palm and Dubai Marina</fullName>
+        <default>false</default>
+        <label>Al Seef Tower and Partial Palm and Dubai Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlantis &amp; Burj Al Arab View</fullName>
+        <default>false</default>
+        <label>Atlantis &amp; Burj Al Arab View</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlantis and Burj Al Arab</fullName>
+        <default>false</default>
+        <label>Atlantis and Burj Al Arab</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlantis and Palm Jumeirah</fullName>
+        <default>false</default>
+        <label>Atlantis and Palm Jumeirah</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlantis</fullName>
+        <default>false</default>
+        <label>Atlantis</label>
+    </customValue>
+    <customValue>
+        <fullName>Back to Back</fullName>
+        <default>false</default>
+        <label>Back to Back</label>
+    </customValue>
+    <customValue>
+        <fullName>Beach</fullName>
+        <default>false</default>
+        <label>Beach</label>
+    </customValue>
+    <customValue>
+        <fullName>Bellevue and Business Bay</fullName>
+        <default>false</default>
+        <label>Bellevue and Business Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>BELLEVUE/BB view</fullName>
+        <default>false</default>
+        <label>BELLEVUE/BB view</label>
+    </customValue>
+    <customValue>
+        <fullName>BLVD 4 view</fullName>
+        <default>false</default>
+        <label>BLVD 4 view</label>
+    </customValue>
+    <customValue>
+        <fullName>Blvd Street View</fullName>
+        <default>false</default>
+        <label>Blvd Street View</label>
+    </customValue>
+    <customValue>
+        <fullName>Blvd view</fullName>
+        <default>false</default>
+        <label>Blvd view</label>
+    </customValue>
+    <customValue>
+        <fullName>Boulevard</fullName>
+        <default>false</default>
+        <label>Boulevard</label>
+    </customValue>
+    <customValue>
+        <fullName>Boulevard View</fullName>
+        <default>false</default>
+        <label>Boulevard View</label>
+    </customValue>
+    <customValue>
+        <fullName>Building View</fullName>
+        <default>false</default>
+        <label>Building View</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj &amp; Fountain</fullName>
+        <default>false</default>
+        <label>Burj &amp; Fountain</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj / Fountain / Iconic Tower View</fullName>
+        <default>false</default>
+        <label>Burj / Fountain / Iconic Tower View</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj / Iconic Tower View</fullName>
+        <default>false</default>
+        <label>Burj / Iconic Tower View</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj / Park View</fullName>
+        <default>false</default>
+        <label>Burj / Park View</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Al Arab</fullName>
+        <default>false</default>
+        <label>Burj Al Arab</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Al Arab view</fullName>
+        <default>false</default>
+        <label>Burj Al Arab view</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj and Boulevard</fullName>
+        <default>false</default>
+        <label>Burj and Boulevard</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj and DIFC View</fullName>
+        <default>false</default>
+        <label>Burj and DIFC View</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj and Fountain</fullName>
+        <default>false</default>
+        <label>Burj and Fountain</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj and Fountain View</fullName>
+        <default>false</default>
+        <label>Burj and Fountain View</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj and Park</fullName>
+        <default>false</default>
+        <label>Burj and Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa</fullName>
+        <default>false</default>
+        <label>Burj Khalifa</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa &amp; community</fullName>
+        <default>false</default>
+        <label>Burj Khalifa &amp; community</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa &amp; Downtown Skyline</fullName>
+        <default>false</default>
+        <label>Burj Khalifa &amp; Downtown Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa &amp; Fountain</fullName>
+        <default>false</default>
+        <label>Burj Khalifa &amp; Fountain</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa / Zabeel - Pool View</fullName>
+        <default>false</default>
+        <label>Burj Khalifa / Zabeel - Pool View</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa / Zabeel View</fullName>
+        <default>false</default>
+        <label>Burj Khalifa / Zabeel View</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa and Business Bay</fullName>
+        <default>false</default>
+        <label>Burj Khalifa and Business Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa and Creek</fullName>
+        <default>false</default>
+        <label>Burj Khalifa and Creek</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa and Fountain</fullName>
+        <default>false</default>
+        <label>Burj Khalifa and Fountain</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa and Fountain view</fullName>
+        <default>false</default>
+        <label>Burj Khalifa and Fountain view</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa view</fullName>
+        <default>false</default>
+        <label>Burj Khalifa view</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa, Dancing Fountains, DIFC</fullName>
+        <default>false</default>
+        <label>Burj Khalifa, Dancing Fountains, DIFC</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa, Downtown</fullName>
+        <default>false</default>
+        <label>Burj Khalifa, Downtown</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa, Downtown, Marina, JLT</fullName>
+        <default>false</default>
+        <label>Burj Khalifa, Downtown, Marina, JLT</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa, Lakeview</fullName>
+        <default>false</default>
+        <label>Burj Khalifa, Lakeview</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa/ Creek View</fullName>
+        <default>false</default>
+        <label>Burj Khalifa/ Creek View</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khlaifa</fullName>
+        <default>false</default>
+        <label>Burj Khlaifa</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Skyline</fullName>
+        <default>false</default>
+        <label>Burj Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj View</fullName>
+        <default>false</default>
+        <label>Burj View</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj, Garden and Pool</fullName>
+        <default>false</default>
+        <label>Burj, Garden and Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Bay</fullName>
+        <default>false</default>
+        <label>Business Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Bay and Downtown</fullName>
+        <default>false</default>
+        <label>Business Bay and Downtown</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Bay Community</fullName>
+        <default>false</default>
+        <label>Business Bay Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Bay View</fullName>
+        <default>false</default>
+        <label>Business Bay View</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal</fullName>
+        <default>false</default>
+        <label>Canal</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal &amp; BLVD 5 view</fullName>
+        <default>false</default>
+        <label>Canal &amp; BLVD 5 view</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal &amp; BLVD View</fullName>
+        <default>false</default>
+        <label>Canal &amp; BLVD View</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal &amp; Burj View</fullName>
+        <default>false</default>
+        <label>Canal &amp; Burj View</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal and BLVD5 view</fullName>
+        <default>false</default>
+        <label>Canal and BLVD5 view</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal and Burj View</fullName>
+        <default>false</default>
+        <label>Canal and Burj View</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal and Garden</fullName>
+        <default>false</default>
+        <label>Canal and Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal and Marina</fullName>
+        <default>false</default>
+        <label>Canal and Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal and Park</fullName>
+        <default>false</default>
+        <label>Canal and Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal and Sea View</fullName>
+        <default>false</default>
+        <label>Canal and Sea View</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal and Sikka</fullName>
+        <default>false</default>
+        <label>Canal and Sikka</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal view</fullName>
+        <default>false</default>
+        <label>Canal view</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal, Business Bay, SZR, Partial Burj Khalifa View</fullName>
+        <default>false</default>
+        <label>Canal, Business Bay, SZR, Partial Burj Khalifa View</label>
+    </customValue>
+    <customValue>
+        <fullName>Cantara and Community View</fullName>
+        <default>false</default>
+        <label>Cantara and Community View</label>
+    </customValue>
+    <customValue>
+        <fullName>Ccommunity</fullName>
+        <default>false</default>
+        <label>Ccommunity</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Garden</fullName>
+        <default>false</default>
+        <label>Central Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Garden View</fullName>
+        <default>false</default>
+        <label>Central Garden View</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Garden/ street view</fullName>
+        <default>false</default>
+        <label>Central Garden/ street view</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Garden/ SZR and Street view</fullName>
+        <default>false</default>
+        <label>Central Garden/ SZR and Street view</label>
+    </customValue>
+    <customValue>
+        <fullName>Circle Mall View</fullName>
+        <default>false</default>
+        <label>Circle Mall View</label>
+    </customValue>
+    <customValue>
+        <fullName>City</fullName>
+        <default>false</default>
+        <label>City</label>
+    </customValue>
+    <customValue>
+        <fullName>City / Pool View</fullName>
+        <default>false</default>
+        <label>City / Pool View</label>
+    </customValue>
+    <customValue>
+        <fullName>City view</fullName>
+        <default>false</default>
+        <label>City view</label>
+    </customValue>
+    <customValue>
+        <fullName>Commnity</fullName>
+        <default>false</default>
+        <label>Commnity</label>
+    </customValue>
+    <customValue>
+        <fullName>Commumity</fullName>
+        <default>false</default>
+        <label>Commumity</label>
+    </customValue>
+    <customValue>
+        <fullName>Communal</fullName>
+        <default>false</default>
+        <label>Communal</label>
+    </customValue>
+    <customValue>
+        <fullName>Community</fullName>
+        <default>false</default>
+        <label>Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Community &amp; Park</fullName>
+        <default>false</default>
+        <label>Community &amp; Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Community / Canal</fullName>
+        <default>false</default>
+        <label>Community / Canal</label>
+    </customValue>
+    <customValue>
+        <fullName>Community / SZR</fullName>
+        <default>false</default>
+        <label>Community / SZR</label>
+    </customValue>
+    <customValue>
+        <fullName>Community and Courtyard view</fullName>
+        <default>false</default>
+        <label>Community and Courtyard view</label>
+    </customValue>
+    <customValue>
+        <fullName>Community and Garden</fullName>
+        <default>false</default>
+        <label>Community and Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Community and Pool View</fullName>
+        <default>false</default>
+        <label>Community and Pool View</label>
+    </customValue>
+    <customValue>
+        <fullName>Community Garden</fullName>
+        <default>false</default>
+        <label>Community Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Community Park View</fullName>
+        <default>false</default>
+        <label>Community Park View</label>
+    </customValue>
+    <customValue>
+        <fullName>Community Road</fullName>
+        <default>false</default>
+        <label>Community Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Community View</fullName>
+        <default>false</default>
+        <label>Community View</label>
+    </customValue>
+    <customValue>
+        <fullName>Community View / Park View</fullName>
+        <default>false</default>
+        <label>Community View / Park View</label>
+    </customValue>
+    <customValue>
+        <fullName>Community View with Partial Marina</fullName>
+        <default>false</default>
+        <label>Community View with Partial Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Community, Partial Sea &amp; Marina</fullName>
+        <default>false</default>
+        <label>Community, Partial Sea &amp; Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Corner</fullName>
+        <default>false</default>
+        <label>Corner</label>
+    </customValue>
+    <customValue>
+        <fullName>Corner Plot</fullName>
+        <default>false</default>
+        <label>Corner Plot</label>
+    </customValue>
+    <customValue>
+        <fullName>Corner plot with water stream view</fullName>
+        <default>false</default>
+        <label>Corner plot with water stream view</label>
+    </customValue>
+    <customValue>
+        <fullName>Creek</fullName>
+        <default>false</default>
+        <label>Creek</label>
+    </customValue>
+    <customValue>
+        <fullName>Creek and Lagoon View</fullName>
+        <default>false</default>
+        <label>Creek and Lagoon View</label>
+    </customValue>
+    <customValue>
+        <fullName>CREEK HARBOUR</fullName>
+        <default>false</default>
+        <label>CREEK HARBOUR</label>
+    </customValue>
+    <customValue>
+        <fullName>Creek View</fullName>
+        <default>false</default>
+        <label>Creek View</label>
+    </customValue>
+    <customValue>
+        <fullName>Crystal Lagoon</fullName>
+        <default>false</default>
+        <label>Crystal Lagoon</label>
+    </customValue>
+    <customValue>
+        <fullName>Crystal Lagoons</fullName>
+        <default>false</default>
+        <label>Crystal Lagoons</label>
+    </customValue>
+    <customValue>
+        <fullName>Deluxe sea</fullName>
+        <default>false</default>
+        <label>Deluxe sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Desert Scape</fullName>
+        <default>false</default>
+        <label>Desert Scape</label>
+    </customValue>
+    <customValue>
+        <fullName>DIFC</fullName>
+        <default>false</default>
+        <label>DIFC</label>
+    </customValue>
+    <customValue>
+        <fullName>DIFC View</fullName>
+        <default>false</default>
+        <label>DIFC View</label>
+    </customValue>
+    <customValue>
+        <fullName>DIFC &amp; Zaabeel</fullName>
+        <default>false</default>
+        <label>DIFC &amp; Zaabeel</label>
+    </customValue>
+    <customValue>
+        <fullName>DIFC / Zaabeel View</fullName>
+        <default>false</default>
+        <label>DIFC / Zaabeel View</label>
+    </customValue>
+    <customValue>
+        <fullName>DIFC and Sea</fullName>
+        <default>false</default>
+        <label>DIFC and Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>DIFC and Sea view</fullName>
+        <default>false</default>
+        <label>DIFC and Sea view</label>
+    </customValue>
+    <customValue>
+        <fullName>Double side lake view</fullName>
+        <default>false</default>
+        <label>Double side lake view</label>
+    </customValue>
+    <customValue>
+        <fullName>Downtown</fullName>
+        <default>false</default>
+        <label>Downtown</label>
+    </customValue>
+    <customValue>
+        <fullName>Downtown Community</fullName>
+        <default>false</default>
+        <label>Downtown Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Downtown Skyline</fullName>
+        <default>false</default>
+        <label>Downtown Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Downtown Skyline View</fullName>
+        <default>false</default>
+        <label>Downtown Skyline View</label>
+    </customValue>
+    <customValue>
+        <fullName>Dual View Sea + Boulevard</fullName>
+        <default>false</default>
+        <label>Dual View Sea + Boulevard</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Canal</fullName>
+        <default>false</default>
+        <label>Dubai Canal</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Canal view</fullName>
+        <default>false</default>
+        <label>Dubai Canal view</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Mall and Foutains</fullName>
+        <default>false</default>
+        <label>Dubai Mall and Foutains</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Marina</fullName>
+        <default>false</default>
+        <label>Dubai Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Marina and Partial Sea View</fullName>
+        <default>false</default>
+        <label>Dubai Marina and Partial Sea View</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Marina, Marina 23 Tower and SZR View</fullName>
+        <default>false</default>
+        <label>Dubai Marina, Marina 23 Tower and SZR View</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Marina, Marina 23 Tower, SHZ Rd view</fullName>
+        <default>false</default>
+        <label>Dubai Marina, Marina 23 Tower, SHZ Rd view</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Skyline</fullName>
+        <default>false</default>
+        <label>Dubai Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Skyline View</fullName>
+        <default>false</default>
+        <label>Dubai Skyline View</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Skyline/Golf</fullName>
+        <default>false</default>
+        <label>Dubai Skyline/Golf</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Water Canal</fullName>
+        <default>false</default>
+        <label>Dubai Water Canal</label>
+    </customValue>
+    <customValue>
+        <fullName>Earth Course</fullName>
+        <default>false</default>
+        <label>Earth Course</label>
+    </customValue>
+    <customValue>
+        <fullName>EMAAR Business Park / Sheikh Zayed Road View</fullName>
+        <default>false</default>
+        <label>EMAAR Business Park / Sheikh Zayed Road View</label>
+    </customValue>
+    <customValue>
+        <fullName>Emirates Living</fullName>
+        <default>false</default>
+        <label>Emirates Living</label>
+    </customValue>
+    <customValue>
+        <fullName>Emirates Livings</fullName>
+        <default>false</default>
+        <label>Emirates Livings</label>
+    </customValue>
+    <customValue>
+        <fullName>F C Road View</fullName>
+        <default>false</default>
+        <label>F C Road View</label>
+    </customValue>
+    <customValue>
+        <fullName>Fountain</fullName>
+        <default>false</default>
+        <label>Fountain</label>
+    </customValue>
+    <customValue>
+        <fullName>Fountain view</fullName>
+        <default>false</default>
+        <label>Fountain view</label>
+    </customValue>
+    <customValue>
+        <fullName>Front view</fullName>
+        <default>false</default>
+        <label>Front view</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Burj Khalifa</fullName>
+        <default>false</default>
+        <label>Full Burj Khalifa</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Burj Khalifa &amp; Fountain</fullName>
+        <default>false</default>
+        <label>Full Burj Khalifa &amp; Fountain</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Burj Khalifa and Fountain</fullName>
+        <default>false</default>
+        <label>Full Burj Khalifa and Fountain</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Burj Khalifa and Fountain and DIFC</fullName>
+        <default>false</default>
+        <label>Full Burj Khalifa and Fountain and DIFC</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Burj Khalifa and Fountain view</fullName>
+        <default>false</default>
+        <label>Full Burj Khalifa and Fountain view</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Burj Khalifa view</fullName>
+        <default>false</default>
+        <label>Full Burj Khalifa view</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Burj, Fountain and Canal</fullName>
+        <default>false</default>
+        <label>Full Burj, Fountain and Canal</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Canal &amp; Burj Khalifa</fullName>
+        <default>false</default>
+        <label>Full Canal &amp; Burj Khalifa</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Canal View</fullName>
+        <default>false</default>
+        <label>Full Canal View</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Creek and Lagoon</fullName>
+        <default>false</default>
+        <label>Full Creek and Lagoon</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Creek and Lagoon View</fullName>
+        <default>false</default>
+        <label>Full Creek and Lagoon View</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Creek/Lagoon &amp; Burj View</fullName>
+        <default>false</default>
+        <label>Full Creek/Lagoon &amp; Burj View</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Creek/Lagoon and Burj View</fullName>
+        <default>false</default>
+        <label>Full Creek/Lagoon and Burj View</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Crystal Lagoon</fullName>
+        <default>false</default>
+        <label>Full Crystal Lagoon</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Fountain</fullName>
+        <default>false</default>
+        <label>Full Fountain</label>
+    </customValue>
+    <customValue>
+        <fullName>Full fountain view</fullName>
+        <default>false</default>
+        <label>Full fountain view</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Golf Course</fullName>
+        <default>false</default>
+        <label>Full Golf Course</label>
+    </customValue>
+    <customValue>
+        <fullName>Lagoon</fullName>
+        <default>false</default>
+        <label>Lagoon</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Lagoon/ Burj Khalifa</fullName>
+        <default>false</default>
+        <label>Full Lagoon/ Burj Khalifa</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Lake</fullName>
+        <default>false</default>
+        <label>Full Lake</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Lake View</fullName>
+        <default>false</default>
+        <label>Full Lake View</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Marina</fullName>
+        <default>false</default>
+        <label>Full Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Marina and sea</fullName>
+        <default>false</default>
+        <label>Full Marina and sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Marina and Sea view</fullName>
+        <default>false</default>
+        <label>Full Marina and Sea view</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Marina View</fullName>
+        <default>false</default>
+        <label>Full Marina View</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Marina&amp;Community view</fullName>
+        <default>false</default>
+        <label>Full Marina&amp;Community view</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Pool, 2 Lakes and Park</fullName>
+        <default>false</default>
+        <label>Full Pool, 2 Lakes and Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Sea</fullName>
+        <default>false</default>
+        <label>Full Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Sea and Dubai Marina Skyline</fullName>
+        <default>false</default>
+        <label>Full Sea and Dubai Marina Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Sea and Palm Jumeirah</fullName>
+        <default>false</default>
+        <label>Full Sea and Palm Jumeirah</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Sea and Palm View</fullName>
+        <default>false</default>
+        <label>Full Sea and Palm View</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Sea View</fullName>
+        <default>false</default>
+        <label>Full Sea View</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Sea View &amp; Atlantis</fullName>
+        <default>false</default>
+        <label>Full Sea View &amp; Atlantis</label>
+    </customValue>
+    <customValue>
+        <fullName>Full sea view with Dubai Eye&amp;Palm Jumeirah</fullName>
+        <default>false</default>
+        <label>Full sea view with Dubai Eye&amp;Palm Jumeirah</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden</fullName>
+        <default>false</default>
+        <label>Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden / Community View</fullName>
+        <default>false</default>
+        <label>Garden / Community View</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden View</fullName>
+        <default>false</default>
+        <label>Garden View</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden views</fullName>
+        <default>false</default>
+        <label>Garden views</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden,Pool &amp; Burj Khalifa</fullName>
+        <default>false</default>
+        <label>Garden,Pool &amp; Burj Khalifa</label>
+    </customValue>
+    <customValue>
+        <fullName>Gardens</fullName>
+        <default>false</default>
+        <label>Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Godolphin Stables</fullName>
+        <default>false</default>
+        <label>Godolphin Stables</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf</fullName>
+        <default>false</default>
+        <label>Golf</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf and Canal</fullName>
+        <default>false</default>
+        <label>Golf and Canal</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf and Garden</fullName>
+        <default>false</default>
+        <label>Golf and Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Course</fullName>
+        <default>false</default>
+        <label>Golf Course</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf course View</fullName>
+        <default>false</default>
+        <label>Golf course View</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Course &amp; LAke</fullName>
+        <default>false</default>
+        <label>Golf Course &amp; LAke</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Course / Marina / Sea View</fullName>
+        <default>false</default>
+        <label>Golf Course / Marina / Sea View</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Course / Marina View</fullName>
+        <default>false</default>
+        <label>Golf Course / Marina View</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf course and Burj Khalifa</fullName>
+        <default>false</default>
+        <label>Golf course and Burj Khalifa</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Course and Dubai Skyline</fullName>
+        <default>false</default>
+        <label>Golf Course and Dubai Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Course and Lake</fullName>
+        <default>false</default>
+        <label>Golf Course and Lake</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf course, park</fullName>
+        <default>false</default>
+        <label>Golf course, park</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf View</fullName>
+        <default>false</default>
+        <label>Golf View</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf, Lake and Skyline</fullName>
+        <default>false</default>
+        <label>Golf, Lake and Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf, landscape and community view</fullName>
+        <default>false</default>
+        <label>Golf, landscape and community view</label>
+    </customValue>
+    <customValue>
+        <fullName>GREEN</fullName>
+        <default>false</default>
+        <label>GREEN</label>
+    </customValue>
+    <customValue>
+        <fullName>Gulf</fullName>
+        <default>false</default>
+        <label>Gulf</label>
+    </customValue>
+    <customValue>
+        <fullName>Gulf Course</fullName>
+        <default>false</default>
+        <label>Gulf Course</label>
+    </customValue>
+    <customValue>
+        <fullName>Hessa street</fullName>
+        <default>false</default>
+        <label>Hessa street</label>
+    </customValue>
+    <customValue>
+        <fullName>Iconic Tower/ Creek View/ Swimming Pool</fullName>
+        <default>false</default>
+        <label>Iconic Tower/ Creek View/ Swimming Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Iconic Tower/Creek View</fullName>
+        <default>false</default>
+        <label>Iconic Tower/Creek View</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrial area</fullName>
+        <default>false</default>
+        <label>Industrial area</label>
+    </customValue>
+    <customValue>
+        <fullName>Inner Court View</fullName>
+        <default>false</default>
+        <label>Inner Court View</label>
+    </customValue>
+    <customValue>
+        <fullName>Intermediate</fullName>
+        <default>false</default>
+        <label>Intermediate</label>
+    </customValue>
+    <customValue>
+        <fullName>Jabal Ali</fullName>
+        <default>false</default>
+        <label>Jabal Ali</label>
+    </customValue>
+    <customValue>
+        <fullName>JBR</fullName>
+        <default>false</default>
+        <label>JBR</label>
+    </customValue>
+    <customValue>
+        <fullName>JBR View</fullName>
+        <default>false</default>
+        <label>JBR View</label>
+    </customValue>
+    <customValue>
+        <fullName>Jebel Ali</fullName>
+        <default>false</default>
+        <label>Jebel Ali</label>
+    </customValue>
+    <customValue>
+        <fullName>Jebel Ali + Sea view</fullName>
+        <default>false</default>
+        <label>Jebel Ali + Sea view</label>
+    </customValue>
+    <customValue>
+        <fullName>JLT Community</fullName>
+        <default>false</default>
+        <label>JLT Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah and Sea</fullName>
+        <default>false</default>
+        <label>Jumeirah and Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Golf Estates</fullName>
+        <default>false</default>
+        <label>Jumeirah Golf Estates</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Island</fullName>
+        <default>false</default>
+        <label>Jumeirah Island</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Village Triangle</fullName>
+        <default>false</default>
+        <label>Jumeirah Village Triangle</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumierah Island View</fullName>
+        <default>false</default>
+        <label>Jumierah Island View</label>
+    </customValue>
+    <customValue>
+        <fullName>Kids Pool</fullName>
+        <default>false</default>
+        <label>Kids Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Kids Pool View</fullName>
+        <default>false</default>
+        <label>Kids Pool View</label>
+    </customValue>
+    <customValue>
+        <fullName>Lagoon Burj khalifa</fullName>
+        <default>false</default>
+        <label>Lagoon Burj khalifa</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake</fullName>
+        <default>false</default>
+        <label>Lake</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake &amp; Golf Course</fullName>
+        <default>false</default>
+        <label>Lake &amp; Golf Course</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake / Island View</fullName>
+        <default>false</default>
+        <label>Lake / Island View</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake and Fountain</fullName>
+        <default>false</default>
+        <label>Lake and Fountain</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake and Marina</fullName>
+        <default>false</default>
+        <label>Lake and Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake and Pool</fullName>
+        <default>false</default>
+        <label>Lake and Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake and SZR view</fullName>
+        <default>false</default>
+        <label>Lake and SZR view</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake View</fullName>
+        <default>false</default>
+        <label>Lake View</label>
+    </customValue>
+    <customValue>
+        <fullName>lake view/partial golf course</fullName>
+        <default>false</default>
+        <label>lake view/partial golf course</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake, Dubai Marina, and Emirates Living views</fullName>
+        <default>false</default>
+        <label>Lake, Dubai Marina, and Emirates Living views</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake,Beside park</fullName>
+        <default>false</default>
+        <label>Lake,Beside park</label>
+    </customValue>
+    <customValue>
+        <fullName>land mark view</fullName>
+        <default>false</default>
+        <label>land mark view</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscape</fullName>
+        <default>false</default>
+        <label>Landscape</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscape / Dubailand / Neighbour</fullName>
+        <default>false</default>
+        <label>Landscape / Dubailand / Neighbour</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscape / Restaurant / Pool View</fullName>
+        <default>false</default>
+        <label>Landscape / Restaurant / Pool View</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscape View</fullName>
+        <default>false</default>
+        <label>Landscape View</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscape with private garden</fullName>
+        <default>false</default>
+        <label>Landscape with private garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscape, Dubailand &amp; neighbor view</fullName>
+        <default>false</default>
+        <label>Landscape, Dubailand &amp; neighbor view</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscaped/lake/Burj Khalifa/Business Bay</fullName>
+        <default>false</default>
+        <label>Landscaped/lake/Burj Khalifa/Business Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Landscaping View</fullName>
+        <default>false</default>
+        <label>Landscaping View</label>
+    </customValue>
+    <customValue>
+        <fullName>Lazy River</fullName>
+        <default>false</default>
+        <label>Lazy River</label>
+    </customValue>
+    <customValue>
+        <fullName>Main road</fullName>
+        <default>false</default>
+        <label>Main road</label>
+    </customValue>
+    <customValue>
+        <fullName>Main Road &amp; Community Garden View</fullName>
+        <default>false</default>
+        <label>Main Road &amp; Community Garden View</label>
+    </customValue>
+    <customValue>
+        <fullName>Main Road View</fullName>
+        <default>false</default>
+        <label>Main Road View</label>
+    </customValue>
+    <customValue>
+        <fullName>Main View</fullName>
+        <default>false</default>
+        <label>Main View</label>
+    </customValue>
+    <customValue>
+        <fullName>Mall</fullName>
+        <default>false</default>
+        <label>Mall</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina</fullName>
+        <default>false</default>
+        <label>Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina and Burj Al Arab</fullName>
+        <default>false</default>
+        <label>Marina and Burj Al Arab</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina and Community</fullName>
+        <default>false</default>
+        <label>Marina and Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina and Community Views</fullName>
+        <default>false</default>
+        <label>Marina and Community Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina and Golf course</fullName>
+        <default>false</default>
+        <label>Marina and Golf course</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina and pool</fullName>
+        <default>false</default>
+        <label>Marina and pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina and Sea</fullName>
+        <default>false</default>
+        <label>Marina and Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina and Sea View</fullName>
+        <default>false</default>
+        <label>Marina and Sea View</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina and Sea Views</fullName>
+        <default>false</default>
+        <label>Marina and Sea Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Full Sea View</fullName>
+        <default>false</default>
+        <label>Marina Full Sea View</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Skyline</fullName>
+        <default>false</default>
+        <label>Marina Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Skyline &amp; Sea</fullName>
+        <default>false</default>
+        <label>Marina Skyline &amp; Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Skyline and Palm Jumeirah</fullName>
+        <default>false</default>
+        <label>Marina Skyline and Palm Jumeirah</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina View</fullName>
+        <default>false</default>
+        <label>Marina View</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Views</fullName>
+        <default>false</default>
+        <label>Marina Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina&amp;Community View</fullName>
+        <default>false</default>
+        <label>Marina&amp;Community View</label>
+    </customValue>
+    <customValue>
+        <fullName>MARINA, SZR, COMMUNITY</fullName>
+        <default>false</default>
+        <label>MARINA, SZR, COMMUNITY</label>
+    </customValue>
+    <customValue>
+        <fullName>Meadows</fullName>
+        <default>false</default>
+        <label>Meadows</label>
+    </customValue>
+    <customValue>
+        <fullName>Mediterranean Garden</fullName>
+        <default>false</default>
+        <label>Mediterranean Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Mesmerizing Lake and Fountain</fullName>
+        <default>false</default>
+        <label>Mesmerizing Lake and Fountain</label>
+    </customValue>
+    <customValue>
+        <fullName>Meydan</fullName>
+        <default>false</default>
+        <label>Meydan</label>
+    </customValue>
+    <customValue>
+        <fullName>Meydan view</fullName>
+        <default>false</default>
+        <label>Meydan view</label>
+    </customValue>
+    <customValue>
+        <fullName>Meydan, MBR City, Pool &amp; Golf Putting Range</fullName>
+        <default>false</default>
+        <label>Meydan, MBR City, Pool &amp; Golf Putting Range</label>
+    </customValue>
+    <customValue>
+        <fullName>Middle Row</fullName>
+        <default>false</default>
+        <label>Middle Row</label>
+    </customValue>
+    <customValue>
+        <fullName>Miracle Garden View</fullName>
+        <default>false</default>
+        <label>Miracle Garden View</label>
+    </customValue>
+    <customValue>
+        <fullName>Neighbor View</fullName>
+        <default>false</default>
+        <label>Neighbor View</label>
+    </customValue>
+    <customValue>
+        <fullName>Neighborhood view</fullName>
+        <default>false</default>
+        <label>Neighborhood view</label>
+    </customValue>
+    <customValue>
+        <fullName>Neighbour</fullName>
+        <default>false</default>
+        <label>Neighbour</label>
+    </customValue>
+    <customValue>
+        <fullName>Neighbour View</fullName>
+        <default>false</default>
+        <label>Neighbour View</label>
+    </customValue>
+    <customValue>
+        <fullName>New Tower View</fullName>
+        <default>false</default>
+        <label>New Tower View</label>
+    </customValue>
+    <customValue>
+        <fullName>North / Corner View</fullName>
+        <default>false</default>
+        <label>North / Corner View</label>
+    </customValue>
+    <customValue>
+        <fullName>North / West View</fullName>
+        <default>false</default>
+        <label>North / West View</label>
+    </customValue>
+    <customValue>
+        <fullName>oberoi view</fullName>
+        <default>false</default>
+        <label>oberoi view</label>
+    </customValue>
+    <customValue>
+        <fullName>Obstructed View</fullName>
+        <default>false</default>
+        <label>Obstructed View</label>
+    </customValue>
+    <customValue>
+        <fullName>Ocean view</fullName>
+        <default>false</default>
+        <label>Ocean view</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Town</fullName>
+        <default>false</default>
+        <label>Old Town</label>
+    </customValue>
+    <customValue>
+        <fullName>Open view</fullName>
+        <default>false</default>
+        <label>Open view</label>
+    </customValue>
+    <customValue>
+        <fullName>Open view of the creek and facing Burj Khalifa</fullName>
+        <default>false</default>
+        <label>Open view of the creek and facing Burj Khalifa</label>
+    </customValue>
+    <customValue>
+        <fullName>Overlooking the Lake - Partial Marina and Sheikh Zayed Road</fullName>
+        <default>false</default>
+        <label>Overlooking the Lake - Partial Marina and Sheikh Zayed Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Palm</fullName>
+        <default>false</default>
+        <label>Palm</label>
+    </customValue>
+    <customValue>
+        <fullName>Palm / City / Pool View</fullName>
+        <default>false</default>
+        <label>Palm / City / Pool View</label>
+    </customValue>
+    <customValue>
+        <fullName>Palm and Sea</fullName>
+        <default>false</default>
+        <label>Palm and Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Palm Jumeirah</fullName>
+        <default>false</default>
+        <label>Palm Jumeirah</label>
+    </customValue>
+    <customValue>
+        <fullName>Palm Jumeirah and Burj Arab</fullName>
+        <default>false</default>
+        <label>Palm Jumeirah and Burj Arab</label>
+    </customValue>
+    <customValue>
+        <fullName>palm view</fullName>
+        <default>false</default>
+        <label>palm view</label>
+    </customValue>
+    <customValue>
+        <fullName>Panorama</fullName>
+        <default>false</default>
+        <label>Panorama</label>
+    </customValue>
+    <customValue>
+        <fullName>Panoramic</fullName>
+        <default>false</default>
+        <label>Panoramic</label>
+    </customValue>
+    <customValue>
+        <fullName>Panoramic / SZR</fullName>
+        <default>false</default>
+        <label>Panoramic / SZR</label>
+    </customValue>
+    <customValue>
+        <fullName>Panoramic Sea and Atlantis</fullName>
+        <default>false</default>
+        <label>Panoramic Sea and Atlantis</label>
+    </customValue>
+    <customValue>
+        <fullName>Panoramic Sea and Sheikh Zayed Road View</fullName>
+        <default>false</default>
+        <label>Panoramic Sea and Sheikh Zayed Road View</label>
+    </customValue>
+    <customValue>
+        <fullName>Panoramic Sea View</fullName>
+        <default>false</default>
+        <label>Panoramic Sea View</label>
+    </customValue>
+    <customValue>
+        <fullName>Panoramic view</fullName>
+        <default>false</default>
+        <label>Panoramic view</label>
+    </customValue>
+    <customValue>
+        <fullName>Park</fullName>
+        <default>false</default>
+        <label>Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Park and Lake Views</fullName>
+        <default>false</default>
+        <label>Park and Lake Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Park and Pool</fullName>
+        <default>false</default>
+        <label>Park and Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Facing</fullName>
+        <default>false</default>
+        <label>Park Facing</label>
+    </customValue>
+    <customValue>
+        <fullName>Park n pool</fullName>
+        <default>false</default>
+        <label>Park n pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Park View</fullName>
+        <default>false</default>
+        <label>Park View</label>
+    </customValue>
+    <customValue>
+        <fullName>Park View/ Swimming Pool</fullName>
+        <default>false</default>
+        <label>Park View/ Swimming Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Park, skyline</fullName>
+        <default>false</default>
+        <label>Park, skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Park/ Dubiotech / Neighbour</fullName>
+        <default>false</default>
+        <label>Park/ Dubiotech / Neighbour</label>
+    </customValue>
+    <customValue>
+        <fullName>park/Dubiotech</fullName>
+        <default>false</default>
+        <label>park/Dubiotech</label>
+    </customValue>
+    <customValue>
+        <fullName>Part Marina</fullName>
+        <default>false</default>
+        <label>Part Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Part Sea</fullName>
+        <default>false</default>
+        <label>Part Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Burj and Blvd Street</fullName>
+        <default>false</default>
+        <label>Partial Burj and Blvd Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Burj Khalifa &amp; Full sea views</fullName>
+        <default>false</default>
+        <label>Partial Burj Khalifa &amp; Full sea views</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Burj Khalifa + Canal + Community View</fullName>
+        <default>false</default>
+        <label>Partial Burj Khalifa + Canal + Community View</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Burj Khalifa and Fountain view</fullName>
+        <default>false</default>
+        <label>Partial Burj Khalifa and Fountain view</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Burj View</fullName>
+        <default>false</default>
+        <label>Partial Burj View</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Canal &amp; Burj View</fullName>
+        <default>false</default>
+        <label>Partial Canal &amp; Burj View</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Canal View</fullName>
+        <default>false</default>
+        <label>Partial Canal View</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Canal/ Partial Tower</fullName>
+        <default>false</default>
+        <label>Partial Canal/ Partial Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Fountain &amp; SZR</fullName>
+        <default>false</default>
+        <label>Partial Fountain &amp; SZR</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial fountain view</fullName>
+        <default>false</default>
+        <label>Partial fountain view</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Golf</fullName>
+        <default>false</default>
+        <label>Partial Golf</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Golf Course view</fullName>
+        <default>false</default>
+        <label>Partial Golf Course view</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial golf view</fullName>
+        <default>false</default>
+        <label>Partial golf view</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Lake</fullName>
+        <default>false</default>
+        <label>Partial Lake</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial lake and fountain view</fullName>
+        <default>false</default>
+        <label>Partial lake and fountain view</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Lake View</fullName>
+        <default>false</default>
+        <label>Partial Lake View</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Marina</fullName>
+        <default>false</default>
+        <label>Partial Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Marina &amp; sea</fullName>
+        <default>false</default>
+        <label>Partial Marina &amp; sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Marina and Community</fullName>
+        <default>false</default>
+        <label>Partial Marina and Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Marina view</fullName>
+        <default>false</default>
+        <label>Partial Marina view</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Marina Views</fullName>
+        <default>false</default>
+        <label>Partial Marina Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Marina&amp;Community View</fullName>
+        <default>false</default>
+        <label>Partial Marina&amp;Community View</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Marina&amp;Community Views</fullName>
+        <default>false</default>
+        <label>Partial Marina&amp;Community Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Marina, Sea and Golf course</fullName>
+        <default>false</default>
+        <label>Partial Marina, Sea and Golf course</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Palm</fullName>
+        <default>false</default>
+        <label>Partial Palm</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial palm view</fullName>
+        <default>false</default>
+        <label>Partial palm view</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Panoramic</fullName>
+        <default>false</default>
+        <label>Partial Panoramic</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Park</fullName>
+        <default>false</default>
+        <label>Partial Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Park View</fullName>
+        <default>false</default>
+        <label>Partial Park View</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Pool view</fullName>
+        <default>false</default>
+        <label>Partial Pool view</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial Sea</fullName>
+        <default>false</default>
+        <label>Partial Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Partial sea view</fullName>
+        <default>false</default>
+        <label>Partial sea view</label>
+    </customValue>
+    <customValue>
+        <fullName>Penthouse view</fullName>
+        <default>false</default>
+        <label>Penthouse view</label>
+    </customValue>
+    <customValue>
+        <fullName>Picturesque Burj Khalifa Views</fullName>
+        <default>false</default>
+        <label>Picturesque Burj Khalifa Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool</fullName>
+        <default>false</default>
+        <label>Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool &amp; Garden View</fullName>
+        <default>false</default>
+        <label>Pool &amp; Garden View</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool &amp; Golf Course View</fullName>
+        <default>false</default>
+        <label>Pool &amp; Golf Course View</label>
+    </customValue>
+    <customValue>
+        <fullName>POOL &amp; PARK</fullName>
+        <default>false</default>
+        <label>POOL &amp; PARK</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool &amp; Partial Marina View</fullName>
+        <default>false</default>
+        <label>Pool &amp; Partial Marina View</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool / City View</fullName>
+        <default>false</default>
+        <label>Pool / City View</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool / Corner View</fullName>
+        <default>false</default>
+        <label>Pool / Corner View</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool and Community</fullName>
+        <default>false</default>
+        <label>Pool and Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool and garden</fullName>
+        <default>false</default>
+        <label>Pool and garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool and Garden View</fullName>
+        <default>false</default>
+        <label>Pool and Garden View</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool and Park</fullName>
+        <default>false</default>
+        <label>Pool and Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool and Sea</fullName>
+        <default>false</default>
+        <label>Pool and Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>pool and side</fullName>
+        <default>false</default>
+        <label>pool and side</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool and Theme Park</fullName>
+        <default>false</default>
+        <label>Pool and Theme Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool View</fullName>
+        <default>false</default>
+        <label>Pool View</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool, Community, and Park</fullName>
+        <default>false</default>
+        <label>Pool, Community, and Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool, Skyline and Community</fullName>
+        <default>false</default>
+        <label>Pool, Skyline and Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Premium Panoramic</fullName>
+        <default>false</default>
+        <label>Premium Panoramic</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Communal Terrace</fullName>
+        <default>false</default>
+        <label>Private Communal Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Garden</fullName>
+        <default>false</default>
+        <label>Private Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Race Course &amp; Canal View</fullName>
+        <default>false</default>
+        <label>Race Course &amp; Canal View</label>
+    </customValue>
+    <customValue>
+        <fullName>Race Course &amp; Partial Canal View</fullName>
+        <default>false</default>
+        <label>Race Course &amp; Partial Canal View</label>
+    </customValue>
+    <customValue>
+        <fullName>Race Course View</fullName>
+        <default>false</default>
+        <label>Race Course View</label>
+    </customValue>
+    <customValue>
+        <fullName>Reserve and Garden with stream</fullName>
+        <default>false</default>
+        <label>Reserve and Garden with stream</label>
+    </customValue>
+    <customValue>
+        <fullName>Reserve and water stream</fullName>
+        <default>false</default>
+        <label>Reserve and water stream</label>
+    </customValue>
+    <customValue>
+        <fullName>Ritz and Sea</fullName>
+        <default>false</default>
+        <label>Ritz and Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>River</fullName>
+        <default>false</default>
+        <label>River</label>
+    </customValue>
+    <customValue>
+        <fullName>Rivers</fullName>
+        <default>false</default>
+        <label>Rivers</label>
+    </customValue>
+    <customValue>
+        <fullName>Road</fullName>
+        <default>false</default>
+        <label>Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Road &amp; Landscape</fullName>
+        <default>false</default>
+        <label>Road &amp; Landscape</label>
+    </customValue>
+    <customValue>
+        <fullName>Road facing</fullName>
+        <default>false</default>
+        <label>Road facing</label>
+    </customValue>
+    <customValue>
+        <fullName>Road View</fullName>
+        <default>false</default>
+        <label>Road View</label>
+    </customValue>
+    <customValue>
+        <fullName>Road/Partial Sea</fullName>
+        <default>false</default>
+        <label>Road/Partial Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Roadside View</fullName>
+        <default>false</default>
+        <label>Roadside View</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea</fullName>
+        <default>false</default>
+        <label>Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea &amp; Burj Al Arab</fullName>
+        <default>false</default>
+        <label>Sea &amp; Burj Al Arab</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea &amp; DIFC View</fullName>
+        <default>false</default>
+        <label>Sea &amp; DIFC View</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea &amp; Dubai Skyline</fullName>
+        <default>false</default>
+        <label>Sea &amp; Dubai Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea &amp; Pool</fullName>
+        <default>false</default>
+        <label>Sea &amp; Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea and Atlantis</fullName>
+        <default>false</default>
+        <label>Sea and Atlantis</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea and Garden</fullName>
+        <default>false</default>
+        <label>Sea and Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea and Marina</fullName>
+        <default>false</default>
+        <label>Sea and Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea and Marina Skyline</fullName>
+        <default>false</default>
+        <label>Sea and Marina Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea and Palm view</fullName>
+        <default>false</default>
+        <label>Sea and Palm view</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea and Park</fullName>
+        <default>false</default>
+        <label>Sea and Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea and Sunset</fullName>
+        <default>false</default>
+        <label>Sea and Sunset</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea and SZR view</fullName>
+        <default>false</default>
+        <label>Sea and SZR view</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea Side</fullName>
+        <default>false</default>
+        <label>Sea Side</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea view</fullName>
+        <default>false</default>
+        <label>Sea view</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea View and Dubai Skyline</fullName>
+        <default>false</default>
+        <label>Sea View and Dubai Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea/Community</fullName>
+        <default>false</default>
+        <label>Sea/Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Sheikh Mohammed Bin Zayed</fullName>
+        <default>false</default>
+        <label>Sheikh Mohammed Bin Zayed</label>
+    </customValue>
+    <customValue>
+        <fullName>Sheikh Mohammed Bin Zayed and Garden View</fullName>
+        <default>false</default>
+        <label>Sheikh Mohammed Bin Zayed and Garden View</label>
+    </customValue>
+    <customValue>
+        <fullName>Sheikh Zayed Road</fullName>
+        <default>false</default>
+        <label>Sheikh Zayed Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Sheikh Zayed Road and Dubai Canal</fullName>
+        <default>false</default>
+        <label>Sheikh Zayed Road and Dubai Canal</label>
+    </customValue>
+    <customValue>
+        <fullName>Sheikh Zayed Road View</fullName>
+        <default>false</default>
+        <label>Sheikh Zayed Road View</label>
+    </customValue>
+    <customValue>
+        <fullName>Sheikh Zayed Road, Dubai Canal</fullName>
+        <default>false</default>
+        <label>Sheikh Zayed Road, Dubai Canal</label>
+    </customValue>
+    <customValue>
+        <fullName>Side Road</fullName>
+        <default>false</default>
+        <label>Side Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Side Road View</fullName>
+        <default>false</default>
+        <label>Side Road View</label>
+    </customValue>
+    <customValue>
+        <fullName>Side Rode View</fullName>
+        <default>false</default>
+        <label>Side Rode View</label>
+    </customValue>
+    <customValue>
+        <fullName>Single Row</fullName>
+        <default>false</default>
+        <label>Single Row</label>
+    </customValue>
+    <customValue>
+        <fullName>Skyline</fullName>
+        <default>false</default>
+        <label>Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Skyline and park</fullName>
+        <default>false</default>
+        <label>Skyline and park</label>
+    </customValue>
+    <customValue>
+        <fullName>Skyline and Community</fullName>
+        <default>false</default>
+        <label>Skyline and Community</label>
+    </customValue>
+    <customValue>
+        <fullName>skyline and palace view</fullName>
+        <default>false</default>
+        <label>skyline and palace view</label>
+    </customValue>
+    <customValue>
+        <fullName>Skyline View</fullName>
+        <default>false</default>
+        <label>Skyline View</label>
+    </customValue>
+    <customValue>
+        <fullName>Stable</fullName>
+        <default>false</default>
+        <label>Stable</label>
+    </customValue>
+    <customValue>
+        <fullName>Stable / Business Bay</fullName>
+        <default>false</default>
+        <label>Stable / Business Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Stable and Business Bay</fullName>
+        <default>false</default>
+        <label>Stable and Business Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Stables view</fullName>
+        <default>false</default>
+        <label>Stables view</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard neighbour</fullName>
+        <default>false</default>
+        <label>Standard neighbour</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard Palm</fullName>
+        <default>false</default>
+        <label>Standard Palm</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard sea</fullName>
+        <default>false</default>
+        <label>Standard sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Street</fullName>
+        <default>false</default>
+        <label>Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Street and JGE View</fullName>
+        <default>false</default>
+        <label>Street and JGE View</label>
+    </customValue>
+    <customValue>
+        <fullName>Street View</fullName>
+        <default>false</default>
+        <label>Street View</label>
+    </customValue>
+    <customValue>
+        <fullName>Street view/ Jumeirah Golf Estates</fullName>
+        <default>false</default>
+        <label>Street view/ Jumeirah Golf Estates</label>
+    </customValue>
+    <customValue>
+        <fullName>Swimming pool</fullName>
+        <default>false</default>
+        <label>Swimming pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Swimming pool and Boulevard View</fullName>
+        <default>false</default>
+        <label>Swimming pool and Boulevard View</label>
+    </customValue>
+    <customValue>
+        <fullName>Swimming Pool and Theme Park view</fullName>
+        <default>false</default>
+        <label>Swimming Pool and Theme Park view</label>
+    </customValue>
+    <customValue>
+        <fullName>Swimming Pool View</fullName>
+        <default>false</default>
+        <label>Swimming Pool View</label>
+    </customValue>
+    <customValue>
+        <fullName>SZR</fullName>
+        <default>false</default>
+        <label>SZR</label>
+    </customValue>
+    <customValue>
+        <fullName>SZR and Dubai Marina views</fullName>
+        <default>false</default>
+        <label>SZR and Dubai Marina views</label>
+    </customValue>
+    <customValue>
+        <fullName>SZR and Lake views</fullName>
+        <default>false</default>
+        <label>SZR and Lake views</label>
+    </customValue>
+    <customValue>
+        <fullName>SZR and Sea view</fullName>
+        <default>false</default>
+        <label>SZR and Sea view</label>
+    </customValue>
+    <customValue>
+        <fullName>SZR View</fullName>
+        <default>false</default>
+        <label>SZR View</label>
+    </customValue>
+    <customValue>
+        <fullName>TH/Community</fullName>
+        <default>false</default>
+        <label>TH/Community</label>
+    </customValue>
+    <customValue>
+        <fullName>The Burj view</fullName>
+        <default>false</default>
+        <label>The Burj view</label>
+    </customValue>
+    <customValue>
+        <fullName>The Greens</fullName>
+        <default>false</default>
+        <label>The Greens</label>
+    </customValue>
+    <customValue>
+        <fullName>The Greens, Barsha Heights, SZR views</fullName>
+        <default>false</default>
+        <label>The Greens, Barsha Heights, SZR views</label>
+    </customValue>
+    <customValue>
+        <fullName>The Iconic Tower/Creek View</fullName>
+        <default>false</default>
+        <label>The Iconic Tower/Creek View</label>
+    </customValue>
+    <customValue>
+        <fullName>The Tower - Burj Khalifa View</fullName>
+        <default>false</default>
+        <label>The Tower - Burj Khalifa View</label>
+    </customValue>
+    <customValue>
+        <fullName>The Tower - Pool View</fullName>
+        <default>false</default>
+        <label>The Tower - Pool View</label>
+    </customValue>
+    <customValue>
+        <fullName>The Tower View</fullName>
+        <default>false</default>
+        <label>The Tower View</label>
+    </customValue>
+    <customValue>
+        <fullName>The Villa view</fullName>
+        <default>false</default>
+        <label>The Villa view</label>
+    </customValue>
+    <customValue>
+        <fullName>View of Garden</fullName>
+        <default>false</default>
+        <label>View of Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>vincitore boulevard</fullName>
+        <default>false</default>
+        <label>vincitore boulevard</label>
+    </customValue>
+    <customValue>
+        <fullName>Walkway</fullName>
+        <default>false</default>
+        <label>Walkway</label>
+    </customValue>
+    <customValue>
+        <fullName>Water Canal &amp; Burj View</fullName>
+        <default>false</default>
+        <label>Water Canal &amp; Burj View</label>
+    </customValue>
+    <customValue>
+        <fullName>Water View</fullName>
+        <default>false</default>
+        <label>Water View</label>
+    </customValue>
+    <customValue>
+        <fullName>Waterfront</fullName>
+        <default>false</default>
+        <label>Waterfront</label>
+    </customValue>
+    <customValue>
+        <fullName>West View</fullName>
+        <default>false</default>
+        <label>West View</label>
+    </customValue>
+    <customValue>
+        <fullName>with landscape, dubailand &amp; neighbor view</fullName>
+        <default>false</default>
+        <label>with landscape, dubailand &amp; neighbor view</label>
+    </customValue>
+    <customValue>
+        <fullName>World Trade Center</fullName>
+        <default>false</default>
+        <label>World Trade Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Zabeel</fullName>
+        <default>false</default>
+        <label>Zabeel</label>
+    </customValue>
+    <customValue>
+        <fullName>Zabeel &amp; DIFC</fullName>
+        <default>false</default>
+        <label>Zabeel &amp; DIFC</label>
+    </customValue>
+    <customValue>
+        <fullName>Zabeel and New Tower View</fullName>
+        <default>false</default>
+        <label>Zabeel and New Tower View</label>
+    </customValue>
+    <customValue>
+        <fullName>Zabeel Neighborhood</fullName>
+        <default>false</default>
+        <label>Zabeel Neighborhood</label>
+    </customValue>
+    <customValue>
+        <fullName>Zabeel Park &amp; Swimming Pool</fullName>
+        <default>false</default>
+        <label>Zabeel Park &amp; Swimming Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Zabeel Park view</fullName>
+        <default>false</default>
+        <label>Zabeel Park view</label>
+    </customValue>
+    <customValue>
+        <fullName>Zabeel View</fullName>
+        <default>false</default>
+        <label>Zabeel View</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Khail</fullName>
+        <default>false</default>
+        <label>Al Khail</label>
+    </customValue>
+    <customValue>
+        <fullName>Bounce and Courtyard</fullName>
+        <default>false</default>
+        <label>Bounce and Courtyard</label>
+    </customValue>
+    <customValue>
+        <fullName>Bounce</fullName>
+        <default>false</default>
+        <label>Bounce</label>
+    </customValue>
+    <customValue>
+        <fullName>Fire &amp; Earth Golf Course</fullName>
+        <default>false</default>
+        <label>Fire &amp; Earth Golf Course</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea/Pool</fullName>
+        <default>false</default>
+        <label>Sea/Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Bay and Old Town</fullName>
+        <default>false</default>
+        <label>Business Bay and Old Town</label>
+    </customValue>
+    <customValue>
+        <fullName>South Ridge and Community</fullName>
+        <default>false</default>
+        <label>South Ridge and Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Tree Lined</fullName>
+        <default>false</default>
+        <label>Tree Lined</label>
+    </customValue>
+    <customValue>
+        <fullName>Sea/Media City/Golf Course</fullName>
+        <default>false</default>
+        <label>Sea/Media City/Golf Course</label>
+    </customValue>
+    <customValue>
+        <fullName>Road/Sea</fullName>
+        <default>false</default>
+        <label>Road/Sea</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlantis and Marina</fullName>
+        <default>false</default>
+        <label>Atlantis and Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool / Wharf</fullName>
+        <default>false</default>
+        <label>Pool / Wharf</label>
+    </customValue>
+    <customValue>
+        <fullName>Versace Palazzo/Wharf/Pool</fullName>
+        <default>false</default>
+        <label>Versace Palazzo/Wharf/Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Pool and Canal</fullName>
+        <default>false</default>
+        <label>Pool and Canal</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa Skyline</fullName>
+        <default>false</default>
+        <label>Burj Khalifa Skyline</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa, Canal, Meydan</fullName>
+        <default>false</default>
+        <label>Burj Khalifa, Canal, Meydan</label>
+    </customValue>
+    <customValue>
+        <fullName>Downtown and DIFC</fullName>
+        <default>false</default>
+        <label>Downtown and DIFC</label>
+    </customValue>
+    <customValue>
+        <fullName>Polo Field View</fullName>
+        <default>false</default>
+        <label>Polo Field View</label>
+    </customValue>
+    <customValue>
+        <fullName>The Dubai Frame</fullName>
+        <default>false</default>
+        <label>The Dubai Frame</label>
+    </customValue>
+    <customValue>
+        <fullName>DIFC / Burj Khalifa</fullName>
+        <default>false</default>
+        <label>DIFC / Burj Khalifa</label>
+    </customValue>
+    <customValue>
+        <fullName>Zaabeel</fullName>
+        <default>false</default>
+        <label>Zaabeel</label>
+    </customValue>
+    <customValue>
+        <fullName>Arabian Gulf</fullName>
+        <default>false</default>
+        <label>Arabian Gulf</label>
+    </customValue>
+    <customValue>
+        <fullName>The Dubai Frame &amp; Zaabeel View</fullName>
+        <default>false</default>
+        <label>The Dubai Frame &amp; Zaabeel View</label>
+    </customValue>
+    <customValue>
+        <fullName>Zaabeel &amp; DIFC / Burj Khalifa</fullName>
+        <default>false</default>
+        <label>Zaabeel &amp; DIFC / Burj Khalifa</label>
+    </customValue>
+    <customValue>
+        <fullName>Arabian Gulf &amp; Burj Khalifa</fullName>
+        <default>false</default>
+        <label>Arabian Gulf &amp; Burj Khalifa</label>
+    </customValue>
+    <customValue>
+        <fullName>Arabian Gulf &amp; The Dubai Frame</fullName>
+        <default>false</default>
+        <label>Arabian Gulf &amp; The Dubai Frame</label>
+    </customValue>
+    <customValue>
+        <fullName>Arabian Gulf / The Dubai Frame / Zaabeel</fullName>
+        <default>false</default>
+        <label>Arabian Gulf / The Dubai Frame / Zaabeel</label>
+    </customValue>
+    <customValue>
+        <fullName>The Dubai Frame / Zaabeel</fullName>
+        <default>false</default>
+        <label>The Dubai Frame / Zaabeel</label>
+    </customValue>
+    <customValue>
+        <fullName>Wynn Al Marjan Island view</fullName>
+        <default>false</default>
+        <label>Wynn Al Marjan Island view</label>
+    </customValue>
+    <masterLabel>View</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

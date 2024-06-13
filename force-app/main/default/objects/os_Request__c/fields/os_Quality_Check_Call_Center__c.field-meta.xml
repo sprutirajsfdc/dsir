@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Quality_Check_Call_Center__c</fullName>
+    <externalId>false</externalId>
+    <label>Quality Check Call Center</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Invalid Lead</fullName>
+                <default>false</default>
+                <label>Invalid Lead</label>
+            </value>
+            <value>
+                <fullName>Budget is low</fullName>
+                <default>false</default>
+                <label>Budget is low</label>
+            </value>
+            <value>
+                <fullName>Non-Focus Area</fullName>
+                <default>false</default>
+                <label>Non-Focus Area</label>
+            </value>
+            <value>
+                <fullName>SPAM</fullName>
+                <default>false</default>
+                <label>SPAM</label>
+            </value>
+            <value>
+                <fullName>Irrelevant</fullName>
+                <default>false</default>
+                <label>Irrelevant</label>
+            </value>
+            <value>
+                <fullName>Client Lost- Due to no contact from Agent</fullName>
+                <default>false</default>
+                <label>Client Lost- Due to no contact from Agent</label>
+            </value>
+            <value>
+                <fullName>Client Purchased a property through another Real estate</fullName>
+                <default>false</default>
+                <label>Client Purchased a property through another Real estate</label>
+            </value>
+            <value>
+                <fullName>Interested</fullName>
+                <default>false</default>
+                <label>Interested</label>
+            </value>
+            <value>
+                <fullName>Client Not contactable – 3 attempts made by CCE</fullName>
+                <default>false</default>
+                <label>Client Not contactable – 3 attempts made by CCE</label>
+            </value>
+            <value>
+                <fullName>Agent Updated incorrect information</fullName>
+                <default>false</default>
+                <label>Agent Updated incorrect information</label>
+            </value>
+            <value>
+                <fullName>Not Interested to Buy or Rent a Property</fullName>
+                <default>false</default>
+                <label>Not Interested to Buy or Rent a Property</label>
+            </value>
+            <value>
+                <fullName>Incomplete Contact Details</fullName>
+                <default>false</default>
+                <label>Incomplete Contact Details</label>
+            </value>
+            <value>
+                <fullName>Mortgage Not Approved</fullName>
+                <default>false</default>
+                <label>Mortgage Not Approved</label>
+            </value>
+            <value>
+                <fullName>Deal Fell Off</fullName>
+                <default>false</default>
+                <label>Deal Fell Off</label>
+            </value>
+            <value>
+                <fullName>Property Match Not available</fullName>
+                <default>false</default>
+                <label>Property Match Not available</label>
+            </value>
+            <value>
+                <fullName>Not Serious</fullName>
+                <default>false</default>
+                <label>Not Serious</label>
+            </value>
+            <value>
+                <fullName>Window Shopping</fullName>
+                <default>false</default>
+                <label>Window Shopping</label>
+            </value>
+            <value>
+                <fullName>Inquiry Won</fullName>
+                <default>false</default>
+                <label>Inquiry Won</label>
+            </value>
+            <value>
+                <fullName>Client request agent to call back</fullName>
+                <default>false</default>
+                <label>Client request agent to call back</label>
+            </value>
+            <value>
+                <fullName>Was Interested - Now not contactable</fullName>
+                <default>false</default>
+                <label>Was Interested - Now not contactable</label>
+            </value>
+            <value>
+                <fullName>Duplicate Inquiry</fullName>
+                <default>false</default>
+                <label>Duplicate Inquiry</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

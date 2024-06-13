@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mode_of_Payment__c</fullName>
+    <externalId>false</externalId>
+    <label>Mode of Payment</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+                <label>Cheque</label>
+            </value>
+            <value>
+                <fullName>Local Bank Transfer</fullName>
+                <default>false</default>
+                <label>Local Bank Transfer</label>
+            </value>
+            <value>
+                <fullName>International Bank Transfer</fullName>
+                <default>false</default>
+                <label>International Bank Transfer</label>
+            </value>
+            <value>
+                <fullName>Manger cheque</fullName>
+                <default>false</default>
+                <label>Manger cheque</label>
+            </value>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

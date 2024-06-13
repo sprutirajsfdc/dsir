@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Screening_Result__c</fullName>
+    <externalId>false</externalId>
+    <label>Screening Result</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PEP Identified</fullName>
+                <default>false</default>
+                <label>PEP Identified</label>
+            </value>
+            <value>
+                <fullName>OB / SIC</fullName>
+                <default>false</default>
+                <label>OB / SIC</label>
+            </value>
+            <value>
+                <fullName>PEP / OB / RE / SIC</fullName>
+                <default>false</default>
+                <label>PEP / OB / RE / SIC</label>
+            </value>
+            <value>
+                <fullName>Refinative Clear - No Matches</fullName>
+                <default>false</default>
+                <label>Refinative Clear - No Matches</label>
+            </value>
+            <value>
+                <fullName>PEP/SIC</fullName>
+                <default>false</default>
+                <label>PEP/SIC</label>
+            </value>
+            <value>
+                <fullName>SIC</fullName>
+                <default>false</default>
+                <label>SIC</label>
+            </value>
+            <value>
+                <fullName>RE/SIC</fullName>
+                <default>false</default>
+                <label>RE/SIC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

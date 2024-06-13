@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agency_Inquiry_Type_AGENT</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+( RecordType.Name = &quot;Inquiry&quot;),
+( ISPICKVAL( os_Agency_Inquiry_Type__c , &quot;Agents&quot;)),
+( ISBLANK(  os_Agent_Full_Name__c )),
+( ISBLANK(  os_Agent_Mobile__c )),
+( ISBLANK(  os_Agent_Email__c ))
+)</errorConditionFormula>
+    <errorMessage>Please fill up the details Agent Full Name, Mobile and Email</errorMessage>
+</ValidationRule>

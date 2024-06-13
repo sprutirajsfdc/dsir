@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aml_Count</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(os_Closing_Status__c), TEXT(os_Closing_Status__c) = &apos;Closed&apos;,  os_AML_Count__c &lt;= 0, CreatedDate &gt; DATETIMEVALUE(&quot;2023-07-30 00:00:00&quot;))</errorConditionFormula>
+    <errorMessage>Closing status cannot be closed when no AML exists on closing.</errorMessage>
+</ValidationRule>

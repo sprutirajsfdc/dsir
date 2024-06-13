@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Listing_Full_Address__c</fullName>
+    <externalId>false</externalId>
+    <formula>If ( ISPICKVAL( os_Listing__r.os_Sharing_Rule__c , &apos;United Kingdom SIR&apos;) ,  os_Listing__r.os_Address__c  , os_Listing__r.os_Propertyfinder_Region__c  )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Listing Full Address</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

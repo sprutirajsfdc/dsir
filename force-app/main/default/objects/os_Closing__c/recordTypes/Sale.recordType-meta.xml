@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sale</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Closing_Compact_Layout</compactLayoutAssignment>
+    <label>Sale</label>
+    <picklistValues>
+        <picklist>Description__c</picklist>
+        <values>
+            <fullName>10%2E0 %25 3rd Installment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E0 %25 4th Installment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E0 %25 5th Installment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%2E0 %25 6th Installment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15%2E0 %25 2nd Installment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40%2E0 %25 7th Installment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E0 %25 1st Installment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_AML_Check__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Buyer_Second_Nationality__c</picklist>
+        <values>
+            <fullName>Afghanistan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Algeria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Angola</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Argentina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Australia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Austria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bangladesh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belarus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belgium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bolivia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bosnia and Herzegovina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brazil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Britain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bulgaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambodia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cameroon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central African Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>China</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colombia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Costa Rica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Croatia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Czech Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Democratic Republic of the Congo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ecuador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Egypt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Salvador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>England</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estonia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ethiopia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ghana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greece</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guatemala</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Honduras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hungary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iceland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>India</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indonesia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iran</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iraq</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Israel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ivory Coast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jamaica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Japan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jordan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kazakhstan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kenya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latvia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Libya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lithuania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Madagascar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malaysia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mali</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mauritania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morocco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Namibia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Zealand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nicaragua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Niger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nigeria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pakistan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paraguay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peru</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Philippines</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portugal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Republic of the Congo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Romania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Russia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saudi Arabia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scotland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Senegal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Serbia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singapore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slovakia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Somalia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Africa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sudan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sweden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switzerland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Syria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thailand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tunisia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkmenistan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ukraine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Arab Emirates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United States</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uruguay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vietnam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zambia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimbabwe</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Client_Type__c</picklist>
+        <values>
+            <fullName>Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Closing_Country__c</picklist>
+        <values>
+            <fullName>Saudi Arabia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Arab Emirates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Kingdom</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Closing_Status__c</picklist>
+        <values>
+            <fullName>Canceled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rented</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Conveyancing_Manager__c</picklist>
+        <values>
+            <fullName>Lisha Hinalao</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sarah Ebadian</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Deal_Type__c</picklist>
+        <values>
+            <fullName>Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash to Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance to Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance to Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mortgage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>cash to Finance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Development_Projects_Outcome__c</picklist>
+        <values>
+            <fullName>100%25 Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20%25 Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agent Briefing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developer NOC pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developers Compliance Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executed SPA sent to client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form F signed by buyer %26 seller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fully Executed SPA %28 signed by both Party %29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oqood Registered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oqood Registered and Executed SPA sent to client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reservation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reservation signed by buyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reservation signed by buyer and down payment received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPA Signed by Buyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPA Submitted to Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPA issuance pending with Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPA issued</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPA signatures pending with client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signatures on SPA pending with Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Title deed issued by Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Title deed not issued by Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer date confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transfer done</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Develpment_Projects_Fee_Status__c</picklist>
+        <values>
+            <fullName>0%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10%25 %2B 4%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100%25 %2B 4%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20%25 %2B 4%25 received by Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20%25 %2B 4%25 sent to Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%25 In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EOI %26 Document received%2C Payment Missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EOI %26 Payment received%2C Document Missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EOI Created</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EOI Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Received%2C EOI %26 Document Missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RA and SPA Pending with Ithra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reservation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Develpment_Projects_Payment_Status__c</picklist>
+        <values>
+            <fullName>Not paid to Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not paid to LSIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid to Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid to LSIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid to LSIR and Agency</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Lease_Terms__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Listing_Type__c</picklist>
+        <values>
+            <fullName>Rent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sale</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Mandate_Verification__c</picklist>
+        <values>
+            <fullName>EDM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enquiry on another company listings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exclusive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Exclusive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non company Listings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Plan not listed with the company</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Migrated__c</picklist>
+        <values>
+            <fullName>%5BMigrated March19%5D</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Mortage__c</picklist>
+        <values>
+            <fullName>Na</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Purchase_As__c</picklist>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>as Company</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Reason_for_Cancelled__c</picklist>
+        <values>
+            <fullName>Buyer Pulled Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seller Pulled Off</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Region__c</picklist>
+        <values>
+            <fullName>Saudi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UAE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Representing__c</picklist>
+        <values>
+            <fullName>Both</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seller</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Risk_Rating_Checklist__c</picklist>
+        <values>
+            <fullName>High Risk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low risk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium risk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Done</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Screening_Result__c</picklist>
+        <values>
+            <fullName>OB %2F SIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEP %2F OB %2F RE %2F SIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEP Identified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEP%2FSIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RE%2FSIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refinative Clear - No Matches</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Sharing_Rule__c</picklist>
+        <values>
+            <fullName>Gulf Sothebys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Project Developments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saudi Arabia Sotheby%27s International Realty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK Sotheby%27s International Realty</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Sharing_Sub_Region__c</picklist>
+        <values>
+            <fullName>Abha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abu Dhabi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ajman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al-Baha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al-Madinah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ar%27ar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buraidah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dammam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fujairah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hayel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jazan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jeddah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liverpool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Makkah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manchester</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Najran</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ras Al Khaimah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Riyadh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sakaka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sharjah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tabouk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Umm Al Quwain</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Sold_As__c</picklist>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>as Company</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_Transfer_Office_Address__c</picklist>
+        <values>
+            <fullName>AFNAN REAL ESTATE REGISTRATION TRUSTE L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AL TABU REGISTRATION TRUSTEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALMANARA REALESTATE REGISTRATION TRUSTEE ONE PERSON COMPANY L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AMANAH TRUST REAL ESTATE REGISTRATION TRUSTEE L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>APPROVED PROPERTY REGISTRATION L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DORCHESTER PROPERTIES REGISTRATION TRUSTEE L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DUBAI ELECTRICITY %26 WATER AUTHORITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAST TRACK REAL ESTATE REGISTRATION AGENT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INJAZ REAL ESTATE REGISTRATION TRUSTEE L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MUBAYAA REAL ESTATE REGISTRATION TRUSTEE L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Time Real Estate Registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROADS %26 TRANSPORT AUTHORITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEAL REAL ESTATE REGISTRATION AGENT L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAMLEEK REAL ESTATE REGISTRATION TRUSTEE L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TAWTHEEQ REAL ESTATE REGISTRATION L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_UAE_Residence__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_gsir_conveyancing_fee_paid_by__c</picklist>
+        <values>
+            <fullName>Buyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buyer-Seller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seller</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_gsir_developer__c</picklist>
+        <values>
+            <fullName>AHS Properties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abwab Real Estate Limited Co %28L%2EL%2EC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al Barari</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al Habtoor City Real Estate Development %28Br%2E Of Dubai National Investment Co L%2EL%2EC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al Sharq Investment LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al Tamimi Investments Limited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al Zorah Development %28Private%29 Co%2E LTD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aldar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alpago Properties L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta Real Estate Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arada Developments Llc - Dubai Branch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlantis The Palm 2 Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Azizi Developments L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Binghatti Developers Fze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chi Development Group Limited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chi Sol Real Estate Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DMCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damac</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Danube Properties Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Devco Real Estate Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deyaar Development %28P%2EJ%2ES%2EC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>District One - Fz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Hills Estate L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Properties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EOME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ellington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ellington Properties Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emaar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emaar Development P%2EJ%2ES%2EC%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emaar Properties %28P%2EJ%2ES%2EC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Erth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expo City Mangrove Residences Development FZCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Five Real Estate Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forum Group Dmcc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G%26Co</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>G%26Co Real Estate Development Llc - Fz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Green Properties development Co</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ithra Dubai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jumeira Bay L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jumeirah Islands Co%2E %28L%2EL%2EC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jumeirah Luxury Living L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kerzner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L I V Real Estate Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liv</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxury Living</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mag Property Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Majid Al Futtaim Developments %28L L C%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina Liv Development %28Br Of Marina 2 Group Limited %29 - Dubai Branch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marsa Al Arab Residences LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meraas Estates %28L%2EL%2EC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meraas Real Estates L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meraki Real Estate Development One Person L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meydan Group %28L%2EL%2EC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meydan Sobha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Muraba Properties L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nakheel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nakheel %2E%28P J S C%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nakheel Investment Projects %28L%2EL%2EC%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nshama Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omniyat Middle East Real Estate Developments L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Residences Dubai L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready Property - Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scope Investment L L C - Dubai Branch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Select</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Select Global Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seven Tides Real Estate Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sky Overseas Real Estate Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sky Palaces Real Estate Development L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sobha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sobha Developers L%2EL%2EC %28Branch%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Heart Of Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The One Jbr L%2EL%2EC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tilal Al Ghaf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wasl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Xv%2EA05%2E019 Limited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zabeel Investments %28L%2EL%2EC%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_gsir_finance_conditional__c</picklist>
+        <values>
+            <fullName>Na</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_gsir_freehold_leasehold__c</picklist>
+        <values>
+            <fullName>Freehold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leasehold</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_gsir_poa_representation__c</picklist>
+        <values>
+            <fullName>Buyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buyer-Seller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seller</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_gsir_property_mortgaged__c</picklist>
+        <values>
+            <fullName>Na</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_gsir_security_requested__c</picklist>
+        <values>
+            <fullName>Manual Block</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual Block With POA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_gsir_sellers_lender__c</picklist>
+        <values>
+            <fullName>Test 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test 3</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_gsir_transaction_type__c</picklist>
+        <values>
+            <fullName>New Developments - Exclusive Projects</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offplan Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offplan Secondary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ready Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral Fee Reservation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>os_gsir_vacant_on_transfer__c</picklist>
+        <values>
+            <fullName>Owner_Occupied_On_Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tenanted on Transfer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under_Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vacant on Transfer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

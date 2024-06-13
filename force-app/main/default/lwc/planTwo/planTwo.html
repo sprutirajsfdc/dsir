@@ -1,0 +1,54 @@
+<template>
+    <lightning-icon icon-name="action:google_news" alternative-text="New note" title="Payment Plan 01">Payment Plan 01</lightning-icon>
+    <template if:true={payments.length}>
+        <div class="slds-m-top_large">
+            <table class="slds-table slds-table_bordered slds-table_cell-buffer colorful-table">
+                <thead>
+                    <tr class="slds-line-height_reset colorful-header">
+                        <th class="slds-text-title_caps">Description</th>
+                        <th class="slds-text-title_caps">Percentage</th>
+                        <th class="slds-text-title_caps">Mode of Payment</th>
+                        <th class="slds-text-title_caps">Paid Amount</th>
+                        <th class="slds-text-title_caps">Paid Date</th>
+                        <th class="slds-text-title_caps">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <template for:each={payments} for:item="payment">
+                        <tr key={payment.Id} class="colorful-row">
+                            <td class="slds-cell-wrap">{payment.Name}</td>
+                            <td class="slds-cell-wrap">
+                                <lightning-input type="percentage" value={payment.Percentage__c} onchange={handlepercentaegChange} data-id={payment.Id}></lightning-input>
+                            </td>
+                        <td>
+                            <lightning-combobox name="paymentmode" value={payment.Mode_of_Payment__c} placeholder="Choose"
+                            options={paymentOptions} onchange={handleModeOfPayment}></lightning-combobox>
+                        </td>
+                            <td class="slds-cell-wrap">
+                                <lightning-input type="number" value={payment.Paid_Amount__c} onchange={handlePaidAmountChange} data-id={payment.Id}></lightning-input>
+                            </td>
+                            <td class="slds-cell-wrap">
+                                <lightning-input type="date" value={payment.Paid_date__c} onchange={handlePaidDateChange} data-id={payment.Id}></lightning-input>
+                            </td>
+                       <td> <lightning-icon icon-name="utility:save" alternative-text="Warning!" title="save" onclick={handleSave}></lightning-icon></td>
+                       <td> <lightning-icon icon-name="utility:delete" alternative-text="New note" title="delete" onclick={handlerest}></lightning-icon></td>
+                          
+                
+                            <!-- <td class="slds-cell-wrap">{payment.Balance_Sale_Price__c}</td> -->
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+            
+        </div>
+    </template>
+    <div class="button-container">
+        <button class="custom-button" onclick={saveChanges}>Generate </button>
+        <button class="custom-button2" onclick={PrintClick}>Print</button>
+    </div>
+    <template if:true={error}>
+        <div class="slds-box slds-box_x-small slds-text-color_error">
+            <p>{error}</p>
+        </div>
+    </template>
+</template>

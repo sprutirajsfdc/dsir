@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Listing_Draft_Blocks_Path</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(os_Listing__r.os_Status__c,&quot;Draft&quot;),
+ISPICKVAL(os_Closing_Status__c,&quot;Contract Request&quot;)
+)</errorConditionFormula>
+    <errorMessage>Cannot proceed with Closing when Listing is still in Draft status. Please move the listing to Off-Market status.</errorMessage>
+</ValidationRule>

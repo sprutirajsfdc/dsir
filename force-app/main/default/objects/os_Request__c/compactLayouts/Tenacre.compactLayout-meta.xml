@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tenacre</fullName>
+    <fields>os_Name__c</fields>
+    <fields>os_InquiryType__c</fields>
+    <fields>OwnerId</fields>
+    <fields>os_Status__c</fields>
+    <fields>os_Sharing_Rule__c</fields>
+    <fields>os_Contact__c</fields>
+    <fields>os_Last_Stage_Change__c</fields>
+    <fields>os_ListingPrice_pb_max__c</fields>
+    <fields>os_Bedrooms_pb_max__c</fields>
+    <fields>os_LastActivityLoggedOn__c</fields>
+    <label>Tenacre</label>
+</CompactLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Lost_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Lost Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Budget too Low</fullName>
+                <default>false</default>
+                <label>Budget too Low</label>
+            </value>
+            <value>
+                <fullName>Closed by Admin (Job Seekers, Telemarketing, RE Brokers)</fullName>
+                <default>false</default>
+                <label>Closed by Admin (Job Seekers, Telemarketing, RE Brokers)</label>
+            </value>
+            <value>
+                <fullName>Closing is Lost</fullName>
+                <default>false</default>
+                <label>Closing is Lost</label>
+            </value>
+            <value>
+                <fullName>Deal Fell off</fullName>
+                <default>false</default>
+                <label>Deal Fell off</label>
+            </value>
+            <value>
+                <fullName>Incomplete contact details</fullName>
+                <default>false</default>
+                <label>Incomplete contact details</label>
+            </value>
+            <value>
+                <fullName>Incorrect or Missing Contract Information</fullName>
+                <default>false</default>
+                <label>Incorrect or Missing Contract Information</label>
+            </value>
+            <value>
+                <fullName>Irrelevant</fullName>
+                <default>false</default>
+                <label>Irrelevant</label>
+            </value>
+            <value>
+                <fullName>Mortgage not Approved</fullName>
+                <default>false</default>
+                <label>Mortgage not Approved</label>
+            </value>
+            <value>
+                <fullName>Non Focus Area</fullName>
+                <default>false</default>
+                <label>Non Focus Area</label>
+            </value>
+            <value>
+                <fullName>Not contactable- Several attempts made</fullName>
+                <default>false</default>
+                <label>Not contactable- Several attempts made</label>
+            </value>
+            <value>
+                <fullName>Not Interested to Buy or Rent property</fullName>
+                <default>false</default>
+                <label>Not Interested to Buy or Rent property</label>
+            </value>
+            <value>
+                <fullName>Not Serious</fullName>
+                <default>false</default>
+                <label>Not Serious</label>
+            </value>
+            <value>
+                <fullName>Phishing</fullName>
+                <default>false</default>
+                <label>Phishing</label>
+            </value>
+            <value>
+                <fullName>Property match not available</fullName>
+                <default>false</default>
+                <label>Property match not available</label>
+            </value>
+            <value>
+                <fullName>Purchased through other Agency</fullName>
+                <default>false</default>
+                <label>Purchased through other Agency</label>
+            </value>
+            <value>
+                <fullName>Spam</fullName>
+                <default>false</default>
+                <label>Spam</label>
+            </value>
+            <value>
+                <fullName>Window Shopping</fullName>
+                <default>false</default>
+                <label>Window Shopping</label>
+            </value>
+            <value>
+                <fullName>Wrong email</fullName>
+                <default>false</default>
+                <label>Wrong email</label>
+            </value>
+            <value>
+                <fullName>Wrong number</fullName>
+                <default>false</default>
+                <label>Wrong number</label>
+            </value>
+            <value>
+                <fullName>Was Interested</fullName>
+                <default>false</default>
+                <label>Was Interested</label>
+            </value>
+            <value>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+                <label>Not Interested</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+            <value>
+                <fullName>ATR Briefing</fullName>
+                <default>false</default>
+                <label>ATR Briefing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

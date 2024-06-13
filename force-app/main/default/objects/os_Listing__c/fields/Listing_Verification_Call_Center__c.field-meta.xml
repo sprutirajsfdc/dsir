@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Listing_Verification_Call_Center__c</fullName>
+    <externalId>false</externalId>
+    <label>Listing Verification Call Center</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Incorrect Contact number</fullName>
+                <default>false</default>
+                <label>Incorrect Contact number</label>
+            </value>
+            <value>
+                <fullName>Client Not contactable – 3 attempts made</fullName>
+                <default>false</default>
+                <label>Client Not contactable – 3 attempts made</label>
+            </value>
+            <value>
+                <fullName>Price too high</fullName>
+                <default>false</default>
+                <label>Price too high</label>
+            </value>
+            <value>
+                <fullName>Call Centre Verified</fullName>
+                <default>false</default>
+                <label>Call Centre Verified</label>
+            </value>
+            <value>
+                <fullName>Client not Interested</fullName>
+                <default>false</default>
+                <label>Client not Interested</label>
+            </value>
+            <value>
+                <fullName>Property Sold</fullName>
+                <default>false</default>
+                <label>Property Sold</label>
+            </value>
+            <value>
+                <fullName>Property Rented</fullName>
+                <default>false</default>
+                <label>Property Rented</label>
+            </value>
+            <value>
+                <fullName>Documents Missing</fullName>
+                <default>false</default>
+                <label>Documents Missing</label>
+            </value>
+            <value>
+                <fullName>Client not happy with the Agent</fullName>
+                <default>false</default>
+                <label>Client not happy with the Agent</label>
+            </value>
+            <value>
+                <fullName>Client not happy with the Gulf SIR</fullName>
+                <default>false</default>
+                <label>Client not happy with the Gulf SIR</label>
+            </value>
+            <value>
+                <fullName>Incorrect Document</fullName>
+                <default>false</default>
+                <label>Incorrect Document</label>
+            </value>
+            <value>
+                <fullName>Property Sold by Gulf SIR</fullName>
+                <default>false</default>
+                <label>Property Sold by Gulf SIR</label>
+            </value>
+            <value>
+                <fullName>Property Rented by Gulf SIR</fullName>
+                <default>false</default>
+                <label>Property Rented by Gulf SIR</label>
+            </value>
+            <value>
+                <fullName>Developer Stock</fullName>
+                <default>false</default>
+                <label>Developer Stock</label>
+            </value>
+            <value>
+                <fullName>Temporary Bypass</fullName>
+                <default>false</default>
+                <label>Temporary Bypass</label>
+            </value>
+            <value>
+                <fullName>Dummy Listings</fullName>
+                <default>false</default>
+                <label>Dummy Listings</label>
+            </value>
+            <value>
+                <fullName>Verification not required</fullName>
+                <default>false</default>
+                <label>Verification not required</label>
+            </value>
+            <value>
+                <fullName>Listing Verified after Rejection</fullName>
+                <default>false</default>
+                <label>Listing Verified after Rejection</label>
+            </value>
+            <value>
+                <fullName>Price too low</fullName>
+                <default>false</default>
+                <label>Price too low</label>
+            </value>
+            <value>
+                <fullName>Signature Mismatch</fullName>
+                <default>false</default>
+                <label>Signature Mismatch</label>
+            </value>
+            <value>
+                <fullName>Non Focus Area</fullName>
+                <default>false</default>
+                <label>Non Focus Area</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

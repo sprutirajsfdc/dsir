@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nationality</fullName>
+    <active>true</active>
+    <label>Nationality</label>
+    <picklistValues>
+        <picklist>os_Rating__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sanctioned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_ATR_Payment_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Develpment Projects Payment Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0%</fullName>
+                <default>false</default>
+                <label>0%</label>
+            </value>
+            <value>
+                <fullName>10%</fullName>
+                <default>false</default>
+                <label>10%</label>
+            </value>
+            <value>
+                <fullName>10% + 4%</fullName>
+                <default>false</default>
+                <label>10% + 4%</label>
+            </value>
+            <value>
+                <fullName>100%</fullName>
+                <default>false</default>
+                <label>100%</label>
+            </value>
+            <value>
+                <fullName>100% + 4%</fullName>
+                <default>false</default>
+                <label>100% + 4%</label>
+            </value>
+            <value>
+                <fullName>20% + 4% received by Developer</fullName>
+                <default>false</default>
+                <label>20% + 4% received by Developer</label>
+            </value>
+            <value>
+                <fullName>20% + 4% sent to Developer</fullName>
+                <default>false</default>
+                <label>20% + 4% sent to Developer</label>
+            </value>
+            <value>
+                <fullName>5%</fullName>
+                <default>false</default>
+                <label>5%</label>
+            </value>
+            <value>
+                <fullName>5% In Progress</fullName>
+                <default>false</default>
+                <label>5% In Progress</label>
+            </value>
+            <value>
+                <fullName>EOI &amp; Document received, Payment Missing</fullName>
+                <default>false</default>
+                <label>EOI &amp; Document received, Payment Missing</label>
+            </value>
+            <value>
+                <fullName>EOI &amp; Payment received, Document Missing</fullName>
+                <default>false</default>
+                <label>EOI &amp; Payment received, Document Missing</label>
+            </value>
+            <value>
+                <fullName>EOI Created</fullName>
+                <default>false</default>
+                <label>EOI Created</label>
+            </value>
+            <value>
+                <fullName>EOI Received</fullName>
+                <default>false</default>
+                <label>EOI Received</label>
+            </value>
+            <value>
+                <fullName>Payment Received, EOI &amp; Document Missing</fullName>
+                <default>false</default>
+                <label>Payment Received, EOI &amp; Document Missing</label>
+            </value>
+            <value>
+                <fullName>RA and SPA Pending with Ithra</fullName>
+                <default>false</default>
+                <label>RA and SPA Pending with Ithra</label>
+            </value>
+            <value>
+                <fullName>Reservation</fullName>
+                <default>false</default>
+                <label>Reservation</label>
+            </value>
+            <value>
+                <fullName>20%</fullName>
+                <default>false</default>
+                <label>20%</label>
+            </value>
+            <value>
+                <fullName>30%</fullName>
+                <default>false</default>
+                <label>30%</label>
+            </value>
+            <value>
+                <fullName>25%</fullName>
+                <default>false</default>
+                <label>25%</label>
+            </value>
+            <value>
+                <fullName>25% + 4% sent to Developer</fullName>
+                <default>false</default>
+                <label>25% + 4% sent to Developer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

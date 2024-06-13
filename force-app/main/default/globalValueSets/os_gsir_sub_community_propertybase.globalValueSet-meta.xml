@@ -1,0 +1,4710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>17 Icon Bay</fullName>
+        <default>false</default>
+        <label>17 Icon Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>29 Burj Boulevard</fullName>
+        <default>false</default>
+        <label>29 Burj Boulevard</label>
+    </customValue>
+    <customValue>
+        <fullName>Address Harbour Point</fullName>
+        <default>false</default>
+        <label>Address Harbour Point</label>
+    </customValue>
+    <customValue>
+        <fullName>AG Tower</fullName>
+        <default>false</default>
+        <label>AG Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Abraj street</fullName>
+        <default>false</default>
+        <label>Al Abraj street</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Badia Hillside Village</fullName>
+        <default>false</default>
+        <label>Al Badia Hillside Village</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Badia Residences</fullName>
+        <default>false</default>
+        <label>Al Badia Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Barari Villas</fullName>
+        <default>false</default>
+        <label>Al Barari Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Habtoor City</fullName>
+        <default>false</default>
+        <label>Al Habtoor City</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Khaleej Al Tejari 2 Street</fullName>
+        <default>false</default>
+        <label>Al Khaleej Al Tejari 2 Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Alma</fullName>
+        <default>false</default>
+        <label>Alma</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Mahra</fullName>
+        <default>false</default>
+        <label>Al Mahra</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Manara Tower</fullName>
+        <default>false</default>
+        <label>Al Manara Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Reem</fullName>
+        <default>false</default>
+        <label>Al Reem</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Saaha</fullName>
+        <default>false</default>
+        <label>Al Saaha</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Shafar Tower</fullName>
+        <default>false</default>
+        <label>Al Shafar Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Tayer Tower</fullName>
+        <default>false</default>
+        <label>Al Tayer Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Alvorada</fullName>
+        <default>false</default>
+        <label>Alvorada</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Waha Community</fullName>
+        <default>false</default>
+        <label>Al Waha Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Art XV</fullName>
+        <default>false</default>
+        <label>Art XV</label>
+    </customValue>
+    <customValue>
+        <fullName>Aseel</fullName>
+        <default>false</default>
+        <label>Aseel</label>
+    </customValue>
+    <customValue>
+        <fullName>Ashjar</fullName>
+        <default>false</default>
+        <label>Ashjar</label>
+    </customValue>
+    <customValue>
+        <fullName>Aykon City</fullName>
+        <default>false</default>
+        <label>Aykon City</label>
+    </customValue>
+    <customValue>
+        <fullName>Azalea</fullName>
+        <default>false</default>
+        <label>Azalea</label>
+    </customValue>
+    <customValue>
+        <fullName>B2B Tower</fullName>
+        <default>false</default>
+        <label>B2B Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Bahwan Tower Downtown</fullName>
+        <default>false</default>
+        <label>Bahwan Tower Downtown</label>
+    </customValue>
+    <customValue>
+        <fullName>Bareeq Tower</fullName>
+        <default>false</default>
+        <label>Bareeq Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Bay&apos;s Edge</fullName>
+        <default>false</default>
+        <label>Bay&apos;s Edge</label>
+    </customValue>
+    <customValue>
+        <fullName>Bay Avenue Mall</fullName>
+        <default>false</default>
+        <label>Bay Avenue Mall</label>
+    </customValue>
+    <customValue>
+        <fullName>Bay Square</fullName>
+        <default>false</default>
+        <label>Bay Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Bayswater</fullName>
+        <default>false</default>
+        <label>Bayswater</label>
+    </customValue>
+    <customValue>
+        <fullName>Bayz by Danube</fullName>
+        <default>false</default>
+        <label>Bayz by Danube</label>
+    </customValue>
+    <customValue>
+        <fullName>Belhabb Tower</fullName>
+        <default>false</default>
+        <label>Belhabb Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Bellevue Towers</fullName>
+        <default>false</default>
+        <label>Bellevue Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Blue Bay Tower</fullName>
+        <default>false</default>
+        <label>Blue Bay Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Bluewaters Residences</fullName>
+        <default>false</default>
+        <label>Bluewaters Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>BLVD Crescent</fullName>
+        <default>false</default>
+        <label>BLVD Crescent</label>
+    </customValue>
+    <customValue>
+        <fullName>BLVD Heights</fullName>
+        <default>false</default>
+        <label>BLVD Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Boraq Tower</fullName>
+        <default>false</default>
+        <label>Boraq Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Boris Becker Business Tower</fullName>
+        <default>false</default>
+        <label>Boris Becker Business Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Boulevard Central Towers</fullName>
+        <default>false</default>
+        <label>Boulevard Central Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Boulevard Plaza Towers</fullName>
+        <default>false</default>
+        <label>Boulevard Plaza Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Boulevard Point</fullName>
+        <default>false</default>
+        <label>Boulevard Point</label>
+    </customValue>
+    <customValue>
+        <fullName>Bristol Towers</fullName>
+        <default>false</default>
+        <label>Bristol Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 1</fullName>
+        <default>false</default>
+        <label>Building 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 10</fullName>
+        <default>false</default>
+        <label>Building 10</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 11A</fullName>
+        <default>false</default>
+        <label>Building 11A</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 11B</fullName>
+        <default>false</default>
+        <label>Building 11B</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 12</fullName>
+        <default>false</default>
+        <label>Building 12</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 13A</fullName>
+        <default>false</default>
+        <label>Building 13A</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 13B</fullName>
+        <default>false</default>
+        <label>Building 13B</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 14</fullName>
+        <default>false</default>
+        <label>Building 14</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 15</fullName>
+        <default>false</default>
+        <label>Building 15</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 16</fullName>
+        <default>false</default>
+        <label>Building 16</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 17</fullName>
+        <default>false</default>
+        <label>Building 17</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 18A</fullName>
+        <default>false</default>
+        <label>Building 18A</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 18B</fullName>
+        <default>false</default>
+        <label>Building 18B</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 19</fullName>
+        <default>false</default>
+        <label>Building 19</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 20</fullName>
+        <default>false</default>
+        <label>Building 20</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 21A</fullName>
+        <default>false</default>
+        <label>Building 21A</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 21B</fullName>
+        <default>false</default>
+        <label>Building 21B</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 22</fullName>
+        <default>false</default>
+        <label>Building 22</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 23A</fullName>
+        <default>false</default>
+        <label>Building 23A</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 23B</fullName>
+        <default>false</default>
+        <label>Building 23B</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 2A</fullName>
+        <default>false</default>
+        <label>Building 2A</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 2B</fullName>
+        <default>false</default>
+        <label>Building 2B</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 3A</fullName>
+        <default>false</default>
+        <label>Building 3A</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 3B</fullName>
+        <default>false</default>
+        <label>Building 3B</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 4A</fullName>
+        <default>false</default>
+        <label>Building 4A</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 4B</fullName>
+        <default>false</default>
+        <label>Building 4B</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 5</fullName>
+        <default>false</default>
+        <label>Building 5</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 6A</fullName>
+        <default>false</default>
+        <label>Building 6A</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 6B</fullName>
+        <default>false</default>
+        <label>Building 6B</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 7</fullName>
+        <default>false</default>
+        <label>Building 7</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 8</fullName>
+        <default>false</default>
+        <label>Building 8</label>
+    </customValue>
+    <customValue>
+        <fullName>Building 9</fullName>
+        <default>false</default>
+        <label>Building 9</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Al Alam (Fortune 101)</fullName>
+        <default>false</default>
+        <label>Burj Al Alam (Fortune 101)</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Al Nujoom</fullName>
+        <default>false</default>
+        <label>Burj Al Nujoom</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Daman</fullName>
+        <default>false</default>
+        <label>Burj Daman</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Khalifa Area</fullName>
+        <default>false</default>
+        <label>Burj Khalifa Area</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Pacific</fullName>
+        <default>false</default>
+        <label>Burj Pacific</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Park</fullName>
+        <default>false</default>
+        <label>Burj Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Place</fullName>
+        <default>false</default>
+        <label>Burj Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Royale</fullName>
+        <default>false</default>
+        <label>Burj Royale</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Views</fullName>
+        <default>false</default>
+        <label>Burj Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Vista</fullName>
+        <default>false</default>
+        <label>Burj Vista</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Bay Mall</fullName>
+        <default>false</default>
+        <label>Business Bay Mall</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Central</fullName>
+        <default>false</default>
+        <label>Business Central</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Tower</fullName>
+        <default>false</default>
+        <label>Business Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Camelia</fullName>
+        <default>false</default>
+        <label>Camelia</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada Business Centre Tower</fullName>
+        <default>false</default>
+        <label>Canada Business Centre Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Capital Bay</fullName>
+        <default>false</default>
+        <label>Capital Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Capital Golden Tower</fullName>
+        <default>false</default>
+        <label>Capital Golden Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Casa</fullName>
+        <default>false</default>
+        <label>Casa</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Park Tower</fullName>
+        <default>false</default>
+        <label>Central Park Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Centre Boulevard</fullName>
+        <default>false</default>
+        <label>Centre Boulevard</label>
+    </customValue>
+    <customValue>
+        <fullName>Churchill Towers</fullName>
+        <default>false</default>
+        <label>Churchill Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Claren Towers</fullName>
+        <default>false</default>
+        <label>Claren Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Clayton Residency</fullName>
+        <default>false</default>
+        <label>Clayton Residency</label>
+    </customValue>
+    <customValue>
+        <fullName>Clover Bay Tower</fullName>
+        <default>false</default>
+        <label>Clover Bay Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Bay</fullName>
+        <default>false</default>
+        <label>Corporate Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Creek Beach</fullName>
+        <default>false</default>
+        <label>Creek Beach</label>
+    </customValue>
+    <customValue>
+        <fullName>Creek Gate</fullName>
+        <default>false</default>
+        <label>Creek Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Creek Heights</fullName>
+        <default>false</default>
+        <label>Creek Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Creek Horizon</fullName>
+        <default>false</default>
+        <label>Creek Horizon</label>
+    </customValue>
+    <customValue>
+        <fullName>Creek Rise</fullName>
+        <default>false</default>
+        <label>Creek Rise</label>
+    </customValue>
+    <customValue>
+        <fullName>Creekside 18</fullName>
+        <default>false</default>
+        <label>Creekside 18</label>
+    </customValue>
+    <customValue>
+        <fullName>Crystal Tower</fullName>
+        <default>false</default>
+        <label>Crystal Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Currency House</fullName>
+        <default>false</default>
+        <label>Currency House</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAC Maison Canal Views</fullName>
+        <default>false</default>
+        <label>DAMAC Maison Canal Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Damac Maison Cour Jardin</fullName>
+        <default>false</default>
+        <label>Damac Maison Cour Jardin</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAC Maison De Ville Breeze</fullName>
+        <default>false</default>
+        <label>DAMAC Maison De Ville Breeze</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAC Maison - Dubai Mall Street</fullName>
+        <default>false</default>
+        <label>DAMAC Maison - Dubai Mall Street</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAC Maison Privé</fullName>
+        <default>false</default>
+        <label>DAMAC Maison Privé</label>
+    </customValue>
+    <customValue>
+        <fullName>Damac Maison The Distinction</fullName>
+        <default>false</default>
+        <label>Damac Maison The Distinction</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAC Maison The Vogue</fullName>
+        <default>false</default>
+        <label>DAMAC Maison The Vogue</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAC Majestine</fullName>
+        <default>false</default>
+        <label>DAMAC Majestine</label>
+    </customValue>
+    <customValue>
+        <fullName>Damac Towers</fullName>
+        <default>false</default>
+        <label>Damac Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAC Towers by Paramount</fullName>
+        <default>false</default>
+        <label>DAMAC Towers by Paramount</label>
+    </customValue>
+    <customValue>
+        <fullName>DEC Business Tower</fullName>
+        <default>false</default>
+        <label>DEC Business Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Desert Dream Tower</fullName>
+        <default>false</default>
+        <label>Desert Dream Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Desert Leaf</fullName>
+        <default>false</default>
+        <label>Desert Leaf</label>
+    </customValue>
+    <customValue>
+        <fullName>DIFC Tower</fullName>
+        <default>false</default>
+        <label>DIFC Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Downtown Views</fullName>
+        <default>false</default>
+        <label>Downtown Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Downtown Views II</fullName>
+        <default>false</default>
+        <label>Downtown Views II</label>
+    </customValue>
+    <customValue>
+        <fullName>DT1</fullName>
+        <default>false</default>
+        <label>DT1</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Creek Residence Tower 1 North</fullName>
+        <default>false</default>
+        <label>Dubai Creek Residence Tower 1 North</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Creek Residence Tower 1 South</fullName>
+        <default>false</default>
+        <label>Dubai Creek Residence Tower 1 South</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Creek Residence Tower 2 North</fullName>
+        <default>false</default>
+        <label>Dubai Creek Residence Tower 2 North</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Creek Residence Tower 2 South</fullName>
+        <default>false</default>
+        <label>Dubai Creek Residence Tower 2 South</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Creek Residence Tower 3 North</fullName>
+        <default>false</default>
+        <label>Dubai Creek Residence Tower 3 North</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Creek Residence Tower 3 South</fullName>
+        <default>false</default>
+        <label>Dubai Creek Residence Tower 3 South</label>
+    </customValue>
+    <customValue>
+        <fullName>Elite Business Bay Residence</fullName>
+        <default>false</default>
+        <label>Elite Business Bay Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Elite Downtown</fullName>
+        <default>false</default>
+        <label>Elite Downtown</label>
+    </customValue>
+    <customValue>
+        <fullName>Elite Downtown Residence</fullName>
+        <default>false</default>
+        <label>Elite Downtown Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Elite Tower</fullName>
+        <default>false</default>
+        <label>Elite Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Emaar Square</fullName>
+        <default>false</default>
+        <label>Emaar Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Emirates Financial Towers</fullName>
+        <default>false</default>
+        <label>Emirates Financial Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Emirates Park</fullName>
+        <default>false</default>
+        <label>Emirates Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Empire Heights</fullName>
+        <default>false</default>
+        <label>Empire Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>ENI Coral Tower</fullName>
+        <default>false</default>
+        <label>ENI Coral Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Escape Tower</fullName>
+        <default>false</default>
+        <label>Escape Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive Bay</fullName>
+        <default>false</default>
+        <label>Executive Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive Hotel &amp; Office Tower</fullName>
+        <default>false</default>
+        <label>Executive Hotel &amp; Office Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive Suites</fullName>
+        <default>false</default>
+        <label>Executive Suites</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive Towers</fullName>
+        <default>false</default>
+        <label>Executive Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Fairview Residency</fullName>
+        <default>false</default>
+        <label>Fairview Residency</label>
+    </customValue>
+    <customValue>
+        <fullName>Falcon Tower</fullName>
+        <default>false</default>
+        <label>Falcon Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Festival Tower</fullName>
+        <default>false</default>
+        <label>Festival Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Festival Water Centre</fullName>
+        <default>false</default>
+        <label>Festival Water Centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Fifty One Tower</fullName>
+        <default>false</default>
+        <label>Fifty One Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Forte</fullName>
+        <default>false</default>
+        <label>Forte</label>
+    </customValue>
+    <customValue>
+        <fullName>Fortune Avenue</fullName>
+        <default>false</default>
+        <label>Fortune Avenue</label>
+    </customValue>
+    <customValue>
+        <fullName>Fortune Bay</fullName>
+        <default>false</default>
+        <label>Fortune Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Fortune Bravo</fullName>
+        <default>false</default>
+        <label>Fortune Bravo</label>
+    </customValue>
+    <customValue>
+        <fullName>Four Seasons</fullName>
+        <default>false</default>
+        <label>Four Seasons</label>
+    </customValue>
+    <customValue>
+        <fullName>Gate Boulevard</fullName>
+        <default>false</default>
+        <label>Gate Boulevard</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Homes</fullName>
+        <default>false</default>
+        <label>Golf Homes</label>
+    </customValue>
+    <customValue>
+        <fullName>Green Emirates</fullName>
+        <default>false</default>
+        <label>Green Emirates</label>
+    </customValue>
+    <customValue>
+        <fullName>Grosvenor Office Tower</fullName>
+        <default>false</default>
+        <label>Grosvenor Office Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Hamilton Tower</fullName>
+        <default>false</default>
+        <label>Hamilton Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Harbour Gate</fullName>
+        <default>false</default>
+        <label>Harbour Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Harbour Views 1</fullName>
+        <default>false</default>
+        <label>Harbour Views 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Harbour Views 2</fullName>
+        <default>false</default>
+        <label>Harbour Views 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Hattan</fullName>
+        <default>false</default>
+        <label>Hattan</label>
+    </customValue>
+    <customValue>
+        <fullName>Haz Tower</fullName>
+        <default>false</default>
+        <label>Haz Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Holiday Inn Dubai Festival City</fullName>
+        <default>false</default>
+        <label>Holiday Inn Dubai Festival City</label>
+    </customValue>
+    <customValue>
+        <fullName>HSBC Tower</fullName>
+        <default>false</default>
+        <label>HSBC Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Hydra Twin Towers</fullName>
+        <default>false</default>
+        <label>Hydra Twin Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>I.B. Tower</fullName>
+        <default>false</default>
+        <label>I.B. Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>I love Florence Tower</fullName>
+        <default>false</default>
+        <label>I love Florence Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Imperial Avenue</fullName>
+        <default>false</default>
+        <label>Imperial Avenue</label>
+    </customValue>
+    <customValue>
+        <fullName>Index Tower</fullName>
+        <default>false</default>
+        <label>Index Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Intercontinental Residence Suites</fullName>
+        <default>false</default>
+        <label>Intercontinental Residence Suites</label>
+    </customValue>
+    <customValue>
+        <fullName>International Business Tower</fullName>
+        <default>false</default>
+        <label>International Business Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>I Pad</fullName>
+        <default>false</default>
+        <label>I Pad</label>
+    </customValue>
+    <customValue>
+        <fullName>Iris Bay</fullName>
+        <default>false</default>
+        <label>Iris Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Iris Crystal</fullName>
+        <default>false</default>
+        <label>Iris Crystal</label>
+    </customValue>
+    <customValue>
+        <fullName>Iris Ora</fullName>
+        <default>false</default>
+        <label>Iris Ora</label>
+    </customValue>
+    <customValue>
+        <fullName>Island Park 1</fullName>
+        <default>false</default>
+        <label>Island Park 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Jasmine Leaf</fullName>
+        <default>false</default>
+        <label>Jasmine Leaf</label>
+    </customValue>
+    <customValue>
+        <fullName>J ONE</fullName>
+        <default>false</default>
+        <label>J ONE</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Wave Business Tower</fullName>
+        <default>false</default>
+        <label>Jumeirah Wave Business Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>JW Marriott Marquis Hotel</fullName>
+        <default>false</default>
+        <label>JW Marriott Marquis Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Kempinski Residences</fullName>
+        <default>false</default>
+        <label>Kempinski Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>La Avenida</fullName>
+        <default>false</default>
+        <label>La Avenida</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake Central</fullName>
+        <default>false</default>
+        <label>Lake Central</label>
+    </customValue>
+    <customValue>
+        <fullName>Langham Place Downtown Dubai</fullName>
+        <default>false</default>
+        <label>Langham Place Downtown Dubai</label>
+    </customValue>
+    <customValue>
+        <fullName>La Ville Hotel &amp; Suites Autograph Collection</fullName>
+        <default>false</default>
+        <label>La Ville Hotel &amp; Suites Autograph Collection</label>
+    </customValue>
+    <customValue>
+        <fullName>Liberty House</fullName>
+        <default>false</default>
+        <label>Liberty House</label>
+    </customValue>
+    <customValue>
+        <fullName>Lighthouse Tower</fullName>
+        <default>false</default>
+        <label>Lighthouse Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Lila</fullName>
+        <default>false</default>
+        <label>Lila</label>
+    </customValue>
+    <customValue>
+        <fullName>Limestone House</fullName>
+        <default>false</default>
+        <label>Limestone House</label>
+    </customValue>
+    <customValue>
+        <fullName>Lotus</fullName>
+        <default>false</default>
+        <label>Lotus</label>
+    </customValue>
+    <customValue>
+        <fullName>Mada Residences by ARTAR</fullName>
+        <default>false</default>
+        <label>Mada Residences by ARTAR</label>
+    </customValue>
+    <customValue>
+        <fullName>MAG 318</fullName>
+        <default>false</default>
+        <label>MAG 318</label>
+    </customValue>
+    <customValue>
+        <fullName>Manazel Al Safa</fullName>
+        <default>false</default>
+        <label>Manazel Al Safa</label>
+    </customValue>
+    <customValue>
+        <fullName>Marasi Business Bay</fullName>
+        <default>false</default>
+        <label>Marasi Business Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Marasi Riverside</fullName>
+        <default>false</default>
+        <label>Marasi Riverside</label>
+    </customValue>
+    <customValue>
+        <fullName>Marquise Square Tower</fullName>
+        <default>false</default>
+        <label>Marquise Square Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Marsa Plaza</fullName>
+        <default>false</default>
+        <label>Marsa Plaza</label>
+    </customValue>
+    <customValue>
+        <fullName>Mayfair Residency</fullName>
+        <default>false</default>
+        <label>Mayfair Residency</label>
+    </customValue>
+    <customValue>
+        <fullName>Mayfair Tower</fullName>
+        <default>false</default>
+        <label>Mayfair Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>MBK Tower</fullName>
+        <default>false</default>
+        <label>MBK Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Merano Tower</fullName>
+        <default>false</default>
+        <label>Merano Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Millennium Binghatti Residences</fullName>
+        <default>false</default>
+        <label>Millennium Binghatti Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Millennium Tower (Bright Start Tower)</fullName>
+        <default>false</default>
+        <label>Millennium Tower (Bright Start Tower)</label>
+    </customValue>
+    <customValue>
+        <fullName>Mirador</fullName>
+        <default>false</default>
+        <label>Mirador</label>
+    </customValue>
+    <customValue>
+        <fullName>Mirador La Colección</fullName>
+        <default>false</default>
+        <label>Mirador La Colección</label>
+    </customValue>
+    <customValue>
+        <fullName>Mohammad Bin Rashid Boulevard</fullName>
+        <default>false</default>
+        <label>Mohammad Bin Rashid Boulevard</label>
+    </customValue>
+    <customValue>
+        <fullName>Mon Reve</fullName>
+        <default>false</default>
+        <label>Mon Reve</label>
+    </customValue>
+    <customValue>
+        <fullName>Moon Tower</fullName>
+        <default>false</default>
+        <label>Moon Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Mövenpick Hotel Apartments</fullName>
+        <default>false</default>
+        <label>Mövenpick Hotel Apartments</label>
+    </customValue>
+    <customValue>
+        <fullName>Nadra Tower</fullName>
+        <default>false</default>
+        <label>Nadra Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>NAIA Breeze</fullName>
+        <default>false</default>
+        <label>NAIA Breeze</label>
+    </customValue>
+    <customValue>
+        <fullName>Newport Tower</fullName>
+        <default>false</default>
+        <label>Newport Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Niki Lauda Twin Towers</fullName>
+        <default>false</default>
+        <label>Niki Lauda Twin Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>O14</fullName>
+        <default>false</default>
+        <label>O14</label>
+    </customValue>
+    <customValue>
+        <fullName>Oberoi Hotel</fullName>
+        <default>false</default>
+        <label>Oberoi Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>One Business Bay</fullName>
+        <default>false</default>
+        <label>One Business Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>One by Omniyat</fullName>
+        <default>false</default>
+        <label>One by Omniyat</label>
+    </customValue>
+    <customValue>
+        <fullName>Ontario Tower</fullName>
+        <default>false</default>
+        <label>Ontario Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Opal Tower</fullName>
+        <default>false</default>
+        <label>Opal Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Opera District</fullName>
+        <default>false</default>
+        <label>Opera District</label>
+    </customValue>
+    <customValue>
+        <fullName>Operaview</fullName>
+        <default>false</default>
+        <label>Operaview</label>
+    </customValue>
+    <customValue>
+        <fullName>Oval Tower</fullName>
+        <default>false</default>
+        <label>Oval Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Oxford Tower</fullName>
+        <default>false</default>
+        <label>Oxford Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Palace Residences</fullName>
+        <default>false</default>
+        <label>Palace Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Palma</fullName>
+        <default>false</default>
+        <label>Palma</label>
+    </customValue>
+    <customValue>
+        <fullName>Palmera</fullName>
+        <default>false</default>
+        <label>Palmera</label>
+    </customValue>
+    <customValue>
+        <fullName>Paramount Tower Hotel &amp; Residences</fullName>
+        <default>false</default>
+        <label>Paramount Tower Hotel &amp; Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Central</fullName>
+        <default>false</default>
+        <label>Park Central</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Lane Tower</fullName>
+        <default>false</default>
+        <label>Park Lane Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Towers</fullName>
+        <default>false</default>
+        <label>Park Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Platinum Tower</fullName>
+        <default>false</default>
+        <label>Platinum Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Polaris Tower</fullName>
+        <default>false</default>
+        <label>Polaris Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Polo Homes</fullName>
+        <default>false</default>
+        <label>Polo Homes</label>
+    </customValue>
+    <customValue>
+        <fullName>Polygon Tower</fullName>
+        <default>false</default>
+        <label>Polygon Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Porsche Design Towers</fullName>
+        <default>false</default>
+        <label>Porsche Design Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Pro Point Business Centre</fullName>
+        <default>false</default>
+        <label>Pro Point Business Centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Providence Tower</fullName>
+        <default>false</default>
+        <label>Providence Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Radisson Blu Hotel</fullName>
+        <default>false</default>
+        <label>Radisson Blu Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Rasha</fullName>
+        <default>false</default>
+        <label>Rasha</label>
+    </customValue>
+    <customValue>
+        <fullName>Rawasi Tower</fullName>
+        <default>false</default>
+        <label>Rawasi Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>RBC Tower</fullName>
+        <default>false</default>
+        <label>RBC Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Reem Community</fullName>
+        <default>false</default>
+        <label>Reem Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Residence 22</fullName>
+        <default>false</default>
+        <label>Residence 22</label>
+    </customValue>
+    <customValue>
+        <fullName>Reva Residences</fullName>
+        <default>false</default>
+        <label>Reva Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Ritz Carlton</fullName>
+        <default>false</default>
+        <label>Ritz Carlton</label>
+    </customValue>
+    <customValue>
+        <fullName>Roda Al Murooj</fullName>
+        <default>false</default>
+        <label>Roda Al Murooj</label>
+    </customValue>
+    <customValue>
+        <fullName>Rosa</fullName>
+        <default>false</default>
+        <label>Rosa</label>
+    </customValue>
+    <customValue>
+        <fullName>Rosewood Tower</fullName>
+        <default>false</default>
+        <label>Rosewood Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Rove City Walk</fullName>
+        <default>false</default>
+        <label>Rove City Walk</label>
+    </customValue>
+    <customValue>
+        <fullName>RP Heights</fullName>
+        <default>false</default>
+        <label>RP Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Safeer Towers</fullName>
+        <default>false</default>
+        <label>Safeer Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Saheel</fullName>
+        <default>false</default>
+        <label>Saheel</label>
+    </customValue>
+    <customValue>
+        <fullName>Samara</fullName>
+        <default>false</default>
+        <label>Samara</label>
+    </customValue>
+    <customValue>
+        <fullName>Sami Business Tower (Q Sami Tower)</fullName>
+        <default>false</default>
+        <label>Sami Business Tower (Q Sami Tower)</label>
+    </customValue>
+    <customValue>
+        <fullName>Santeville</fullName>
+        <default>false</default>
+        <label>Santeville</label>
+    </customValue>
+    <customValue>
+        <fullName>Savannah</fullName>
+        <default>false</default>
+        <label>Savannah</label>
+    </customValue>
+    <customValue>
+        <fullName>Scala Tower</fullName>
+        <default>false</default>
+        <label>Scala Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Seventh Heaven</fullName>
+        <default>false</default>
+        <label>Seventh Heaven</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Towers</fullName>
+        <default>false</default>
+        <label>Signature Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Silk Leaf</fullName>
+        <default>false</default>
+        <label>Silk Leaf</label>
+    </customValue>
+    <customValue>
+        <fullName>Silver Bay Tower</fullName>
+        <default>false</default>
+        <label>Silver Bay Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Silver Star Tower</fullName>
+        <default>false</default>
+        <label>Silver Star Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Silver Tower</fullName>
+        <default>false</default>
+        <label>Silver Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Sky Bay Hotel</fullName>
+        <default>false</default>
+        <label>Sky Bay Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Sky Business Centre</fullName>
+        <default>false</default>
+        <label>Sky Business Centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Sky Gardens</fullName>
+        <default>false</default>
+        <label>Sky Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Sky Towers</fullName>
+        <default>false</default>
+        <label>Sky Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Sobha Ivory Towers</fullName>
+        <default>false</default>
+        <label>Sobha Ivory Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Sobha Sapphire</fullName>
+        <default>false</default>
+        <label>Sobha Sapphire</label>
+    </customValue>
+    <customValue>
+        <fullName>South Ridge</fullName>
+        <default>false</default>
+        <label>South Ridge</label>
+    </customValue>
+    <customValue>
+        <fullName>Standard Chartered bank</fullName>
+        <default>false</default>
+        <label>Standard Chartered bank</label>
+    </customValue>
+    <customValue>
+        <fullName>Standpoint Towers</fullName>
+        <default>false</default>
+        <label>Standpoint Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Starhill Towers &amp; Gallery</fullName>
+        <default>false</default>
+        <label>Starhill Towers &amp; Gallery</label>
+    </customValue>
+    <customValue>
+        <fullName>Symphony Tower</fullName>
+        <default>false</default>
+        <label>Symphony Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Tamani Art Tower</fullName>
+        <default>false</default>
+        <label>Tamani Art Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Tasameem Towers</fullName>
+        <default>false</default>
+        <label>Tasameem Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Terra Nova</fullName>
+        <default>false</default>
+        <label>Terra Nova</label>
+    </customValue>
+    <customValue>
+        <fullName>The Address BLVD Sky Collection</fullName>
+        <default>false</default>
+        <label>The Address BLVD Sky Collection</label>
+    </customValue>
+    <customValue>
+        <fullName>The Address Downtown Hotel</fullName>
+        <default>false</default>
+        <label>The Address Downtown Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>The Address Dubai Mall</fullName>
+        <default>false</default>
+        <label>The Address Dubai Mall</label>
+    </customValue>
+    <customValue>
+        <fullName>The Address Residence Fountain Views</fullName>
+        <default>false</default>
+        <label>The Address Residence Fountain Views</label>
+    </customValue>
+    <customValue>
+        <fullName>The Address Residences Dubai Opera</fullName>
+        <default>false</default>
+        <label>The Address Residences Dubai Opera</label>
+    </customValue>
+    <customValue>
+        <fullName>The Address Sky View Towers</fullName>
+        <default>false</default>
+        <label>The Address Sky View Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>The Address The BLVD</fullName>
+        <default>false</default>
+        <label>The Address The BLVD</label>
+    </customValue>
+    <customValue>
+        <fullName>The Atria</fullName>
+        <default>false</default>
+        <label>The Atria</label>
+    </customValue>
+    <customValue>
+        <fullName>The Bay Gate</fullName>
+        <default>false</default>
+        <label>The Bay Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>The Bay Residence</fullName>
+        <default>false</default>
+        <label>The Bay Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>The Bay View</fullName>
+        <default>false</default>
+        <label>The Bay View</label>
+    </customValue>
+    <customValue>
+        <fullName>The Binary Tower</fullName>
+        <default>false</default>
+        <label>The Binary Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>The Burlington</fullName>
+        <default>false</default>
+        <label>The Burlington</label>
+    </customValue>
+    <customValue>
+        <fullName>The Citadel Tower</fullName>
+        <default>false</default>
+        <label>The Citadel Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>The Court</fullName>
+        <default>false</default>
+        <label>The Court</label>
+    </customValue>
+    <customValue>
+        <fullName>The Court Tower</fullName>
+        <default>false</default>
+        <label>The Court Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>The cove</fullName>
+        <default>false</default>
+        <label>The cove</label>
+    </customValue>
+    <customValue>
+        <fullName>The Exchange</fullName>
+        <default>false</default>
+        <label>The Exchange</label>
+    </customValue>
+    <customValue>
+        <fullName>The Forum</fullName>
+        <default>false</default>
+        <label>The Forum</label>
+    </customValue>
+    <customValue>
+        <fullName>The Gate</fullName>
+        <default>false</default>
+        <label>The Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>The Gate Precinct</fullName>
+        <default>false</default>
+        <label>The Gate Precinct</label>
+    </customValue>
+    <customValue>
+        <fullName>The Grand</fullName>
+        <default>false</default>
+        <label>The Grand</label>
+    </customValue>
+    <customValue>
+        <fullName>The Grand Boulevard</fullName>
+        <default>false</default>
+        <label>The Grand Boulevard</label>
+    </customValue>
+    <customValue>
+        <fullName>The Lofts</fullName>
+        <default>false</default>
+        <label>The Lofts</label>
+    </customValue>
+    <customValue>
+        <fullName>The Mansion</fullName>
+        <default>false</default>
+        <label>The Mansion</label>
+    </customValue>
+    <customValue>
+        <fullName>The Metropolis</fullName>
+        <default>false</default>
+        <label>The Metropolis</label>
+    </customValue>
+    <customValue>
+        <fullName>The Neighbourhood</fullName>
+        <default>false</default>
+        <label>The Neighbourhood</label>
+    </customValue>
+    <customValue>
+        <fullName>The Nest</fullName>
+        <default>false</default>
+        <label>The Nest</label>
+    </customValue>
+    <customValue>
+        <fullName>The Oberoi</fullName>
+        <default>false</default>
+        <label>The Oberoi</label>
+    </customValue>
+    <customValue>
+        <fullName>The Oberoi Business Bay</fullName>
+        <default>false</default>
+        <label>The Oberoi Business Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>The Oberoi Centre</fullName>
+        <default>false</default>
+        <label>The Oberoi Centre</label>
+    </customValue>
+    <customValue>
+        <fullName>The Opus</fullName>
+        <default>false</default>
+        <label>The Opus</label>
+    </customValue>
+    <customValue>
+        <fullName>The Pad</fullName>
+        <default>false</default>
+        <label>The Pad</label>
+    </customValue>
+    <customValue>
+        <fullName>The Peninsula</fullName>
+        <default>false</default>
+        <label>The Peninsula</label>
+    </customValue>
+    <customValue>
+        <fullName>The Prime Tower</fullName>
+        <default>false</default>
+        <label>The Prime Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>The Prism</fullName>
+        <default>false</default>
+        <label>The Prism</label>
+    </customValue>
+    <customValue>
+        <fullName>The Regal Tower</fullName>
+        <default>false</default>
+        <label>The Regal Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>The Reserve</fullName>
+        <default>false</default>
+        <label>The Reserve</label>
+    </customValue>
+    <customValue>
+        <fullName>The Residences</fullName>
+        <default>false</default>
+        <label>The Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>The Residences at Business Central</fullName>
+        <default>false</default>
+        <label>The Residences at Business Central</label>
+    </customValue>
+    <customValue>
+        <fullName>The Sanctuary</fullName>
+        <default>false</default>
+        <label>The Sanctuary</label>
+    </customValue>
+    <customValue>
+        <fullName>The Skyscraper</fullName>
+        <default>false</default>
+        <label>The Skyscraper</label>
+    </customValue>
+    <customValue>
+        <fullName>The Sky Villa</fullName>
+        <default>false</default>
+        <label>The Sky Villa</label>
+    </customValue>
+    <customValue>
+        <fullName>The Sterling</fullName>
+        <default>false</default>
+        <label>The Sterling</label>
+    </customValue>
+    <customValue>
+        <fullName>Ubora Towers</fullName>
+        <default>false</default>
+        <label>Ubora Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Upper Crest</fullName>
+        <default>false</default>
+        <label>Upper Crest</label>
+    </customValue>
+    <customValue>
+        <fullName>Vera Residences</fullName>
+        <default>false</default>
+        <label>Vera Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Victory Bay Tower</fullName>
+        <default>false</default>
+        <label>Victory Bay Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Vida Residence Downtown</fullName>
+        <default>false</default>
+        <label>Vida Residence Downtown</label>
+    </customValue>
+    <customValue>
+        <fullName>Vida Residences Dubai Mall</fullName>
+        <default>false</default>
+        <label>Vida Residences Dubai Mall</label>
+    </customValue>
+    <customValue>
+        <fullName>Vision Tower</fullName>
+        <default>false</default>
+        <label>Vision Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Volante</fullName>
+        <default>false</default>
+        <label>Volante</label>
+    </customValue>
+    <customValue>
+        <fullName>wadi al safa</fullName>
+        <default>false</default>
+        <label>wadi al safa</label>
+    </customValue>
+    <customValue>
+        <fullName>West Bay Tower</fullName>
+        <default>false</default>
+        <label>West Bay Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Westburry Square</fullName>
+        <default>false</default>
+        <label>Westburry Square</label>
+    </customValue>
+    <customValue>
+        <fullName>West Wharf</fullName>
+        <default>false</default>
+        <label>West Wharf</label>
+    </customValue>
+    <customValue>
+        <fullName>Windsor Manor</fullName>
+        <default>false</default>
+        <label>Windsor Manor</label>
+    </customValue>
+    <customValue>
+        <fullName>XL Tower</fullName>
+        <default>false</default>
+        <label>XL Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Yasmin</fullName>
+        <default>false</default>
+        <label>Yasmin</label>
+    </customValue>
+    <customValue>
+        <fullName>Parkway Vistas</fullName>
+        <default>false</default>
+        <label>Parkway Vistas</label>
+    </customValue>
+    <customValue>
+        <fullName>Hills Business Park</fullName>
+        <default>false</default>
+        <label>Hills Business Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Heights</fullName>
+        <default>false</default>
+        <label>Park Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Hills</fullName>
+        <default>false</default>
+        <label>Dubai Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Maple at Dubai Hills Estate</fullName>
+        <default>false</default>
+        <label>Maple at Dubai Hills Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Hills Grove</fullName>
+        <default>false</default>
+        <label>Dubai Hills Grove</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Hills View</fullName>
+        <default>false</default>
+        <label>Dubai Hills View</label>
+    </customValue>
+    <customValue>
+        <fullName>Sidra Villas</fullName>
+        <default>false</default>
+        <label>Sidra Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Point</fullName>
+        <default>false</default>
+        <label>Park Point</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Heights 1</fullName>
+        <default>false</default>
+        <label>Park Heights 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Heights 2</fullName>
+        <default>false</default>
+        <label>Park Heights 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Ridge</fullName>
+        <default>false</default>
+        <label>Park Ridge</label>
+    </customValue>
+    <customValue>
+        <fullName>Club Villas at Dubai Hills</fullName>
+        <default>false</default>
+        <label>Club Villas at Dubai Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Place</fullName>
+        <default>false</default>
+        <label>Golf Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Collective</fullName>
+        <default>false</default>
+        <label>Collective</label>
+    </customValue>
+    <customValue>
+        <fullName>Safeer Tower</fullName>
+        <default>false</default>
+        <label>Safeer Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Escan Tower</fullName>
+        <default>false</default>
+        <label>Escan Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>23 Marina</fullName>
+        <default>false</default>
+        <label>23 Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Areifi Marina Tower</fullName>
+        <default>false</default>
+        <label>Al Areifi Marina Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Dua&apos;a Marina Tower</fullName>
+        <default>false</default>
+        <label>Al Dua&apos;a Marina Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Fardan Tower</fullName>
+        <default>false</default>
+        <label>Al Fardan Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Habtoor Tower</fullName>
+        <default>false</default>
+        <label>Al Habtoor Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Seef Tower</fullName>
+        <default>false</default>
+        <label>Al Seef Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Ary Marina View Tower</fullName>
+        <default>false</default>
+        <label>Ary Marina View Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Azure</fullName>
+        <default>false</default>
+        <label>Azure</label>
+    </customValue>
+    <customValue>
+        <fullName>Bayside Residence</fullName>
+        <default>false</default>
+        <label>Bayside Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Botanica Tower</fullName>
+        <default>false</default>
+        <label>Botanica Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Casa De Sol</fullName>
+        <default>false</default>
+        <label>Casa De Sol</label>
+    </customValue>
+    <customValue>
+        <fullName>Casa Del Mar</fullName>
+        <default>false</default>
+        <label>Casa Del Mar</label>
+    </customValue>
+    <customValue>
+        <fullName>Cascades Tower</fullName>
+        <default>false</default>
+        <label>Cascades Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Damac Residenze</fullName>
+        <default>false</default>
+        <label>Damac Residenze</label>
+    </customValue>
+    <customValue>
+        <fullName>Dorra Bay</fullName>
+        <default>false</default>
+        <label>Dorra Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>The Address Dubai Marina</fullName>
+        <default>false</default>
+        <label>The Address Dubai Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Eden Blue Tower</fullName>
+        <default>false</default>
+        <label>Eden Blue Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Elite Residence</fullName>
+        <default>false</default>
+        <label>Elite Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Emerald Residence</fullName>
+        <default>false</default>
+        <label>Emerald Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Emirates Crown</fullName>
+        <default>false</default>
+        <label>Emirates Crown</label>
+    </customValue>
+    <customValue>
+        <fullName>Gargash Tower</fullName>
+        <default>false</default>
+        <label>Gargash Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Harbour Residence</fullName>
+        <default>false</default>
+        <label>Harbour Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Horizon Tower</fullName>
+        <default>false</default>
+        <label>Horizon Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Cayan Tower</fullName>
+        <default>false</default>
+        <label>Cayan Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Iris Blue</fullName>
+        <default>false</default>
+        <label>Iris Blue</label>
+    </customValue>
+    <customValue>
+        <fullName>KPM Tower</fullName>
+        <default>false</default>
+        <label>KPM Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>KG Tower</fullName>
+        <default>false</default>
+        <label>KG Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>La Residencia Del Mar</fullName>
+        <default>false</default>
+        <label>La Residencia Del Mar</label>
+    </customValue>
+    <customValue>
+        <fullName>La Riviera</fullName>
+        <default>false</default>
+        <label>La Riviera</label>
+    </customValue>
+    <customValue>
+        <fullName>Le Reve</fullName>
+        <default>false</default>
+        <label>Le Reve</label>
+    </customValue>
+    <customValue>
+        <fullName>Lootah Complex</fullName>
+        <default>false</default>
+        <label>Lootah Complex</label>
+    </customValue>
+    <customValue>
+        <fullName>MAG 218</fullName>
+        <default>false</default>
+        <label>MAG 218</label>
+    </customValue>
+    <customValue>
+        <fullName>Manchester Tower</fullName>
+        <default>false</default>
+        <label>Manchester Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina 101</fullName>
+        <default>false</default>
+        <label>Marina 101</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina 106</fullName>
+        <default>false</default>
+        <label>Marina 106</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Arcade Tower</fullName>
+        <default>false</default>
+        <label>Marina Arcade Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Heights</fullName>
+        <default>false</default>
+        <label>Marina Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Mansions</fullName>
+        <default>false</default>
+        <label>Marina Mansions</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Park</fullName>
+        <default>false</default>
+        <label>Marina Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Pearl</fullName>
+        <default>false</default>
+        <label>Marina Pearl</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Pinnacle</fullName>
+        <default>false</default>
+        <label>Marina Pinnacle</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Sail</fullName>
+        <default>false</default>
+        <label>Marina Sail</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Star</fullName>
+        <default>false</default>
+        <label>Marina Star</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Suites</fullName>
+        <default>false</default>
+        <label>Marina Suites</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Terrace</fullName>
+        <default>false</default>
+        <label>Marina Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Tower</fullName>
+        <default>false</default>
+        <label>Marina Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>My Tower</fullName>
+        <default>false</default>
+        <label>My Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Pacific Tower</fullName>
+        <default>false</default>
+        <label>Pacific Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Panoramic Tower</fullName>
+        <default>false</default>
+        <label>Panoramic Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Pentominium</fullName>
+        <default>false</default>
+        <label>Pentominium</label>
+    </customValue>
+    <customValue>
+        <fullName>Pier 24</fullName>
+        <default>false</default>
+        <label>Pier 24</label>
+    </customValue>
+    <customValue>
+        <fullName>Pier 8</fullName>
+        <default>false</default>
+        <label>Pier 8</label>
+    </customValue>
+    <customValue>
+        <fullName>Roshana Tower</fullName>
+        <default>false</default>
+        <label>Roshana Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Shahla Tower</fullName>
+        <default>false</default>
+        <label>Shahla Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Skyview Tower</fullName>
+        <default>false</default>
+        <label>Skyview Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Sulafa Tower</fullName>
+        <default>false</default>
+        <label>Sulafa Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Supreme Residency</fullName>
+        <default>false</default>
+        <label>Supreme Residency</label>
+    </customValue>
+    <customValue>
+        <fullName>Supreme Tower</fullName>
+        <default>false</default>
+        <label>Supreme Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>The Atlantic</fullName>
+        <default>false</default>
+        <label>The Atlantic</label>
+    </customValue>
+    <customValue>
+        <fullName>The Belvedere</fullName>
+        <default>false</default>
+        <label>The Belvedere</label>
+    </customValue>
+    <customValue>
+        <fullName>The Light House</fullName>
+        <default>false</default>
+        <label>The Light House</label>
+    </customValue>
+    <customValue>
+        <fullName>The Point</fullName>
+        <default>false</default>
+        <label>The Point</label>
+    </customValue>
+    <customValue>
+        <fullName>Princess Tower</fullName>
+        <default>false</default>
+        <label>Princess Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>The Summit</fullName>
+        <default>false</default>
+        <label>The Summit</label>
+    </customValue>
+    <customValue>
+        <fullName>The Torch</fullName>
+        <default>false</default>
+        <label>The Torch</label>
+    </customValue>
+    <customValue>
+        <fullName>The Zen Tower</fullName>
+        <default>false</default>
+        <label>The Zen Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Time Place Tower</fullName>
+        <default>false</default>
+        <label>Time Place Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Westside Marina</fullName>
+        <default>false</default>
+        <label>Westside Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Yacht Bay</fullName>
+        <default>false</default>
+        <label>Yacht Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Zumurud Tower</fullName>
+        <default>false</default>
+        <label>Zumurud Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Crown</fullName>
+        <default>false</default>
+        <label>Marina Crown</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Plaza</fullName>
+        <default>false</default>
+        <label>Marina Plaza</label>
+    </customValue>
+    <customValue>
+        <fullName>Ocean Heights</fullName>
+        <default>false</default>
+        <label>Ocean Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Trident Grand Residence</fullName>
+        <default>false</default>
+        <label>Trident Grand Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Gulf National</fullName>
+        <default>false</default>
+        <label>Gulf National</label>
+    </customValue>
+    <customValue>
+        <fullName>Trident Bayside</fullName>
+        <default>false</default>
+        <label>Trident Bayside</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Mass Villas</fullName>
+        <default>false</default>
+        <label>Al Mass Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Marriott Harbour Hotel and Suites</fullName>
+        <default>false</default>
+        <label>Marriott Harbour Hotel and Suites</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Fairooz Villas</fullName>
+        <default>false</default>
+        <label>Al Fairooz Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Anbar Villas</fullName>
+        <default>false</default>
+        <label>Al Anbar Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Grosvenor House</fullName>
+        <default>false</default>
+        <label>Grosvenor House</label>
+    </customValue>
+    <customValue>
+        <fullName>Orra Marina</fullName>
+        <default>false</default>
+        <label>Orra Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Habtoor Business Tower</fullName>
+        <default>false</default>
+        <label>Al Habtoor Business Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Husn Marina</fullName>
+        <default>false</default>
+        <label>Al Husn Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Mesk Villas</fullName>
+        <default>false</default>
+        <label>Al Mesk Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Ariyana Tower</fullName>
+        <default>false</default>
+        <label>Ariyana Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>West Avenue Tower</fullName>
+        <default>false</default>
+        <label>West Avenue Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Opal Tower Marina</fullName>
+        <default>false</default>
+        <label>Opal Tower Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina First Tower</fullName>
+        <default>false</default>
+        <label>Marina First Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Wyndham Dubai Marina</fullName>
+        <default>false</default>
+        <label>Wyndham Dubai Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Shebani Residence</fullName>
+        <default>false</default>
+        <label>Al Shebani Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Sukoon Tower</fullName>
+        <default>false</default>
+        <label>Sukoon Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>No.9</fullName>
+        <default>false</default>
+        <label>No.9</label>
+    </customValue>
+    <customValue>
+        <fullName>Bunyan Tower</fullName>
+        <default>false</default>
+        <label>Bunyan Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>TFG Marina Hotel</fullName>
+        <default>false</default>
+        <label>TFG Marina Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Pier 7</fullName>
+        <default>false</default>
+        <label>Pier 7</label>
+    </customValue>
+    <customValue>
+        <fullName>Jannah Place Dubai Marina</fullName>
+        <default>false</default>
+        <label>Jannah Place Dubai Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Trident Waterfront</fullName>
+        <default>false</default>
+        <label>Trident Waterfront</label>
+    </customValue>
+    <customValue>
+        <fullName>Damac Heights</fullName>
+        <default>false</default>
+        <label>Damac Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>DEC Towers</fullName>
+        <default>false</default>
+        <label>DEC Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Atina</fullName>
+        <default>false</default>
+        <label>Al Atina</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Majara</fullName>
+        <default>false</default>
+        <label>Al Majara</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Sahab</fullName>
+        <default>false</default>
+        <label>Al Sahab</label>
+    </customValue>
+    <customValue>
+        <fullName>Bay Central</fullName>
+        <default>false</default>
+        <label>Bay Central</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Diamonds</fullName>
+        <default>false</default>
+        <label>Marina Diamonds</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Promenade</fullName>
+        <default>false</default>
+        <label>Marina Promenade</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Quays</fullName>
+        <default>false</default>
+        <label>Marina Quays</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina View</fullName>
+        <default>false</default>
+        <label>Marina View</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Wharf</fullName>
+        <default>false</default>
+        <label>Marina Wharf</label>
+    </customValue>
+    <customValue>
+        <fullName>Marinascape</fullName>
+        <default>false</default>
+        <label>Marinascape</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Island</fullName>
+        <default>false</default>
+        <label>Park Island</label>
+    </customValue>
+    <customValue>
+        <fullName>Silverene</fullName>
+        <default>false</default>
+        <label>Silverene</label>
+    </customValue>
+    <customValue>
+        <fullName>The Jewels</fullName>
+        <default>false</default>
+        <label>The Jewels</label>
+    </customValue>
+    <customValue>
+        <fullName>The Waves</fullName>
+        <default>false</default>
+        <label>The Waves</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Marjan Villas</fullName>
+        <default>false</default>
+        <label>Al Marjan Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Oceanic</fullName>
+        <default>false</default>
+        <label>Oceanic</label>
+    </customValue>
+    <customValue>
+        <fullName>Emaar 6 Towers</fullName>
+        <default>false</default>
+        <label>Emaar 6 Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Gate</fullName>
+        <default>false</default>
+        <label>Marina Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Marina Walk</fullName>
+        <default>false</default>
+        <label>Dubai Marina Walk</label>
+    </customValue>
+    <customValue>
+        <fullName>Sparkle Towers</fullName>
+        <default>false</default>
+        <label>Sparkle Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Dream Towers</fullName>
+        <default>false</default>
+        <label>Dream Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Dream Tower</fullName>
+        <default>false</default>
+        <label>Dream Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Residence</fullName>
+        <default>false</default>
+        <label>Marina Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Hotel Apartments &amp; Spa Marina</fullName>
+        <default>false</default>
+        <label>Signature Hotel Apartments &amp; Spa Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>The Radisson Blu Residence Dubai Marina</fullName>
+        <default>false</default>
+        <label>The Radisson Blu Residence Dubai Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Le Grande Community Mall</fullName>
+        <default>false</default>
+        <label>Le Grande Community Mall</label>
+    </customValue>
+    <customValue>
+        <fullName>Barcelo Residences</fullName>
+        <default>false</default>
+        <label>Barcelo Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Continental Tower</fullName>
+        <default>false</default>
+        <label>Continental Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>InterContinental Dubai Marina</fullName>
+        <default>false</default>
+        <label>InterContinental Dubai Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Stella Maris</fullName>
+        <default>false</default>
+        <label>Stella Maris</label>
+    </customValue>
+    <customValue>
+        <fullName>Dusit Residence Dubai Marina</fullName>
+        <default>false</default>
+        <label>Dusit Residence Dubai Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>ARJ Tower</fullName>
+        <default>false</default>
+        <label>ARJ Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>5242</fullName>
+        <default>false</default>
+        <label>5242</label>
+    </customValue>
+    <customValue>
+        <fullName>The One Dubai Marina</fullName>
+        <default>false</default>
+        <label>The One Dubai Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Durrat Al Marsa</fullName>
+        <default>false</default>
+        <label>Durrat Al Marsa</label>
+    </customValue>
+    <customValue>
+        <fullName>Studio One</fullName>
+        <default>false</default>
+        <label>Studio One</label>
+    </customValue>
+    <customValue>
+        <fullName>The Address Jumeirah Resort and Spa</fullName>
+        <default>false</default>
+        <label>The Address Jumeirah Resort and Spa</label>
+    </customValue>
+    <customValue>
+        <fullName>Vida Residences Dubai Marina</fullName>
+        <default>false</default>
+        <label>Vida Residences Dubai Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Extreme Waterfront Offices</fullName>
+        <default>false</default>
+        <label>Extreme Waterfront Offices</label>
+    </customValue>
+    <customValue>
+        <fullName>Jannah Marina Bay Suites</fullName>
+        <default>false</default>
+        <label>Jannah Marina Bay Suites</label>
+    </customValue>
+    <customValue>
+        <fullName>Orra Harbour Residences and Hotel Apartments</fullName>
+        <default>false</default>
+        <label>Orra Harbour Residences and Hotel Apartments</label>
+    </customValue>
+    <customValue>
+        <fullName>Landmark Tower</fullName>
+        <default>false</default>
+        <label>Landmark Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>LIV Residence</fullName>
+        <default>false</default>
+        <label>LIV Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Pearl Marina Hotel Apartments</fullName>
+        <default>false</default>
+        <label>Pearl Marina Hotel Apartments</label>
+    </customValue>
+    <customValue>
+        <fullName>JAM Marina Residence</fullName>
+        <default>false</default>
+        <label>JAM Marina Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Wali Tower</fullName>
+        <default>false</default>
+        <label>Wali Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Adel Al Hussaini Building</fullName>
+        <default>false</default>
+        <label>Adel Al Hussaini Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Attar Skyspiral</fullName>
+        <default>false</default>
+        <label>Al Attar Skyspiral</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Hoton Building</fullName>
+        <default>false</default>
+        <label>Al Hoton Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Salam Grand Hotel Apartments</fullName>
+        <default>false</default>
+        <label>Al Salam Grand Hotel Apartments</label>
+    </customValue>
+    <customValue>
+        <fullName>ARY Digital Tower</fullName>
+        <default>false</default>
+        <label>ARY Digital Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Concord Tower</fullName>
+        <default>false</default>
+        <label>Concord Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Dalma Tower</fullName>
+        <default>false</default>
+        <label>Dalma Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Jewel Tower</fullName>
+        <default>false</default>
+        <label>Dubai Jewel Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Gloria Hotel</fullName>
+        <default>false</default>
+        <label>Gloria Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Khalid Salem Ahmed Basuliman Building</fullName>
+        <default>false</default>
+        <label>Khalid Salem Ahmed Basuliman Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Mazoon House</fullName>
+        <default>false</default>
+        <label>Mazoon House</label>
+    </customValue>
+    <customValue>
+        <fullName>Media one Tower</fullName>
+        <default>false</default>
+        <label>Media one Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Mohammad Bin Hassan Al Muhana Bldg.</fullName>
+        <default>false</default>
+        <label>Mohammad Bin Hassan Al Muhana Bldg.</label>
+    </customValue>
+    <customValue>
+        <fullName>Omnix North Tower</fullName>
+        <default>false</default>
+        <label>Omnix North Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Omnix South Tower</fullName>
+        <default>false</default>
+        <label>Omnix South Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Rashid Mohammed Al Mazroui Tower</fullName>
+        <default>false</default>
+        <label>Rashid Mohammed Al Mazroui Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Shatha Tower</fullName>
+        <default>false</default>
+        <label>Shatha Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Sidra Tower</fullName>
+        <default>false</default>
+        <label>Sidra Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Smart Heights</fullName>
+        <default>false</default>
+        <label>Smart Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Tebyan Clarity Tower</fullName>
+        <default>false</default>
+        <label>Tebyan Clarity Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Telal&apos;s Tower</fullName>
+        <default>false</default>
+        <label>Telal&apos;s Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>The Icon</fullName>
+        <default>false</default>
+        <label>The Icon</label>
+    </customValue>
+    <customValue>
+        <fullName>Arenco Tower</fullName>
+        <default>false</default>
+        <label>Arenco Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Office Park</fullName>
+        <default>false</default>
+        <label>Office Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlas Business Centre</fullName>
+        <default>false</default>
+        <label>Atlas Business Centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Sufouh Towers</fullName>
+        <default>false</default>
+        <label>Al Sufouh Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Kazim Towers</fullName>
+        <default>false</default>
+        <label>Al Kazim Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Knowledge Village</fullName>
+        <default>false</default>
+        <label>Knowledge Village</label>
+    </customValue>
+    <customValue>
+        <fullName>Cordoba Residence</fullName>
+        <default>false</default>
+        <label>Cordoba Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Meera Complex</fullName>
+        <default>false</default>
+        <label>Al Meera Complex</label>
+    </customValue>
+    <customValue>
+        <fullName>The LOFT Offices</fullName>
+        <default>false</default>
+        <label>The LOFT Offices</label>
+    </customValue>
+    <customValue>
+        <fullName>32 Villas</fullName>
+        <default>false</default>
+        <label>32 Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>GBS Building</fullName>
+        <default>false</default>
+        <label>GBS Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Rocks Villas</fullName>
+        <default>false</default>
+        <label>Rocks Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Thuraya Tower 1</fullName>
+        <default>false</default>
+        <label>Al Thuraya Tower 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Zee Tower</fullName>
+        <default>false</default>
+        <label>Zee Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Sands Abir</fullName>
+        <default>false</default>
+        <label>Sands Abir</label>
+    </customValue>
+    <customValue>
+        <fullName>Emirates Hills Villas</fullName>
+        <default>false</default>
+        <label>Emirates Hills Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Sector E</fullName>
+        <default>false</default>
+        <label>Sector E</label>
+    </customValue>
+    <customValue>
+        <fullName>Sector J</fullName>
+        <default>false</default>
+        <label>Sector J</label>
+    </customValue>
+    <customValue>
+        <fullName>Sector H</fullName>
+        <default>false</default>
+        <label>Sector H</label>
+    </customValue>
+    <customValue>
+        <fullName>Sector V</fullName>
+        <default>false</default>
+        <label>Sector V</label>
+    </customValue>
+    <customValue>
+        <fullName>Sector HT</fullName>
+        <default>false</default>
+        <label>Sector HT</label>
+    </customValue>
+    <customValue>
+        <fullName>Sector L</fullName>
+        <default>false</default>
+        <label>Sector L</label>
+    </customValue>
+    <customValue>
+        <fullName>Sector P</fullName>
+        <default>false</default>
+        <label>Sector P</label>
+    </customValue>
+    <customValue>
+        <fullName>Sector R</fullName>
+        <default>false</default>
+        <label>Sector R</label>
+    </customValue>
+    <customValue>
+        <fullName>Sector W</fullName>
+        <default>false</default>
+        <label>Sector W</label>
+    </customValue>
+    <customValue>
+        <fullName>Sector S</fullName>
+        <default>false</default>
+        <label>Sector S</label>
+    </customValue>
+    <customValue>
+        <fullName>Dutco Greens Residential</fullName>
+        <default>false</default>
+        <label>Dutco Greens Residential</label>
+    </customValue>
+    <customValue>
+        <fullName>SKAI Residency</fullName>
+        <default>false</default>
+        <label>SKAI Residency</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Alka</fullName>
+        <default>false</default>
+        <label>Al Alka</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Arta</fullName>
+        <default>false</default>
+        <label>Al Arta</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Dhafra</fullName>
+        <default>false</default>
+        <label>Al Dhafra</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Ghaf</fullName>
+        <default>false</default>
+        <label>Al Ghaf</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Ghozlan</fullName>
+        <default>false</default>
+        <label>Al Ghozlan</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Jaz</fullName>
+        <default>false</default>
+        <label>Al Jaz</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Nakheel</fullName>
+        <default>false</default>
+        <label>Al Nakheel</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Samar</fullName>
+        <default>false</default>
+        <label>Al Samar</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Sidir</fullName>
+        <default>false</default>
+        <label>Al Sidir</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Thayyal</fullName>
+        <default>false</default>
+        <label>Al Thayyal</label>
+    </customValue>
+    <customValue>
+        <fullName>The Onyx Towers</fullName>
+        <default>false</default>
+        <label>The Onyx Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Greens 22</fullName>
+        <default>false</default>
+        <label>Greens 22</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah 1</fullName>
+        <default>false</default>
+        <label>Jumeirah 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah 2</fullName>
+        <default>false</default>
+        <label>Jumeirah 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah 3</fullName>
+        <default>false</default>
+        <label>Jumeirah 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeira Beach Road</fullName>
+        <default>false</default>
+        <label>Jumeira Beach Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Pearl Jumeirah</fullName>
+        <default>false</default>
+        <label>Pearl Jumeirah</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Bay Island</fullName>
+        <default>false</default>
+        <label>Jumeirah Bay Island</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Fattan Crystal Towers</fullName>
+        <default>false</default>
+        <label>Al Fattan Crystal Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Fattan Marine Towers</fullName>
+        <default>false</default>
+        <label>Al Fattan Marine Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Amwaj</fullName>
+        <default>false</default>
+        <label>Amwaj</label>
+    </customValue>
+    <customValue>
+        <fullName>Bahar</fullName>
+        <default>false</default>
+        <label>Bahar</label>
+    </customValue>
+    <customValue>
+        <fullName>Murjan</fullName>
+        <default>false</default>
+        <label>Murjan</label>
+    </customValue>
+    <customValue>
+        <fullName>Rimal</fullName>
+        <default>false</default>
+        <label>Rimal</label>
+    </customValue>
+    <customValue>
+        <fullName>Sadaf</fullName>
+        <default>false</default>
+        <label>Sadaf</label>
+    </customValue>
+    <customValue>
+        <fullName>Shams</fullName>
+        <default>false</default>
+        <label>Shams</label>
+    </customValue>
+    <customValue>
+        <fullName>The Walk</fullName>
+        <default>false</default>
+        <label>The Walk</label>
+    </customValue>
+    <customValue>
+        <fullName>JA Oasis Beach Tower</fullName>
+        <default>false</default>
+        <label>JA Oasis Beach Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>1 JBR</fullName>
+        <default>false</default>
+        <label>1 JBR</label>
+    </customValue>
+    <customValue>
+        <fullName>Fire</fullName>
+        <default>false</default>
+        <label>Fire</label>
+    </customValue>
+    <customValue>
+        <fullName>Earth</fullName>
+        <default>false</default>
+        <label>Earth</label>
+    </customValue>
+    <customValue>
+        <fullName>Water</fullName>
+        <default>false</default>
+        <label>Water</label>
+    </customValue>
+    <customValue>
+        <fullName>Wind</fullName>
+        <default>false</default>
+        <label>Wind</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Andalus</fullName>
+        <default>false</default>
+        <label>Al Andalus</label>
+    </customValue>
+    <customValue>
+        <fullName>Royal Golf Villas</fullName>
+        <default>false</default>
+        <label>Royal Golf Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Luxury</fullName>
+        <default>false</default>
+        <label>Jumeirah Luxury</label>
+    </customValue>
+    <customValue>
+        <fullName>Hillside at Jumeirah Golf Estates</fullName>
+        <default>false</default>
+        <label>Hillside at Jumeirah Golf Estates</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Islands Townhouses</fullName>
+        <default>false</default>
+        <label>Jumeirah Islands Townhouses</label>
+    </customValue>
+    <customValue>
+        <fullName>European Clusters</fullName>
+        <default>false</default>
+        <label>European Clusters</label>
+    </customValue>
+    <customValue>
+        <fullName>Islamic Clusters</fullName>
+        <default>false</default>
+        <label>Islamic Clusters</label>
+    </customValue>
+    <customValue>
+        <fullName>Mediterranean Clusters</fullName>
+        <default>false</default>
+        <label>Mediterranean Clusters</label>
+    </customValue>
+    <customValue>
+        <fullName>Oasis Clusters</fullName>
+        <default>false</default>
+        <label>Oasis Clusters</label>
+    </customValue>
+    <customValue>
+        <fullName>The Mansions</fullName>
+        <default>false</default>
+        <label>The Mansions</label>
+    </customValue>
+    <customValue>
+        <fullName>Tropical Clusters</fullName>
+        <default>false</default>
+        <label>Tropical Clusters</label>
+    </customValue>
+    <customValue>
+        <fullName>Costa Del Sol</fullName>
+        <default>false</default>
+        <label>Costa Del Sol</label>
+    </customValue>
+    <customValue>
+        <fullName>iGo 101 Towers</fullName>
+        <default>false</default>
+        <label>iGo 101 Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake Almas East</fullName>
+        <default>false</default>
+        <label>Lake Almas East</label>
+    </customValue>
+    <customValue>
+        <fullName>MBL Residences</fullName>
+        <default>false</default>
+        <label>MBL Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake Almas West</fullName>
+        <default>false</default>
+        <label>Lake Almas West</label>
+    </customValue>
+    <customValue>
+        <fullName>The Residences JLT</fullName>
+        <default>false</default>
+        <label>The Residences JLT</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake Elucio</fullName>
+        <default>false</default>
+        <label>Lake Elucio</label>
+    </customValue>
+    <customValue>
+        <fullName>Lake Allure</fullName>
+        <default>false</default>
+        <label>Lake Allure</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Seef Towers</fullName>
+        <default>false</default>
+        <label>Al Seef Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Bay Towers</fullName>
+        <default>false</default>
+        <label>Jumeirah Bay Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Green Lake Towers</fullName>
+        <default>false</default>
+        <label>Green Lake Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Saba Towers</fullName>
+        <default>false</default>
+        <label>Saba Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Mazaya Business Avenue</fullName>
+        <default>false</default>
+        <label>Mazaya Business Avenue</label>
+    </customValue>
+    <customValue>
+        <fullName>Jewellery and Gemplex</fullName>
+        <default>false</default>
+        <label>Jewellery and Gemplex</label>
+    </customValue>
+    <customValue>
+        <fullName>One JLT</fullName>
+        <default>false</default>
+        <label>One JLT</label>
+    </customValue>
+    <customValue>
+        <fullName>Fancy Rose</fullName>
+        <default>false</default>
+        <label>Fancy Rose</label>
+    </customValue>
+    <customValue>
+        <fullName>Red Diamond</fullName>
+        <default>false</default>
+        <label>Red Diamond</label>
+    </customValue>
+    <customValue>
+        <fullName>Banyan Tree Residences Hillside Dubai</fullName>
+        <default>false</default>
+        <label>Banyan Tree Residences Hillside Dubai</label>
+    </customValue>
+    <customValue>
+        <fullName>Se7en City JLT</fullName>
+        <default>false</default>
+        <label>Se7en City JLT</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Park Homes</fullName>
+        <default>false</default>
+        <label>Jumeirah Park Homes</label>
+    </customValue>
+    <customValue>
+        <fullName>Legacy Nova Villas</fullName>
+        <default>false</default>
+        <label>Legacy Nova Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Heritage</fullName>
+        <default>false</default>
+        <label>Heritage</label>
+    </customValue>
+    <customValue>
+        <fullName>Legacy</fullName>
+        <default>false</default>
+        <label>Legacy</label>
+    </customValue>
+    <customValue>
+        <fullName>Mediterranean</fullName>
+        <default>false</default>
+        <label>Mediterranean</label>
+    </customValue>
+    <customValue>
+        <fullName>Regional</fullName>
+        <default>false</default>
+        <label>Regional</label>
+    </customValue>
+    <customValue>
+        <fullName>Serena Residence</fullName>
+        <default>false</default>
+        <label>Serena Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Beverly Residence</fullName>
+        <default>false</default>
+        <label>Beverly Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Heilbronn Villas</fullName>
+        <default>false</default>
+        <label>Heilbronn Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Serenity Lakes</fullName>
+        <default>false</default>
+        <label>Serenity Lakes</label>
+    </customValue>
+    <customValue>
+        <fullName>The Lawns</fullName>
+        <default>false</default>
+        <label>The Lawns</label>
+    </customValue>
+    <customValue>
+        <fullName>District 12V</fullName>
+        <default>false</default>
+        <label>District 12V</label>
+    </customValue>
+    <customValue>
+        <fullName>Tuscan Residences</fullName>
+        <default>false</default>
+        <label>Tuscan Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Masaar Residence</fullName>
+        <default>false</default>
+        <label>Masaar Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>The Residence 4</fullName>
+        <default>false</default>
+        <label>The Residence 4</label>
+    </customValue>
+    <customValue>
+        <fullName>Tasmeer Residence</fullName>
+        <default>false</default>
+        <label>Tasmeer Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Hanover Square</fullName>
+        <default>false</default>
+        <label>Hanover Square</label>
+    </customValue>
+    <customValue>
+        <fullName>The Square Tower</fullName>
+        <default>false</default>
+        <label>The Square Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Nakheel Townhouses</fullName>
+        <default>false</default>
+        <label>Nakheel Townhouses</label>
+    </customValue>
+    <customValue>
+        <fullName>Green Court</fullName>
+        <default>false</default>
+        <label>Green Court</label>
+    </customValue>
+    <customValue>
+        <fullName>Monte Carlo Residence</fullName>
+        <default>false</default>
+        <label>Monte Carlo Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Amina Residence 2</fullName>
+        <default>false</default>
+        <label>Amina Residence 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Pacific Wave Residence</fullName>
+        <default>false</default>
+        <label>Pacific Wave Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Shamal Residences</fullName>
+        <default>false</default>
+        <label>Shamal Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Las Casas</fullName>
+        <default>false</default>
+        <label>Las Casas</label>
+    </customValue>
+    <customValue>
+        <fullName>District 16</fullName>
+        <default>false</default>
+        <label>District 16</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Livings</fullName>
+        <default>false</default>
+        <label>Signature Livings</label>
+    </customValue>
+    <customValue>
+        <fullName>District 14</fullName>
+        <default>false</default>
+        <label>District 14</label>
+    </customValue>
+    <customValue>
+        <fullName>District 18</fullName>
+        <default>false</default>
+        <label>District 18</label>
+    </customValue>
+    <customValue>
+        <fullName>District 12H</fullName>
+        <default>false</default>
+        <label>District 12H</label>
+    </customValue>
+    <customValue>
+        <fullName>Hameni Residence</fullName>
+        <default>false</default>
+        <label>Hameni Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>District 13</fullName>
+        <default>false</default>
+        <label>District 13</label>
+    </customValue>
+    <customValue>
+        <fullName>Avalon Tower</fullName>
+        <default>false</default>
+        <label>Avalon Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Emirates Gardens 2</fullName>
+        <default>false</default>
+        <label>Emirates Gardens 2</label>
+    </customValue>
+    <customValue>
+        <fullName>The One at Jumeirah Village Circle</fullName>
+        <default>false</default>
+        <label>The One at Jumeirah Village Circle</label>
+    </customValue>
+    <customValue>
+        <fullName>Belgravia Square</fullName>
+        <default>false</default>
+        <label>Belgravia Square</label>
+    </customValue>
+    <customValue>
+        <fullName>District 10</fullName>
+        <default>false</default>
+        <label>District 10</label>
+    </customValue>
+    <customValue>
+        <fullName>Somerset Mews</fullName>
+        <default>false</default>
+        <label>Somerset Mews</label>
+    </customValue>
+    <customValue>
+        <fullName>District 12</fullName>
+        <default>false</default>
+        <label>District 12</label>
+    </customValue>
+    <customValue>
+        <fullName>District 15</fullName>
+        <default>false</default>
+        <label>District 15</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Villas</fullName>
+        <default>false</default>
+        <label>Park Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Habitat</fullName>
+        <default>false</default>
+        <label>Habitat</label>
+    </customValue>
+    <customValue>
+        <fullName>District 19</fullName>
+        <default>false</default>
+        <label>District 19</label>
+    </customValue>
+    <customValue>
+        <fullName>Nakheel Villas</fullName>
+        <default>false</default>
+        <label>Nakheel Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Corner</fullName>
+        <default>false</default>
+        <label>Park Corner</label>
+    </customValue>
+    <customValue>
+        <fullName>Dune Residency</fullName>
+        <default>false</default>
+        <label>Dune Residency</label>
+    </customValue>
+    <customValue>
+        <fullName>Viceroy JV</fullName>
+        <default>false</default>
+        <label>Viceroy JV</label>
+    </customValue>
+    <customValue>
+        <fullName>Grand Paradise</fullName>
+        <default>false</default>
+        <label>Grand Paradise</label>
+    </customValue>
+    <customValue>
+        <fullName>Botanica</fullName>
+        <default>false</default>
+        <label>Botanica</label>
+    </customValue>
+    <customValue>
+        <fullName>Laya Mansion</fullName>
+        <default>false</default>
+        <label>Laya Mansion</label>
+    </customValue>
+    <customValue>
+        <fullName>Emirates Gardens 1</fullName>
+        <default>false</default>
+        <label>Emirates Gardens 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Bachour Villas</fullName>
+        <default>false</default>
+        <label>Bachour Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Orchid Park</fullName>
+        <default>false</default>
+        <label>Orchid Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Goldenwoods Villas</fullName>
+        <default>false</default>
+        <label>Goldenwoods Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>District 4</fullName>
+        <default>false</default>
+        <label>District 4</label>
+    </customValue>
+    <customValue>
+        <fullName>District 6</fullName>
+        <default>false</default>
+        <label>District 6</label>
+    </customValue>
+    <customValue>
+        <fullName>Lilac Park</fullName>
+        <default>false</default>
+        <label>Lilac Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Sandhurst House</fullName>
+        <default>false</default>
+        <label>Sandhurst House</label>
+    </customValue>
+    <customValue>
+        <fullName>Sandoval Lane</fullName>
+        <default>false</default>
+        <label>Sandoval Lane</label>
+    </customValue>
+    <customValue>
+        <fullName>Pulse Smart Residence</fullName>
+        <default>false</default>
+        <label>Pulse Smart Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Casa Royale</fullName>
+        <default>false</default>
+        <label>Casa Royale</label>
+    </customValue>
+    <customValue>
+        <fullName>Belgravia</fullName>
+        <default>false</default>
+        <label>Belgravia</label>
+    </customValue>
+    <customValue>
+        <fullName>NAIA Vantage</fullName>
+        <default>false</default>
+        <label>NAIA Vantage</label>
+    </customValue>
+    <customValue>
+        <fullName>District 16L</fullName>
+        <default>false</default>
+        <label>District 16L</label>
+    </customValue>
+    <customValue>
+        <fullName>SPICA Residential</fullName>
+        <default>false</default>
+        <label>SPICA Residential</label>
+    </customValue>
+    <customValue>
+        <fullName>May Residence</fullName>
+        <default>false</default>
+        <label>May Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Massar Building</fullName>
+        <default>false</default>
+        <label>Massar Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Villas XIV</fullName>
+        <default>false</default>
+        <label>Signature Villas XIV</label>
+    </customValue>
+    <customValue>
+        <fullName>Circle Villas</fullName>
+        <default>false</default>
+        <label>Circle Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Oasis Flex</fullName>
+        <default>false</default>
+        <label>Oasis Flex</label>
+    </customValue>
+    <customValue>
+        <fullName>Arabian Tower</fullName>
+        <default>false</default>
+        <label>Arabian Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>The Dorna Tower</fullName>
+        <default>false</default>
+        <label>The Dorna Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>The Plaza</fullName>
+        <default>false</default>
+        <label>The Plaza</label>
+    </customValue>
+    <customValue>
+        <fullName>The Wave Business Towers</fullName>
+        <default>false</default>
+        <label>The Wave Business Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>West End Tower</fullName>
+        <default>false</default>
+        <label>West End Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Abjar Tower</fullName>
+        <default>false</default>
+        <label>Abjar Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Dunes Tower</fullName>
+        <default>false</default>
+        <label>Dunes Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Dorna Tower</fullName>
+        <default>false</default>
+        <label>Dorna Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Eclipse Tower</fullName>
+        <default>false</default>
+        <label>Eclipse Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Wave Tower</fullName>
+        <default>false</default>
+        <label>Jumeirah Wave Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Suites</fullName>
+        <default>false</default>
+        <label>Jumeirah Suites</label>
+    </customValue>
+    <customValue>
+        <fullName>Le Grand Chateau</fullName>
+        <default>false</default>
+        <label>Le Grand Chateau</label>
+    </customValue>
+    <customValue>
+        <fullName>Maple</fullName>
+        <default>false</default>
+        <label>Maple</label>
+    </customValue>
+    <customValue>
+        <fullName>Maimoon Twin Towers</fullName>
+        <default>false</default>
+        <label>Maimoon Twin Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Mulberry Mansion</fullName>
+        <default>false</default>
+        <label>Mulberry Mansion</label>
+    </customValue>
+    <customValue>
+        <fullName>Pisa Residence Tower</fullName>
+        <default>false</default>
+        <label>Pisa Residence Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Prime Business Centre</fullName>
+        <default>false</default>
+        <label>Prime Business Centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Rigal Tower</fullName>
+        <default>false</default>
+        <label>Rigal Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Rose Garden</fullName>
+        <default>false</default>
+        <label>Rose Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Rotating Tower</fullName>
+        <default>false</default>
+        <label>Rotating Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Rufi Lake View</fullName>
+        <default>false</default>
+        <label>Rufi Lake View</label>
+    </customValue>
+    <customValue>
+        <fullName>R&amp;R Tower</fullName>
+        <default>false</default>
+        <label>R&amp;R Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>U tower</fullName>
+        <default>false</default>
+        <label>U tower</label>
+    </customValue>
+    <customValue>
+        <fullName>7 West Residences</fullName>
+        <default>false</default>
+        <label>7 West Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Astoria Residence</fullName>
+        <default>false</default>
+        <label>Astoria Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Baynonah Business Centre</fullName>
+        <default>false</default>
+        <label>Baynonah Business Centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Cappadocia</fullName>
+        <default>false</default>
+        <label>Cappadocia</label>
+    </customValue>
+    <customValue>
+        <fullName>Centre Court</fullName>
+        <default>false</default>
+        <label>Centre Court</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Dana Tower</fullName>
+        <default>false</default>
+        <label>Al Dana Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Fortunato</fullName>
+        <default>false</default>
+        <label>Fortunato</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden Heights</fullName>
+        <default>false</default>
+        <label>Garden Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Golden Heights</fullName>
+        <default>false</default>
+        <label>Golden Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Parkvale Residences</fullName>
+        <default>false</default>
+        <label>Parkvale Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Sahara</fullName>
+        <default>false</default>
+        <label>Sahara</label>
+    </customValue>
+    <customValue>
+        <fullName>Sandoval Gardens</fullName>
+        <default>false</default>
+        <label>Sandoval Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Sariin</fullName>
+        <default>false</default>
+        <label>Sariin</label>
+    </customValue>
+    <customValue>
+        <fullName>Silver Heights</fullName>
+        <default>false</default>
+        <label>Silver Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Sobha Daffodil</fullName>
+        <default>false</default>
+        <label>Sobha Daffodil</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunset Gardens</fullName>
+        <default>false</default>
+        <label>Sunset Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Tulip Park</fullName>
+        <default>false</default>
+        <label>Tulip Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Valencia Park</fullName>
+        <default>false</default>
+        <label>Valencia Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Shamal Terraces</fullName>
+        <default>false</default>
+        <label>Shamal Terraces</label>
+    </customValue>
+    <customValue>
+        <fullName>Mediterranean Village</fullName>
+        <default>false</default>
+        <label>Mediterranean Village</label>
+    </customValue>
+    <customValue>
+        <fullName>Burj Al Fara&apos;a</fullName>
+        <default>false</default>
+        <label>Burj Al Fara&apos;a</label>
+    </customValue>
+    <customValue>
+        <fullName>Kensington Manor</fullName>
+        <default>false</default>
+        <label>Kensington Manor</label>
+    </customValue>
+    <customValue>
+        <fullName>Knightsbridge Court</fullName>
+        <default>false</default>
+        <label>Knightsbridge Court</label>
+    </customValue>
+    <customValue>
+        <fullName>Alfa Residence</fullName>
+        <default>false</default>
+        <label>Alfa Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Mulberry Park</fullName>
+        <default>false</default>
+        <label>Mulberry Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Iris Park</fullName>
+        <default>false</default>
+        <label>Iris Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Lolena residence</fullName>
+        <default>false</default>
+        <label>Lolena residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Lotus Park</fullName>
+        <default>false</default>
+        <label>Lotus Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Zaya Hameni</fullName>
+        <default>false</default>
+        <label>Zaya Hameni</label>
+    </customValue>
+    <customValue>
+        <fullName>Villa Myra</fullName>
+        <default>false</default>
+        <label>Villa Myra</label>
+    </customValue>
+    <customValue>
+        <fullName>Erantis</fullName>
+        <default>false</default>
+        <label>Erantis</label>
+    </customValue>
+    <customValue>
+        <fullName>Les Maisonettes</fullName>
+        <default>false</default>
+        <label>Les Maisonettes</label>
+    </customValue>
+    <customValue>
+        <fullName>La Residencia Del Sol</fullName>
+        <default>false</default>
+        <label>La Residencia Del Sol</label>
+    </customValue>
+    <customValue>
+        <fullName>Reflections</fullName>
+        <default>false</default>
+        <label>Reflections</label>
+    </customValue>
+    <customValue>
+        <fullName>Les Castelets</fullName>
+        <default>false</default>
+        <label>Les Castelets</label>
+    </customValue>
+    <customValue>
+        <fullName>Westar Terrace Garden</fullName>
+        <default>false</default>
+        <label>Westar Terrace Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Westar Vista</fullName>
+        <default>false</default>
+        <label>Westar Vista</label>
+    </customValue>
+    <customValue>
+        <fullName>Villa Pera</fullName>
+        <default>false</default>
+        <label>Villa Pera</label>
+    </customValue>
+    <customValue>
+        <fullName>Hyati Residences</fullName>
+        <default>false</default>
+        <label>Hyati Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Dezire Residences</fullName>
+        <default>false</default>
+        <label>Dezire Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Ashai Tower</fullName>
+        <default>false</default>
+        <label>Ashai Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Manara Tower - JVC</fullName>
+        <default>false</default>
+        <label>Al Manara Tower - JVC</label>
+    </customValue>
+    <customValue>
+        <fullName>Alcove</fullName>
+        <default>false</default>
+        <label>Alcove</label>
+    </customValue>
+    <customValue>
+        <fullName>Palace Estates</fullName>
+        <default>false</default>
+        <label>Palace Estates</label>
+    </customValue>
+    <customValue>
+        <fullName>Artistic Villas</fullName>
+        <default>false</default>
+        <label>Artistic Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>The Ghaf Tree</fullName>
+        <default>false</default>
+        <label>The Ghaf Tree</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Square</fullName>
+        <default>false</default>
+        <label>Park Square</label>
+    </customValue>
+    <customValue>
+        <fullName>ACES Chateau</fullName>
+        <default>false</default>
+        <label>ACES Chateau</label>
+    </customValue>
+    <customValue>
+        <fullName>Crystal Residence</fullName>
+        <default>false</default>
+        <label>Crystal Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Oudah Tower</fullName>
+        <default>false</default>
+        <label>Oudah Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Gardenia Residency</fullName>
+        <default>false</default>
+        <label>Gardenia Residency</label>
+    </customValue>
+    <customValue>
+        <fullName>Divine homes</fullName>
+        <default>false</default>
+        <label>Divine homes</label>
+    </customValue>
+    <customValue>
+        <fullName>Tower 108</fullName>
+        <default>false</default>
+        <label>Tower 108</label>
+    </customValue>
+    <customValue>
+        <fullName>Bloom Heights</fullName>
+        <default>false</default>
+        <label>Bloom Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>The Manhattan Tower</fullName>
+        <default>false</default>
+        <label>The Manhattan Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden Lane Villas</fullName>
+        <default>false</default>
+        <label>Garden Lane Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Laya Residences</fullName>
+        <default>false</default>
+        <label>Laya Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Waleed Building</fullName>
+        <default>false</default>
+        <label>Al Waleed Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Hassani</fullName>
+        <default>false</default>
+        <label>Al Hassani</label>
+    </customValue>
+    <customValue>
+        <fullName>Mar Residences</fullName>
+        <default>false</default>
+        <label>Mar Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Signature Villas XII</fullName>
+        <default>false</default>
+        <label>Signature Villas XII</label>
+    </customValue>
+    <customValue>
+        <fullName>MILANO by Giovanni Botique Suites</fullName>
+        <default>false</default>
+        <label>MILANO by Giovanni Botique Suites</label>
+    </customValue>
+    <customValue>
+        <fullName>La Riviera Apartments</fullName>
+        <default>false</default>
+        <label>La Riviera Apartments</label>
+    </customValue>
+    <customValue>
+        <fullName>Shamal Waves</fullName>
+        <default>false</default>
+        <label>Shamal Waves</label>
+    </customValue>
+    <customValue>
+        <fullName>Artistic Heights</fullName>
+        <default>false</default>
+        <label>Artistic Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Evershine 1</fullName>
+        <default>false</default>
+        <label>Evershine 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Regent Court</fullName>
+        <default>false</default>
+        <label>Regent Court</label>
+    </customValue>
+    <customValue>
+        <fullName>District 16A</fullName>
+        <default>false</default>
+        <label>District 16A</label>
+    </customValue>
+    <customValue>
+        <fullName>District 12T</fullName>
+        <default>false</default>
+        <label>District 12T</label>
+    </customValue>
+    <customValue>
+        <fullName>Roxana Residences</fullName>
+        <default>false</default>
+        <label>Roxana Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>District 12K</fullName>
+        <default>false</default>
+        <label>District 12K</label>
+    </customValue>
+    <customValue>
+        <fullName>District 16C</fullName>
+        <default>false</default>
+        <label>District 16C</label>
+    </customValue>
+    <customValue>
+        <fullName>Bloom Towers</fullName>
+        <default>false</default>
+        <label>Bloom Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>District 16E</fullName>
+        <default>false</default>
+        <label>District 16E</label>
+    </customValue>
+    <customValue>
+        <fullName>Oxford Residence</fullName>
+        <default>false</default>
+        <label>Oxford Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Platinum Residence</fullName>
+        <default>false</default>
+        <label>Platinum Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Eaton Place</fullName>
+        <default>false</default>
+        <label>Eaton Place</label>
+    </customValue>
+    <customValue>
+        <fullName>District 12X</fullName>
+        <default>false</default>
+        <label>District 12X</label>
+    </customValue>
+    <customValue>
+        <fullName>Oxford Villas</fullName>
+        <default>false</default>
+        <label>Oxford Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Oxford</fullName>
+        <default>false</default>
+        <label>Oxford</label>
+    </customValue>
+    <customValue>
+        <fullName>Dusit Princess Rijas</fullName>
+        <default>false</default>
+        <label>Dusit Princess Rijas</label>
+    </customValue>
+    <customValue>
+        <fullName>Green Valley Tower</fullName>
+        <default>false</default>
+        <label>Green Valley Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Pantheon Boulevard</fullName>
+        <default>false</default>
+        <label>Pantheon Boulevard</label>
+    </customValue>
+    <customValue>
+        <fullName>Saleh Bin Lahej Building</fullName>
+        <default>false</default>
+        <label>Saleh Bin Lahej Building</label>
+    </customValue>
+    <customValue>
+        <fullName>UniEstate Prime Tower</fullName>
+        <default>false</default>
+        <label>UniEstate Prime Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>District 16J</fullName>
+        <default>false</default>
+        <label>District 16J</label>
+    </customValue>
+    <customValue>
+        <fullName>Golden Homes Building</fullName>
+        <default>false</default>
+        <label>Golden Homes Building</label>
+    </customValue>
+    <customValue>
+        <fullName>District 16M</fullName>
+        <default>false</default>
+        <label>District 16M</label>
+    </customValue>
+    <customValue>
+        <fullName>Sydney Tower</fullName>
+        <default>false</default>
+        <label>Sydney Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>O2 Tower</fullName>
+        <default>false</default>
+        <label>O2 Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>District 12U</fullName>
+        <default>false</default>
+        <label>District 12U</label>
+    </customValue>
+    <customValue>
+        <fullName>Park View Tower</fullName>
+        <default>false</default>
+        <label>Park View Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Joya Verde Residences</fullName>
+        <default>false</default>
+        <label>Joya Verde Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Westar Constellation</fullName>
+        <default>false</default>
+        <label>Westar Constellation</label>
+    </customValue>
+    <customValue>
+        <fullName>Park View Residence</fullName>
+        <default>false</default>
+        <label>Park View Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Chaimaa Premiere</fullName>
+        <default>false</default>
+        <label>Chaimaa Premiere</label>
+    </customValue>
+    <customValue>
+        <fullName>Westar Casablanca</fullName>
+        <default>false</default>
+        <label>Westar Casablanca</label>
+    </customValue>
+    <customValue>
+        <fullName>Westar Corona</fullName>
+        <default>false</default>
+        <label>Westar Corona</label>
+    </customValue>
+    <customValue>
+        <fullName>Haven Villas at the Sanctuary</fullName>
+        <default>false</default>
+        <label>Haven Villas at the Sanctuary</label>
+    </customValue>
+    <customValue>
+        <fullName>Haven Villas 1 at the Sanctuary</fullName>
+        <default>false</default>
+        <label>Haven Villas 1 at the Sanctuary</label>
+    </customValue>
+    <customValue>
+        <fullName>Cartel 112</fullName>
+        <default>false</default>
+        <label>Cartel 112</label>
+    </customValue>
+    <customValue>
+        <fullName>National Bonds Residence</fullName>
+        <default>false</default>
+        <label>National Bonds Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Sobo Residence</fullName>
+        <default>false</default>
+        <label>Sobo Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Muhra</fullName>
+        <default>false</default>
+        <label>Al Muhra</label>
+    </customValue>
+    <customValue>
+        <fullName>Cadi Residences</fullName>
+        <default>false</default>
+        <label>Cadi Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Orchidea Building</fullName>
+        <default>false</default>
+        <label>Orchidea Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Desert Rose</fullName>
+        <default>false</default>
+        <label>Desert Rose</label>
+    </customValue>
+    <customValue>
+        <fullName>Diamond Arch</fullName>
+        <default>false</default>
+        <label>Diamond Arch</label>
+    </customValue>
+    <customValue>
+        <fullName>Diamond Views</fullName>
+        <default>false</default>
+        <label>Diamond Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Dar Al Jawhara</fullName>
+        <default>false</default>
+        <label>Dar Al Jawhara</label>
+    </customValue>
+    <customValue>
+        <fullName>Eden Residence</fullName>
+        <default>false</default>
+        <label>Eden Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Excellence Residence</fullName>
+        <default>false</default>
+        <label>Excellence Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Indigo Ville</fullName>
+        <default>false</default>
+        <label>Indigo Ville</label>
+    </customValue>
+    <customValue>
+        <fullName>Jehaan Residences</fullName>
+        <default>false</default>
+        <label>Jehaan Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Jouri Residence 1</fullName>
+        <default>false</default>
+        <label>Jouri Residence 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Jouri Residence 2</fullName>
+        <default>false</default>
+        <label>Jouri Residence 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Jouri Residence 3</fullName>
+        <default>false</default>
+        <label>Jouri Residence 3</label>
+    </customValue>
+    <customValue>
+        <fullName>FIVE at Jumeirah Village Circle</fullName>
+        <default>false</default>
+        <label>FIVE at Jumeirah Village Circle</label>
+    </customValue>
+    <customValue>
+        <fullName>Jouri Residence 4</fullName>
+        <default>false</default>
+        <label>Jouri Residence 4</label>
+    </customValue>
+    <customValue>
+        <fullName>Jouri Residence 5</fullName>
+        <default>false</default>
+        <label>Jouri Residence 5</label>
+    </customValue>
+    <customValue>
+        <fullName>Belgravia Heights 1</fullName>
+        <default>false</default>
+        <label>Belgravia Heights 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Jouri Residence 6</fullName>
+        <default>false</default>
+        <label>Jouri Residence 6</label>
+    </customValue>
+    <customValue>
+        <fullName>Judi</fullName>
+        <default>false</default>
+        <label>Judi</label>
+    </customValue>
+    <customValue>
+        <fullName>District 12S</fullName>
+        <default>false</default>
+        <label>District 12S</label>
+    </customValue>
+    <customValue>
+        <fullName>District 13H</fullName>
+        <default>false</default>
+        <label>District 13H</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Zubaidi Residence</fullName>
+        <default>false</default>
+        <label>Al Zubaidi Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>La Riviera Estate</fullName>
+        <default>false</default>
+        <label>La Riviera Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Metropolis Lofts</fullName>
+        <default>false</default>
+        <label>Metropolis Lofts</label>
+    </customValue>
+    <customValue>
+        <fullName>Royal JVC Building</fullName>
+        <default>false</default>
+        <label>Royal JVC Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Plazzo Heights</fullName>
+        <default>false</default>
+        <label>Plazzo Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Mirabella</fullName>
+        <default>false</default>
+        <label>Mirabella</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Maali Complex</fullName>
+        <default>false</default>
+        <label>Al Maali Complex</label>
+    </customValue>
+    <customValue>
+        <fullName>Noora Residence</fullName>
+        <default>false</default>
+        <label>Noora Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>District 11D</fullName>
+        <default>false</default>
+        <label>District 11D</label>
+    </customValue>
+    <customValue>
+        <fullName>Plaza Residences</fullName>
+        <default>false</default>
+        <label>Plaza Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Belgravia Heights 2</fullName>
+        <default>false</default>
+        <label>Belgravia Heights 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Quattro</fullName>
+        <default>false</default>
+        <label>Quattro</label>
+    </customValue>
+    <customValue>
+        <fullName>Reliance Towers</fullName>
+        <default>false</default>
+        <label>Reliance Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Rufi Downtown</fullName>
+        <default>false</default>
+        <label>Rufi Downtown</label>
+    </customValue>
+    <customValue>
+        <fullName>Seasons Community</fullName>
+        <default>false</default>
+        <label>Seasons Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Meadows 1</fullName>
+        <default>false</default>
+        <label>Meadows 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Meadows 2</fullName>
+        <default>false</default>
+        <label>Meadows 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Meadows 3</fullName>
+        <default>false</default>
+        <label>Meadows 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Meadows 4</fullName>
+        <default>false</default>
+        <label>Meadows 4</label>
+    </customValue>
+    <customValue>
+        <fullName>Meadows 5</fullName>
+        <default>false</default>
+        <label>Meadows 5</label>
+    </customValue>
+    <customValue>
+        <fullName>Meadows 6</fullName>
+        <default>false</default>
+        <label>Meadows 6</label>
+    </customValue>
+    <customValue>
+        <fullName>Meadows 7</fullName>
+        <default>false</default>
+        <label>Meadows 7</label>
+    </customValue>
+    <customValue>
+        <fullName>Meadows 8</fullName>
+        <default>false</default>
+        <label>Meadows 8</label>
+    </customValue>
+    <customValue>
+        <fullName>Meadows 9</fullName>
+        <default>false</default>
+        <label>Meadows 9</label>
+    </customValue>
+    <customValue>
+        <fullName>The Residences at District One</fullName>
+        <default>false</default>
+        <label>The Residences at District One</label>
+    </customValue>
+    <customValue>
+        <fullName>District One</fullName>
+        <default>false</default>
+        <label>District One</label>
+    </customValue>
+    <customValue>
+        <fullName>District 11</fullName>
+        <default>false</default>
+        <label>District 11</label>
+    </customValue>
+    <customValue>
+        <fullName>Sobha Hartland</fullName>
+        <default>false</default>
+        <label>Sobha Hartland</label>
+    </customValue>
+    <customValue>
+        <fullName>Mediterranean Villas</fullName>
+        <default>false</default>
+        <label>Mediterranean Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Arabic Villas</fullName>
+        <default>false</default>
+        <label>Arabic Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>The Royal Gardens</fullName>
+        <default>false</default>
+        <label>The Royal Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Gemini Splendor</fullName>
+        <default>false</default>
+        <label>Gemini Splendor</label>
+    </customValue>
+    <customValue>
+        <fullName>District 7</fullName>
+        <default>false</default>
+        <label>District 7</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlantis The Palm</fullName>
+        <default>false</default>
+        <label>Atlantis The Palm</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal Cove Villas</fullName>
+        <default>false</default>
+        <label>Canal Cove Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Gateway Towers</fullName>
+        <default>false</default>
+        <label>Gateway Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Grandeur Residences</fullName>
+        <default>false</default>
+        <label>Grandeur Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Oceana</fullName>
+        <default>false</default>
+        <label>Oceana</label>
+    </customValue>
+    <customValue>
+        <fullName>Shoreline Apartments</fullName>
+        <default>false</default>
+        <label>Shoreline Apartments</label>
+    </customValue>
+    <customValue>
+        <fullName>Marina Residences</fullName>
+        <default>false</default>
+        <label>Marina Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Golden Mile</fullName>
+        <default>false</default>
+        <label>Golden Mile</label>
+    </customValue>
+    <customValue>
+        <fullName>The Fairmont Palm Residences</fullName>
+        <default>false</default>
+        <label>The Fairmont Palm Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Tiara Residences</fullName>
+        <default>false</default>
+        <label>Tiara Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Water Villas</fullName>
+        <default>false</default>
+        <label>Water Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Kingdom of Sheba</fullName>
+        <default>false</default>
+        <label>Kingdom of Sheba</label>
+    </customValue>
+    <customValue>
+        <fullName>Palma Residences</fullName>
+        <default>false</default>
+        <label>Palma Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Viceroy</fullName>
+        <default>false</default>
+        <label>Viceroy</label>
+    </customValue>
+    <customValue>
+        <fullName>Palm Views</fullName>
+        <default>false</default>
+        <label>Palm Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Azure Residences</fullName>
+        <default>false</default>
+        <label>Azure Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Club Vista Mare</fullName>
+        <default>false</default>
+        <label>Club Vista Mare</label>
+    </customValue>
+    <customValue>
+        <fullName>The Palm Tower</fullName>
+        <default>false</default>
+        <label>The Palm Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Serenia Residences The Palm</fullName>
+        <default>false</default>
+        <label>Serenia Residences The Palm</label>
+    </customValue>
+    <customValue>
+        <fullName>One at Palm Jumeirah</fullName>
+        <default>false</default>
+        <label>One at Palm Jumeirah</label>
+    </customValue>
+    <customValue>
+        <fullName>Dukes Oceana</fullName>
+        <default>false</default>
+        <label>Dukes Oceana</label>
+    </customValue>
+    <customValue>
+        <fullName>Anantara Residences</fullName>
+        <default>false</default>
+        <label>Anantara Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Royal Bay</fullName>
+        <default>false</default>
+        <label>Royal Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Pointe</fullName>
+        <default>false</default>
+        <label>Jumeirah Pointe</label>
+    </customValue>
+    <customValue>
+        <fullName>The Alef Residences</fullName>
+        <default>false</default>
+        <label>The Alef Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>The Royal Atlantis Resort &amp; Residences</fullName>
+        <default>false</default>
+        <label>The Royal Atlantis Resort &amp; Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>MINA by Azizi</fullName>
+        <default>false</default>
+        <label>MINA by Azizi</label>
+    </customValue>
+    <customValue>
+        <fullName>The Royal Amwaj</fullName>
+        <default>false</default>
+        <label>The Royal Amwaj</label>
+    </customValue>
+    <customValue>
+        <fullName>XXII Carat</fullName>
+        <default>false</default>
+        <label>XXII Carat</label>
+    </customValue>
+    <customValue>
+        <fullName>Four Pearls</fullName>
+        <default>false</default>
+        <label>Four Pearls</label>
+    </customValue>
+    <customValue>
+        <fullName>FIVE Palm Jumeirah</fullName>
+        <default>false</default>
+        <label>FIVE Palm Jumeirah</label>
+    </customValue>
+    <customValue>
+        <fullName>Se7en Residences</fullName>
+        <default>false</default>
+        <label>Se7en Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Palme Couture</fullName>
+        <default>false</default>
+        <label>Palme Couture</label>
+    </customValue>
+    <customValue>
+        <fullName>Mira</fullName>
+        <default>false</default>
+        <label>Mira</label>
+    </customValue>
+    <customValue>
+        <fullName>Mira Oasis</fullName>
+        <default>false</default>
+        <label>Mira Oasis</label>
+    </customValue>
+    <customValue>
+        <fullName>Vida Residence</fullName>
+        <default>false</default>
+        <label>Vida Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>The Hills A</fullName>
+        <default>false</default>
+        <label>The Hills A</label>
+    </customValue>
+    <customValue>
+        <fullName>The Hills B</fullName>
+        <default>false</default>
+        <label>The Hills B</label>
+    </customValue>
+    <customValue>
+        <fullName>The Hills C</fullName>
+        <default>false</default>
+        <label>The Hills C</label>
+    </customValue>
+    <customValue>
+        <fullName>Vida Hotel</fullName>
+        <default>false</default>
+        <label>Vida Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Deema</fullName>
+        <default>false</default>
+        <label>Deema</label>
+    </customValue>
+    <customValue>
+        <fullName>Forat</fullName>
+        <default>false</default>
+        <label>Forat</label>
+    </customValue>
+    <customValue>
+        <fullName>Ghadeer</fullName>
+        <default>false</default>
+        <label>Ghadeer</label>
+    </customValue>
+    <customValue>
+        <fullName>Maeen</fullName>
+        <default>false</default>
+        <label>Maeen</label>
+    </customValue>
+    <customValue>
+        <fullName>Zulal</fullName>
+        <default>false</default>
+        <label>Zulal</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 1</fullName>
+        <default>false</default>
+        <label>Springs 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 2</fullName>
+        <default>false</default>
+        <label>Springs 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 3</fullName>
+        <default>false</default>
+        <label>Springs 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 4</fullName>
+        <default>false</default>
+        <label>Springs 4</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 5</fullName>
+        <default>false</default>
+        <label>Springs 5</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 6</fullName>
+        <default>false</default>
+        <label>Springs 6</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 7</fullName>
+        <default>false</default>
+        <label>Springs 7</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 8</fullName>
+        <default>false</default>
+        <label>Springs 8</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 9</fullName>
+        <default>false</default>
+        <label>Springs 9</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 10</fullName>
+        <default>false</default>
+        <label>Springs 10</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 11</fullName>
+        <default>false</default>
+        <label>Springs 11</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 12</fullName>
+        <default>false</default>
+        <label>Springs 12</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 13</fullName>
+        <default>false</default>
+        <label>Springs 13</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 14</fullName>
+        <default>false</default>
+        <label>Springs 14</label>
+    </customValue>
+    <customValue>
+        <fullName>Springs 15</fullName>
+        <default>false</default>
+        <label>Springs 15</label>
+    </customValue>
+    <customValue>
+        <fullName>Arno</fullName>
+        <default>false</default>
+        <label>Arno</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Towers</fullName>
+        <default>false</default>
+        <label>Golf Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Mosela</fullName>
+        <default>false</default>
+        <label>Mosela</label>
+    </customValue>
+    <customValue>
+        <fullName>The Fairways</fullName>
+        <default>false</default>
+        <label>The Fairways</label>
+    </customValue>
+    <customValue>
+        <fullName>The Links</fullName>
+        <default>false</default>
+        <label>The Links</label>
+    </customValue>
+    <customValue>
+        <fullName>Travo</fullName>
+        <default>false</default>
+        <label>Travo</label>
+    </customValue>
+    <customValue>
+        <fullName>Turia</fullName>
+        <default>false</default>
+        <label>Turia</label>
+    </customValue>
+    <customValue>
+        <fullName>Una</fullName>
+        <default>false</default>
+        <label>Una</label>
+    </customValue>
+    <customValue>
+        <fullName>Panorama at the Views</fullName>
+        <default>false</default>
+        <label>Panorama at the Views</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal Villas</fullName>
+        <default>false</default>
+        <label>Canal Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Villas</fullName>
+        <default>false</default>
+        <label>Golf Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Tanaro</fullName>
+        <default>false</default>
+        <label>Tanaro</label>
+    </customValue>
+    <customValue>
+        <fullName>The Views 2</fullName>
+        <default>false</default>
+        <label>The Views 2</label>
+    </customValue>
+    <customValue>
+        <fullName>The Views 1</fullName>
+        <default>false</default>
+        <label>The Views 1</label>
+    </customValue>
+    <masterLabel>Sub Community Propertybase</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

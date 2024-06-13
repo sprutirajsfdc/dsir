@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Whatsap_Web_Link__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;https://wa.me/&quot; &amp; IF ( Contains( MobilePhone , &apos; &apos; ), SUBSTITUTE( MobilePhone, &quot; &quot;, &quot;&quot; ) ,
+IF ( Contains( MobilePhone , &apos;+&apos; ), SUBSTITUTE( MobilePhone, &quot;+&quot;, &quot;&quot; ),
+IF ( Contains( MobilePhone , &apos;-&apos; ), SUBSTITUTE( MobilePhone, &quot;-&quot;, &quot;&quot; ),
+IF ( Contains( MobilePhone , &apos;(&apos; ), SUBSTITUTE( MobilePhone, &quot;(&quot;, &quot;&quot; ),
+IF ( Contains( MobilePhone , &apos;)&apos; ), SUBSTITUTE( MobilePhone, &quot;)&quot;, &quot;&quot; ), MobilePhone)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Whatsap Web Link</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

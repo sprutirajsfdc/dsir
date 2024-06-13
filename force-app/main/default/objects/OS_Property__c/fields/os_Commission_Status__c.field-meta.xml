@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Commission_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Commission Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Paid to Sotheby&apos;s</fullName>
+                <default>false</default>
+                <label>Paid to Sotheby&apos;s</label>
+            </value>
+            <value>
+                <fullName>Paid to 3rd Party Brokerage</fullName>
+                <default>false</default>
+                <label>Paid to 3rd Party Brokerage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

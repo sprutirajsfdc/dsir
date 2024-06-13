@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_uaefields_Private_Amenities__c</fullName>
+    <externalId>false</externalId>
+    <label>Private Amenities</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>os_Listing_Initials__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>24 Hour porter</fullName>
+                <default>false</default>
+                <label>24 Hour porter</label>
+            </value>
+            <value>
+                <fullName>AC</fullName>
+                <default>false</default>
+                <label>AC</label>
+            </value>
+            <value>
+                <fullName>Acreage</fullName>
+                <default>false</default>
+                <label>Acreage</label>
+            </value>
+            <value>
+                <fullName>Balcony</fullName>
+                <default>false</default>
+                <label>Balcony</label>
+            </value>
+            <value>
+                <fullName>Bar</fullName>
+                <default>false</default>
+                <label>Bar</label>
+            </value>
+            <value>
+                <fullName>Built in Kitchen Appliances</fullName>
+                <default>false</default>
+                <label>Built in Kitchen Appliances</label>
+            </value>
+            <value>
+                <fullName>Built in Wardrobes</fullName>
+                <default>false</default>
+                <label>Built in Wardrobes</label>
+            </value>
+            <value>
+                <fullName>CCTV</fullName>
+                <default>false</default>
+                <label>CCTV</label>
+            </value>
+            <value>
+                <fullName>Central A/C &amp; Heating</fullName>
+                <default>false</default>
+                <label>Central A/C &amp; Heating</label>
+            </value>
+            <value>
+                <fullName>Concierge Service</fullName>
+                <default>false</default>
+                <label>Concierge Service</label>
+            </value>
+            <value>
+                <fullName>Conservatory</fullName>
+                <default>false</default>
+                <label>Conservatory</label>
+            </value>
+            <value>
+                <fullName>Covered Parking</fullName>
+                <default>false</default>
+                <label>Covered Parking</label>
+            </value>
+            <value>
+                <fullName>Dated and Development</fullName>
+                <default>false</default>
+                <label>Dated and Development</label>
+            </value>
+            <value>
+                <fullName>Direct views over Hyde Park</fullName>
+                <default>false</default>
+                <label>Direct views over Hyde Park</label>
+            </value>
+            <value>
+                <fullName>Driver&apos;s Room</fullName>
+                <default>false</default>
+                <label>Driver&apos;s Room</label>
+            </value>
+            <value>
+                <fullName>Excellent Condition</fullName>
+                <default>false</default>
+                <label>Excellent Condition</label>
+            </value>
+            <value>
+                <fullName>Fireplace</fullName>
+                <default>false</default>
+                <label>Fireplace</label>
+            </value>
+            <value>
+                <fullName>Garage</fullName>
+                <default>false</default>
+                <label>Garage</label>
+            </value>
+            <value>
+                <fullName>Garden</fullName>
+                <default>false</default>
+                <label>Garden</label>
+            </value>
+            <value>
+                <fullName>Georgian Architecture</fullName>
+                <default>false</default>
+                <label>Georgian Architecture</label>
+            </value>
+            <value>
+                <fullName>Golf Greens</fullName>
+                <default>false</default>
+                <label>Golf Greens</label>
+            </value>
+            <value>
+                <fullName>Grand Hall</fullName>
+                <default>false</default>
+                <label>Grand Hall</label>
+            </value>
+            <value>
+                <fullName>Grand Staircase</fullName>
+                <default>false</default>
+                <label>Grand Staircase</label>
+            </value>
+            <value>
+                <fullName>High Ceilings</fullName>
+                <default>false</default>
+                <label>High Ceilings</label>
+            </value>
+            <value>
+                <fullName>Home Theatre</fullName>
+                <default>false</default>
+                <label>Home Theatre</label>
+            </value>
+            <value>
+                <fullName>Lateral apartment</fullName>
+                <default>false</default>
+                <label>Lateral apartment</label>
+            </value>
+            <value>
+                <fullName>Library</fullName>
+                <default>false</default>
+                <label>Library</label>
+            </value>
+            <value>
+                <fullName>Lift</fullName>
+                <default>false</default>
+                <label>Lift</label>
+            </value>
+            <value>
+                <fullName>Listed Building</fullName>
+                <default>false</default>
+                <label>Listed Building</label>
+            </value>
+            <value>
+                <fullName>Maid Service</fullName>
+                <default>false</default>
+                <label>Maid Service</label>
+            </value>
+            <value>
+                <fullName>Maids Room</fullName>
+                <default>false</default>
+                <label>Maids Room</label>
+            </value>
+            <value>
+                <fullName>Marble Finishings</fullName>
+                <default>false</default>
+                <label>Marble Finishings</label>
+            </value>
+            <value>
+                <fullName>Massive Rooms</fullName>
+                <default>false</default>
+                <label>Massive Rooms</label>
+            </value>
+            <value>
+                <fullName>Modern Finishings</fullName>
+                <default>false</default>
+                <label>Modern Finishings</label>
+            </value>
+            <value>
+                <fullName>Parking</fullName>
+                <default>false</default>
+                <label>Parking</label>
+            </value>
+            <value>
+                <fullName>Patio</fullName>
+                <default>false</default>
+                <label>Patio</label>
+            </value>
+            <value>
+                <fullName>Pets Allowed</fullName>
+                <default>false</default>
+                <label>Pets Allowed</label>
+            </value>
+            <value>
+                <fullName>Private Garden</fullName>
+                <default>false</default>
+                <label>Private Garden</label>
+            </value>
+            <value>
+                <fullName>Private Gym</fullName>
+                <default>false</default>
+                <label>Private Gym</label>
+            </value>
+            <value>
+                <fullName>Private Jacuzzi</fullName>
+                <default>false</default>
+                <label>Private Jacuzzi</label>
+            </value>
+            <value>
+                <fullName>Private Pool</fullName>
+                <default>false</default>
+                <label>Private Pool</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security</label>
+            </value>
+            <value>
+                <fullName>Shared Gym</fullName>
+                <default>false</default>
+                <label>Shared Gym</label>
+            </value>
+            <value>
+                <fullName>Shared Pool</fullName>
+                <default>false</default>
+                <label>Shared Pool</label>
+            </value>
+            <value>
+                <fullName>Shared Spa</fullName>
+                <default>false</default>
+                <label>Shared Spa</label>
+            </value>
+            <value>
+                <fullName>Share of freehold</fullName>
+                <default>false</default>
+                <label>Share of freehold</label>
+            </value>
+            <value>
+                <fullName>Stables</fullName>
+                <default>false</default>
+                <label>Stables</label>
+            </value>
+            <value>
+                <fullName>Study</fullName>
+                <default>false</default>
+                <label>Study</label>
+            </value>
+            <value>
+                <fullName>Tennis Court</fullName>
+                <default>false</default>
+                <label>Tennis Court</label>
+            </value>
+            <value>
+                <fullName>Terrace</fullName>
+                <default>false</default>
+                <label>Terrace</label>
+            </value>
+            <value>
+                <fullName>Underfloor Heating</fullName>
+                <default>false</default>
+                <label>Underfloor Heating</label>
+            </value>
+            <value>
+                <fullName>Utility Room</fullName>
+                <default>false</default>
+                <label>Utility Room</label>
+            </value>
+            <value>
+                <fullName>Victorian Architecture</fullName>
+                <default>false</default>
+                <label>Victorian Architecture</label>
+            </value>
+            <value>
+                <fullName>View of Landmark</fullName>
+                <default>false</default>
+                <label>View of Landmark</label>
+            </value>
+            <value>
+                <fullName>View of Water</fullName>
+                <default>false</default>
+                <label>View of Water</label>
+            </value>
+            <value>
+                <fullName>Walk in Closet</fullName>
+                <default>false</default>
+                <label>Walk in Closet</label>
+            </value>
+            <value>
+                <fullName>Waterfront</fullName>
+                <default>false</default>
+                <label>Waterfront</label>
+            </value>
+            <value>
+                <fullName>Wine Cellar</fullName>
+                <default>false</default>
+                <label>Wine Cellar</label>
+            </value>
+            <value>
+                <fullName>Wooden Floors</fullName>
+                <default>false</default>
+                <label>Wooden Floors</label>
+            </value>
+            <value>
+                <fullName>Original Period Features</fullName>
+                <default>false</default>
+                <label>Original Period Features</label>
+            </value>
+            <value>
+                <fullName>Communal Garden</fullName>
+                <default>false</default>
+                <label>Communal Garden</label>
+            </value>
+            <value>
+                <fullName>6-8 cars off-street parking</fullName>
+                <default>false</default>
+                <label>6-8 cars off-street parking</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Balcony</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Built in Kitchen Appliances</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Built in Wardrobes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>CCTV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Central A/C &amp; Heating</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Concierge Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Covered Parking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Dated and Development</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Direct views over Hyde Park</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Driver&apos;s Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Lift</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Maid Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Maids Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Pets Allowed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Private Garden</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Private Gym</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Private Jacuzzi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Private Pool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Shared Gym</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Shared Pool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Shared Spa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Share of freehold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Study</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>View of Landmark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>View of Water</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Walk in Closet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Wine Cellar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GS</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Communal Garden</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>24 Hour porter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>AC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Acreage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Bar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Conservatory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Fireplace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Garage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Garden</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Georgian Architecture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Golf Greens</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Grand Hall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Grand Staircase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>High Ceilings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Home Theatre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Library</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Listed Building</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Marble Finishings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Massive Rooms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Modern Finishings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Parking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Patio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Stables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Tennis Court</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Terrace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Underfloor Heating</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Utility Room</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Victorian Architecture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Waterfront</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Wooden Floors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>Original Period Features</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>6-8 cars off-street parking</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2B_Buyer_Information_Require_Rule_New</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT( ISPICKVAL(CurrencyIsoCode , &apos;GBP&apos;) ),
+RecordType.Name = &apos;Exclusive Project&apos;,
+CreatedDate &gt; DATETIMEVALUE(&quot;2023-08-24 00:00:00&quot;),
+OR(
+ISPICKVAL(os_InquiryType__c , &apos;Buyer&apos;),
+ISPICKVAL( os_Agency_Inquiry_Type__c , &apos;B2B Buyers&apos;)
+),
+ISBLANK( os_3rd_Party_Agency_Client__c),
+OR(ISBLANK( os_B2B_Buyers_Full_Name__c	),
+AND(
+ISBLANK( os_B2B_Buyers_Email__c),
+ISBLANK( os_B2B_Buyers_Mobile__c),
+ISBLANK( os_B2B_Buyers_Nationality__c	)
+))
+)</errorConditionFormula>
+    <errorMessage>Please fill these Fields for B2B Buyer Information -
+B2B Buyers Full Name
+And any one of these :
+B2B Buyers Nationality,
+B2B Buyers Mobile,
+B2B Buyers Email</errorMessage>
+</ValidationRule>

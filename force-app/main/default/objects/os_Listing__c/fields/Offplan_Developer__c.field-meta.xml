@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offplan_Developer__c</fullName>
+    <externalId>false</externalId>
+    <label>Offplan Developer</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abwab Real Estate</fullName>
+                <default>false</default>
+                <label>Abwab Real Estate</label>
+            </value>
+            <value>
+                <fullName>Al Ain</fullName>
+                <default>false</default>
+                <label>Al Ain</label>
+            </value>
+            <value>
+                <fullName>Al Wasl</fullName>
+                <default>false</default>
+                <label>Al Wasl</label>
+            </value>
+            <value>
+                <fullName>Arabian Construction</fullName>
+                <default>false</default>
+                <label>Arabian Construction</label>
+            </value>
+            <value>
+                <fullName>ASI Real Estate Dev LLC</fullName>
+                <default>false</default>
+                <label>ASI Real Estate Dev LLC</label>
+            </value>
+            <value>
+                <fullName>Avani by Al Fahim</fullName>
+                <default>false</default>
+                <label>Avani by Al Fahim</label>
+            </value>
+            <value>
+                <fullName>Battersea</fullName>
+                <default>false</default>
+                <label>Battersea</label>
+            </value>
+            <value>
+                <fullName>DAMAC Properties</fullName>
+                <default>false</default>
+                <label>DAMAC Properties</label>
+            </value>
+            <value>
+                <fullName>Dubai Properties</fullName>
+                <default>false</default>
+                <label>Dubai Properties</label>
+            </value>
+            <value>
+                <fullName>Ellington</fullName>
+                <default>false</default>
+                <label>Ellington</label>
+            </value>
+            <value>
+                <fullName>EMAAR</fullName>
+                <default>false</default>
+                <label>EMAAR</label>
+            </value>
+            <value>
+                <fullName>Forum Group</fullName>
+                <default>false</default>
+                <label>Forum Group</label>
+            </value>
+            <value>
+                <fullName>Hillside</fullName>
+                <default>false</default>
+                <label>Hillside</label>
+            </value>
+            <value>
+                <fullName>IFA Hotel and Resort FZE</fullName>
+                <default>false</default>
+                <label>IFA Hotel and Resort FZE</label>
+            </value>
+            <value>
+                <fullName>Ithra Dubai</fullName>
+                <default>false</default>
+                <label>Ithra Dubai</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Golf Estates</fullName>
+                <default>false</default>
+                <label>Jumeirah Golf Estates</label>
+            </value>
+            <value>
+                <fullName>Kerzner</fullName>
+                <default>false</default>
+                <label>Kerzner</label>
+            </value>
+            <value>
+                <fullName>Liv Developers</fullName>
+                <default>false</default>
+                <label>Liv Developers</label>
+            </value>
+            <value>
+                <fullName>Marina Arcade</fullName>
+                <default>false</default>
+                <label>Marina Arcade</label>
+            </value>
+            <value>
+                <fullName>Marriott International</fullName>
+                <default>false</default>
+                <label>Marriott International</label>
+            </value>
+            <value>
+                <fullName>Marsa Al Arab Residences LLC</fullName>
+                <default>false</default>
+                <label>Marsa Al Arab Residences LLC</label>
+            </value>
+            <value>
+                <fullName>Meraas</fullName>
+                <default>false</default>
+                <label>Meraas</label>
+            </value>
+            <value>
+                <fullName>Meydan</fullName>
+                <default>false</default>
+                <label>Meydan</label>
+            </value>
+            <value>
+                <fullName>Meydan Sobha</fullName>
+                <default>false</default>
+                <label>Meydan Sobha</label>
+            </value>
+            <value>
+                <fullName>Muraba</fullName>
+                <default>false</default>
+                <label>Muraba</label>
+            </value>
+            <value>
+                <fullName>-None-</fullName>
+                <default>false</default>
+                <label>-None-</label>
+            </value>
+            <value>
+                <fullName>NYC Holdings Limited</fullName>
+                <default>false</default>
+                <label>NYC Holdings Limited</label>
+            </value>
+            <value>
+                <fullName>Omniyat</fullName>
+                <default>false</default>
+                <label>Omniyat</label>
+            </value>
+            <value>
+                <fullName>Palme Couture</fullName>
+                <default>false</default>
+                <label>Palme Couture</label>
+            </value>
+            <value>
+                <fullName>Select Group</fullName>
+                <default>false</default>
+                <label>Select Group</label>
+            </value>
+            <value>
+                <fullName>Select Property Group</fullName>
+                <default>false</default>
+                <label>Select Property Group</label>
+            </value>
+            <value>
+                <fullName>Signature D T Real Estate</fullName>
+                <default>false</default>
+                <label>Signature D T Real Estate</label>
+            </value>
+            <value>
+                <fullName>Six Senses</fullName>
+                <default>false</default>
+                <label>Six Senses</label>
+            </value>
+            <value>
+                <fullName>Sobha</fullName>
+                <default>false</default>
+                <label>Sobha</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

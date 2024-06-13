@@ -1,0 +1,19 @@
+<template>
+    <lightning-card title="Fetched Data Table" icon-name="standard:account">
+        <div class="slds-m-around_medium">
+            <template if:true={data}>
+                <lightning-datatable
+                    key-field="id"
+                    data={data}
+                    columns={columns}
+                    hide-checkbox-column=true>
+                </lightning-datatable>
+            </template>
+            <template if:false={data}>
+                <div class="slds-text-align_center">
+                    No data to display.
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_gsir_lead_media_name__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Media Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SIR.com</fullName>
+                <default>false</default>
+                <label>SIR.com</label>
+            </value>
+            <value>
+                <fullName>SPFrealty.com</fullName>
+                <default>false</default>
+                <label>SPFrealty.com</label>
+            </value>
+            <value>
+                <fullName>Digital Campaign</fullName>
+                <default>false</default>
+                <label>Digital Campaign</label>
+            </value>
+            <value>
+                <fullName>EDM - Propertyfinder.ae</fullName>
+                <default>false</default>
+                <label>EDM - Propertyfinder.ae</label>
+            </value>
+            <value>
+                <fullName>Email Campaign</fullName>
+                <default>false</default>
+                <label>Email Campaign</label>
+            </value>
+            <value>
+                <fullName>Flyers</fullName>
+                <default>false</default>
+                <label>Flyers</label>
+            </value>
+            <value>
+                <fullName>Gulf News Website</fullName>
+                <default>false</default>
+                <label>Gulf News Website</label>
+            </value>
+            <value>
+                <fullName>SMS Campaign</fullName>
+                <default>false</default>
+                <label>SMS Campaign</label>
+            </value>
+            <value>
+                <fullName>Social Media Campaign</fullName>
+                <default>false</default>
+                <label>Social Media Campaign</label>
+            </value>
+            <value>
+                <fullName>Staff Mailer</fullName>
+                <default>false</default>
+                <label>Staff Mailer</label>
+            </value>
+            <value>
+                <fullName>Zawya Mailer</fullName>
+                <default>false</default>
+                <label>Zawya Mailer</label>
+            </value>
+            <value>
+                <fullName>Sotheby&apos;s Catalogue</fullName>
+                <default>false</default>
+                <label>Sotheby&apos;s Catalogue</label>
+            </value>
+            <value>
+                <fullName>Arabian Business</fullName>
+                <default>false</default>
+                <label>Arabian Business</label>
+            </value>
+            <value>
+                <fullName>Art of Tomorrow 2016</fullName>
+                <default>false</default>
+                <label>Art of Tomorrow 2016</label>
+            </value>
+            <value>
+                <fullName>Digital Kiosks</fullName>
+                <default>false</default>
+                <label>Digital Kiosks</label>
+            </value>
+            <value>
+                <fullName>Gulf News Mailer</fullName>
+                <default>false</default>
+                <label>Gulf News Mailer</label>
+            </value>
+            <value>
+                <fullName>B2C - eDM - Azure/Louvre Launch</fullName>
+                <default>false</default>
+                <label>B2C - eDM - Azure/Louvre Launch</label>
+            </value>
+            <value>
+                <fullName>SMS - Azure/Louvre Launch</fullName>
+                <default>false</default>
+                <label>SMS - Azure/Louvre Launch</label>
+            </value>
+            <value>
+                <fullName>B2C eDM</fullName>
+                <default>false</default>
+                <label>B2C eDM</label>
+            </value>
+            <value>
+                <fullName>Online Banners</fullName>
+                <default>false</default>
+                <label>Online Banners</label>
+            </value>
+            <value>
+                <fullName>Rezora.com</fullName>
+                <default>false</default>
+                <label>Rezora.com</label>
+            </value>
+            <value>
+                <fullName>Gulf SIR.com - Google Adwords</fullName>
+                <default>false</default>
+                <label>Gulf SIR.com - Google Adwords</label>
+            </value>
+            <value>
+                <fullName>Facebook - Lead Generation Ads</fullName>
+                <default>false</default>
+                <label>Facebook - Lead Generation Ads</label>
+            </value>
+            <value>
+                <fullName>Facebook - Messages</fullName>
+                <default>false</default>
+                <label>Facebook - Messages</label>
+            </value>
+            <value>
+                <fullName>hut.ae</fullName>
+                <default>false</default>
+                <label>hut.ae</label>
+            </value>
+            <value>
+                <fullName>James Edition</fullName>
+                <default>false</default>
+                <label>James Edition</label>
+            </value>
+            <value>
+                <fullName>Dubizzle.com</fullName>
+                <default>false</default>
+                <label>Dubizzle.com</label>
+            </value>
+            <value>
+                <fullName>Propertyfinder.ae</fullName>
+                <default>false</default>
+                <label>Propertyfinder.ae</label>
+            </value>
+            <value>
+                <fullName>Propertywifi.com</fullName>
+                <default>false</default>
+                <label>Propertywifi.com</label>
+            </value>
+            <value>
+                <fullName>Gulfpropertyportal.com</fullName>
+                <default>false</default>
+                <label>Gulfpropertyportal.com</label>
+            </value>
+            <value>
+                <fullName>Classonet</fullName>
+                <default>false</default>
+                <label>Classonet</label>
+            </value>
+            <value>
+                <fullName>Other Portal</fullName>
+                <default>false</default>
+                <label>Other Portal</label>
+            </value>
+            <value>
+                <fullName>Realopedia</fullName>
+                <default>false</default>
+                <label>Realopedia</label>
+            </value>
+            <value>
+                <fullName>Sandcastles.ae</fullName>
+                <default>false</default>
+                <label>Sandcastles.ae</label>
+            </value>
+            <value>
+                <fullName>Souq.com</fullName>
+                <default>false</default>
+                <label>Souq.com</label>
+            </value>
+            <value>
+                <fullName>Wasset.net</fullName>
+                <default>false</default>
+                <label>Wasset.net</label>
+            </value>
+            <value>
+                <fullName>Propertyportal.ae</fullName>
+                <default>false</default>
+                <label>Propertyportal.ae</label>
+            </value>
+            <value>
+                <fullName>EzEstate</fullName>
+                <default>false</default>
+                <label>EzEstate</label>
+            </value>
+            <value>
+                <fullName>Zoopla</fullName>
+                <default>false</default>
+                <label>Zoopla</label>
+            </value>
+            <value>
+                <fullName>Luxury Estate</fullName>
+                <default>false</default>
+                <label>Luxury Estate</label>
+            </value>
+            <value>
+                <fullName>Mansion Global</fullName>
+                <default>false</default>
+                <label>Mansion Global</label>
+            </value>
+            <value>
+                <fullName>Outdoor Media</fullName>
+                <default>false</default>
+                <label>Outdoor Media</label>
+            </value>
+            <value>
+                <fullName>Signboard</fullName>
+                <default>false</default>
+                <label>Signboard</label>
+            </value>
+            <value>
+                <fullName>JBR - Hoarding</fullName>
+                <default>false</default>
+                <label>JBR - Hoarding</label>
+            </value>
+            <value>
+                <fullName>Lamp Post - Jumeirah</fullName>
+                <default>false</default>
+                <label>Lamp Post - Jumeirah</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Google</fullName>
+                <default>false</default>
+                <label>Google</label>
+            </value>
+            <value>
+                <fullName>Instagram</fullName>
+                <default>false</default>
+                <label>Instagram</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>WhatsApp</fullName>
+                <default>false</default>
+                <label>WhatsApp</label>
+            </value>
+            <value>
+                <fullName>Youtube</fullName>
+                <default>false</default>
+                <label>Youtube</label>
+            </value>
+            <value>
+                <fullName>Twitter</fullName>
+                <default>false</default>
+                <label>Twitter</label>
+            </value>
+            <value>
+                <fullName>GulfSIR.com</fullName>
+                <default>false</default>
+                <label>GulfSIR.com</label>
+            </value>
+            <value>
+                <fullName>Website Chat</fullName>
+                <default>false</default>
+                <label>Website Chat</label>
+            </value>
+            <value>
+                <fullName>Website Home</fullName>
+                <default>false</default>
+                <label>Website Home</label>
+            </value>
+            <value>
+                <fullName>Stand - JBR</fullName>
+                <default>false</default>
+                <label>Stand - JBR</label>
+            </value>
+            <value>
+                <fullName>Saadiyat Island Sales Centre</fullName>
+                <default>false</default>
+                <label>Saadiyat Island Sales Centre</label>
+            </value>
+            <value>
+                <fullName>Roadshow - Dammam ARAMCO</fullName>
+                <default>false</default>
+                <label>Roadshow - Dammam ARAMCO</label>
+            </value>
+            <value>
+                <fullName>India Event - April 2016</fullName>
+                <default>false</default>
+                <label>India Event - April 2016</label>
+            </value>
+            <value>
+                <fullName>International Property Show</fullName>
+                <default>false</default>
+                <label>International Property Show</label>
+            </value>
+            <value>
+                <fullName>IR Expo - 2016</fullName>
+                <default>false</default>
+                <label>IR Expo - 2016</label>
+            </value>
+            <value>
+                <fullName>London Event - 2016</fullName>
+                <default>false</default>
+                <label>London Event - 2016</label>
+            </value>
+            <value>
+                <fullName>Business Card</fullName>
+                <default>false</default>
+                <label>Business Card</label>
+            </value>
+            <value>
+                <fullName>Cold Call</fullName>
+                <default>false</default>
+                <label>Cold Call</label>
+            </value>
+            <value>
+                <fullName>Company Email</fullName>
+                <default>false</default>
+                <label>Company Email</label>
+            </value>
+            <value>
+                <fullName>Company Website + Box (SPF Realty)</fullName>
+                <default>false</default>
+                <label>Company Website + Box (SPF Realty)</label>
+            </value>
+            <value>
+                <fullName>Database</fullName>
+                <default>false</default>
+                <label>Database</label>
+            </value>
+            <value>
+                <fullName>Developer</fullName>
+                <default>false</default>
+                <label>Developer</label>
+            </value>
+            <value>
+                <fullName>Direct Call</fullName>
+                <default>false</default>
+                <label>Direct Call</label>
+            </value>
+            <value>
+                <fullName>JUWAI</fullName>
+                <default>false</default>
+                <label>JUWAI</label>
+            </value>
+            <value>
+                <fullName>Omniyat</fullName>
+                <default>false</default>
+                <label>Omniyat</label>
+            </value>
+            <value>
+                <fullName>Relocation</fullName>
+                <default>false</default>
+                <label>Relocation</label>
+            </value>
+            <value>
+                <fullName>School Communicator</fullName>
+                <default>false</default>
+                <label>School Communicator</label>
+            </value>
+            <value>
+                <fullName>Walk-in</fullName>
+                <default>false</default>
+                <label>Walk-in</label>
+            </value>
+            <value>
+                <fullName>Website + Box (Other Website)</fullName>
+                <default>false</default>
+                <label>Website + Box (Other Website)</label>
+            </value>
+            <value>
+                <fullName>Cochin</fullName>
+                <default>false</default>
+                <label>Cochin</label>
+            </value>
+            <value>
+                <fullName>Euromoney - 2016</fullName>
+                <default>false</default>
+                <label>Euromoney - 2016</label>
+            </value>
+            <value>
+                <fullName>Jewellery Salon - Jeddah</fullName>
+                <default>false</default>
+                <label>Jewellery Salon - Jeddah</label>
+            </value>
+            <value>
+                <fullName>Magazine + Box</fullName>
+                <default>false</default>
+                <label>Magazine + Box</label>
+            </value>
+            <value>
+                <fullName>QNB</fullName>
+                <default>false</default>
+                <label>QNB</label>
+            </value>
+            <value>
+                <fullName>SMS</fullName>
+                <default>false</default>
+                <label>SMS</label>
+            </value>
+            <value>
+                <fullName>Website + Box (this Is For Use Of Other Website)</fullName>
+                <default>false</default>
+                <label>Website + Box (this Is For Use Of Other Website)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

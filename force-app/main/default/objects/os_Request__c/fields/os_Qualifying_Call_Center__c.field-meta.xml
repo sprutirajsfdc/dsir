@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Qualifying_Call_Center__c</fullName>
+    <externalId>false</externalId>
+    <label>Qualifying Call Center</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agent did not respond</fullName>
+                <default>false</default>
+                <label>Agent did not respond</label>
+            </value>
+            <value>
+                <fullName>Agent said he will call back</fullName>
+                <default>false</default>
+                <label>Agent said he will call back</label>
+            </value>
+            <value>
+                <fullName>Budget low</fullName>
+                <default>false</default>
+                <label>Budget low</label>
+            </value>
+            <value>
+                <fullName>Call Connected to Agent</fullName>
+                <default>false</default>
+                <label>Call Connected to Agent</label>
+            </value>
+            <value>
+                <fullName>Client asked for call back from Agent</fullName>
+                <default>false</default>
+                <label>Client asked for call back from Agent</label>
+            </value>
+            <value>
+                <fullName>Client didn&apos;t respond due to Time Difference.</fullName>
+                <default>false</default>
+                <label>Client didn&apos;t respond due to Time Difference.</label>
+            </value>
+            <value>
+                <fullName>Client did not respond</fullName>
+                <default>false</default>
+                <label>Client did not respond</label>
+            </value>
+            <value>
+                <fullName>Client in Contact with Agent</fullName>
+                <default>false</default>
+                <label>Client in Contact with Agent</label>
+            </value>
+            <value>
+                <fullName>Client Not contactable</fullName>
+                <default>false</default>
+                <label>Client Not contactable</label>
+            </value>
+            <value>
+                <fullName>Client wants to be contacted via Email</fullName>
+                <default>false</default>
+                <label>Client wants to be contacted via Email</label>
+            </value>
+            <value>
+                <fullName>Client wants to be contacted via Whatsapp</fullName>
+                <default>false</default>
+                <label>Client wants to be contacted via Whatsapp</label>
+            </value>
+            <value>
+                <fullName>Duplicate Enquiry</fullName>
+                <default>false</default>
+                <label>Duplicate Enquiry</label>
+            </value>
+            <value>
+                <fullName>Incorrect Email</fullName>
+                <default>false</default>
+                <label>Incorrect Email</label>
+            </value>
+            <value>
+                <fullName>Incorrect mobile</fullName>
+                <default>false</default>
+                <label>Incorrect mobile</label>
+            </value>
+            <value>
+                <fullName>Incorrect mobile &amp; Email</fullName>
+                <default>false</default>
+                <label>Incorrect mobile &amp; Email</label>
+            </value>
+            <value>
+                <fullName>Invalid lead</fullName>
+                <default>false</default>
+                <label>Invalid lead</label>
+            </value>
+            <value>
+                <fullName>Job Seeker</fullName>
+                <default>false</default>
+                <label>Job Seeker</label>
+            </value>
+            <value>
+                <fullName>Real Estate Brokers</fullName>
+                <default>false</default>
+                <label>Real Estate Brokers</label>
+            </value>
+            <value>
+                <fullName>Telemarketing</fullName>
+                <default>false</default>
+                <label>Telemarketing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

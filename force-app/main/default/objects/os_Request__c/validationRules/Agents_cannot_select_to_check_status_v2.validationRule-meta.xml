@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agents_cannot_select_to_check_status_v2</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(os_Status__c, &quot;To Check&quot;),
+OR(
+$User.ProfileId = &quot;00eHp000002zNevIAE&quot;,
+$User.ProfileId = &quot;00eHp000002zNhVIAU&quot;
+)
+)</errorConditionFormula>
+    <errorMessage>Agents cannot set inquiry status to check. Please contact your administrator.</errorMessage>
+</ValidationRule>

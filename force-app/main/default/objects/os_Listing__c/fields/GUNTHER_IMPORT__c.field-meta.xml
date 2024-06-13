@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GUNTHER_IMPORT__c</fullName>
+    <externalId>false</externalId>
+    <label>GUNTHER IMPORT</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gunther</fullName>
+                <default>false</default>
+                <label>Gunther</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

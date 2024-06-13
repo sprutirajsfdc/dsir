@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>os_Closing_Country__c</fullName>
+    <externalId>false</externalId>
+    <label>Closing Country</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>United Arab Emirates</fullName>
+                <default>false</default>
+                <label>United Arab Emirates</label>
+            </value>
+            <value>
+                <fullName>United Kingdom</fullName>
+                <default>false</default>
+                <label>United Kingdom</label>
+            </value>
+            <value>
+                <fullName>Saudi Arabia</fullName>
+                <default>false</default>
+                <label>Saudi Arabia</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

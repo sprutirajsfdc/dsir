@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>24 Hour porter</fullName>
+        <default>false</default>
+        <label>24 Hour porter</label>
+    </customValue>
+    <customValue>
+        <fullName>6-8 cars off-street parking</fullName>
+        <default>false</default>
+        <label>6-8 cars off-street parking</label>
+    </customValue>
+    <customValue>
+        <fullName>AC</fullName>
+        <default>false</default>
+        <label>AC</label>
+    </customValue>
+    <customValue>
+        <fullName>Acreage</fullName>
+        <default>false</default>
+        <label>Acreage</label>
+    </customValue>
+    <customValue>
+        <fullName>Balcony</fullName>
+        <default>false</default>
+        <label>Balcony</label>
+    </customValue>
+    <customValue>
+        <fullName>Bar</fullName>
+        <default>false</default>
+        <label>Bar</label>
+    </customValue>
+    <customValue>
+        <fullName>Built in Kitchen Appliances</fullName>
+        <default>false</default>
+        <label>Built in Kitchen Appliances</label>
+    </customValue>
+    <customValue>
+        <fullName>Built in Wardrobes</fullName>
+        <default>false</default>
+        <label>Built in Wardrobes</label>
+    </customValue>
+    <customValue>
+        <fullName>CCTV</fullName>
+        <default>false</default>
+        <label>CCTV</label>
+    </customValue>
+    <customValue>
+        <fullName>Central A/C &amp; Heating</fullName>
+        <default>false</default>
+        <label>Central A/C &amp; Heating</label>
+    </customValue>
+    <customValue>
+        <fullName>Communal Garden</fullName>
+        <default>false</default>
+        <label>Communal Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Concierge Service</fullName>
+        <default>false</default>
+        <label>Concierge Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Conservatory</fullName>
+        <default>false</default>
+        <label>Conservatory</label>
+    </customValue>
+    <customValue>
+        <fullName>Covered Parking</fullName>
+        <default>false</default>
+        <label>Covered Parking</label>
+    </customValue>
+    <customValue>
+        <fullName>Dated and Development</fullName>
+        <default>false</default>
+        <label>Dated and Development</label>
+    </customValue>
+    <customValue>
+        <fullName>Direct views over Hyde Park</fullName>
+        <default>false</default>
+        <label>Direct views over Hyde Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Driver&apos;s Room</fullName>
+        <default>false</default>
+        <label>Driver&apos;s Room</label>
+    </customValue>
+    <customValue>
+        <fullName>Excellent Condition</fullName>
+        <default>false</default>
+        <label>Excellent Condition</label>
+    </customValue>
+    <customValue>
+        <fullName>Fireplace</fullName>
+        <default>false</default>
+        <label>Fireplace</label>
+    </customValue>
+    <customValue>
+        <fullName>Garage</fullName>
+        <default>false</default>
+        <label>Garage</label>
+    </customValue>
+    <customValue>
+        <fullName>Garden</fullName>
+        <default>false</default>
+        <label>Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Georgian Architecture</fullName>
+        <default>false</default>
+        <label>Georgian Architecture</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Greens</fullName>
+        <default>false</default>
+        <label>Golf Greens</label>
+    </customValue>
+    <customValue>
+        <fullName>Grand Hall</fullName>
+        <default>false</default>
+        <label>Grand Hall</label>
+    </customValue>
+    <customValue>
+        <fullName>Grand Staircase</fullName>
+        <default>false</default>
+        <label>Grand Staircase</label>
+    </customValue>
+    <customValue>
+        <fullName>High Ceilings</fullName>
+        <default>false</default>
+        <label>High Ceilings</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Theatre</fullName>
+        <default>false</default>
+        <label>Home Theatre</label>
+    </customValue>
+    <customValue>
+        <fullName>Lateral apartment</fullName>
+        <default>false</default>
+        <label>Lateral apartment</label>
+    </customValue>
+    <customValue>
+        <fullName>Library</fullName>
+        <default>false</default>
+        <label>Library</label>
+    </customValue>
+    <customValue>
+        <fullName>Lift</fullName>
+        <default>false</default>
+        <label>Lift</label>
+    </customValue>
+    <customValue>
+        <fullName>Listed Building</fullName>
+        <default>false</default>
+        <label>Listed Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Maid Service</fullName>
+        <default>false</default>
+        <label>Maid Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Maids Room</fullName>
+        <default>false</default>
+        <label>Maids Room</label>
+    </customValue>
+    <customValue>
+        <fullName>Marble Finishings</fullName>
+        <default>false</default>
+        <label>Marble Finishings</label>
+    </customValue>
+    <customValue>
+        <fullName>Massive Rooms</fullName>
+        <default>false</default>
+        <label>Massive Rooms</label>
+    </customValue>
+    <customValue>
+        <fullName>Modern Finishings</fullName>
+        <default>false</default>
+        <label>Modern Finishings</label>
+    </customValue>
+    <customValue>
+        <fullName>Original Period Features</fullName>
+        <default>false</default>
+        <label>Original Period Features</label>
+    </customValue>
+    <customValue>
+        <fullName>Parking</fullName>
+        <default>false</default>
+        <label>Parking</label>
+    </customValue>
+    <customValue>
+        <fullName>Patio</fullName>
+        <default>false</default>
+        <label>Patio</label>
+    </customValue>
+    <customValue>
+        <fullName>Pets Allowed</fullName>
+        <default>false</default>
+        <label>Pets Allowed</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Garden</fullName>
+        <default>false</default>
+        <label>Private Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Gym</fullName>
+        <default>false</default>
+        <label>Private Gym</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Jacuzzi</fullName>
+        <default>false</default>
+        <label>Private Jacuzzi</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Pool</fullName>
+        <default>false</default>
+        <label>Private Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Security</fullName>
+        <default>false</default>
+        <label>Security</label>
+    </customValue>
+    <customValue>
+        <fullName>Shared Gym</fullName>
+        <default>false</default>
+        <label>Shared Gym</label>
+    </customValue>
+    <customValue>
+        <fullName>Shared Pool</fullName>
+        <default>false</default>
+        <label>Shared Pool</label>
+    </customValue>
+    <customValue>
+        <fullName>Shared Spa</fullName>
+        <default>false</default>
+        <label>Shared Spa</label>
+    </customValue>
+    <customValue>
+        <fullName>Share of freehold</fullName>
+        <default>false</default>
+        <label>Share of freehold</label>
+    </customValue>
+    <customValue>
+        <fullName>Stables</fullName>
+        <default>false</default>
+        <label>Stables</label>
+    </customValue>
+    <customValue>
+        <fullName>Study</fullName>
+        <default>false</default>
+        <label>Study</label>
+    </customValue>
+    <customValue>
+        <fullName>Tennis Court</fullName>
+        <default>false</default>
+        <label>Tennis Court</label>
+    </customValue>
+    <customValue>
+        <fullName>Terrace</fullName>
+        <default>false</default>
+        <label>Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Underfloor Heating</fullName>
+        <default>false</default>
+        <label>Underfloor Heating</label>
+    </customValue>
+    <customValue>
+        <fullName>Utility Room</fullName>
+        <default>false</default>
+        <label>Utility Room</label>
+    </customValue>
+    <customValue>
+        <fullName>Victorian Architecture</fullName>
+        <default>false</default>
+        <label>Victorian Architecture</label>
+    </customValue>
+    <customValue>
+        <fullName>View of Landmark</fullName>
+        <default>false</default>
+        <label>View of Landmark</label>
+    </customValue>
+    <customValue>
+        <fullName>View of Water</fullName>
+        <default>false</default>
+        <label>View of Water</label>
+    </customValue>
+    <customValue>
+        <fullName>Walk in Closet</fullName>
+        <default>false</default>
+        <label>Walk in Closet</label>
+    </customValue>
+    <customValue>
+        <fullName>Waterfront</fullName>
+        <default>false</default>
+        <label>Waterfront</label>
+    </customValue>
+    <customValue>
+        <fullName>Wine Cellar</fullName>
+        <default>false</default>
+        <label>Wine Cellar</label>
+    </customValue>
+    <customValue>
+        <fullName>Wooden Floors</fullName>
+        <default>false</default>
+        <label>Wooden Floors</label>
+    </customValue>
+    <masterLabel>Private Amenities</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
