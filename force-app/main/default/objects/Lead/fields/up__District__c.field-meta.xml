@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>up__District__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>District</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>up__Region__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>California</fullName>
+                <default>false</default>
+                <label>California</label>
+            </value>
+            <value>
+                <fullName>Nevada</fullName>
+                <default>false</default>
+                <label>Nevada</label>
+            </value>
+            <value>
+                <fullName>North Carolina 3</fullName>
+                <default>false</default>
+                <label>North Carolina 3</label>
+            </value>
+            <value>
+                <fullName>New York</fullName>
+                <default>false</default>
+                <label>New York</label>
+            </value>
+            <value>
+                <fullName>Sweet Carolina</fullName>
+                <default>false</default>
+                <label>Sweet Carolina</label>
+            </value>
+            <value>
+                <fullName>North Carolina</fullName>
+                <default>false</default>
+                <label>North Carolina</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>North East</controllingFieldValue>
+            <valueName>New York</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North East</controllingFieldValue>
+            <valueName>Sweet Carolina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>North Carolina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>Nevada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>North Carolina 3</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

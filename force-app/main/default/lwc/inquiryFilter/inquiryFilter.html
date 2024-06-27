@@ -1,0 +1,40 @@
+<template>
+    <lightning-card title="Filter" icon-name="standard:filter">
+        <div class="slds-grid slds-gutters">
+            <div class="custom-input-wrapper"> <!-- Full width -->
+             <div class="narrow-input">
+                <c-lookup label="Unit Name" placeholder="Search by Unit Name" onsenddata={handleReceiveDataUnitName}></c-lookup>
+             </div>
+              <div class="narrow-input">
+                <c-project-Lookup label="Project Name" placeholder="Search by project Name" onsenddata={handleReceiveDataProjectName}></c-project-Lookup>
+              </div>
+               <div class="narrow-input">
+                <lightning-combobox label="Status" value={status} options={statusOptions} onchange={handleStatusChange}></lightning-combobox>
+               </div>
+                <div class="narrow-input">
+                <lightning-input label="Community" value={leadsource}  onchange={handleleadChange}></lightning-input>
+                </div>
+                 <div class="narrow-input">
+                <lightning-input label="Sub Community" value={listingType} onchange={handleListingTypeChange}></lightning-input>
+                 </div>
+                  <div class="narrow-input">
+                <lightning-input type="Currency" label="Price - Min" value={minPrice} onchange={handlepriceMinChange}></lightning-input>
+                  </div>
+                   <div class="narrow-input">
+                <lightning-input type="Currency" label="Price - Max" value={maxPrice} onchange={handlepriceMaxChange}></lightning-input>
+                   </div>
+                    <div class="narrow-input">
+                <lightning-input type="text" label="Bedrooms-Min" value={bedminPrice} onchange={handlebedroomMinpriceMinChange}></lightning-input>
+                    </div>
+                     <div class="narrow-input">
+                <lightning-input type="text" label="Bedrooms-Max" value={bedmaxPrice} onchange={handlebedMaxpriceMaxChange}></lightning-input>
+                     </div>
+            </div>
+        </div>
+        <div class="slds-m-top_small slds-text-align_center"> <!-- Center align the button -->
+            <lightning-button label="Search" onclick={handleSearch}></lightning-button>
+            <lightning-button label="Clear" onclick={handleClear}></lightning-button>
+        </div>
+
+    </lightning-card>
+</template>

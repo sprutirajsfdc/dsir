@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Completed Property Transaction</fullName>
+        <default>false</default>
+        <label>Ready Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Offplan Primary</fullName>
+        <default>false</default>
+        <label>Offplan Primary</label>
+    </customValue>
+    <customValue>
+        <fullName>Offplan Secondary</fullName>
+        <default>false</default>
+        <label>Offplan Secondary</label>
+    </customValue>
+    <customValue>
+        <fullName>Referral Fee Reservation</fullName>
+        <default>false</default>
+        <label>Referral Fee Reservation</label>
+    </customValue>
+    <customValue>
+        <fullName>New Developments - Exclusive Projects</fullName>
+        <default>false</default>
+        <label>New Developments - Exclusive Projects</label>
+    </customValue>
+    <masterLabel>Transaction Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

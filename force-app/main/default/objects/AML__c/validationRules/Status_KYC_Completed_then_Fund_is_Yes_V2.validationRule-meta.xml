@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_KYC_Completed_then_Fund_is_Yes_V2</fullName>
+    <active>true</active>
+    <description>https://gulfsothebysinternational.lightning.force.com/lightning/setup/ObjectManager/01I3X000001LTT5/ValidationRules/03d7T000000Go7d/edit</description>
+    <errorConditionFormula>IF(
+    ISPICKVAL(Status__c, &apos;KYC Completed&apos;) &amp;&amp; RecordType.Name  = &apos;UAE&apos; &amp;&amp; NOT(ISPICKVAL(Upload_Source_of_Fund__c, &apos;Yes&apos;)),
+    true, 
+    false
+)</errorConditionFormula>
+    <errorDisplayField>Upload_Source_of_Fund__c</errorDisplayField>
+    <errorMessage>When the Status is &quot;KYC Completed&quot; then mandatory to choose the field  Upload Source of Fund ? and It has to be YES.</errorMessage>
+</ValidationRule>

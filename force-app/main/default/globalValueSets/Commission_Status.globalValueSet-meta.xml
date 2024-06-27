@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Paid to Sotheby&apos;s</fullName>
+        <default>false</default>
+        <label>Paid to Sotheby&apos;s</label>
+    </customValue>
+    <customValue>
+        <fullName>Paid to 3rd Party Brokerage</fullName>
+        <default>false</default>
+        <label>Paid to 3rd Party Brokerage</label>
+    </customValue>
+    <masterLabel>Commission Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

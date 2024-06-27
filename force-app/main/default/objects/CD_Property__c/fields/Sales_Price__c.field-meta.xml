@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Price__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+(ISPICKVAL(Status__c, &apos;Sold&apos;) &amp;&amp; ( $User.ProfileId  == &apos;00e1t000000HkGa&apos; || $User.ProfileId  == &apos;00e3X000001RysS&apos;)) || 
+((CD_Project__c   == &apos;a2D7T000000tjS4&apos;  || CD_Project__c   == &apos;a2D7T000000tjpa&apos;) &amp;&amp; ( $User.ProfileId  == &apos;00e1t000000HkGa&apos; || $User.ProfileId  == &apos;00e3X000001RysS&apos;))
+,Null
+,CD_Sales_Price__c
+)</formula>
+    <label>Sales Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

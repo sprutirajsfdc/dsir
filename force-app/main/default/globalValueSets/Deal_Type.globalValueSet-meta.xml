@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Finance to Finance</fullName>
+        <default>false</default>
+        <label>Finance to Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Finance to Cash</fullName>
+        <default>false</default>
+        <label>Finance to Cash</label>
+    </customValue>
+    <customValue>
+        <fullName>cash to Finance</fullName>
+        <default>false</default>
+        <label>cash to Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Cash to Cash</fullName>
+        <default>false</default>
+        <label>Cash to Cash</label>
+    </customValue>
+    <customValue>
+        <fullName>Cash</fullName>
+        <default>false</default>
+        <label>Cash</label>
+    </customValue>
+    <customValue>
+        <fullName>Mortgage</fullName>
+        <default>false</default>
+        <label>Mortgage</label>
+    </customValue>
+    <customValue>
+        <fullName>Company Purchase</fullName>
+        <default>false</default>
+        <label>Company Purchase</label>
+    </customValue>
+    <masterLabel>Deal Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Completion</name>
+        <label>Completion</label>
+        <locationX>50</locationX>
+        <locationY>384</locationY>
+        <actionName>pba__Offer__c.Expected_Completion_Date_Email_Alert</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pba__Offer__c.Expected_Completion_Date_Email_Alert</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Exchange_Email</name>
+        <label>Exchange Email</label>
+        <locationX>490</locationX>
+        <locationY>384</locationY>
+        <actionName>pba__Offer__c.Expected_exchange_Email</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pba__Offer__c.Expected_exchange_Email</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>60.0</apiVersion>
+    <decisions>
+        <name>Check_Date</name>
+        <label>Check Date</label>
+        <locationX>182</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Expected_Completition_Date</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Expected_Completion_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Expected_Completion_Date__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Expected_Completion_Date__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Completion</targetReference>
+            </connector>
+            <label>Expected Competition Date</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Copy_1_of_Check_Date</name>
+        <label>Copy 1 of Check Date</label>
+        <locationX>622</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Expected_Exchange_Date</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Expected_Exchange_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Expected_Exchange_Date__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Expected_Exchange_Date__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Exchange_Email</targetReference>
+            </connector>
+            <label>Expected Exchange Date</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>ExactDate</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(
+    TEXT({!$Record.Expected_Completion_Date__c}) = TEXT(TODAY()), 
+    TRUE, 
+    FALSE
+)</expression>
+    </formulas>
+    <formulas>
+        <name>Exchangedate</name>
+        <dataType>Boolean</dataType>
+        <expression>IF(
+    TEXT({!$Record.Expected_Exchange_Date__c}) = TEXT(TODAY()), 
+    TRUE, 
+    FALSE
+)</expression>
+    </formulas>
+    <formulas>
+        <name>TodayDate</name>
+        <dataType>Date</dataType>
+        <expression>TODAY()</expression>
+    </formulas>
+    <interviewLabel>EXpected &amp; Expected Compltion Date {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>EXpected &amp; Expected Compltion Date</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>78</locationX>
+        <locationY>0</locationY>
+        <object>pba__Offer__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <name>X1_hour_before</name>
+            <connector>
+                <targetReference>Check_Date</targetReference>
+            </connector>
+            <label>8 hour After</label>
+            <offsetNumber>8</offsetNumber>
+            <offsetUnit>Hours</offsetUnit>
+            <recordField>Expected_Completion_Date__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <scheduledPaths>
+            <name>X1_hour_Expected_Exchange_date</name>
+            <connector>
+                <targetReference>Copy_1_of_Check_Date</targetReference>
+            </connector>
+            <label>8 hour Expected Exchange date</label>
+            <offsetNumber>8</offsetNumber>
+            <offsetUnit>Hours</offsetUnit>
+            <recordField>Exchanged_Date__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

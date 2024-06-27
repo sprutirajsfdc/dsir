@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dld_Fee__c</fullName>
+    <description>This is Amount of 4% of Sales Price and
+Final Net Price is the Difference of Net_selling_price to the Discount.</description>
+    <externalId>false</externalId>
+    <formula>(4*CD_Sales_Price__c)/100</formula>
+    <inlineHelpText>Need to fill sales price field to get value..</inlineHelpText>
+    <label>Dld Fee</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_My_AMLs</fullName>
+    <columns>NAME</columns>
+    <columns>Inquiry__c</columns>
+    <columns>Contact__c</columns>
+    <columns>AML_Severity__c</columns>
+    <columns>AML_Severity_Color__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>notEqual</operation>
+        <value>Menatalla Ahmed,Kevin Dominguez,Ajit Bondre,Nikethana Shetty,Rallin Lopes,Dean Elgafar,Maryam Ijaz,SFDC Twopir,Sunita Asher,Varsha Kadam,Chantelle Dudson,Prachi Prakash Shet,Amit Patel,Raed Hechmi</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Submitted</value>
+    </filters>
+    <label>AML Queue</label>
+</ListView>

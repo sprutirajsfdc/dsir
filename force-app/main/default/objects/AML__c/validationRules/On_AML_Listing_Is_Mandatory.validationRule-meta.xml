@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_AML_Listing_Is_Mandatory</fullName>
+    <active>true</active>
+    <description>In the &quot;UK&quot; record type, if the AML status is set to &quot;Approve,&quot; then Listing is required.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;UK&quot;,
+   ISPICKVAL( Status__c , &apos;Approved&apos;)  ,
+    ISBLANK( Listing__c )  
+)</errorConditionFormula>
+    <errorDisplayField>Listing__c</errorDisplayField>
+    <errorMessage>When AML is Approved then Listing is required</errorMessage>
+</ValidationRule>

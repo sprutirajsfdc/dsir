@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Letting</fullName>
+    <fields>Listing_Address__c</fields>
+    <fields>Name</fields>
+    <fields>Landlord__c</fields>
+    <fields>Listing__c</fields>
+    <fields>Main_Tenant__c</fields>
+    <label>Letting</label>
+</CompactLayout>

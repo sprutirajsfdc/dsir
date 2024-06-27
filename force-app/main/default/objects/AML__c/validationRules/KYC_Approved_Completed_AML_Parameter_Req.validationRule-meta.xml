@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KYC_Approved_Completed_AML_Parameter_Req</fullName>
+    <active>false</active>
+    <description>If  AML Status is KYC Approved &amp; Completed then AML Parameters should be required</description>
+    <errorConditionFormula>IF(OR(ISPICKVAL(Status__c, &apos;KYC Completed&apos;), ISPICKVAL(Status__c, &apos;KYC Approved&apos;), ISPICKVAL(Status__c, &apos;Approved&apos;)), 
+OR(
+IF( ISPICKVAL(AML_Type__c, &apos;Individual&apos;), 
+OR(
+ISBLANK(Nationality__c ),
+ISBLANK(Country_Of_Birth__c  ),
+ISBLANK(Country_Of_Residence__c ),
+ISBLANK(Screening_Shareholder__c  ),
+ISBLANK(Employment_Type__c ),
+ISBLANK(Industry__c ),
+ISBLANK(Business_Location__c ),
+ISBLANK(Mode_of_Payment__c  ),
+ISBLANK(Source_of_Fund_Wealth__c )), false),
+
+IF(OR(ISPICKVAL(AML_Type__c, &apos;Corporate&apos;),
+ISPICKVAL(AML_Type__c, &apos;Trust&apos;)), 
+OR(
+ISBLANK(Customer_s_Country_of_Registration__c ),
+ISBLANK(Beneficial_Owner_Country_of_Citizenship__c ),
+ISBLANK(Industry__c ),
+ISBLANK(Year_of_Establishment__c ),
+ISBLANK(Financial_Information_Documents__c ),
+ISBLANK(Mode_of_Payment__c  ),
+ISBLANK(Screening_Shareholder__c  ),
+ISBLANK(Other_businesses_of_the_client__c )), false) ), false)</errorConditionFormula>
+    <errorMessage>Status is Approved OR KYC Completed OR KYC Approved.
+AML Type is &quot;Individual&quot; then &quot;Individual AML Parameter&quot; required.
+/ AML Type is &quot;Corporate&quot; then &quot;Corporate AML parameter&quot; required and Screening Shareholder, Industry &amp; Mode of Payment is also re</errorMessage>
+</ValidationRule>

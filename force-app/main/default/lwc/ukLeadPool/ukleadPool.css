@@ -1,0 +1,33 @@
+.container {
+        width: 100%;
+        overflow-x: auto; /* Enable horizontal scrolling if table is wider than container */
+        margin-top: 20px; /* Example margin */
+    }
+
+    .unit-table {
+        width: 100%;
+        border-collapse: collapse; /* Ensure table cells are joined together without spacing */
+    }
+
+    .unit-table th, .unit-table td {
+        padding: 10px; /* Padding inside table cells */
+        border: 1px solid #ddd; /* Border for cells */
+        text-align: left; /* Align text to the left */
+    }
+
+    .unit-table th {
+        background-color: #f2f2f2; /* Light gray background for table headers */
+    }
+
+    .link-style {
+        color: blue; /* Example link color */
+        text-decoration: underline; /* Underline for links */
+        cursor: pointer; /* Show pointer cursor for clickable cells */
+    }
+
+    /* Responsive adjustments */
+    @media screen and (max-width: 768px) {
+        .unit-table {
+            overflow-x: auto; /* Enable horizontal scrolling on small screens */
+        }
+    }

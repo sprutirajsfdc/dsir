@@ -211,5 +211,5 @@
         <label>Wooden Floors</label>
     </customValue>
     <masterLabel>Commercial Amenities</masterLabel>
-    <sorted>false</sorted>
+    <sorted>true</sorted>
 </GlobalValueSet>

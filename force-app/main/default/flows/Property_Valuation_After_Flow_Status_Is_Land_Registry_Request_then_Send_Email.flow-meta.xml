@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>To_Send_The_AML_Team</name>
+        <label>To Send The AML Team</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <actionName>Property_Valuation__c.AML_Team_Land_Registry_Request</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Checked_Land_Regsitry_Verified</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Property_Valuation__c.AML_Team_Land_Registry_Request</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Update_Status_is_Instructed</name>
+        <label>Update Status is Instructed</label>
+        <locationX>50</locationX>
+        <locationY>731</locationY>
+        <actionName>Property_Valuation__c.Agent_Alert_Property_Valuation_Land_Registry_Verified</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Status_Is_In_Progress</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Property_Valuation__c.Agent_Alert_Property_Valuation_Land_Registry_Verified</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>59.0</apiVersion>
+    <decisions>
+        <name>Checked_Land_Regsitry_Verified</name>
+        <label>Checked Land Regsitry Verified</label>
+        <locationX>182</locationX>
+        <locationY>623</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>If_Land_Regsitry_Verified_is_True</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Land_Registry_Verified__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record__Prior.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Land Registry Pending</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Status_is_Instructed</targetReference>
+            </connector>
+            <label>If Land Regsitry Verified is True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>If_Status_is_Land_Registry_Request</name>
+        <label>If Status is Land Registry Request</label>
+        <locationX>182</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>Checked_Land_Regsitry_Verified</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Land_Registry_Request</name>
+            <conditionLogic>1 OR (2 AND 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Land Registry Pending</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>To_Send_The_AML_Team</targetReference>
+            </connector>
+            <label>Land Registry Request</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>ISNEW</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>Property Valuation After Flow :-  Status Is Land Registry Request then Send Email {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Property Valuation After Flow :-  Status Is Land Registry Request then Send Email</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Status_Is_In_Progress</name>
+        <label>Status Is In Progress</label>
+        <locationX>50</locationX>
+        <locationY>839</locationY>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>In Progress</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>If_Status_is_Land_Registry_Request</targetReference>
+        </connector>
+        <object>Property_Valuation__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

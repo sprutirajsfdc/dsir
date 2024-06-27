@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brokerage_Registration__c</fullName>
+    <externalId>false</externalId>
+    <label>Brokerage Registration</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Registered</fullName>
+                <default>false</default>
+                <label>Registered</label>
+            </value>
+            <value>
+                <fullName>Broker Agreement Sent</fullName>
+                <default>false</default>
+                <label>Draft Brokerage Agreement Sent to Agency</label>
+            </value>
+            <value>
+                <fullName>Missing Documents</fullName>
+                <default>false</default>
+                <label>On hold Missing Documents</label>
+            </value>
+            <value>
+                <fullName>Brokerage Agreement Sent to ICD</fullName>
+                <default>false</default>
+                <label>Pending with ICD for Signatures</label>
+            </value>
+            <value>
+                <fullName>Document not given by the Agency</fullName>
+                <default>false</default>
+                <label>Document not given by the Agency</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

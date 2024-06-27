@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_is_Instructing_Agency</fullName>
+    <active>true</active>
+    <description>When the status changes and is set to &apos;Instructing,&apos; Agency  is required to be updated.</description>
+    <errorConditionFormula>AND(
+  ISCHANGED(Status__c),
+ (ISPICKVAL(Status__c, &quot;Instructing&quot;)),
+  ISBLANK(TEXT(Agency__c))
+)</errorConditionFormula>
+    <errorDisplayField>Agency__c</errorDisplayField>
+    <errorMessage>Status is Instructing then Agency is required</errorMessage>
+</ValidationRule>

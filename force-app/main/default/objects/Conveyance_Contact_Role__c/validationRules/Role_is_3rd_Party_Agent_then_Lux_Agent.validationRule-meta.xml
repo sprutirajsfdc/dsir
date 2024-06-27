@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role_is_3rd_Party_Agent_then_Lux_Agent</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISPICKVAL( Role__c , &quot;3rd Party Agent&quot;),
+  NOT(ISBLANK( Lux_Agent__c ))
+)</errorConditionFormula>
+    <errorDisplayField>Lux_Agent__c</errorDisplayField>
+    <errorMessage>When the role is &apos;3rd Party Agent&apos;, the Lux Agent must be blank</errorMessage>
+</ValidationRule>

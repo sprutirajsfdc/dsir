@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Resident Parking</fullName>
+        <default>false</default>
+        <label>Resident Parking</label>
+    </customValue>
+    <customValue>
+        <fullName>Off Street Parking</fullName>
+        <default>false</default>
+        <label>Off Street Parking</label>
+    </customValue>
+    <customValue>
+        <fullName>Garage</fullName>
+        <default>false</default>
+        <label>Garage</label>
+    </customValue>
+    <customValue>
+        <fullName>Double Garage</fullName>
+        <default>false</default>
+        <label>Double Garage</label>
+    </customValue>
+    <customValue>
+        <fullName>Triple Garage</fullName>
+        <default>false</default>
+        <label>Triple Garage</label>
+    </customValue>
+    <customValue>
+        <fullName>Gated Parking</fullName>
+        <default>false</default>
+        <label>Gated Parking</label>
+    </customValue>
+    <masterLabel>Parking Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

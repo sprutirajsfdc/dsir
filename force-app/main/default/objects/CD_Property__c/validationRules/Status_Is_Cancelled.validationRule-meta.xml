@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Is_Cancelled</fullName>
+    <active>false</active>
+    <description>If status is &quot;&quot;Canceled&quot;&quot;, then status will not able to change.
+When &quot;&quot;Cancelletion Approval&quot;&quot; is &quot;&quot;Yes&quot;&quot; then status will be able to change only.
+When &quot;&quot;Cancelletion Approval&quot;&quot; is &quot;&quot;No / Blank&quot;&quot; and If status is &quot;&quot;Cancelled&quot;&quot; then if we try to cha</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(PRIORVALUE( Status__c ),&quot;Canceled&quot;), NOT(ISPICKVAL( Cancellation_Approval__c ,&quot;Yes&quot;)),
+
+ IF( ISCHANGED(Status__c ) , true, false) )</errorConditionFormula>
+    <errorMessage>Status is not allowed to change because cancellation is not approved</errorMessage>
+</ValidationRule>

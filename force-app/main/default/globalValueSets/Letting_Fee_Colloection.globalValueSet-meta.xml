@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Upfront</fullName>
+        <default>false</default>
+        <label>Upfront</label>
+    </customValue>
+    <customValue>
+        <fullName>Upfront Over 2 Months</fullName>
+        <default>false</default>
+        <label>Upfront Over 2 Months</label>
+    </customValue>
+    <customValue>
+        <fullName>Monthly</fullName>
+        <default>false</default>
+        <label>Monthly</label>
+    </customValue>
+    <customValue>
+        <fullName>Quarterly</fullName>
+        <default>false</default>
+        <label>Quarterly</label>
+    </customValue>
+    <customValue>
+        <fullName>Half Yearly</fullName>
+        <default>false</default>
+        <label>Half Yearly</label>
+    </customValue>
+    <customValue>
+        <fullName>Yearly</fullName>
+        <default>false</default>
+        <label>Yearly</label>
+    </customValue>
+    <customValue>
+        <fullName>28 Days</fullName>
+        <default>false</default>
+        <label>28 Days</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Applicable</fullName>
+        <default>false</default>
+        <label>Not Applicable</label>
+    </customValue>
+    <masterLabel>Letting Fee Colloection</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

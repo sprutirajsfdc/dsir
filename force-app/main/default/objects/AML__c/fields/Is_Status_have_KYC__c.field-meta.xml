@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Status_have_KYC__c</fullName>
+    <description>IF aml status have atleast anyone KYC value.</description>
+    <externalId>false</externalId>
+    <formula>OR( 
+ISPICKVAL( Status__c , &apos;KYC Pending&apos;) ,
+ISPICKVAL( Status__c , &apos;KYC Submitted&apos;) , 
+ISPICKVAL( Status__c , &apos;KYC Approved&apos;) , 
+ISPICKVAL( Status__c , &apos;KYC Rejected&apos;) , 
+ISPICKVAL( Status__c , &apos;KYC Completed&apos;)
+)</formula>
+    <label>Is Status have KYC ?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

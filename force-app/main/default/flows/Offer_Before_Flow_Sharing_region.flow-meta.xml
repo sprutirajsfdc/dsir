@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <assignments>
+        <name>Offer_Region_equals_Listing_Region</name>
+        <label>Offer Region equals Listing Region</label>
+        <locationX>452</locationX>
+        <locationY>443</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.New_Region__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.pba__Listing__r.Sharing_Region__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Sharing_Sub_Region__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.pba__Listing__r.Sharing_Sub_Region__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.CurrencyIsoCode</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.pba__Listing__r.CurrencyIsoCode</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Listing_not_null</name>
+        <label>Listing not null</label>
+        <locationX>584</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Listing_is_available</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.pba__Listing__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Offer_Region_equals_Listing_Region</targetReference>
+            </connector>
+            <label>Listing is available</label>
+        </rules>
+    </decisions>
+    <description>When record is Created or Updated, and Listing is not Null Update Sharing region, Sharing Sub region, Currency ISO code from Listing.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>SharingRule_Formula</name>
+        <dataType>String</dataType>
+        <expression>IF(ISPICKVAL({!$Record.pba__Listing__r.Sharing_Rule__c}, &apos;Public&apos;), &apos;Public&apos;,IF(ISPICKVAL({!$Record.pba__Listing__r.Sharing_Rule__c}, &apos;Private&apos;),&apos;Private&apos;,IF(ISPICKVAL({!$Record.pba__Listing__r.Sharing_Rule__c}, &apos;&apos;),&apos;Public&apos;,&apos;Public&apos;)))</expression>
+    </formulas>
+    <interviewLabel>Offer Before Flow - Sharing region {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Offer Before Flow - Sharing region</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>458</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Listing_not_null</targetReference>
+        </connector>
+        <object>pba__Offer__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Developers_Contract</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ContactType__c</columns>
+    <columns>Developers_Contract_Start_Date__c</columns>
+    <columns>Developers_Contract_Expiry__c</columns>
+    <columns>Developers_Contract_Term__c</columns>
+    <columns>Developers_Contract_Status__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ContactType__c</field>
+        <operation>equals</operation>
+        <value>Developer</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>notEqual</operation>
+        <value>Kevin</value>
+    </filters>
+    <label>Developers Contract</label>
+    <sharedTo>
+        <role>Call_Center_Manager</role>
+        <role>Listing_Manager</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_Would_You_Like_Us_To_Contact_You__c</fullName>
+    <externalId>false</externalId>
+    <label>How Would You Like Us To Contact You?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>By Email</fullName>
+                <default>false</default>
+                <label>By Email</label>
+            </value>
+            <value>
+                <fullName>By Phone</fullName>
+                <default>false</default>
+                <label>By Phone</label>
+            </value>
+            <value>
+                <fullName>By Fax</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>By Fax</label>
+            </value>
+            <value>
+                <fullName>By Post</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>By Post</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

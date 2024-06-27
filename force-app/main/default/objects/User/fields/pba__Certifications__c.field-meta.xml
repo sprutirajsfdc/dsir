@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pba__Certifications__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Certifications</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accredited Buyer&apos;s Representative®</fullName>
+                <default>false</default>
+                <label>Accredited Buyer&apos;s Representative®</label>
+            </value>
+            <value>
+                <fullName>At Home With Diversity®</fullName>
+                <default>false</default>
+                <label>At Home With Diversity®</label>
+            </value>
+            <value>
+                <fullName>Accredited Land Consultant</fullName>
+                <default>false</default>
+                <label>Accredited Land Consultant</label>
+            </value>
+            <value>
+                <fullName>Certified Commercial Investment Member</fullName>
+                <default>false</default>
+                <label>Certified Commercial Investment Member</label>
+            </value>
+            <value>
+                <fullName>Certified International Property Specialist</fullName>
+                <default>false</default>
+                <label>Certified International Property Specialist</label>
+            </value>
+            <value>
+                <fullName>Certified Property Manager®</fullName>
+                <default>false</default>
+                <label>Certified Property Manager®</label>
+            </value>
+            <value>
+                <fullName>Certified Real Estate Brokerage Manager</fullName>
+                <default>false</default>
+                <label>Certified Real Estate Brokerage Manager</label>
+            </value>
+            <value>
+                <fullName>Certified Real Estate Team Specialist</fullName>
+                <default>false</default>
+                <label>Certified Real Estate Team Specialist</label>
+            </value>
+            <value>
+                <fullName>Certified Residential Specialist</fullName>
+                <default>false</default>
+                <label>Certified Residential Specialist</label>
+            </value>
+            <value>
+                <fullName>Counselor of Real Estate®</fullName>
+                <default>false</default>
+                <label>Counselor of Real Estate®</label>
+            </value>
+            <value>
+                <fullName>e-PRO®</fullName>
+                <default>false</default>
+                <label>e-PRO®</label>
+            </value>
+            <value>
+                <fullName>General Accredited Appraiser</fullName>
+                <default>false</default>
+                <label>General Accredited Appraiser</label>
+            </value>
+            <value>
+                <fullName>NAR&apos;s Green Designation</fullName>
+                <default>false</default>
+                <label>NAR&apos;s Green Designation</label>
+            </value>
+            <value>
+                <fullName>Graduate, REALTOR® Institute</fullName>
+                <default>false</default>
+                <label>Graduate, REALTOR® Institute</label>
+            </value>
+            <value>
+                <fullName>Military Relocation Professional</fullName>
+                <default>false</default>
+                <label>Military Relocation Professional</label>
+            </value>
+            <value>
+                <fullName>Performance Management Network</fullName>
+                <default>false</default>
+                <label>Performance Management Network</label>
+            </value>
+            <value>
+                <fullName>Pricing Strategy Advisor</fullName>
+                <default>false</default>
+                <label>Pricing Strategy Advisor</label>
+            </value>
+            <value>
+                <fullName>Residential Accredited Appraiser</fullName>
+                <default>false</default>
+                <label>Residential Accredited Appraiser</label>
+            </value>
+            <value>
+                <fullName>REALTOR® Association Certified Executive</fullName>
+                <default>false</default>
+                <label>REALTOR® Association Certified Executive</label>
+            </value>
+            <value>
+                <fullName>Real Estate Negotiation Expert</fullName>
+                <default>false</default>
+                <label>Real Estate Negotiation Expert</label>
+            </value>
+            <value>
+                <fullName>Resort &amp; Second-Home Property Specialist</fullName>
+                <default>false</default>
+                <label>Resort &amp; Second-Home Property Specialist</label>
+            </value>
+            <value>
+                <fullName>Short Sales &amp; Foreclosure Resource®</fullName>
+                <default>false</default>
+                <label>Short Sales &amp; Foreclosure Resource®</label>
+            </value>
+            <value>
+                <fullName>Seller Representative Specialist</fullName>
+                <default>false</default>
+                <label>Seller Representative Specialist</label>
+            </value>
+            <value>
+                <fullName>Society of Industrial and Office REALTORS®</fullName>
+                <default>false</default>
+                <label>Society of Industrial and Office REALTORS®</label>
+            </value>
+            <value>
+                <fullName>Seniors Real Estate Specialist®</fullName>
+                <default>false</default>
+                <label>Seniors Real Estate Specialist®</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

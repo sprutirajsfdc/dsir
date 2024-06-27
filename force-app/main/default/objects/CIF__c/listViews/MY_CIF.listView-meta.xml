@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MY_CIF</fullName>
+    <columns>NAME</columns>
+    <columns>CIF_Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Project__c</columns>
+    <columns>NAME_OF_THE_OWNER__c</columns>
+    <columns>E_MAIL__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>User_Generated_CIF__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Mine</filterScope>
+    <label>MY CIF</label>
+</ListView>

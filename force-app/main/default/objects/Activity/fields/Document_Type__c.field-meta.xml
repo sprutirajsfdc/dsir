@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Document_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Document Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Offer</fullName>
+                <default>false</default>
+                <label>Offer</label>
+            </value>
+            <value>
+                <fullName>Property Valuation</fullName>
+                <default>false</default>
+                <label>Property Valuation</label>
+            </value>
+            <value>
+                <fullName>Letting</fullName>
+                <default>false</default>
+                <label>Letting</label>
+            </value>
+            <value>
+                <fullName>Contract</fullName>
+                <default>false</default>
+                <label>Contract</label>
+            </value>
+            <value>
+                <fullName>PDF</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PDF</label>
+            </value>
+            <value>
+                <fullName>Send For Sign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Send For Sign</label>
+            </value>
+            <value>
+                <fullName>Word</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Word</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

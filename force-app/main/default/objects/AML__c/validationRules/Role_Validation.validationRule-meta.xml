@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role_Validation</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL( $User.Region_new__c , &apos;UAE&apos;) 
+&amp;&amp;
+NOT(
+OR( ISPICKVAL( Role__c , &apos;Buyer&apos;),
+ISPICKVAL( Role__c ,&apos;Seller&apos;),
+ISPICKVAL( Role__c , &apos;Buyer POA&apos;),
+ISPICKVAL( Role__c , &apos;Seller POA&apos;)
+
+))</errorConditionFormula>
+    <errorDisplayField>Role__c</errorDisplayField>
+    <errorMessage>Select Role which are Buyer , Seller &amp; POA</errorMessage>
+</ValidationRule>

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CD_View__c</fullName>
+    <externalId>false</externalId>
+    <label>View</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1-bed Type A</fullName>
+                <default>false</default>
+                <label>1-bed Type A</label>
+            </value>
+            <value>
+                <fullName>1-bed Type B</fullName>
+                <default>false</default>
+                <label>1-bed Type B</label>
+            </value>
+            <value>
+                <fullName>2-bed Duplex Type 2A</fullName>
+                <default>false</default>
+                <label>2-bed Duplex Type 2A</label>
+            </value>
+            <value>
+                <fullName>2-bed Duplex Type 2B</fullName>
+                <default>false</default>
+                <label>2-bed Duplex Type 2B</label>
+            </value>
+            <value>
+                <fullName>2-bed Duplex Type 2C</fullName>
+                <default>false</default>
+                <label>2-bed Duplex Type 2C</label>
+            </value>
+            <value>
+                <fullName>2-bed Duplex Type 2D</fullName>
+                <default>false</default>
+                <label>2-bed Duplex Type 2D</label>
+            </value>
+            <value>
+                <fullName>2-bed Type A</fullName>
+                <default>false</default>
+                <label>2-bed Type A</label>
+            </value>
+            <value>
+                <fullName>2-bed Type B</fullName>
+                <default>false</default>
+                <label>2-bed Type B</label>
+            </value>
+            <value>
+                <fullName>2-bed Type C</fullName>
+                <default>false</default>
+                <label>2-bed Type C</label>
+            </value>
+            <value>
+                <fullName>2-bed Type D</fullName>
+                <default>false</default>
+                <label>2-bed Type D</label>
+            </value>
+            <value>
+                <fullName>2-bed Type E</fullName>
+                <default>false</default>
+                <label>2-bed Type E</label>
+            </value>
+            <value>
+                <fullName>2-bed Type F</fullName>
+                <default>false</default>
+                <label>2-bed Type F</label>
+            </value>
+            <value>
+                <fullName>2-bed Type H</fullName>
+                <default>false</default>
+                <label>2-bed Type H</label>
+            </value>
+            <value>
+                <fullName>2-bed Type J</fullName>
+                <default>false</default>
+                <label>2-bed Type J</label>
+            </value>
+            <value>
+                <fullName>3-bed Duplex Type 3A</fullName>
+                <default>false</default>
+                <label>3-bed Duplex Type 3A</label>
+            </value>
+            <value>
+                <fullName>3-bed Type A</fullName>
+                <default>false</default>
+                <label>3-bed Type A</label>
+            </value>
+            <value>
+                <fullName>3-bed Type B</fullName>
+                <default>false</default>
+                <label>3-bed Type B</label>
+            </value>
+            <value>
+                <fullName>3-bed Type C</fullName>
+                <default>false</default>
+                <label>3-bed Type C</label>
+            </value>
+            <value>
+                <fullName>3-bed Type D</fullName>
+                <default>false</default>
+                <label>3-bed Type D</label>
+            </value>
+            <value>
+                <fullName>3-bed Type E</fullName>
+                <default>false</default>
+                <label>3-bed Type E</label>
+            </value>
+            <value>
+                <fullName>4-bed Duplex Type 4A</fullName>
+                <default>false</default>
+                <label>4-bed Duplex Type 4A</label>
+            </value>
+            <value>
+                <fullName>4-bed Duplex Type 4B</fullName>
+                <default>false</default>
+                <label>4-bed Duplex Type 4B</label>
+            </value>
+            <value>
+                <fullName>ADGM SQUARE</fullName>
+                <default>false</default>
+                <label>ADGM SQUARE</label>
+            </value>
+            <value>
+                <fullName>Arabian Gulf</fullName>
+                <default>false</default>
+                <label>Arabian Gulf</label>
+            </value>
+            <value>
+                <fullName>Arabian Gulf / DIFC Burj Khalifa</fullName>
+                <default>false</default>
+                <label>Arabian Gulf / DIFC Burj Khalifa</label>
+            </value>
+            <value>
+                <fullName>Arabian Gulf / The Dubai Frame</fullName>
+                <default>false</default>
+                <label>Arabian Gulf / The Dubai Frame</label>
+            </value>
+            <value>
+                <fullName>Arabian Gulf / The Dubai Frame / Zaabeel</fullName>
+                <default>false</default>
+                <label>Arabian Gulf / The Dubai Frame / Zaabeel</label>
+            </value>
+            <value>
+                <fullName>Arabian Gulf &amp; Burj Khalifa</fullName>
+                <default>false</default>
+                <label>Arabian Gulf &amp; Burj Khalifa</label>
+            </value>
+            <value>
+                <fullName>Arabian Gulf &amp; The Dubai Frame</fullName>
+                <default>false</default>
+                <label>Arabian Gulf &amp; The Dubai Frame</label>
+            </value>
+            <value>
+                <fullName>Beach</fullName>
+                <default>false</default>
+                <label>Beach</label>
+            </value>
+            <value>
+                <fullName>Burj Khalifa / Business Bay Marina</fullName>
+                <default>false</default>
+                <label>Burj Khalifa / Business Bay Marina</label>
+            </value>
+            <value>
+                <fullName>Burj Khalifa / Downtown Dubai</fullName>
+                <default>false</default>
+                <label>Burj Khalifa / Downtown Dubai</label>
+            </value>
+            <value>
+                <fullName>Burj Khalifa / Downtown Dubai / BB Marina</fullName>
+                <default>false</default>
+                <label>Burj Khalifa / Downtown Dubai / BB Marina</label>
+            </value>
+            <value>
+                <fullName>Canal View</fullName>
+                <default>false</default>
+                <label>Canal View</label>
+            </value>
+            <value>
+                <fullName>City</fullName>
+                <default>false</default>
+                <label>City</label>
+            </value>
+            <value>
+                <fullName>Community / Wynn</fullName>
+                <default>false</default>
+                <label>Community / Wynn</label>
+            </value>
+            <value>
+                <fullName>Courtyard</fullName>
+                <default>false</default>
+                <label>Courtyard</label>
+            </value>
+            <value>
+                <fullName>DIFC</fullName>
+                <default>false</default>
+                <label>DIFC</label>
+            </value>
+            <value>
+                <fullName>DIFC / Burj Khalifa</fullName>
+                <default>false</default>
+                <label>DIFC / Burj Khalifa</label>
+            </value>
+            <value>
+                <fullName>DIFC Burj Khalifa</fullName>
+                <default>false</default>
+                <label>DIFC Burj Khalifa</label>
+            </value>
+            <value>
+                <fullName>DIFC Skyline</fullName>
+                <default>false</default>
+                <label>DIFC Skyline</label>
+            </value>
+            <value>
+                <fullName>Downtown/ Creek/ Frame</fullName>
+                <default>false</default>
+                <label>Downtown/ Creek/ Frame</label>
+            </value>
+            <value>
+                <fullName>Downtown/ Creek/ Gulf / Frame</fullName>
+                <default>false</default>
+                <label>Downtown/ Creek/ Gulf / Frame</label>
+            </value>
+            <value>
+                <fullName>Downtown/ Gulf/ Frame</fullName>
+                <default>false</default>
+                <label>Downtown/ Gulf/ Frame</label>
+            </value>
+            <value>
+                <fullName>Dual</fullName>
+                <default>false</default>
+                <label>Dual</label>
+            </value>
+            <value>
+                <fullName>Dubai Water Canal</fullName>
+                <default>false</default>
+                <label>Dubai Water Canal</label>
+            </value>
+            <value>
+                <fullName>Dubai Water Canal/Downtown Skyline</fullName>
+                <default>false</default>
+                <label>Dubai Water Canal/Downtown Skyline</label>
+            </value>
+            <value>
+                <fullName>Dubai Water Canal/Safa Park</fullName>
+                <default>false</default>
+                <label>Dubai Water Canal/Safa Park</label>
+            </value>
+            <value>
+                <fullName>Full Sea View</fullName>
+                <default>false</default>
+                <label>Full Sea View</label>
+            </value>
+            <value>
+                <fullName>Full View</fullName>
+                <default>false</default>
+                <label>Full View</label>
+            </value>
+            <value>
+                <fullName>Garden View</fullName>
+                <default>false</default>
+                <label>Garden View</label>
+            </value>
+            <value>
+                <fullName>Golf Course</fullName>
+                <default>false</default>
+                <label>Golf Course</label>
+            </value>
+            <value>
+                <fullName>Harbor</fullName>
+                <default>false</default>
+                <label>Harbor</label>
+            </value>
+            <value>
+                <fullName>Landscape</fullName>
+                <default>false</default>
+                <label>Landscape</label>
+            </value>
+            <value>
+                <fullName>Marina</fullName>
+                <default>false</default>
+                <label>Marina</label>
+            </value>
+            <value>
+                <fullName>Mountain</fullName>
+                <default>false</default>
+                <label>Mountain</label>
+            </value>
+            <value>
+                <fullName>Ocean</fullName>
+                <default>false</default>
+                <label>Ocean</label>
+            </value>
+            <value>
+                <fullName>Ocean/Community</fullName>
+                <default>false</default>
+                <label>Ocean/Community</label>
+            </value>
+            <value>
+                <fullName>Ocean View</fullName>
+                <default>false</default>
+                <label>Ocean View</label>
+            </value>
+            <value>
+                <fullName>Ocean View/ Sheikh Zayed Road/ Tower West</fullName>
+                <default>false</default>
+                <label>Ocean View/ Sheikh Zayed Road/ Tower West</label>
+            </value>
+            <value>
+                <fullName>Ocean View/ Zabeel Park/ Dubai Frame</fullName>
+                <default>false</default>
+                <label>Ocean View/ Zabeel Park/ Dubai Frame</label>
+            </value>
+            <value>
+                <fullName>Palm</fullName>
+                <default>false</default>
+                <label>Palm</label>
+            </value>
+            <value>
+                <fullName>Park</fullName>
+                <default>false</default>
+                <label>Park</label>
+            </value>
+            <value>
+                <fullName>Partial Canal View</fullName>
+                <default>false</default>
+                <label>Partial Canal View</label>
+            </value>
+            <value>
+                <fullName>Partial Dubai Water Canal</fullName>
+                <default>false</default>
+                <label>Partial Dubai Water Canal</label>
+            </value>
+            <value>
+                <fullName>Partial Sea View</fullName>
+                <default>false</default>
+                <label>Partial Sea View</label>
+            </value>
+            <value>
+                <fullName>Partial View</fullName>
+                <default>false</default>
+                <label>Partial View</label>
+            </value>
+            <value>
+                <fullName>Penthouse A (west wing)</fullName>
+                <default>false</default>
+                <label>Penthouse A (west wing)</label>
+            </value>
+            <value>
+                <fullName>Penthouse B (east wing)</fullName>
+                <default>false</default>
+                <label>Penthouse B (east wing)</label>
+            </value>
+            <value>
+                <fullName>Pool</fullName>
+                <default>false</default>
+                <label>Pool</label>
+            </value>
+            <value>
+                <fullName>Saadiyat Island</fullName>
+                <default>false</default>
+                <label>Saadiyat Island</label>
+            </value>
+            <value>
+                <fullName>SAADIYAT ISLAND/ ADGM SQUARE</fullName>
+                <default>false</default>
+                <label>SAADIYAT ISLAND/ ADGM SQUARE</label>
+            </value>
+            <value>
+                <fullName>Safa Park/Sheik Zayed Road</fullName>
+                <default>false</default>
+                <label>Safa Park/Sheik Zayed Road</label>
+            </value>
+            <value>
+                <fullName>Sea</fullName>
+                <default>false</default>
+                <label>Sea</label>
+            </value>
+            <value>
+                <fullName>Sea View</fullName>
+                <default>false</default>
+                <label>Sea View</label>
+            </value>
+            <value>
+                <fullName>Sheikh Zayed Road</fullName>
+                <default>false</default>
+                <label>Sheikh Zayed Road</label>
+            </value>
+            <value>
+                <fullName>Sheikh Zayed Road/Downtown</fullName>
+                <default>false</default>
+                <label>Sheikh Zayed Road/Downtown</label>
+            </value>
+            <value>
+                <fullName>Sheikh Zayed Road/ Tower West</fullName>
+                <default>false</default>
+                <label>Sheikh Zayed Road/ Tower West</label>
+            </value>
+            <value>
+                <fullName>Sheikh Zayed Road/Zaabeel Park</fullName>
+                <default>false</default>
+                <label>Sheikh Zayed Road/Zaabeel Park</label>
+            </value>
+            <value>
+                <fullName>Sheikh Zayed Road/ Zaabeel Park</fullName>
+                <default>false</default>
+                <label>Sheikh Zayed Road/ Zaabeel Park</label>
+            </value>
+            <value>
+                <fullName>Sheikh Zayed Road/ Zaabeel Park/Dubai Frame</fullName>
+                <default>false</default>
+                <label>Sheikh Zayed Road/ Zaabeel Park/Dubai Frame</label>
+            </value>
+            <value>
+                <fullName>Sheikh Zayed Road/ Zaabeel Park/ Tower West</fullName>
+                <default>false</default>
+                <label>Sheikh Zayed Road/ Zaabeel Park/ Tower West</label>
+            </value>
+            <value>
+                <fullName>Skyline View</fullName>
+                <default>false</default>
+                <label>Skyline View</label>
+            </value>
+            <value>
+                <fullName>Small 1-bed SA</fullName>
+                <default>false</default>
+                <label>Small 1-bed SA</label>
+            </value>
+            <value>
+                <fullName>Small 1-bed SB</fullName>
+                <default>false</default>
+                <label>Small 1-bed SB</label>
+            </value>
+            <value>
+                <fullName>The Dubai Frame</fullName>
+                <default>false</default>
+                <label>The Dubai Frame</label>
+            </value>
+            <value>
+                <fullName>The Dubai Frame / Zaabeel</fullName>
+                <default>false</default>
+                <label>The Dubai Frame / Zaabeel</label>
+            </value>
+            <value>
+                <fullName>The Dubai Frame &amp; Zaabeel View</fullName>
+                <default>false</default>
+                <label>The Dubai Frame &amp; Zaabeel View</label>
+            </value>
+            <value>
+                <fullName>Tower 2/Community</fullName>
+                <default>false</default>
+                <label>Tower 2/Community</label>
+            </value>
+            <value>
+                <fullName>Wynn / Community</fullName>
+                <default>false</default>
+                <label>Wynn / Community</label>
+            </value>
+            <value>
+                <fullName>Zaabeel</fullName>
+                <default>false</default>
+                <label>Zaabeel</label>
+            </value>
+            <value>
+                <fullName>Zaabeel / DIFC Burj Khalifa</fullName>
+                <default>false</default>
+                <label>Zaabeel / DIFC Burj Khalifa</label>
+            </value>
+            <value>
+                <fullName>Zaabeel &amp; DIFC / Burj Khalifa</fullName>
+                <default>false</default>
+                <label>Zaabeel &amp; DIFC / Burj Khalifa</label>
+            </value>
+            <value>
+                <fullName>Zaabeel Park/Dubai Frame</fullName>
+                <default>false</default>
+                <label>Zaabeel Park/Dubai Frame</label>
+            </value>
+            <value>
+                <fullName>Zaabeel Park/ Dubai Frame</fullName>
+                <default>false</default>
+                <label>Zaabeel Park/ Dubai Frame</label>
+            </value>
+            <value>
+                <fullName>Zaabeel Park/ Dubai Frame/ Sheikh Zayed Road</fullName>
+                <default>false</default>
+                <label>Zaabeel Park/ Dubai Frame/ Sheikh Zayed Road</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

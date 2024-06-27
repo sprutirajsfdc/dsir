@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Nothing to sell</fullName>
+        <default>false</default>
+        <label>Nothing to sell</label>
+    </customValue>
+    <customValue>
+        <fullName>Renting</fullName>
+        <default>false</default>
+        <label>Renting</label>
+    </customValue>
+    <customValue>
+        <fullName>selling with us</fullName>
+        <default>false</default>
+        <label>selling with us</label>
+    </customValue>
+    <customValue>
+        <fullName>Selling with other agent</fullName>
+        <default>false</default>
+        <label>Selling with other agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Selling privately</fullName>
+        <default>false</default>
+        <label>Selling privately</label>
+    </customValue>
+    <customValue>
+        <fullName>Not yet on market</fullName>
+        <default>false</default>
+        <label>Not yet on market</label>
+    </customValue>
+    <masterLabel>Selling Position</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

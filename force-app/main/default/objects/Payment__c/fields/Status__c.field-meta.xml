@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Payment_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Block</fullName>
+                <default>false</default>
+                <label>Block</label>
+            </value>
+            <value>
+                <fullName>Released</fullName>
+                <default>false</default>
+                <label>Released</label>
+            </value>
+            <value>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+                <label>Not Received</label>
+            </value>
+            <value>
+                <fullName>Received</fullName>
+                <default>false</default>
+                <label>Received</label>
+            </value>
+            <value>
+                <fullName>Received By Developer</fullName>
+                <default>false</default>
+                <label>Received By Developer</label>
+            </value>
+            <value>
+                <fullName>Sent to Developer</fullName>
+                <default>false</default>
+                <label>Sent to Developer</label>
+            </value>
+            <value>
+                <fullName>Cheque Bounced</fullName>
+                <default>false</default>
+                <label>Cheque Bounced</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>DLD fee</controllingFieldValue>
+            <controllingFieldValue>VAT</controllingFieldValue>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <controllingFieldValue>Conveyance Fee</controllingFieldValue>
+            <valueName>Not Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DLD fee</controllingFieldValue>
+            <controllingFieldValue>VAT</controllingFieldValue>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <controllingFieldValue>Conveyance Fee</controllingFieldValue>
+            <valueName>Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Deposit</controllingFieldValue>
+            <valueName>Block</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Deposit</controllingFieldValue>
+            <valueName>Released</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

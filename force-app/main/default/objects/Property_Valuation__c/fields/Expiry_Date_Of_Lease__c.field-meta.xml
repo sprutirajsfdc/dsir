@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Expiry_Date_Of_Lease__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Expiry date of lease (eg: 24.06.2080)</inlineHelpText>
+    <label>Expiry Date Of Lease</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

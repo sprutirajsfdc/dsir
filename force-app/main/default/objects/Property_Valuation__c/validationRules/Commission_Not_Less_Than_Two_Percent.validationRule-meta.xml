@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commission_Not_Less_Than_Two_Percent</fullName>
+    <active>false</active>
+    <description>Ensure that Commission is not less than 2%.</description>
+    <errorConditionFormula>Commission__c &lt; 0.02</errorConditionFormula>
+    <errorMessage>Commission must not be less than 2%</errorMessage>
+</ValidationRule>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_Parking_and_Planning_Consent__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Parking:- 
+
+Is there any provision for off-street parking, a garage, hard standing, or similar
+amenities associated with the property, and if so, has it received planning
+consent? Additionally, confirm if there are any restrictions or covenants that
+apply to these facilities.</inlineHelpText>
+    <label>Property Parking and Planning Consent</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

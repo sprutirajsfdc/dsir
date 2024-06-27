@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Others_Payment_Type_Amount_Description</fullName>
+    <active>true</active>
+    <description>If Payment Type is Others, Others Payment Type Amount Description require.</description>
+    <errorConditionFormula>IF( 
+ISPICKVAL(Payment_Type__c , &apos;Others&apos;),
+ISBLANK( Others_Amount_Description__c ),
+null
+)</errorConditionFormula>
+    <errorDisplayField>Others_Amount_Description__c</errorDisplayField>
+    <errorMessage>Others Payment Type Amount Description is Mandatory.</errorMessage>
+</ValidationRule>

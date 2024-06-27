@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cash Buyer</fullName>
+        <default>false</default>
+        <label>Cash Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>First Time Buyer</fullName>
+        <default>false</default>
+        <label>First Time Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending Own Sale</fullName>
+        <default>false</default>
+        <label>Pending Own Sale</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending Mortage</fullName>
+        <default>false</default>
+        <label>Pending Mortage</label>
+    </customValue>
+    <customValue>
+        <fullName>Buying Agent</fullName>
+        <default>false</default>
+        <label>Buying Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Nothing to Sell</fullName>
+        <default>false</default>
+        <label>Nothing to Sell</label>
+    </customValue>
+    <customValue>
+        <fullName>Investor</fullName>
+        <default>false</default>
+        <label>Investor</label>
+    </customValue>
+    <masterLabel>Buyer Position</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

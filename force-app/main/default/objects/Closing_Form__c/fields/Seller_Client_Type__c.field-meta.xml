@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seller_Client_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Seller Client Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Internal Sole Agent</fullName>
+                <default>false</default>
+                <label>Internal Sole Agent</label>
+            </value>
+            <value>
+                <fullName>Internal Multiple Agents</fullName>
+                <default>false</default>
+                <label>Internal Multiple Agents</label>
+            </value>
+            <value>
+                <fullName>3rd Party</fullName>
+                <default>false</default>
+                <label>3rd Party</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

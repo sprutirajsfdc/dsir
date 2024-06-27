@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Contract_Mgmt_1_month_before_Email_Alert</name>
+        <label>Contract Mgmt 1 month before Email Alert</label>
+        <locationX>314</locationX>
+        <locationY>587</locationY>
+        <actionName>Contract_Management__c.Contract_Mgmt_1_months_before_Email_Alert</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Contract_Management__c.Contract_Mgmt_1_months_before_Email_Alert</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Contract_Mgmt_2_days_before_Email_Alert</name>
+        <label>Contract Mgmt 2 days before Email Alert</label>
+        <locationX>50</locationX>
+        <locationY>587</locationY>
+        <actionName>Contract_Management__c.Contract_Mgmt_2_days_before_Email_Alert</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Contract_Management__c.Contract_Mgmt_2_days_before_Email_Alert</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Contract_Mgmt_3_months_before_Email_Alert</name>
+        <label>Contract Mgmt 3 months before Email Alert</label>
+        <locationX>578</locationX>
+        <locationY>587</locationY>
+        <actionName>Contract_Management__c.Contract_Mgmt_3_months_before_Email_Alert</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Contract_Management__c.Contract_Mgmt_3_months_before_Email_Alert</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Contract_Mgmt_6_months_before_Email_Alert</name>
+        <label>Contract Mgmt 6 months before Email Alert</label>
+        <locationX>842</locationX>
+        <locationY>587</locationY>
+        <actionName>Contract_Management__c.Contract_Mgmt_6_months_before_Email_Alert</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Contract_Management__c.Contract_Mgmt_6_months_before_Email_Alert</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>60.0</apiVersion>
+    <decisions>
+        <description>Will decide which path to use based on Contract End date.</description>
+        <name>assign_email_alert_as_per_date</name>
+        <label>assign email alert as per date</label>
+        <locationX>596</locationX>
+        <locationY>477</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>X2_days_before</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Flow.CurrentDate</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>twoDaysBeforeEndDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Contract_Mgmt_2_days_before_Email_Alert</targetReference>
+            </connector>
+            <label>2 days before</label>
+        </rules>
+        <rules>
+            <name>X1_month_before</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Flow.CurrentDate</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>oneMonthBeforeEndDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Contract_Mgmt_1_month_before_Email_Alert</targetReference>
+            </connector>
+            <label>1 month before</label>
+        </rules>
+        <rules>
+            <name>X3_months_before</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Flow.CurrentDate</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>threeMonthsBeforeEndDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Contract_Mgmt_3_months_before_Email_Alert</targetReference>
+            </connector>
+            <label>3 months before</label>
+        </rules>
+        <rules>
+            <name>X6_months_before</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Flow.CurrentDate</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>sixMonthsBeforeEndDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Contract_Mgmt_6_months_before_Email_Alert</targetReference>
+            </connector>
+            <label>6 months before</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>check_date</name>
+        <label>check date</label>
+        <locationX>974</locationX>
+        <locationY>371</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>previous_date_doesn_t_equal_new_date</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior.EndDate__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.EndDate__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.EndDate__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>assign_email_alert_as_per_date</targetReference>
+            </connector>
+            <label>previous date doesn&apos;t equal new date</label>
+        </rules>
+    </decisions>
+    <description>Will send out emails immediately on creation or updation whenever the date is -
+1) 2 days before 2) 1 month before 3) 3 months before 4) 6 months before  the
+Contract end date</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>oneMonthBeforeEndDate</name>
+        <dataType>Date</dataType>
+        <expression>DATE(
+    YEAR({!$Record.EndDate__c}), 
+    MONTH({!$Record.EndDate__c}) - 1, 
+    DAY({!$Record.EndDate__c})
+)</expression>
+    </formulas>
+    <formulas>
+        <name>sixMonthsBeforeEndDate</name>
+        <dataType>Date</dataType>
+        <expression>DATE(
+    YEAR({!$Record.EndDate__c}), 
+    MONTH({!$Record.EndDate__c}) - 6, 
+    DAY({!$Record.EndDate__c})
+)</expression>
+    </formulas>
+    <formulas>
+        <name>threeMonthsBeforeEndDate</name>
+        <dataType>Date</dataType>
+        <expression>DATE(
+    YEAR({!$Record.EndDate__c}), 
+    MONTH({!$Record.EndDate__c}) - 3, 
+    DAY({!$Record.EndDate__c})
+)</expression>
+    </formulas>
+    <formulas>
+        <name>twoDaysBeforeEndDate</name>
+        <dataType>Date</dataType>
+        <expression>DATE(
+    YEAR({!$Record.EndDate__c}), 
+    MONTH({!$Record.EndDate__c}), 
+    DAY({!$Record.EndDate__c} - 2)
+)</expression>
+    </formulas>
+    <interviewLabel>Contract Mgmt | Send email notifications {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Contract Mgmt | Send email notifications</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>848</locationX>
+        <locationY>47</locationY>
+        <connector>
+            <targetReference>check_date</targetReference>
+        </connector>
+        <filterLogic>(1 OR 2) AND 3</filterLogic>
+        <filters>
+            <field>EndDate__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>EndDate__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue>Cancel</stringValue>
+            </value>
+        </filters>
+        <object>Contract_Management__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

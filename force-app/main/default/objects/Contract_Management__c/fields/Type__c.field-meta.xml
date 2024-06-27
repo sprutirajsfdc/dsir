@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NDA</fullName>
+                <default>false</default>
+                <label>NDA</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>LOI</fullName>
+                <default>false</default>
+                <label>LOI</label>
+            </value>
+            <value>
+                <fullName>Vendor Contracts</fullName>
+                <default>false</default>
+                <label>Vendor Contracts</label>
+            </value>
+            <value>
+                <fullName>Other Legal Contracts</fullName>
+                <default>false</default>
+                <label>Other Legal Contracts</label>
+            </value>
+            <value>
+                <fullName>Authorization Letters</fullName>
+                <default>false</default>
+                <label>Authorization Letters</label>
+            </value>
+            <value>
+                <fullName>Marketing Contracts</fullName>
+                <default>false</default>
+                <label>Marketing Contracts</label>
+            </value>
+            <value>
+                <fullName>Developer Contracts</fullName>
+                <default>false</default>
+                <label>Developer Contracts</label>
+            </value>
+            <value>
+                <fullName>Lease</fullName>
+                <default>false</default>
+                <label>Lease</label>
+            </value>
+            <value>
+                <fullName>Project Marketing Contract</fullName>
+                <default>false</default>
+                <label>Project Marketing Contract</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Partnership Agreements</fullName>
+                <default>false</default>
+                <label>Partnership Agreements</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_private_contacts_if_limit_reached</fullName>
+    <active>false</active>
+    <description>Agents will not be able to mark contacts as private if the limit is reached.</description>
+    <errorConditionFormula>AND
+($User.Private_Contact_Limit__c  &gt;= 10,
+ Private_Contact__c = TRUE)</errorConditionFormula>
+    <errorMessage>Private contact limit reached. Please make other contacts public and try again.</errorMessage>
+</ValidationRule>

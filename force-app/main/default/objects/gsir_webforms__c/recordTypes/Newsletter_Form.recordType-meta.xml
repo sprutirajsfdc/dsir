@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Newsletter_Form</fullName>
+    <active>true</active>
+    <label>Newsletter Form</label>
+    <picklistValues>
+        <picklist>gsir_lead_routing_team__c</picklist>
+        <values>
+            <fullName>ALL C%26S Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ALL Call Center team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All Gulf SIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All Offplan Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All SPF Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Area 1_Downtown Leasing Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Area 1_Downtown Sales Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Area 1_Emirates Hills</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Area 2_Jumeirah Golf Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Area 3_Dubai marina Leasing Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Area 3_Dubai marina Sales Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Area 5_Palm Apartments team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Area 5_Palm Villa team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Area 6_Luxury Rental Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Area 7_Al barari Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Area 8_Jumeirah park Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Core Area 9_MBRC Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Front Desk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic Team %23 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic Team %23 10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic Team %23 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic Team %23 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic Team %23 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic Team %23 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic Team %23 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic Team %23 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic Team %23 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic Team %23 9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HERE Client Rep Team</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>gsir_lead_source__c</picklist>
+        <values>
+            <fullName>Agent Internal Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agent Networking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2B Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCE - Did not probe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client doenst want to provide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cold Call - Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIFC Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Agent Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSIR -  Magazine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GSIR - Events %26 Road Shows</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gulf SIR Kiosk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GulfSIR%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbound Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>James Edition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Farming - External Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Farming - Internal Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxuryestate%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mansion Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outbound Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propertyfinder%2Eae</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propertywifi%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rezora%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Right Move</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIR%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sotheby%27s Catalogue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of Mouth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zoopla</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

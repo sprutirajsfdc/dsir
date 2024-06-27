@@ -5,6 +5,7 @@
     <label>Zabeel Saray Brokerage Registration</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
@@ -16,9 +17,9 @@
                 <label>Registered</label>
             </value>
             <value>
-                <fullName>Draft Brokerage Agreement Sent to Agency</fullName>
+                <fullName>Draf Brokerage Agreement Sent to Agency</fullName>
                 <default>false</default>
-                <label>Draft Brokerage Agreement Sent to Agency</label>
+                <label>Draf Brokerage Agreement Sent to Agency</label>
             </value>
             <value>
                 <fullName>On hold Missing Documents</fullName>

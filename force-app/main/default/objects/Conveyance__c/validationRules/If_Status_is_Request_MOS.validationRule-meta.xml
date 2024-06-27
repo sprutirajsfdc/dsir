@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Status_is_Request_MOS</fullName>
+    <active>true</active>
+    <description>In the UK record type, if the status is &quot;Request MOS,&quot; then the fields &quot;Buyer Solicitor&quot; and &quot;Seller Solicitor&quot; are mandatory.</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName  = &quot;UK&quot;,
+    ISPICKVAL(Status__c, &quot;Request MOS&quot;),
+
+OR( ISBLANK(Buyer_Solicitor__c),
+    ISBLANK(Seller_Solicitor__c)
+)
+)</errorConditionFormula>
+    <errorMessage>Contract Status is Request MOS then Buyer Solicitor and Seller Solicitor field is required</errorMessage>
+</ValidationRule>

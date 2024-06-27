@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Freehold</fullName>
+        <default>false</default>
+        <label>Freehold</label>
+    </customValue>
+    <customValue>
+        <fullName>Non Freehold</fullName>
+        <default>false</default>
+        <label>Non Freehold</label>
+    </customValue>
+    <customValue>
+        <fullName>Leasehold</fullName>
+        <default>false</default>
+        <label>Leasehold</label>
+    </customValue>
+    <customValue>
+        <fullName>Share of freehold</fullName>
+        <default>false</default>
+        <label>Share of freehold</label>
+    </customValue>
+    <customValue>
+        <fullName>Flying freehold</fullName>
+        <default>false</default>
+        <label>Flying freehold</label>
+    </customValue>
+    <customValue>
+        <fullName>Lease hold</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lease hold</label>
+    </customValue>
+    <masterLabel>Ownership Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

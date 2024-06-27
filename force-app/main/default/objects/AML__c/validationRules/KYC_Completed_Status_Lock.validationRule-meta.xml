@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KYC_Completed_Status_Lock</fullName>
+    <active>false</active>
+    <description>Once KYC Completed then No one can Change Status to anything else.</description>
+    <errorConditionFormula>IF(
+ISPICKVAL( PRIORVALUE ( Status__c ) , &apos;KYC Completed&apos;) ,
+ISCHANGED( Status__c ) ,
+null)</errorConditionFormula>
+    <errorMessage>KYC Completed - Status can&apos;t be changed</errorMessage>
+</ValidationRule>

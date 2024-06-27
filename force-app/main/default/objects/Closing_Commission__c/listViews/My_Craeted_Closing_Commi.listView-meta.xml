@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Craeted_Closing_Commi</fullName>
+    <columns>NAME</columns>
+    <columns>Commission_Amount__c</columns>
+    <columns>Sale_Price__c</columns>
+    <columns>Closing_Status__c</columns>
+    <columns>Transaction_Type__c</columns>
+    <columns>CC_Listing_Address__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Closing__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Closing__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Commission_Amount__c</field>
+        <operation>greaterThan</operation>
+        <value>AED 0</value>
+    </filters>
+    <filters>
+        <field>Lux_Agent__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>My Closing Commission</label>
+</ListView>

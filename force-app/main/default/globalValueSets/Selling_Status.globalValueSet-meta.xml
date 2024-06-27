@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Pre Appraisal</fullName>
+        <default>false</default>
+        <label>Pre Appraisal</label>
+    </customValue>
+    <customValue>
+        <fullName>Market Appraisal</fullName>
+        <default>false</default>
+        <label>Market Appraisal</label>
+    </customValue>
+    <customValue>
+        <fullName>For Sale - Available</fullName>
+        <default>false</default>
+        <label>For Sale - Available</label>
+    </customValue>
+    <customValue>
+        <fullName>For Sale - Unavailable</fullName>
+        <default>false</default>
+        <label>For Sale - Unavailable</label>
+    </customValue>
+    <customValue>
+        <fullName>Sold STC - Available</fullName>
+        <default>false</default>
+        <label>Sold STC - Available</label>
+    </customValue>
+    <customValue>
+        <fullName>Sold STC - Unavailable</fullName>
+        <default>false</default>
+        <label>Sold STC - Unavailable</label>
+    </customValue>
+    <customValue>
+        <fullName>Reserved</fullName>
+        <default>false</default>
+        <label>Reserved</label>
+    </customValue>
+    <customValue>
+        <fullName>Exchanged</fullName>
+        <default>false</default>
+        <label>Exchanged</label>
+    </customValue>
+    <customValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+    </customValue>
+    <customValue>
+        <fullName>Sold Externally</fullName>
+        <default>false</default>
+        <label>Sold Externally</label>
+    </customValue>
+    <customValue>
+        <fullName>Withdrawn</fullName>
+        <default>false</default>
+        <label>Withdrawn</label>
+    </customValue>
+    <masterLabel>Selling Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

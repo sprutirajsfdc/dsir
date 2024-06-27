@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>request_sub_type__c</fullName>
+    <externalId>false</externalId>
+    <label>Request Sub Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Request_Details__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NOC</fullName>
+                <default>false</default>
+                <label>NOC</label>
+            </value>
+            <value>
+                <fullName>NDA</fullName>
+                <default>false</default>
+                <label>NDA</label>
+            </value>
+            <value>
+                <fullName>Listing Agreement</fullName>
+                <default>false</default>
+                <label>Listing Agreement</label>
+            </value>
+            <value>
+                <fullName>Property offer Letter</fullName>
+                <default>false</default>
+                <label>Property offer Letter</label>
+            </value>
+            <value>
+                <fullName>Other legal document</fullName>
+                <default>false</default>
+                <label>Other legal document</label>
+            </value>
+            <value>
+                <fullName>Salary certificate - Bank</fullName>
+                <default>false</default>
+                <label>Salary certificate - Bank</label>
+            </value>
+            <value>
+                <fullName>Salary Certificate - Travel</fullName>
+                <default>false</default>
+                <label>Salary Certificate - Travel</label>
+            </value>
+            <value>
+                <fullName>VISA NOC</fullName>
+                <default>false</default>
+                <label>VISA NOC</label>
+            </value>
+            <value>
+                <fullName>Others (HR Related)</fullName>
+                <default>false</default>
+                <label>Others (HR Related)</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>Payment follow up from Developer</fullName>
+                <default>false</default>
+                <label>Payment follow up from Developer</label>
+            </value>
+            <value>
+                <fullName>Others (Accounts Related)</fullName>
+                <default>false</default>
+                <label>Others (Accounts Related)</label>
+            </value>
+            <value>
+                <fullName>EDM</fullName>
+                <default>false</default>
+                <label>EDM</label>
+            </value>
+            <value>
+                <fullName>Listing Follow up</fullName>
+                <default>false</default>
+                <label>Listing Follow up</label>
+            </value>
+            <value>
+                <fullName>FORM A Renewal</fullName>
+                <default>false</default>
+                <label>FORM A Renewal</label>
+            </value>
+            <value>
+                <fullName>Photoshoot</fullName>
+                <default>false</default>
+                <label>Photoshoot</label>
+            </value>
+            <value>
+                <fullName>Listing Price Changes</fullName>
+                <default>false</default>
+                <label>Listing Price Changes</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>NOC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>NDA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Listing Agreement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Property offer Letter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legal</controllingFieldValue>
+            <valueName>Other legal document</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Salary certificate - Bank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Salary Certificate - Travel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>VISA NOC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HR</controllingFieldValue>
+            <valueName>Others (HR Related)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounts</controllingFieldValue>
+            <valueName>Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounts</controllingFieldValue>
+            <valueName>Payment follow up from Developer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accounts</controllingFieldValue>
+            <valueName>Others (Accounts Related)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>EDM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Listing Follow up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>FORM A Renewal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Photoshoot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Listing Price Changes</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

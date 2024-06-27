@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Kyc_Rejected_or_Aml_Rejected_reason_rule</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(OR(ISPICKVAL( Status__c , &apos;KYC Rejected&apos;),ISPICKVAL( Status__c , &apos;AML Rejected&apos;) ), ISBLANK( Rejected_Reason_Details__c )  , False)</errorConditionFormula>
+    <errorDisplayField>Rejected_Reason_Details__c</errorDisplayField>
+    <errorMessage>Please provide Rejected Reason Details.</errorMessage>
+</ValidationRule>

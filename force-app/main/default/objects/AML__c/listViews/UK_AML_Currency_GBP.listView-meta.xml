@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UK_AML_Currency_GBP</fullName>
+    <columns>NAME</columns>
+    <columns>AML_Type__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Status__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>AML_Severity_Color__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CURRENCY_ISO_CODE</field>
+        <operation>equals</operation>
+        <value>GBP</value>
+    </filters>
+    <label>All UK AML</label>
+</ListView>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Pending AML</fullName>
+        <default>false</default>
+        <label>Pending AML</label>
+    </customValue>
+    <customValue>
+        <fullName>Content Creation</fullName>
+        <default>false</default>
+        <label>Content Creation</label>
+    </customValue>
+    <customValue>
+        <fullName>For Sale - Available</fullName>
+        <default>false</default>
+        <label>For Sale - Available</label>
+    </customValue>
+    <customValue>
+        <fullName>For Sale - Unavailable</fullName>
+        <default>false</default>
+        <label>For Sale - Unavailable</label>
+    </customValue>
+    <customValue>
+        <fullName>Reserved</fullName>
+        <default>false</default>
+        <label>Reserved</label>
+    </customValue>
+    <customValue>
+        <fullName>To Let - Available</fullName>
+        <default>false</default>
+        <label>To Let - Available</label>
+    </customValue>
+    <customValue>
+        <fullName>To Let - Unavailable</fullName>
+        <default>false</default>
+        <label>To Let - Unavailable</label>
+    </customValue>
+    <customValue>
+        <fullName>Under Offer - Available</fullName>
+        <default>false</default>
+        <label>Under Offer - Available</label>
+    </customValue>
+    <customValue>
+        <fullName>Under Offer - Unavailable</fullName>
+        <default>false</default>
+        <label>Under Offer - Unavailable</label>
+    </customValue>
+    <customValue>
+        <fullName>Arranging Tenancy - Unavailable</fullName>
+        <default>false</default>
+        <label>Arranging Tenancy - Unavailable</label>
+    </customValue>
+    <customValue>
+        <fullName>Exchanged</fullName>
+        <default>false</default>
+        <label>Exchanged</label>
+    </customValue>
+    <customValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+    </customValue>
+    <customValue>
+        <fullName>Off Market</fullName>
+        <default>false</default>
+        <label>Off Market</label>
+    </customValue>
+    <customValue>
+        <fullName>Archived</fullName>
+        <default>false</default>
+        <label>Archived</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenancy Current - Unavailable</fullName>
+        <default>false</default>
+        <label>Tenancy Current - Unavailable</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenancy Current - Available</fullName>
+        <default>false</default>
+        <label>Tenancy Current - Available</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenancy Finished</fullName>
+        <default>false</default>
+        <label>Tenancy Finished</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenancy Cancelled</fullName>
+        <default>false</default>
+        <label>Tenancy Cancelled</label>
+    </customValue>
+    <customValue>
+        <fullName>Sold</fullName>
+        <default>false</default>
+        <label>Sold</label>
+    </customValue>
+    <customValue>
+        <fullName>Let</fullName>
+        <default>false</default>
+        <label>Let</label>
+    </customValue>
+    <customValue>
+        <fullName>Draft</fullName>
+        <default>false</default>
+        <label>Draft</label>
+    </customValue>
+    <customValue>
+        <fullName>Withdrawn</fullName>
+        <default>false</default>
+        <label>Withdrawn</label>
+    </customValue>
+    <customValue>
+        <fullName>Pending Instructions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pending Instructions</label>
+    </customValue>
+    <customValue>
+        <fullName>Arranging Tenancy - Available</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Arranging Tenancy - Available</label>
+    </customValue>
+    <customValue>
+        <fullName>Let by other agent</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Let by other agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Let privately</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Let privately</label>
+    </customValue>
+    <customValue>
+        <fullName>Provisional</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Provisional</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Available</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sales Available</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Unavailable</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sales Unavailable</label>
+    </customValue>
+    <customValue>
+        <fullName>Prospect</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Prospect</label>
+    </customValue>
+    <customValue>
+        <fullName>Market Appraisal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Market Appraisal</label>
+    </customValue>
+    <customValue>
+        <fullName>Exchange</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Exchange</label>
+    </customValue>
+    <masterLabel>Listing Sub Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <decisions>
+        <name>Check_Media_Tag</name>
+        <label>Check Media Tag</label>
+        <locationX>314</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>If_EPC</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.pba__Tags__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>EPC</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Image_URL</targetReference>
+            </connector>
+            <label>If EPC</label>
+        </rules>
+        <rules>
+            <name>If_Floorplan</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.pba__Tags__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Floorplan</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Floorplan_Image_URL</targetReference>
+            </connector>
+            <label>If Floorplan</label>
+        </rules>
+    </decisions>
+    <description>When Property Media is Created and Updated and Media Tag is EPC or Floorplan.
+Update on Property if Media tag is EPC
+Property EPC Image URL = Property Media Midres URL
+and if Media tag is Floorplan
+Property Floorplan Image URL = Property Medres URL</description>
+    <environments>Default</environments>
+    <interviewLabel>Property Media - After Flow - Update EPC/Floorplan Image URL {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Property Media - After Flow - Update EPC/Floorplan Image URL</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Floorplan_Image_URL</name>
+        <label>Update Floorplan Image URL</label>
+        <locationX>314</locationX>
+        <locationY>431</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>pba__Property__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.pba__Property__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Floorplan_Image_URL__c</field>
+            <value>
+                <elementReference>$Record.pba__MidresURL__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>pba__Listing__c</object>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Image_URL</name>
+        <label>Update EPC Image URL</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>pba__Property__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.pba__Property__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>EPC_Image_URL__c</field>
+            <value>
+                <elementReference>$Record.pba__MidresURL__c</elementReference>
+            </value>
+        </inputAssignments>
+        <object>pba__Listing__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Media_Tag</targetReference>
+        </connector>
+        <object>pba__PropertyMedia__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

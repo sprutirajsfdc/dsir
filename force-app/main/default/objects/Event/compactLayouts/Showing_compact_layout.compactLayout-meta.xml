@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Showing_compact_layout</fullName>
+    <fields>Subject</fields>
+    <fields>WhoId</fields>
+    <fields>OwnerId</fields>
+    <fields>ActivityDate</fields>
+    <fields>IsAllDayEvent</fields>
+    <fields>WhatId</fields>
+    <fields>Summary__c</fields>
+    <fields>Type</fields>
+    <fields>pba__Rating_pb__c</fields>
+    <fields>Location</fields>
+    <label>Showing compact layout</label>
+</CompactLayout>

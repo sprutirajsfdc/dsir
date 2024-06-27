@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_PV_Primary__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Contact__c = Property_Valuation__r.Contact__c, NOT(ISNULL(Contact__c)), NOT(ISNULL(Property_Valuation__r.Contact__c))), TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is PV Primary?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

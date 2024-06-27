@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Key_USP_s__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>i.e Ambience, Look &amp; feel, low price, in demand location, unique facilities etc</inlineHelpText>
+    <label>Key USP&apos;s</label>
+    <length>2500</length>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

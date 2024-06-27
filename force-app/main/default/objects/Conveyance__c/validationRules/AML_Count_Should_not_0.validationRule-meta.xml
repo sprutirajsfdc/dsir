@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AML_Count_Should_not_0</fullName>
+    <active>false</active>
+    <description>When Contract Status is Exchanged then its mandatory to have min 1 AML</description>
+    <errorConditionFormula>AND(
+  RecordType.Name == &apos;UK&apos;,
+  OR(
+ISPICKVAL( Status__c , &apos;Exchanged&apos;),
+ISPICKVAL( Status__c , &apos;Completed&apos;)
+),
+ OR(
+  Contract_Buyer_AML_Count__c = 0,
+  Seller_AML_Count__c =0
+ ) 
+)</errorConditionFormula>
+    <errorMessage>When Contract Status is Exchanged then its mandatory to have min 1 AML</errorMessage>
+</ValidationRule>

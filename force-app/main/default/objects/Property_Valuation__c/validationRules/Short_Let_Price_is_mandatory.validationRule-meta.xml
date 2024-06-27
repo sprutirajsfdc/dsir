@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Short_Let_Price_is_mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( INCLUDES( Lease_Type__c , &apos;Short-Let&apos;), ISNULL(Short_Let_Price__c))</errorConditionFormula>
+    <errorDisplayField>Short_Let_Price__c</errorDisplayField>
+    <errorMessage>Short Let Price is required when lease type is Short-Let.</errorMessage>
+</ValidationRule>

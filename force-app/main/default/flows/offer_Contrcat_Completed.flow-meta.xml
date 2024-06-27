@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Offer_contract_completed</name>
+        <label>Offer contract completed</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <actionName>pba__Offer__c.Offer_status_Contract_Completed</actionName>
+        <actionType>emailAlert</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>pba__Offer__c.Offer_status_Contract_Completed</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>60.0</apiVersion>
+    <description>Added contract exchange status as well.</description>
+    <environments>Default</environments>
+    <interviewLabel>offer COntrcat Completed {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>offer Contrcat Completed</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Offer_contract_completed</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>pba__Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Contract Completed</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>pba__Status__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Contract Exchanged</stringValue>
+            </value>
+        </filters>
+        <object>pba__Offer__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

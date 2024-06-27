@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Al Aweer</fullName>
+        <default>false</default>
+        <label>Al Aweer</label>
+    </customValue>
+    <customValue>
+        <fullName>Zabeel</fullName>
+        <default>false</default>
+        <label>Zabeel</label>
+    </customValue>
+    <customValue>
+        <fullName>Reem</fullName>
+        <default>false</default>
+        <label>Reem</label>
+    </customValue>
+    <customValue>
+        <fullName>Wasl Gate</fullName>
+        <default>false</default>
+        <label>Wasl Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Dragon City</fullName>
+        <default>false</default>
+        <label>Dragon City</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Outsource Zone</fullName>
+        <default>false</default>
+        <label>Dubai Outsource Zone</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Studio City</fullName>
+        <default>false</default>
+        <label>Dubai Studio City</label>
+    </customValue>
+    <customValue>
+        <fullName>The Hills</fullName>
+        <default>false</default>
+        <label>The Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Arabian Ranches 3</fullName>
+        <default>false</default>
+        <label>Arabian Ranches 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Mohammed Bin Rashid City</fullName>
+        <default>false</default>
+        <label>Mohammed Bin Rashid City</label>
+    </customValue>
+    <customValue>
+        <fullName>Mina Rashid</fullName>
+        <default>false</default>
+        <label>Mina Rashid</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Hills Estate</fullName>
+        <default>false</default>
+        <label>Dubai Hills Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Murqquab</fullName>
+        <default>false</default>
+        <label>Murqquab</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Mina</fullName>
+        <default>false</default>
+        <label>Al Mina</label>
+    </customValue>
+    <customValue>
+        <fullName>Oud Al Muteena</fullName>
+        <default>false</default>
+        <label>Oud Al Muteena</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Design District</fullName>
+        <default>false</default>
+        <label>Dubai Design District</label>
+    </customValue>
+    <customValue>
+        <fullName>The Valley</fullName>
+        <default>false</default>
+        <label>The Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Warsan</fullName>
+        <default>false</default>
+        <label>Al Warsan</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Badaa</fullName>
+        <default>false</default>
+        <label>Al Badaa</label>
+    </customValue>
+    <customValue>
+        <fullName>Wadi Al Amardi</fullName>
+        <default>false</default>
+        <label>Wadi Al Amardi</label>
+    </customValue>
+    <customValue>
+        <fullName>Hatta</fullName>
+        <default>false</default>
+        <label>Hatta</label>
+    </customValue>
+    <customValue>
+        <fullName>Emirates Golf Club</fullName>
+        <default>false</default>
+        <label>Emirates Golf Club</label>
+    </customValue>
+    <customValue>
+        <fullName>Meydan</fullName>
+        <default>false</default>
+        <label>Meydan</label>
+    </customValue>
+    <customValue>
+        <fullName>The Villa</fullName>
+        <default>false</default>
+        <label>The Villa</label>
+    </customValue>
+    <customValue>
+        <fullName>Serena</fullName>
+        <default>false</default>
+        <label>Serena</label>
+    </customValue>
+    <customValue>
+        <fullName>Damac Lagoons</fullName>
+        <default>false</default>
+        <label>Damac Lagoons</label>
+    </customValue>
+    <customValue>
+        <fullName>Bawadi</fullName>
+        <default>false</default>
+        <label>Bawadi</label>
+    </customValue>
+    <customValue>
+        <fullName>City of Arabia</fullName>
+        <default>false</default>
+        <label>City of Arabia</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf City</fullName>
+        <default>false</default>
+        <label>Golf City</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Lifestyle City</fullName>
+        <default>false</default>
+        <label>Dubai Lifestyle City</label>
+    </customValue>
+    <customValue>
+        <fullName>Wadi Alshabak</fullName>
+        <default>false</default>
+        <label>Wadi Alshabak</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Barari</fullName>
+        <default>false</default>
+        <label>Al Barari</label>
+    </customValue>
+    <customValue>
+        <fullName>Eye Park</fullName>
+        <default>false</default>
+        <label>Eye Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Majan</fullName>
+        <default>false</default>
+        <label>Majan</label>
+    </customValue>
+    <customValue>
+        <fullName>Emirates Hills 2</fullName>
+        <default>false</default>
+        <label>Emirates Hills 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Mizin</fullName>
+        <default>false</default>
+        <label>Mizin</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Residence Complex</fullName>
+        <default>false</default>
+        <label>Dubai Residence Complex</label>
+    </customValue>
+    <customValue>
+        <fullName>Pacific Village</fullName>
+        <default>false</default>
+        <label>Pacific Village</label>
+    </customValue>
+    <customValue>
+        <fullName>Damac Hills 2</fullName>
+        <default>false</default>
+        <label>Damac Hills 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Arjan</fullName>
+        <default>false</default>
+        <label>Arjan</label>
+    </customValue>
+    <customValue>
+        <fullName>Falcon City of Wonders</fullName>
+        <default>false</default>
+        <label>Falcon City of Wonders</label>
+    </customValue>
+    <customValue>
+        <fullName>Living Legends</fullName>
+        <default>false</default>
+        <label>Living Legends</label>
+    </customValue>
+    <customValue>
+        <fullName>DAMAC Hills</fullName>
+        <default>false</default>
+        <label>DAMAC Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Barsha</fullName>
+        <default>false</default>
+        <label>Al Barsha</label>
+    </customValue>
+    <customValue>
+        <fullName>The Sustainable City</fullName>
+        <default>false</default>
+        <label>The Sustainable City</label>
+    </customValue>
+    <customValue>
+        <fullName>Town Square</fullName>
+        <default>false</default>
+        <label>Town Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Rukan</fullName>
+        <default>false</default>
+        <label>Rukan</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Furjan</fullName>
+        <default>false</default>
+        <label>Al Furjan</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Garhoud</fullName>
+        <default>false</default>
+        <label>Al Garhoud</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Jaddaf</fullName>
+        <default>false</default>
+        <label>Al Jaddaf</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Jafiliya</fullName>
+        <default>false</default>
+        <label>Al Jafiliya</label>
+    </customValue>
+    <customValue>
+        <fullName>Karama</fullName>
+        <default>false</default>
+        <label>Karama</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Khawaneej</fullName>
+        <default>false</default>
+        <label>Al Khawaneej</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Mizhar</fullName>
+        <default>false</default>
+        <label>Al Mizhar</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Muhaisnah</fullName>
+        <default>false</default>
+        <label>Al Muhaisnah</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Nahda</fullName>
+        <default>false</default>
+        <label>Al Nahda</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Quoz</fullName>
+        <default>false</default>
+        <label>Al Quoz</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Qusais</fullName>
+        <default>false</default>
+        <label>Al Qusais</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Rashidiya</fullName>
+        <default>false</default>
+        <label>Al Rashidiya</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Safa</fullName>
+        <default>false</default>
+        <label>Al Safa</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Satwa</fullName>
+        <default>false</default>
+        <label>Al Satwa</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Shindagah</fullName>
+        <default>false</default>
+        <label>Al Shindagah</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Sufouh</fullName>
+        <default>false</default>
+        <label>Al Sufouh</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Twar</fullName>
+        <default>false</default>
+        <label>Al Twar</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Warqa&apos;a</fullName>
+        <default>false</default>
+        <label>Al Warqa&apos;a</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Wasl</fullName>
+        <default>false</default>
+        <label>Al Wasl</label>
+    </customValue>
+    <customValue>
+        <fullName>Arabian Ranches</fullName>
+        <default>false</default>
+        <label>Arabian Ranches</label>
+    </customValue>
+    <customValue>
+        <fullName>Bur Dubai</fullName>
+        <default>false</default>
+        <label>Bur Dubai</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Bay</fullName>
+        <default>false</default>
+        <label>Business Bay</label>
+    </customValue>
+    <customValue>
+        <fullName>Culture Village</fullName>
+        <default>false</default>
+        <label>Culture Village</label>
+    </customValue>
+    <customValue>
+        <fullName>Deira</fullName>
+        <default>false</default>
+        <label>Deira</label>
+    </customValue>
+    <customValue>
+        <fullName>DIFC</fullName>
+        <default>false</default>
+        <label>DIFC</label>
+    </customValue>
+    <customValue>
+        <fullName>Discovery Gardens</fullName>
+        <default>false</default>
+        <label>Discovery Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Downtown Dubai</fullName>
+        <default>false</default>
+        <label>Downtown Dubai</label>
+    </customValue>
+    <customValue>
+        <fullName>DuBiotech</fullName>
+        <default>false</default>
+        <label>DuBiotech</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Festival City</fullName>
+        <default>false</default>
+        <label>Dubai Festival City</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Healthcare City</fullName>
+        <default>false</default>
+        <label>Dubai Healthcare City</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Khail Heights</fullName>
+        <default>false</default>
+        <label>Al Khail Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Industrial City</fullName>
+        <default>false</default>
+        <label>Dubai Industrial City</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Investment Park</fullName>
+        <default>false</default>
+        <label>Dubai Investment Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Downtown Jebel Ali</fullName>
+        <default>false</default>
+        <label>Downtown Jebel Ali</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Manara</fullName>
+        <default>false</default>
+        <label>Al Manara</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Creek Harbour (The Lagoons)</fullName>
+        <default>false</default>
+        <label>Dubai Creek Harbour (The Lagoons)</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Land</fullName>
+        <default>false</default>
+        <label>Dubai Land</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Marina</fullName>
+        <default>false</default>
+        <label>Dubai Marina</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Media City</fullName>
+        <default>false</default>
+        <label>Dubai Media City</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Pearl</fullName>
+        <default>false</default>
+        <label>Dubai Pearl</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Promenade</fullName>
+        <default>false</default>
+        <label>Dubai Promenade</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Silicon Oasis</fullName>
+        <default>false</default>
+        <label>Dubai Silicon Oasis</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Sports City</fullName>
+        <default>false</default>
+        <label>Dubai Sports City</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Waterfront</fullName>
+        <default>false</default>
+        <label>Dubai Waterfront</label>
+    </customValue>
+    <customValue>
+        <fullName>Emirates Hills</fullName>
+        <default>false</default>
+        <label>Emirates Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Village</fullName>
+        <default>false</default>
+        <label>Global Village</label>
+    </customValue>
+    <customValue>
+        <fullName>Greens</fullName>
+        <default>false</default>
+        <label>Greens</label>
+    </customValue>
+    <customValue>
+        <fullName>Green Community</fullName>
+        <default>false</default>
+        <label>Green Community</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Production City (IMPZ)</fullName>
+        <default>false</default>
+        <label>Dubai Production City (IMPZ)</label>
+    </customValue>
+    <customValue>
+        <fullName>International City</fullName>
+        <default>false</default>
+        <label>International City</label>
+    </customValue>
+    <customValue>
+        <fullName>Forbidden City</fullName>
+        <default>false</default>
+        <label>Forbidden City</label>
+    </customValue>
+    <customValue>
+        <fullName>Jebel Ali</fullName>
+        <default>false</default>
+        <label>Jebel Ali</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah</fullName>
+        <default>false</default>
+        <label>Jumeirah</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Beach Residence</fullName>
+        <default>false</default>
+        <label>Jumeirah Beach Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Golf Estates</fullName>
+        <default>false</default>
+        <label>Jumeirah Golf Estates</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Heights</fullName>
+        <default>false</default>
+        <label>Jumeirah Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Islands</fullName>
+        <default>false</default>
+        <label>Jumeirah Islands</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Lake Towers</fullName>
+        <default>false</default>
+        <label>Jumeirah Lake Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Park</fullName>
+        <default>false</default>
+        <label>Jumeirah Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Village Circle</fullName>
+        <default>false</default>
+        <label>Jumeirah Village Circle</label>
+    </customValue>
+    <customValue>
+        <fullName>Jumeirah Village Triangle</fullName>
+        <default>false</default>
+        <label>Jumeirah Village Triangle</label>
+    </customValue>
+    <customValue>
+        <fullName>Maritime City</fullName>
+        <default>false</default>
+        <label>Maritime City</label>
+    </customValue>
+    <customValue>
+        <fullName>Meadows</fullName>
+        <default>false</default>
+        <label>Meadows</label>
+    </customValue>
+    <customValue>
+        <fullName>Mirdif</fullName>
+        <default>false</default>
+        <label>Mirdif</label>
+    </customValue>
+    <customValue>
+        <fullName>Motor City</fullName>
+        <default>false</default>
+        <label>Motor City</label>
+    </customValue>
+    <customValue>
+        <fullName>Mushrif Park</fullName>
+        <default>false</default>
+        <label>Mushrif Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Remraam</fullName>
+        <default>false</default>
+        <label>Remraam</label>
+    </customValue>
+    <customValue>
+        <fullName>Nadd Al Sheba</fullName>
+        <default>false</default>
+        <label>Nadd Al Sheba</label>
+    </customValue>
+    <customValue>
+        <fullName>Mudon</fullName>
+        <default>false</default>
+        <label>Mudon</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Airport Freezone (DAFZA)</fullName>
+        <default>false</default>
+        <label>Dubai Airport Freezone (DAFZA)</label>
+    </customValue>
+    <customValue>
+        <fullName>Nadd Al Hammar</fullName>
+        <default>false</default>
+        <label>Nadd Al Hammar</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Town</fullName>
+        <default>false</default>
+        <label>Old Town</label>
+    </customValue>
+    <customValue>
+        <fullName>Palm Jebel Ali</fullName>
+        <default>false</default>
+        <label>Palm Jebel Ali</label>
+    </customValue>
+    <customValue>
+        <fullName>Palm Jumeirah</fullName>
+        <default>false</default>
+        <label>Palm Jumeirah</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Lisaili</fullName>
+        <default>false</default>
+        <label>Al Lisaili</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai South (Dubai World Central)</fullName>
+        <default>false</default>
+        <label>Dubai South (Dubai World Central)</label>
+    </customValue>
+    <customValue>
+        <fullName>Umm Al Sheif</fullName>
+        <default>false</default>
+        <label>Umm Al Sheif</label>
+    </customValue>
+    <customValue>
+        <fullName>Ras Al Khor</fullName>
+        <default>false</default>
+        <label>Ras Al Khor</label>
+    </customValue>
+    <customValue>
+        <fullName>Sheikh Zayed Road</fullName>
+        <default>false</default>
+        <label>Sheikh Zayed Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Arabian Ranches 2</fullName>
+        <default>false</default>
+        <label>Arabian Ranches 2</label>
+    </customValue>
+    <customValue>
+        <fullName>The Springs</fullName>
+        <default>false</default>
+        <label>The Springs</label>
+    </customValue>
+    <customValue>
+        <fullName>Academic City</fullName>
+        <default>false</default>
+        <label>Academic City</label>
+    </customValue>
+    <customValue>
+        <fullName>Technology Park</fullName>
+        <default>false</default>
+        <label>Technology Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Bluewaters</fullName>
+        <default>false</default>
+        <label>Bluewaters</label>
+    </customValue>
+    <customValue>
+        <fullName>Barsha Heights (Tecom)</fullName>
+        <default>false</default>
+        <label>Barsha Heights (Tecom)</label>
+    </customValue>
+    <customValue>
+        <fullName>Mohammad Bin Rashid Gardens</fullName>
+        <default>false</default>
+        <label>Mohammad Bin Rashid Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>The Gardens</fullName>
+        <default>false</default>
+        <label>The Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Science Park</fullName>
+        <default>false</default>
+        <label>Dubai Science Park</label>
+    </customValue>
+    <customValue>
+        <fullName>The Lakes</fullName>
+        <default>false</default>
+        <label>The Lakes</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Internet City</fullName>
+        <default>false</default>
+        <label>Dubai Internet City</label>
+    </customValue>
+    <customValue>
+        <fullName>The Views</fullName>
+        <default>false</default>
+        <label>The Views</label>
+    </customValue>
+    <customValue>
+        <fullName>The World Islands</fullName>
+        <default>false</default>
+        <label>The World Islands</label>
+    </customValue>
+    <customValue>
+        <fullName>City Walk</fullName>
+        <default>false</default>
+        <label>City Walk</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Kifaf</fullName>
+        <default>false</default>
+        <label>Al Kifaf</label>
+    </customValue>
+    <customValue>
+        <fullName>Umm Hurair</fullName>
+        <default>false</default>
+        <label>Umm Hurair</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Healthcare City 2</fullName>
+        <default>false</default>
+        <label>Dubai Healthcare City 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Umm Ramool</fullName>
+        <default>false</default>
+        <label>Umm Ramool</label>
+    </customValue>
+    <customValue>
+        <fullName>Wadi Al Safa 3</fullName>
+        <default>false</default>
+        <label>Wadi Al Safa 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Harbour</fullName>
+        <default>false</default>
+        <label>Dubai Harbour</label>
+    </customValue>
+    <customValue>
+        <fullName>Wadi Al Safa 2</fullName>
+        <default>false</default>
+        <label>Wadi Al Safa 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Umm Suqeim</fullName>
+        <default>false</default>
+        <label>Umm Suqeim</label>
+    </customValue>
+    <customValue>
+        <fullName>Tilal Al Ghaf</fullName>
+        <default>false</default>
+        <label>Tilal Al Ghaf</label>
+    </customValue>
+    <customValue>
+        <fullName>World Trade Center</fullName>
+        <default>false</default>
+        <label>World Trade Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Banbury</fullName>
+        <default>false</default>
+        <label>Banbury</label>
+    </customValue>
+    <customValue>
+        <fullName>Battersea</fullName>
+        <default>false</default>
+        <label>Battersea</label>
+    </customValue>
+    <customValue>
+        <fullName>Beckington</fullName>
+        <default>false</default>
+        <label>Beckington</label>
+    </customValue>
+    <customValue>
+        <fullName>Belgravia</fullName>
+        <default>false</default>
+        <label>Belgravia</label>
+    </customValue>
+    <customValue>
+        <fullName>Chelsea</fullName>
+        <default>false</default>
+        <label>Chelsea</label>
+    </customValue>
+    <customValue>
+        <fullName>Chiswick</fullName>
+        <default>false</default>
+        <label>Chiswick</label>
+    </customValue>
+    <customValue>
+        <fullName>Cobham</fullName>
+        <default>false</default>
+        <label>Cobham</label>
+    </customValue>
+    <customValue>
+        <fullName>Covent Garden</fullName>
+        <default>false</default>
+        <label>Covent Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Appleby</fullName>
+        <default>false</default>
+        <label>Appleby</label>
+    </customValue>
+    <customValue>
+        <fullName>Earl&apos;s Court</fullName>
+        <default>false</default>
+        <label>Earl&apos;s Court</label>
+    </customValue>
+    <customValue>
+        <fullName>Farnham Common</fullName>
+        <default>false</default>
+        <label>Farnham Common</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitzrovia</fullName>
+        <default>false</default>
+        <label>Fitzrovia</label>
+    </customValue>
+    <customValue>
+        <fullName>Fulham</fullName>
+        <default>false</default>
+        <label>Fulham</label>
+    </customValue>
+    <customValue>
+        <fullName>Hampstead</fullName>
+        <default>false</default>
+        <label>Hampstead</label>
+    </customValue>
+    <customValue>
+        <fullName>Hampstead Heath</fullName>
+        <default>false</default>
+        <label>Hampstead Heath</label>
+    </customValue>
+    <customValue>
+        <fullName>Holland Park</fullName>
+        <default>false</default>
+        <label>Holland Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Holland Villas Road</fullName>
+        <default>false</default>
+        <label>Holland Villas Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Hyde Park</fullName>
+        <default>false</default>
+        <label>Hyde Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Islington</fullName>
+        <default>false</default>
+        <label>Islington</label>
+    </customValue>
+    <customValue>
+        <fullName>Kensington</fullName>
+        <default>false</default>
+        <label>Kensington</label>
+    </customValue>
+    <customValue>
+        <fullName>Knightsbridge</fullName>
+        <default>false</default>
+        <label>Knightsbridge</label>
+    </customValue>
+    <customValue>
+        <fullName>Little Venice</fullName>
+        <default>false</default>
+        <label>Little Venice</label>
+    </customValue>
+    <customValue>
+        <fullName>Marylebone</fullName>
+        <default>false</default>
+        <label>Marylebone</label>
+    </customValue>
+    <customValue>
+        <fullName>Mayfair</fullName>
+        <default>false</default>
+        <label>Mayfair</label>
+    </customValue>
+    <customValue>
+        <fullName>North Kensington</fullName>
+        <default>false</default>
+        <label>North Kensington</label>
+    </customValue>
+    <customValue>
+        <fullName>Notting Hill</fullName>
+        <default>false</default>
+        <label>Notting Hill</label>
+    </customValue>
+    <customValue>
+        <fullName>Oxshott</fullName>
+        <default>false</default>
+        <label>Oxshott</label>
+    </customValue>
+    <customValue>
+        <fullName>Oxted</fullName>
+        <default>false</default>
+        <label>Oxted</label>
+    </customValue>
+    <customValue>
+        <fullName>Paddington</fullName>
+        <default>false</default>
+        <label>Paddington</label>
+    </customValue>
+    <customValue>
+        <fullName>Primrose Hill</fullName>
+        <default>false</default>
+        <label>Primrose Hill</label>
+    </customValue>
+    <customValue>
+        <fullName>Regent&apos;s Park</fullName>
+        <default>false</default>
+        <label>Regent&apos;s Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Soho</fullName>
+        <default>false</default>
+        <label>Soho</label>
+    </customValue>
+    <customValue>
+        <fullName>South Kensington</fullName>
+        <default>false</default>
+        <label>South Kensington</label>
+    </customValue>
+    <customValue>
+        <fullName>St. James&apos;s</fullName>
+        <default>false</default>
+        <label>St. James&apos;s</label>
+    </customValue>
+    <customValue>
+        <fullName>St. John&apos;s Wood</fullName>
+        <default>false</default>
+        <label>St. John&apos;s Wood</label>
+    </customValue>
+    <customValue>
+        <fullName>Maidenhead</fullName>
+        <default>false</default>
+        <label>Maidenhead</label>
+    </customValue>
+    <customValue>
+        <fullName>Temple</fullName>
+        <default>false</default>
+        <label>Temple</label>
+    </customValue>
+    <customValue>
+        <fullName>Water Lane</fullName>
+        <default>false</default>
+        <label>Water Lane</label>
+    </customValue>
+    <customValue>
+        <fullName>Westminster</fullName>
+        <default>false</default>
+        <label>Westminster</label>
+    </customValue>
+    <customValue>
+        <fullName>Weybridge</fullName>
+        <default>false</default>
+        <label>Weybridge</label>
+    </customValue>
+    <customValue>
+        <fullName>White City</fullName>
+        <default>false</default>
+        <label>White City</label>
+    </customValue>
+    <masterLabel>Community - for Propertyfinder</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

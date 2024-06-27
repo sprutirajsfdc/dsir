@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Listing_Status</fullName>
+    <active>false</active>
+    <description>Prevents the creation of a CRF unless the Listing status is &apos;Content Creation&apos; or greater</description>
+    <errorConditionFormula>and
+(
+Listing__r.Override_CRF_Rule__c = False,
+NOT(ISPICKVAL(Listing__r.pba__Status__c,&apos;Quality Check&apos;)
+))</errorConditionFormula>
+    <errorDisplayField>Listing__c</errorDisplayField>
+    <errorMessage>You can only create or save a Content Request Form if the Listing record status is set to &apos;Content Creation&apos;</errorMessage>
+</ValidationRule>

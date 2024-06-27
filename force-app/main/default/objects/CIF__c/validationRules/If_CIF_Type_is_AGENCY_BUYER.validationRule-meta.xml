@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_CIF_Type_is_AGENCY_BUYER</fullName>
+    <active>true</active>
+    <description>If CIF Type is AGENCY BUYER then all fields are mandatory</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(CIF_Type__c, &quot;AGENCY BUYER&quot;),
+OR(
+(AND(
+ISBLANK(x3rd_Party_Agency_Name__c),
+ISBLANK( Client_Agent__c  )
+)),
+ISBLANK(x3rd_Party_Agent_Name__c),
+(AND(
+ISBLANK(x3rd_Party_Agent_Mobile__c),
+ISBLANK(x3rd_Party_Agent_Email__c)
+)),
+ISBLANK(NAME_OF_THE_OWNER__c),
+(AND(
+ISBLANK(Mobile__c),
+ISBLANK(E_MAIL__c)
+)),
+ISBLANK(TEXT( CIF_Lead_Source__c ))
+)
+)</errorConditionFormula>
+    <errorMessage>PLEASE FILL ALL THE FIELDS MENTIONED IN THE BUYER REQUIRED DETAILS SECTION AND AGENCY REQUIRED DETAILS SECTION.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AML_Cant_Approve_If_No_Listing_Sign_TOB</fullName>
+    <active>true</active>
+    <description>In the record type &apos;UK,&apos; if the AML status is &apos;Approved,&apos; then the related &apos;Listing&apos; and the signed TOB received need to be true.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;UK&quot;,
+    ISPICKVAL(Status__c, &apos;Approved&apos;),
+    NOT(Listing__r.Signed_TOB_Received__c),
+    ISNULL(Listing__c) = false ,
+
+    NOT(OR(
+        ISPICKVAL( Role__c , &apos;Buyer&apos;),
+        ISPICKVAL(Role__c , &apos;Tenant&apos;),
+        ISPICKVAL(Role__c , &apos;Buyer POA&apos;)
+    ))
+)</errorConditionFormula>
+    <errorMessage>AML cant be Approved If &quot;Sign TOB Received&quot; is not marked on Listing</errorMessage>
+</ValidationRule>

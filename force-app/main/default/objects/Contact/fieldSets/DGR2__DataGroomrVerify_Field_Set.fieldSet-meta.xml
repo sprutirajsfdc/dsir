@@ -1,19 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>DGR2__DataGroomrVerify_Field_Set</fullName>
-    <description>DataGroomr Verify</description>
-    <displayedFields>
-        <field>Email</field>
+    <availableFields>
+        <field>MailingStreet</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
-    </displayedFields>
-    <displayedFields>
+    </availableFields>
+    <availableFields>
         <field>Phone</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
+    </availableFields>
+    <description>DataGroomr Verify</description>
+    <displayedFields>
+        <field>Mobile_No__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
     </displayedFields>
     <displayedFields>
-        <field>MailingStreet</field>
+        <field>Mobile_Phone__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>Phone_No__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>Email</field>
         <isFieldManaged>false</isFieldManaged>
         <isRequired>false</isRequired>
     </displayedFields>

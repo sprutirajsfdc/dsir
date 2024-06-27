@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outcome__c</fullName>
+    <externalId>false</externalId>
+    <label>Outcome</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Activity_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Inquiry_Value</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Agent did not respond</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Agent said he will call back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Budget low</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Call Connected to Agent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Client asked for call back from Agent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Client didn&apos;t respond due to Time Difference.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Client did not respond</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Client in Contact with Agent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Client Not contactable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Client wants to be contacted via Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Client wants to be contacted via Whatsapp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Duplicate Enquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Incorrect Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Incorrect mobile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Incorrect mobile &amp; Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Invalid lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Job Seeker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Real Estate Brokers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qualifying</controllingFieldValue>
+            <valueName>Telemarketing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

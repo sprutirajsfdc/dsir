@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <assignments>
+        <name>assign_listing_lookup</name>
+        <label>assign listing lookup</label>
+        <locationX>4</locationX>
+        <locationY>659</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Listing__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>get_listing_record.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>check_Website_project_id</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>assign_project_lookup</name>
+        <label>assign project lookup</label>
+        <locationX>532</locationX>
+        <locationY>767</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Project__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>get_project_record.Id</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>check_listing_record</name>
+        <label>check listing record</label>
+        <locationX>140</locationX>
+        <locationY>573</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>listing_found</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>get_listing_record</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>assign_listing_lookup</targetReference>
+            </connector>
+            <label>listing found</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>check_project</name>
+        <label>check project</label>
+        <locationX>664</locationX>
+        <locationY>659</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>project_not_null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>get_project_record</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>assign_project_lookup</targetReference>
+            </connector>
+            <label>project not null</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>check_Submission_Property_ID_Reference_c</name>
+        <label>check Submission_Property_ID_Reference__c</label>
+        <locationX>499</locationX>
+        <locationY>335</locationY>
+        <defaultConnector>
+            <targetReference>check_Website_project_id</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Submission_Property_ID_Reference_c_not_null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Submission_Property_ID_Reference__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>get_listing_record</targetReference>
+            </connector>
+            <label>Submission_Property_ID_Reference__c not null</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>check Website project id to attach Project lookup</description>
+        <name>check_Website_project_id</name>
+        <label>check Website project id</label>
+        <locationX>862</locationX>
+        <locationY>443</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Website_project_id_not_null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Website_Project_Id__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>get_project_record</targetReference>
+            </connector>
+            <label>Website project id not null</label>
+        </rules>
+    </decisions>
+    <description>Will assign Listing and project lookup on Inquiry if Form Submission id &amp; Website Project id is provided.</description>
+    <environments>Default</environments>
+    <interviewLabel>Inquiry | Assign Listing and project to Inquiry {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Inquiry | Assign Listing and project to Inquiry</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>look for listing record based on form submission id</description>
+        <name>get_listing_record</name>
+        <label>get listing record</label>
+        <locationX>136</locationX>
+        <locationY>443</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>check_listing_record</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>gsir_auto_Generated_broker_reference_ID__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Submission_Property_ID_Reference__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>pba__Listing__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <description>collect project based on website project id</description>
+        <name>get_project_record</name>
+        <label>get project record</label>
+        <locationX>664</locationX>
+        <locationY>551</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>check_project</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Website_Project_Id__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Website_Project_Id__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CD_Project__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>373</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>check_Submission_Property_ID_Reference_c</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Submission_Property_ID_Reference__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Website_Project_Id__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>pba__Request__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

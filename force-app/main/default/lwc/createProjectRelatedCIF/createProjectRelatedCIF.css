@@ -1,0 +1,324 @@
+.backGround{
+  background-color: #F2EEEA;
+}
+.bgBlack{
+  background-color: black;
+  min-height: max-content;
+  flex-grow: 1;
+}
+.bgBlack1{
+  background-color: black;
+    
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+     padding-right: 50px;
+ 	   padding-top: 50px; 
+ 	   padding-left: 50px;
+     font-size: 25px;
+     color: rgb(245, 236, 236);
+     font-weight: bold;
+  }
+  @media only screen and (min-width: 1024px) {
+    padding: 5px 5px 5px 5px;
+  }
+}
+.bgBlack2{
+  background-color: black;
+    
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    padding-right: 100px;
+ 	  padding-bottom: 75px; 
+ 	  padding-left: 100px;
+    padding-top: 50px;
+  }
+  @media only screen and (min-width: 1024px) {
+    padding: 5px 5px 5px 5px;
+  }
+}
+.inquiryLabel{
+  color: rgb(245, 236, 236);
+  font-weight: bold;
+  
+  @media only screen and (max-width: 767px) {
+    font-size: 20px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    font-size: 50px !important;
+  }
+  @media only screen and (min-width: 1024px) {
+    font-size: 16px;
+  }
+}
+.labelStyle2{
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    font-weight: bold; 
+    font-size: 30px;
+  }
+  @media only screen and (min-width: 1024px) {
+    font-weight: bold; 
+    font-size: 16px;
+}
+}
+.custom-radio-group {
+
+  display: flex !important;
+  flex-direction: row !important;
+  
+  width: 2 rem;
+    height: 2 rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    transition: transform 0.5s ease; input[type="radio"]
+    */
+}
+.slds-form-element__Control{
+  clear: left;
+}
+
+.custom-radio-group  .slds-radio {
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    transform: scale(2, 2) !important;
+    /* font-size: 2.75rem !important; */
+    
+   margin-left : 70px ;
+    padding-right: 20px;
+    
+  }
+}
+
+/* .slds-form-element__label  { 
+    
+  input[type="radio"] {
+  transform: scale(5) !important;
+}
+    @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    font-size: 1.5rem !important;
+  }       
+} */
+.radioGroup1 {
+  --lwc-colorTextLabel: rgb(245, 236, 236);
+   
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  		margin-left : 70px ;  
+             font-size: 50px !important;
+  }
+}
+
+.lightning-radio-group.radioGroup label {
+  font-size: 30px; 
+}
+.labelStyle{
+  color: rgb(245, 236, 236);
+  font-weight: normal;
+  @media only screen and (max-width: 767px) {
+    font-size: 30px;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    font-size: 25px;
+  }
+  @media only screen and (min-width: 1024px) {
+    /* font-size: 100px; */
+  }
+}
+.labelStyleThanku{
+  color: rgb(245, 236, 236);
+  font-weight: normal;
+  font-size:25px;
+}
+.buttonBack{
+  --slds-c-button-brand-color-background : #C0AF97;
+  --slds-c-button-brand-color-background-hover : #D9D1C2;
+  --slds-c-button-brand-text-color : black;
+  --slds-c-button-brand-text-color-hover : black;
+  --slds-c-button-brand-text-color-active: black;
+  --slds-c-button-color-border: #C0AF97;
+  --slds-c-button-color-border-active: #C0AF97;
+  --slds-c-button-color-border-hover: #C0AF97;
+}
+.backGroundclass{
+ background-color: #F2EEEA;
+ justify-content: center;
+ background: #F2EEEA;
+}
+
+.backGroundclass .body{
+ background-color: #F2EEEA;
+}
+
+.backGroundclass .slds-card{
+     
+ background-color: #F2EEEA;;
+ background: #F2EEEA;
+  
+ padding-top: 30px;
+ /* padding-right: 50px;
+ padding-bottom: 50px; 
+ padding-left: 50px;*/
+ /* @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  width: 100%;
+} */
+ @media only screen and (min-width: 1025px) {
+    padding-bottom: 400px;
+    width: 150vh;
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 800px) and (max-width: 1024px) {
+    padding-bottom: 1600px;
+  }
+  @media only screen and (orientation: landscape) and (max-width: 1024px) and (max-width: 1366px){
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100vh;
+  }
+  /* @media only screen and (orientation: portrait) {
+    padding-left: 50px;
+    padding-right: 50px;
+  } */
+
+}
+
+/* .backGroundclass .slds-box{
+ background-color: black;
+ background: black;
+ padding-top: 50px;
+ padding-right: 50px;
+ padding-bottom: 50px;
+ padding-left: 50px;
+
+} */
+
+
+.backGround1 .slds-card{
+  padding: 30px;
+ height: 100%;
+ /* width: 150vh;   */
+
+
+ @media only screen and (max-width: 800px) {
+  background-color: black;
+  width: 120vh;
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+background-color: black;
+width: 50vh;
+}
+
+
+@media only screen and (min-width: 1024px) {
+background-color: black;
+  width: 150vh;
+}
+}
+
+  .backGround1 .slds-box{
+    background-color: black;
+    position: absolute;
+    padding: 30px;
+ 
+  }
+  
+  /* Make the card occupy the full width */
+  /* Allow the height to adjust based on content */
+  .backGround2 .slds-card{
+    background-color: black;
+    padding: 30px;
+   height: 100vh; 
+   width: 160vh;
+  }
+  .backGroundPage{
+    background-color: rgb(206, 179, 179);
+  } 
+  .blackBox {
+    background: black;
+    shape-outside:margin-box;
+    justify-content: center;
+  }
+  .userBack{
+   font-size: 16px !important;
+   font-weight: normal;
+   color: black;
+    background-color: rgb(245, 236, 236);
+        height: 100%;
+        width: 100%;
+        border-radius: 8px;
+        padding: 5px;
+        padding-left: 5px;
+ }
+
+
+
+.radioGroup{
+  --lwc-colorTextLabel: rgb(245, 236, 236);
+}
+.accordionClass{
+  --slds-c-accordion-heading-text-color: black;
+  --slds-c-accordion-heading-text-color-hover: black;
+  --slds-c-accordion-summary-color-background: #EFE5DB;
+  /* --slds-c-accordion-summary-border-radius: 10px !important; */
+  --slds-c-accordion-section-summary-border-radius: 10px !important;
+  @media only screen and (min-width: 800px) and (max-width: 1023px) {
+    --slds-c-accordion-heading-font-size: 35px;
+  }
+}
+.heading-style {
+    color: black;
+    font-weight: normal;
+    /* shape-outside: margin-box; */
+    background-color: #E2CFC4;
+    font-family: Calibri;
+    /* padding: 5px;
+    padding-top: 5px; */
+  @media only screen and (max-width: 850px) {
+    font-size: 30px;
+  }
+  @media only screen and (min-width: 800px) and (max-width: 1023px) {
+    font-size: 70px;
+  }
+  @media only screen and (min-width: 1024px) {
+      font-size: 35px;
+  }
+  
+}
+  .footer{
+    text-align: center;
+  }
+
+colSize {
+@media only screen and (min-width: 600px) {
+    /* .slds-size_1-of-2; */
+}
+@media only screen and (min-width: 1024px) {
+    /* .slds-size_1-of-3 */
+}
+}
+.spinner-container {
+  position: absolute;
+  /* top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; */
+  content: attr(data-text);
+  top: 50%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(255, 255, 255, 0.7); Adjust the background color and opacity as needed */
+  /* z-index: 9999; Ensure the spinner is above other content */
+}
+
+.spinner-overlay {
+  height: 200px; /* Adjust the height as needed */
+  position: relative;
+}
+.spinner-Text{
+ 
+  top: calc(50% + 11.5rem);
+  font-weight: bold;
+  color: black;
+ 
+}

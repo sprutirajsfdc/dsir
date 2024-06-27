@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_Valuation_AML_Count_Status</fullName>
+    <active>true</active>
+    <description>When the status is set to &apos;Instructing,&apos; then at least one AML record should be created on the same record.</description>
+    <errorConditionFormula>AND(
+     ISPICKVAL(Status__c, &quot;Instructing&quot;),
+ OR(
+     Property_Valuation_AML_Count__c &lt;= 0,
+     ISBLANK(Property_Valuation_AML_Count__c ) 
+     )
+  )</errorConditionFormula>
+    <errorDisplayField>Property_Valuation_AML_Count__c</errorDisplayField>
+    <errorMessage>At least one AML is needed. Please click on the Request AML button to Create an AML.</errorMessage>
+</ValidationRule>

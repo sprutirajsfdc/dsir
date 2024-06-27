@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AML_Corporate_Parameters_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(AND( RecordType.Name = &apos;UAE&apos;,OR(ISPICKVAL(Status__c, &apos;KYC Completed&apos;), ISPICKVAL(Status__c, &apos;KYC Approved&apos;), ISPICKVAL(Status__c, &apos;Approved&apos;))),IF(ISPICKVAL(AML_Type__c, &apos;Corporate&apos;),
+OR(
+ISBLANK(Customer_s_Country_of_Registration__c ),
+ISBLANK(Beneficial_Owner_Country_of_Citizenship__c ),
+ISBLANK(Industry__c ),
+ISBLANK(Year_of_Establishment__c ),
+ISBLANK(Financial_Information_Documents__c ),
+ISBLANK(Mode_of_Payment__c ),
+ISBLANK(Screening_Shareholder__c ),
+ISBLANK(Other_businesses_of_the_client__c ))
+,false),false)</errorConditionFormula>
+    <errorMessage>When the AML type is &quot;Corporate&quot; or &quot;Trust&quot; and the status is either &quot;approved,&quot; &quot;KYC completed,&quot; or &quot;KYC approved,&quot; it is mandatory to provide all Corporate parameters.</errorMessage>
+</ValidationRule>

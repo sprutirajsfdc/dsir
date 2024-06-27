@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Agent_Status_Beyond_Submit</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+ISCHANGED( Status__c ), 
+OR(
+ISPICKVAL(Status__c,&quot;In Progress&quot;),
+ISPICKVAL(Status__c,&quot;Completed&quot;),
+ISPICKVAL(Status__c,&quot;Cancelled&quot;)
+
+),
+$Profile.Name &lt;&gt; &quot;PB Listing Manager&quot;,
+$Profile.Name &lt;&gt; &quot;PB Administrator&quot;,
+$Profile.Name &lt;&gt; &quot;PB Superuser&quot;,
+ $Profile.Name &lt;&gt; &quot;Content Creator&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>Only Listing Manager move the status beyond Open</errorMessage>
+</ValidationRule>

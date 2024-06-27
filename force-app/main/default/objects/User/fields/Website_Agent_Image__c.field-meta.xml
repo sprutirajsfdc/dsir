@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Website_Agent_Image__c</fullName>
+    <externalId>false</externalId>
+    <formula>LOWER(&quot;https://www.gulfsothebysrealty.com/agent-image/&quot; &amp;  FirstName  &amp; &quot;-&quot; &amp; IF ( Contains( LastName  , &quot; &quot; ), SUBSTITUTE( LastName  , &quot; &quot;, &quot;-&quot; ), 
+IF ( Contains( LastName  , &quot;&apos;&quot; ), SUBSTITUTE( LastName  , &quot;&apos;&quot;, &quot;&quot; ), LastName  )) &amp; &quot;.jpg&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Website Agent Image</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

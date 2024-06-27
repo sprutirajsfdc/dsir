@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pba__MLS1Code__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Available MLS</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>abor</fullName>
+                <default>false</default>
+                <label>Austin Board of Realtors MLS</label>
+            </value>
+            <value>
+                <fullName>amelia_island</fullName>
+                <default>false</default>
+                <label>Amelia Island MLS</label>
+            </value>
+            <value>
+                <fullName>agsmls</fullName>
+                <default>false</default>
+                <label>Aspen Glenwood Springs MLS</label>
+            </value>
+            <value>
+                <fullName>bareis</fullName>
+                <default>false</default>
+                <label>Bay Area Real Estate Info Services</label>
+            </value>
+            <value>
+                <fullName>bear</fullName>
+                <default>false</default>
+                <label>Bonita Springs-Estero Association of Realtors MLS</label>
+            </value>
+            <value>
+                <fullName>bnar</fullName>
+                <default>false</default>
+                <label>Bloomington-Normal MLS</label>
+            </value>
+            <value>
+                <fullName>rapb</fullName>
+                <default>false</default>
+                <label>Beaches MLS</label>
+            </value>
+            <value>
+                <fullName>beaufort</fullName>
+                <default>false</default>
+                <label>Beaufort County MLS</label>
+            </value>
+            <value>
+                <fullName>cbor</fullName>
+                <default>false</default>
+                <label>Columbus MLS</label>
+            </value>
+            <value>
+                <fullName>cireb</fullName>
+                <default>false</default>
+                <label>Commercial and Industrial Real Estate Brokers, Inc.</label>
+            </value>
+            <value>
+                <fullName>claw</fullName>
+                <default>false</default>
+                <label>Combined Los Angeles/Westside MLS</label>
+            </value>
+            <value>
+                <fullName>crisnet</fullName>
+                <default>false</default>
+                <label>CRISNet</label>
+            </value>
+            <value>
+                <fullName>crmls</fullName>
+                <default>false</default>
+                <label>California Regional Multiple Listing Service</label>
+            </value>
+            <value>
+                <fullName>ctmls</fullName>
+                <default>false</default>
+                <label>Connecticut MLS</label>
+            </value>
+            <value>
+                <fullName>cvrmls</fullName>
+                <default>false</default>
+                <label>Central Virginia Regional MLS</label>
+            </value>
+            <value>
+                <fullName>ccimls</fullName>
+                <default>false</default>
+                <label>Cape Cod &amp; Islands MLS</label>
+            </value>
+            <value>
+                <fullName>capecoral</fullName>
+                <default>false</default>
+                <label>Cape Coral</label>
+            </value>
+            <value>
+                <fullName>coeurdalene</fullName>
+                <default>false</default>
+                <label>Coeur d&apos;Alene MLS</label>
+            </value>
+            <value>
+                <fullName>commercial_brokers_association</fullName>
+                <default>false</default>
+                <label>Commercial Brokers Association</label>
+            </value>
+            <value>
+                <fullName>elmira_corning</fullName>
+                <default>false</default>
+                <label>Elmira-Corning MLS</label>
+            </value>
+            <value>
+                <fullName>fayetteville</fullName>
+                <default>false</default>
+                <label>Fayetteville MLS</label>
+            </value>
+            <value>
+                <fullName>firstmls</fullName>
+                <default>false</default>
+                <label>First MLS</label>
+            </value>
+            <value>
+                <fullName>garden_state_mls</fullName>
+                <default>false</default>
+                <label>Garden State MLS</label>
+            </value>
+            <value>
+                <fullName>georgia</fullName>
+                <default>false</default>
+                <label>Georgia MLS</label>
+            </value>
+            <value>
+                <fullName>golden_isles</fullName>
+                <default>false</default>
+                <label>Golden Isles MLS</label>
+            </value>
+            <value>
+                <fullName>greater_binghamton</fullName>
+                <default>false</default>
+                <label>Greater Binghamton MLS</label>
+            </value>
+            <value>
+                <fullName>greater_scranton</fullName>
+                <default>false</default>
+                <label>Greater Scranton MLS</label>
+            </value>
+            <value>
+                <fullName>hilton_head</fullName>
+                <default>false</default>
+                <label>Hilton Head MLS</label>
+            </value>
+            <value>
+                <fullName>hgmls</fullName>
+                <default>false</default>
+                <label>Hudson Gateway MLS</label>
+            </value>
+            <value>
+                <fullName>itech</fullName>
+                <default>false</default>
+                <label>iTech</label>
+            </value>
+            <value>
+                <fullName>indian_river</fullName>
+                <default>false</default>
+                <label>Indian River MLS</label>
+            </value>
+            <value>
+                <fullName>indiana_regional</fullName>
+                <default>false</default>
+                <label>Indiana Regional MLS</label>
+            </value>
+            <value>
+                <fullName>intermountain</fullName>
+                <default>false</default>
+                <label>Intermountain MLS</label>
+            </value>
+            <value>
+                <fullName>ithaca</fullName>
+                <default>false</default>
+                <label>Ithaca MLS</label>
+            </value>
+            <value>
+                <fullName>linkmv</fullName>
+                <default>false</default>
+                <label>LINK MV</label>
+            </value>
+            <value>
+                <fullName>latahcounty</fullName>
+                <default>false</default>
+                <label>Latah County MLS</label>
+            </value>
+            <value>
+                <fullName>lewisclark</fullName>
+                <default>false</default>
+                <label>Lewis Clark MLS</label>
+            </value>
+            <value>
+                <fullName>link</fullName>
+                <default>false</default>
+                <label>Link Boston</label>
+            </value>
+            <value>
+                <fullName>linknantucket</fullName>
+                <default>false</default>
+                <label>Link Nantucket</label>
+            </value>
+            <value>
+                <fullName>maxebrdi</fullName>
+                <default>false</default>
+                <label>MAXEBRDI (East Bay Regional Data, Bay East AoR, Contra Costa AoR)</label>
+            </value>
+            <value>
+                <fullName>mibor</fullName>
+                <default>false</default>
+                <label>Metropolitan Indianapolis MLS</label>
+            </value>
+            <value>
+                <fullName>mlslistings</fullName>
+                <default>false</default>
+                <label>MLS Listings</label>
+            </value>
+            <value>
+                <fullName>mlspin</fullName>
+                <default>false</default>
+                <label>MLS Property Information Network</label>
+            </value>
+            <value>
+                <fullName>mreis</fullName>
+                <default>false</default>
+                <label>Maine Real Estate Information Systems</label>
+            </value>
+            <value>
+                <fullName>mris</fullName>
+                <default>false</default>
+                <label>Metropolital Regional Information Systems</label>
+            </value>
+            <value>
+                <fullName>mansfield</fullName>
+                <default>false</default>
+                <label>Mansfield Board of Realtors</label>
+            </value>
+            <value>
+                <fullName>miamimls</fullName>
+                <default>false</default>
+                <label>Miami MLS</label>
+            </value>
+            <value>
+                <fullName>swmric</fullName>
+                <default>false</default>
+                <label>Michigan Regional Information Center</label>
+            </value>
+            <value>
+                <fullName>midhudson</fullName>
+                <default>false</default>
+                <label>Mid-Hudson MLS</label>
+            </value>
+            <value>
+                <fullName>mred</fullName>
+                <default>false</default>
+                <label>Midwest Real Estate Data LLC</label>
+            </value>
+            <value>
+                <fullName>mohawk_valley</fullName>
+                <default>false</default>
+                <label>Mohawk Valley MLS</label>
+            </value>
+            <value>
+                <fullName>mfrmls</fullName>
+                <default>false</default>
+                <label>My Florida Regional MLS</label>
+            </value>
+            <value>
+                <fullName>nabor</fullName>
+                <default>false</default>
+                <label>Naples MLS</label>
+            </value>
+            <value>
+                <fullName>nneren</fullName>
+                <default>false</default>
+                <label>New England Real Estate Network</label>
+            </value>
+            <value>
+                <fullName>njmls</fullName>
+                <default>false</default>
+                <label>New Jersey MLS</label>
+            </value>
+            <value>
+                <fullName>nwmls</fullName>
+                <default>false</default>
+                <label>Northwest MLS</label>
+            </value>
+            <value>
+                <fullName>nysamls</fullName>
+                <default>false</default>
+                <label>New York State Alliance MLS</label>
+            </value>
+            <value>
+                <fullName>northeast_georgia</fullName>
+                <default>false</default>
+                <label>Northeast Georgia MLS</label>
+            </value>
+            <value>
+                <fullName>northstar</fullName>
+                <default>false</default>
+                <label>NorthstarMLS</label>
+            </value>
+            <value>
+                <fullName>otsego_delaware</fullName>
+                <default>false</default>
+                <label>Otsego-Delaware MLS</label>
+            </value>
+            <value>
+                <fullName>tcar</fullName>
+                <default>false</default>
+                <label>Pacific Regional MLS</label>
+            </value>
+            <value>
+                <fullName>phenixcity</fullName>
+                <default>false</default>
+                <label>Phoenix City MLS</label>
+            </value>
+            <value>
+                <fullName>rein</fullName>
+                <default>false</default>
+                <label>Real Estate Information Network, Inc. (The Hampton Roads MLS)</label>
+            </value>
+            <value>
+                <fullName>recolorado</fullName>
+                <default>false</default>
+                <label>REcolorado</label>
+            </value>
+            <value>
+                <fullName>river_counties</fullName>
+                <default>false</default>
+                <label>River Counties MLS</label>
+            </value>
+            <value>
+                <fullName>sfar</fullName>
+                <default>false</default>
+                <label>San Francisco MLS</label>
+            </value>
+            <value>
+                <fullName>santa_fe</fullName>
+                <default>false</default>
+                <label>Santa Fe MLS</label>
+            </value>
+            <value>
+                <fullName>savannah</fullName>
+                <default>false</default>
+                <label>Savannah MLS</label>
+            </value>
+            <value>
+                <fullName>selkirk</fullName>
+                <default>false</default>
+                <label>Selkirk MLS</label>
+            </value>
+            <value>
+                <fullName>space_coast</fullName>
+                <default>false</default>
+                <label>Space Coast MLS</label>
+            </value>
+            <value>
+                <fullName>spokane</fullName>
+                <default>false</default>
+                <label>Spokane MLS</label>
+            </value>
+            <value>
+                <fullName>rimls</fullName>
+                <default>false</default>
+                <label>Statewide MLS</label>
+            </value>
+            <value>
+                <fullName>tsmls</fullName>
+                <default>false</default>
+                <label>Tahoe Sierra MLS</label>
+            </value>
+            <value>
+                <fullName>ulster</fullName>
+                <default>false</default>
+                <label>Ulster County MLS</label>
+            </value>
+            <value>
+                <fullName>vcrds</fullName>
+                <default>false</default>
+                <label>Ventura County Regional Data Share</label>
+            </value>
+            <value>
+                <fullName>warren_county</fullName>
+                <default>false</default>
+                <label>Warren County MLS</label>
+            </value>
+            <value>
+                <fullName>waar</fullName>
+                <default>false</default>
+                <label>Williamsburg MLS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

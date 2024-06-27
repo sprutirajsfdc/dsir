@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Contact Verifcation Update">
+        <div class="slds-p-around_medium">
+            <lightning-record-edit-form object-api-name="Contact" record-id={recordId} onsuccess={handleSuccess}>
+                <lightning-messages></lightning-messages>
+                <lightning-input-field field-name="Email_Verified__c"></lightning-input-field>
+                <lightning-input-field field-name="Number_Verified__c"></lightning-input-field>
+                <lightning-button variant="brand" type="submit" label="Save"></lightning-button>
+            </lightning-record-edit-form>
+        </div>
+    </lightning-card>
+</template>

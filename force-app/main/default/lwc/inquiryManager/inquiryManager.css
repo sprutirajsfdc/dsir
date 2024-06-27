@@ -1,0 +1,43 @@
+:host {
+    display: block;
+    padding: 1rem;
+}
+
+.slds-card {
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.slds-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.slds-table th,
+.slds-table td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+}
+
+.slds-table th {
+    background-color: #032044;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+.slds-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.slds-table tbody tr:hover {
+    background-color: #f0f0f0;
+}
+.slds-col {
+    width: auto; 
+    margin-right: 1rem; 
+}
+/* .custom-filter-width{
+    width: 100px;
+} */

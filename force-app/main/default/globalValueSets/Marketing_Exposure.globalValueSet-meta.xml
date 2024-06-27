@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Propertyfinder</fullName>
+        <default>false</default>
+        <label>Propertyfinder</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.com</fullName>
+        <default>false</default>
+        <label>sothebysrealty.com</label>
+    </customValue>
+    <customValue>
+        <fullName>No Marketing</fullName>
+        <default>false</default>
+        <label>No Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Portals</fullName>
+        <default>false</default>
+        <label>Global Portals</label>
+    </customValue>
+    <customValue>
+        <fullName>ActivePipe</fullName>
+        <default>false</default>
+        <label>ActivePipe</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae</label>
+    </customValue>
+    <customValue>
+        <fullName>Lonres</fullName>
+        <default>false</default>
+        <label>LonRes</label>
+    </customValue>
+    <customValue>
+        <fullName>Rightmove UK</fullName>
+        <default>false</default>
+        <label>Rightmove UK</label>
+    </customValue>
+    <customValue>
+        <fullName>UK SIR Website</fullName>
+        <default>false</default>
+        <label>UK SIR Website</label>
+    </customValue>
+    <customValue>
+        <fullName>Zoopla UK</fullName>
+        <default>false</default>
+        <label>Zoopla UK</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubizzle</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Dubizzle</label>
+    </customValue>
+    <customValue>
+        <fullName>luxhabitat.ae</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>luxhabitat.ae</label>
+    </customValue>
+    <customValue>
+        <fullName>All Channels</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>All Channels</label>
+    </customValue>
+    <customValue>
+        <fullName>Gulfsir.com</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Gulfsir.com</label>
+    </customValue>
+    <masterLabel>Marketing Exposure</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

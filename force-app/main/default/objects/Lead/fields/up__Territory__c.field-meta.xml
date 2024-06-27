@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>up__Territory__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Territory</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>up__District__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Las Vegas</fullName>
+                <default>false</default>
+                <label>Las Vegas</label>
+            </value>
+            <value>
+                <fullName>Oregon</fullName>
+                <default>false</default>
+                <label>Oregon</label>
+            </value>
+            <value>
+                <fullName>San Diego</fullName>
+                <default>false</default>
+                <label>San Diego</label>
+            </value>
+            <value>
+                <fullName>Southern California</fullName>
+                <default>false</default>
+                <label>Southern California</label>
+            </value>
+            <value>
+                <fullName>New York City</fullName>
+                <default>false</default>
+                <label>New York City</label>
+            </value>
+            <value>
+                <fullName>Brooklyn</fullName>
+                <default>false</default>
+                <label>Brooklyn</label>
+            </value>
+            <value>
+                <fullName>New York St</fullName>
+                <default>false</default>
+                <label>New York St</label>
+            </value>
+            <value>
+                <fullName>Raleigh</fullName>
+                <default>false</default>
+                <label>Raleigh</label>
+            </value>
+            <value>
+                <fullName>Nevada State</fullName>
+                <default>false</default>
+                <label>Nevada State</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Nevada</controllingFieldValue>
+            <valueName>Las Vegas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nevada</controllingFieldValue>
+            <valueName>Oregon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nevada</controllingFieldValue>
+            <valueName>San Diego</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nevada</controllingFieldValue>
+            <valueName>Southern California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New York</controllingFieldValue>
+            <valueName>New York City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New York</controllingFieldValue>
+            <valueName>Brooklyn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New York</controllingFieldValue>
+            <valueName>New York St</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Carolina</controllingFieldValue>
+            <valueName>Raleigh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North Carolina</controllingFieldValue>
+            <valueName>Nevada State</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

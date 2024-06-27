@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Email_Send_To_Event_Contact</name>
+        <label>Email Send To Event Contact</label>
+        <locationX>50</locationX>
+        <locationY>647</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <stringValue>tushark@twopirconsulting.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>$User.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Event Market Appraisal</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailSendMarketAppraisal</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>logEmailOnSend</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Email_Send_To_Inquiry_Contact</name>
+        <label>Email Send To Inquiry Contact</label>
+        <locationX>578</locationX>
+        <locationY>755</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailAddresses</name>
+            <value>
+                <stringValue>tushark@twopirconsulting.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <elementReference>$User.Email</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Event Viewing</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>EmailSendViewingForInquiry</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>58.0</apiVersion>
+    <decisions>
+        <name>Check_Event_Type</name>
+        <label>Check Event Type</label>
+        <locationX>644</locationX>
+        <locationY>323</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Market_Appraisal_For_Property_Valuation</name>
+            <conditionLogic>(1 AND 2 AND 3) OR (4 AND 2 AND 3 )</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Activity_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Market Appraisal</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.WhatId</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>a3B</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>0121t0000008UkTAAU</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Market Appraisal</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Property_Valuation</targetReference>
+            </connector>
+            <label>Market Appraisal For Property Valuation</label>
+        </rules>
+        <rules>
+            <name>Viewing_For_Inquiry</name>
+            <conditionLogic>(1 AND 2 AND 3) OR (4 AND 2 AND 3 )</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Activity_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Viewing</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.WhatId</leftValueReference>
+                <operator>StartsWith</operator>
+                <rightValue>
+                    <stringValue>a0Q</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordTypeId</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>0121t0000008UkUAAU</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Subject</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Showing</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Inquiry</targetReference>
+            </connector>
+            <label>Viewing For Inquiry</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Inquiry_Currency</name>
+        <label>Check Inquiry Currency</label>
+        <locationX>710</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>GBP2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Inquiry.CurrencyIsoCode</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>GBP</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Inquiry.CurrencyIsoCode</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Contact</targetReference>
+            </connector>
+            <label>GBP</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Property_Valuation_Currency</name>
+        <label>Check Property Valuation Currency</label>
+        <locationX>182</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>GBP1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Property_Valuation.CurrencyIsoCode</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>GBP</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_Property_Valuation.CurrencyIsoCode</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Email_Send_To_Event_Contact</targetReference>
+            </connector>
+            <label>GBP</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>Inquiry_Address_Formula</name>
+        <dataType>String</dataType>
+        <expression>IF(OR(
+ISBLANK({!Get_Inquiry.Listing__r.House_Building_Name__c}),
+ISBLANK({!Get_Inquiry.Listing__r.pba__Street_pb__c}),
+ISBLANK({!Get_Inquiry.Listing__r.Village__c}),
+ISBLANK({!Get_Inquiry.Listing__r.County__c}),
+ISBLANK({!Get_Inquiry.Listing__r.UKPostal_Code__c}),
+ISBLANK({!Get_Inquiry.Listing__r.pba__Country_pb__c})
+)
+, &apos;of your Property&apos;, &apos;type of&apos; +&apos;&apos;+ {!Get_Inquiry.Listing__r.Address__c})</expression>
+    </formulas>
+    <formulas>
+        <name>PropertyValuation_Formula</name>
+        <dataType>String</dataType>
+        <expression>IF(OR(
+ISBLANK({!Get_Property_Valuation.House_Building_Name__c}),
+ISBLANK({!Get_Property_Valuation.Street__c}),
+ISBLANK({!Get_Property_Valuation.Village__c}),
+ISBLANK({!Get_Property_Valuation.Are_Town__c}),
+ISBLANK({!Get_Property_Valuation.City_County__c}),
+ISBLANK({!Get_Property_Valuation.Postcode__c}),
+ISBLANK({!Get_Property_Valuation.Country__c})
+)
+, &apos;of your Property&apos;, &apos;type of&apos;+ &apos;&apos; +  {!Get_Property_Valuation.Address__c})</expression>
+    </formulas>
+    <interviewLabel>Event - Send Email For Market Appraisal Or Viewing {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Event - Send Email For Market Appraisal Or Viewing</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Contact</name>
+        <label>Get Contact</label>
+        <locationX>578</locationX>
+        <locationY>647</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Email_Send_To_Inquiry_Contact</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.WhoId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Inquiry</name>
+        <label>Get Inquiry</label>
+        <locationX>710</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_Inquiry_Currency</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.WhatId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>CurrencyIsoCode</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>GBP</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>pba__Request__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Property_Valuation</name>
+        <label>Get Property Valuation</label>
+        <locationX>182</locationX>
+        <locationY>431</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_Property_Valuation_Currency</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.WhatId</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>CurrencyIsoCode</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>GBP</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Property_Valuation__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>518</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Event_Type</targetReference>
+        </connector>
+        <object>Event</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Obsolete</status>
+    <textTemplates>
+        <name>EmailSendMarketAppraisal</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;Dear {!Get_Property_Valuation.Contact__r.FirstName}  {!Get_Property_Valuation.Contact__r.LastName},&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;Thank you very much for inviting UK Sotheby’s International Realty to advise you on the potential &lt;/span&gt;&lt;strong style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;{!Get_Property_Valuation.Listing_Type__c} &lt;/strong&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;{!PropertyValuation_Formula}. I am looking forward to meeting you at the property on {!$Record.StartDateTime}.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;If you have any questions and if there is anything further I can do to help you before our meeting, please let me know.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;I look forward to meeting you.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;Yours sincerely&lt;/span&gt;&lt;/p&gt;&lt;p&gt;{!$Record.Owner:User.FirstName} {!$Record.Owner:User.LastName}&lt;/p&gt;&lt;p&gt;M.  {!$Record.Owner:User.MobilePhone}&lt;/p&gt;&lt;p&gt;E.    {!$Record.Owner:User.Email}&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailSendViewingForInquiry</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;Dear {!Get_Inquiry.pba__Contact__r.FirstName}   {!Get_Inquiry.pba__Contact__r.LastName},&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;Thank you very much for inviting UK Sotheby’s International Realty to advise you on the potential &lt;/span&gt;&lt;strong style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;{!Get_Inquiry.pba__ListingType__c} &lt;/strong&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;{!Inquiry_Address_Formula}. I am looking forward to meeting you at the property on {!$Record.StartDateTime}.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;If you have any questions and if there is anything further I can do to help you before our meeting, please let me know.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;I look forward to meeting you.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;Yours sincerely&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;{!$Record.Owner:User.FirstName} {!$Record.Owner:User.LastName}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;M. {!$Record.Owner:User.MobilePhone}&lt;/p&gt;&lt;p&gt;E.  {!$Record.Owner:User.Email}&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>EmailSendViewingForListing</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;Dear {!$Record.Listing__r.pba__PropertyOwnerContact_pb__r.FirstName},  {!$Record.Listing__r.pba__PropertyOwnerContact_pb__r.LastName}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;Thank you very much for inviting UK Sotheby’s International Realty to advise you on the potential {!$Record.Listing__r.pba__ListingType__c} of {!$Record.Listing__r.Address__c}. I am looking forward to meeting you at the property on {!$Record.StartDateTime}.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;If you have any questions and if there is anything further I can do to help you before our meeting, please let me know.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;I look forward to meeting you.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;Yours sincerely&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;{!$Record.Owner:User.FirstName} {!$Record.Owner:User.LastName}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;{!$Record.Listing__r.Listing_Inquiry_Recipient__r.FirstName} {!$Record.Listing__r.Listing_Inquiry_Recipient__r.LastName}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;{!$Record.Listing__r.Listing_Inquiry_Recipient__r.MobilePhone}&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: small; font-family: Arial, Helvetica, sans-serif; color: rgb(34, 34, 34);&quot;&gt;{!$Record.Listing__r.Listing_Inquiry_Recipient__r.Email}&lt;/span&gt;&lt;/p&gt;</text>
+    </textTemplates>
+</Flow>

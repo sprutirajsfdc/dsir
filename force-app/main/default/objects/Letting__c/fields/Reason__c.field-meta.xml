@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tenant breached contract terms</fullName>
+                <default>false</default>
+                <label>Tenant breached contract terms</label>
+            </value>
+            <value>
+                <fullName>Tenant buying</fullName>
+                <default>false</default>
+                <label>Tenant buying</label>
+            </value>
+            <value>
+                <fullName>Tenant deceased</fullName>
+                <default>false</default>
+                <label>Tenant deceased</label>
+            </value>
+            <value>
+                <fullName>Tenant dissatisfied with property</fullName>
+                <default>false</default>
+                <label>Tenant dissatisfied with property</label>
+            </value>
+            <value>
+                <fullName>Tenant dissatisfied with service</fullName>
+                <default>false</default>
+                <label>Tenant dissatisfied with service</label>
+            </value>
+            <value>
+                <fullName>Tenant downsizing</fullName>
+                <default>false</default>
+                <label>Tenant downsizing</label>
+            </value>
+            <value>
+                <fullName>Tenant relocating</fullName>
+                <default>false</default>
+                <label>Tenant relocating</label>
+            </value>
+            <value>
+                <fullName>Tenant upsizing</fullName>
+                <default>false</default>
+                <label>Tenant upsizing</label>
+            </value>
+            <value>
+                <fullName>Landlord bankrupt</fullName>
+                <default>false</default>
+                <label>Landlord bankrupt</label>
+            </value>
+            <value>
+                <fullName>Landlord breached contract terms</fullName>
+                <default>false</default>
+                <label>Landlord breached contract terms</label>
+            </value>
+            <value>
+                <fullName>Landlord deceased</fullName>
+                <default>false</default>
+                <label>Landlord deceased</label>
+            </value>
+            <value>
+                <fullName>Landlord dissatisfied with tenant</fullName>
+                <default>false</default>
+                <label>Landlord dissatisfied with tenant</label>
+            </value>
+            <value>
+                <fullName>Landlord moving back in</fullName>
+                <default>false</default>
+                <label>Landlord moving back in</label>
+            </value>
+            <value>
+                <fullName>Landlord owed rent</fullName>
+                <default>false</default>
+                <label>Landlord owed rent</label>
+            </value>
+            <value>
+                <fullName>Landlord refurbishing</fullName>
+                <default>false</default>
+                <label>Landlord refurbishing</label>
+            </value>
+            <value>
+                <fullName>Landlord selling</fullName>
+                <default>false</default>
+                <label>Landlord selling</label>
+            </value>
+            <value>
+                <fullName>Landlord served notice of abandonment</fullName>
+                <default>false</default>
+                <label>Landlord served notice of abandonment</label>
+            </value>
+            <value>
+                <fullName>Landlord wants more rent</fullName>
+                <default>false</default>
+                <label>Landlord wants more rent</label>
+            </value>
+            <value>
+                <fullName>End of term</fullName>
+                <default>false</default>
+                <label>End of term</label>
+            </value>
+            <value>
+                <fullName>Renewal terms not agreed</fullName>
+                <default>false</default>
+                <label>Renewal terms not agreed</label>
+            </value>
+            <value>
+                <fullName>Tenant/Landlord dispute</fullName>
+                <default>false</default>
+                <label>Tenant/Landlord dispute</label>
+            </value>
+            <value>
+                <fullName>Reason unknown</fullName>
+                <default>false</default>
+                <label>Reason unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

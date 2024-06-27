@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_be_changed_by_non_admin</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+OR(
+$Profile.Name = &apos;PB Agent&apos;,
+$Profile.Name = &apos;PB Sales Management&apos;,
+$Profile.Name = &apos;PB Call Center Admin&apos;,
+$Profile.Name = &apos;PB Call Center Executive&apos;,
+$Profile.Name = &apos;PB Call Center Admin&apos;
+)
+,
+ISCHANGED( MobilePhone ),
+ISCHANGED( Phone ),
+ISCHANGED( Email )
+)</errorConditionFormula>
+    <errorMessage>You do not have permission to modify: MobilePhone, Phone and email</errorMessage>
+</ValidationRule>

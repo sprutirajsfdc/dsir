@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IF_CIF_TYPE_IS_CONTACT_REQUEST</fullName>
+    <active>true</active>
+    <description>Please fill either Mobile OR Email</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(CIF_Type__c, &quot;CONTACT REQUEST&quot;),
+    NOT(ISPICKVAL(CIF_Sub_Type__c, &quot;Ownership&quot;)),
+       (AND(
+            ISBLANK(Mobile__c),
+            ISBLANK(E_MAIL__c)
+)
+),
+ $User.Id &lt;&gt; &apos;0057T0000022JDC&apos;,
+$User.Id &lt;&gt; &apos;0053X000008mV6h&apos;
+
+)</errorConditionFormula>
+    <errorMessage>Mobile or Email is required if CIF Sub Type is not Ownership</errorMessage>
+</ValidationRule>

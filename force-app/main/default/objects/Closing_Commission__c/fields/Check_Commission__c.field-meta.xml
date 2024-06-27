@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Commission__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Commission_Amount__c &lt;&gt; Closing__r.gsir_closing_broker_split_amount__c, Lux_Agent__c = Closing__r.gsir_closing_broker__c), TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>1 Check Commission</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

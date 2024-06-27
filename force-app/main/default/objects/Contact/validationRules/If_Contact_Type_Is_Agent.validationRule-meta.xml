@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Contact_Type_Is_Agent</fullName>
+    <active>false</active>
+    <description>If Contact type is Agent then please add BRN</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(ContactType__c, &quot;Agent&quot;),
+ISBLANK( BRN__c )
+)</errorConditionFormula>
+    <errorMessage>REQUIRED: BRN</errorMessage>
+</ValidationRule>

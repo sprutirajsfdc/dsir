@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>PhoneCountry__c</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Record_Type_Name__c</columns>
+    <columns>MobileCountry__c</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>Sharing_Rule__c</columns>
+    <columns>Mobile_Phone__c</columns>
+    <columns>ContactType__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ContactType__c</field>
+        <operation>equals</operation>
+        <value>Seller</value>
+    </filters>
+    <filters>
+        <field>Sharing_Rule__c</field>
+        <operation>equals</operation>
+        <value>UK Sothebys International Realty</value>
+    </filters>
+    <label>All Contacts</label>
+    <sharedTo>
+        <role>UK_Sales_Manager</role>
+    </sharedTo>
+</ListView>

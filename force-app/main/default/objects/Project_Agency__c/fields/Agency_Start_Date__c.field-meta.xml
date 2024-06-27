@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agency_Start_Date__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(MOD(DAY(Agency_Contract_Start_Date__c),10), 
+1, TEXT(DAY(Agency_Contract_Start_Date__c)) &amp; &quot;st&quot;,
+2, TEXT(DAY(Agency_Contract_Start_Date__c)) &amp; &quot;nd&quot;,
+3, TEXT(DAY(Agency_Contract_Start_Date__c)) &amp; &quot;rd&quot;,
+TEXT(DAY(Agency_Contract_Start_Date__c)) &amp; &quot;th&quot;
+) &amp; &quot; &quot; &amp; CASE(MONTH(Agency_Contract_Start_Date__c),
+1, &quot;Jan&quot;,
+2, &quot;Feb&quot;,
+3, &quot;Mar&quot;,
+4, &quot;Apr&quot;,
+5, &quot;May&quot;,
+6, &quot;Jun&quot;,
+7, &quot;Jul&quot;,
+8, &quot;Aug&quot;,
+9, &quot;Sep&quot;,
+10, &quot;Oct&quot;,
+11, &quot;Nov&quot;,
+&quot;Dec&quot;
+) &amp; &quot; &quot; &amp; TEXT(YEAR(Agency_Contract_Start_Date__c))</formula>
+    <label>Agency Start Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

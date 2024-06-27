@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X5_KYC_Pending</fullName>
+    <columns>NAME</columns>
+    <columns>Inquiry__c</columns>
+    <columns>Contact__c</columns>
+    <columns>AML_Severity__c</columns>
+    <columns>AML_Severity_Color__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>KYC Pending,KYC Submitted,KYC Approved,KYC Completed</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER</field>
+        <operation>notEqual</operation>
+        <value>Amit Patel,Varsha Kadam,Nikethana Shetty,Ajit Bondre,Menatalla Ahmed,Prachi Prakash Shet</value>
+    </filters>
+    <label>5. KYC Pending</label>
+</ListView>

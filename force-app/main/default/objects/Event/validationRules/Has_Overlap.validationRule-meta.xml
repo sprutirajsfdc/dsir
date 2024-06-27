@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Overlap</fullName>
+    <active>false</active>
+    <errorConditionFormula>Has_overlap__c = true</errorConditionFormula>
+    <errorMessage>This timeslot is booked please choose different time.</errorMessage>
+</ValidationRule>

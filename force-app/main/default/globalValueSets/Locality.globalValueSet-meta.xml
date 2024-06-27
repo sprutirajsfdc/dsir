@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Rural</fullName>
+        <default>false</default>
+        <label>Rural</label>
+    </customValue>
+    <customValue>
+        <fullName>Village</fullName>
+        <default>false</default>
+        <label>Village</label>
+    </customValue>
+    <customValue>
+        <fullName>Town/City</fullName>
+        <default>false</default>
+        <label>Town/City</label>
+    </customValue>
+    <customValue>
+        <fullName>Seaside/Seaview</fullName>
+        <default>false</default>
+        <label>Seaside/Seaview</label>
+    </customValue>
+    <customValue>
+        <fullName>Riverside</fullName>
+        <default>false</default>
+        <label>Riverside</label>
+    </customValue>
+    <masterLabel>Locality</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

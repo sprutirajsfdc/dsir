@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <decisions>
+        <processMetadataValues>
+            <name>index</name>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </processMetadataValues>
+        <name>myDecision</name>
+        <label>myDecision</label>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>default</defaultConnectorLabel>
+        <rules>
+            <name>myRule_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>formula_myRule_1</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>myRule_1_A1</targetReference>
+            </connector>
+            <label>DO ACTION</label>
+        </rules>
+    </decisions>
+    <description>A | Added By Gunther</description>
+    <formulas>
+        <processMetadataValues>
+            <name>originalFormula</name>
+            <value>
+                <stringValue>CASE([pba__Listing__c].pba_uaefields__Property_Sub_Type__c, 
+&quot;Residential - Apartment&quot; , &quot;Apartment&quot; , 
+&quot;Residential - Bulk Units&quot; , &quot;Bulk Units&quot; , 
+&quot;Residential - Bungalow&quot; , &quot;Bungalow&quot; , 
+&quot;Residential - Chalet&quot; , &quot;Chalet&quot; , 
+&quot;Residential - Compound&quot; , &quot;Compound&quot; , 
+&quot;Residential - Duplex&quot; , &quot;Duplex&quot; , 
+&quot;Residential - Full floor&quot; , &quot;Full floor&quot; , 
+&quot;Residential - Half floor&quot; , &quot;Half floor&quot; , 
+&quot;Residential - Labor Camp&quot; , &quot;Labor Camp&quot; , 
+&quot;Residential - Land&quot; , &quot;Land&quot; , 
+&quot;Residential - Penthouse&quot; , &quot;Penthouse&quot; , 
+&quot;Residential - Townhouse&quot; , &quot;Townhouse&quot; , 
+&quot;Residential - Triplex&quot; , &quot;Triplex&quot; , 
+&quot;Residential - Villa&quot; , &quot;Villa&quot; , 
+&quot;Residential - Whole Building&quot; , &quot;Whole Building&quot; , 
+&quot;Commercial - Bulk Units&quot; , &quot;Bulk Units&quot; , 
+&quot;Commercial - Factory&quot; , &quot;Factory&quot; , 
+&quot;Commercial - Full floor&quot; , &quot;Full floor&quot; , 
+&quot;Commercial - Half floor&quot; , &quot;Half floor&quot; , 
+&quot;Commercial - Hotel Apartment&quot; , &quot;Hotel Apartment&quot; , 
+&quot;Commercial - Labor Camp&quot; , &quot;Labor Camp&quot; , 
+&quot;Commercial - Medical Facility&quot; , &quot;Medical Facility&quot; , 
+&quot;Commercial - Office Space&quot; , &quot;Office Space&quot; , 
+&quot;Commercial - Plot&quot; , &quot;Plot&quot; , 
+&quot;Commercial - Restaurant&quot; , &quot;Restaurant&quot; , 
+&quot;Commercial - Retail&quot; , &quot;Retail&quot; , 
+&quot;Commercial - Shop&quot; , &quot;Shop&quot; , 
+&quot;Commercial - Show Room&quot; , &quot;Show Room&quot; , 
+&quot;Commercial - Staff Accommodation&quot; , &quot;Staff Accommodation&quot; , 
+&quot;Commercial - Storage&quot; , &quot;Storage&quot; , 
+&quot;Commercial - Store&quot; , &quot;Store&quot; , 
+&quot;Commercial - Villa&quot; , &quot;Villa&quot; , 
+&quot;Commercial - Warehouse&quot; , &quot;Warehouse&quot; , 
+&quot;Commercial - Whole Building&quot; , &quot;Whole Building&quot; , 
+&quot;None&quot;) </stringValue>
+            </value>
+        </processMetadataValues>
+        <name>formula_2_myRule_1_A1_9608959562</name>
+        <dataType>String</dataType>
+        <expression>CASE({!myVariable_current.pba_uaefields__Property_Sub_Type__c}, 
+&quot;Residential - Apartment&quot; , &quot;Apartment&quot; , 
+&quot;Residential - Bulk Units&quot; , &quot;Bulk Units&quot; , 
+&quot;Residential - Bungalow&quot; , &quot;Bungalow&quot; , 
+&quot;Residential - Chalet&quot; , &quot;Chalet&quot; , 
+&quot;Residential - Compound&quot; , &quot;Compound&quot; , 
+&quot;Residential - Duplex&quot; , &quot;Duplex&quot; , 
+&quot;Residential - Full floor&quot; , &quot;Full floor&quot; , 
+&quot;Residential - Half floor&quot; , &quot;Half floor&quot; , 
+&quot;Residential - Labor Camp&quot; , &quot;Labor Camp&quot; , 
+&quot;Residential - Land&quot; , &quot;Land&quot; , 
+&quot;Residential - Penthouse&quot; , &quot;Penthouse&quot; , 
+&quot;Residential - Townhouse&quot; , &quot;Townhouse&quot; , 
+&quot;Residential - Triplex&quot; , &quot;Triplex&quot; , 
+&quot;Residential - Villa&quot; , &quot;Villa&quot; , 
+&quot;Residential - Whole Building&quot; , &quot;Whole Building&quot; , 
+&quot;Commercial - Bulk Units&quot; , &quot;Bulk Units&quot; , 
+&quot;Commercial - Factory&quot; , &quot;Factory&quot; , 
+&quot;Commercial - Full floor&quot; , &quot;Full floor&quot; , 
+&quot;Commercial - Half floor&quot; , &quot;Half floor&quot; , 
+&quot;Commercial - Hotel Apartment&quot; , &quot;Hotel Apartment&quot; , 
+&quot;Commercial - Labor Camp&quot; , &quot;Labor Camp&quot; , 
+&quot;Commercial - Medical Facility&quot; , &quot;Medical Facility&quot; , 
+&quot;Commercial - Office Space&quot; , &quot;Office Space&quot; , 
+&quot;Commercial - Plot&quot; , &quot;Plot&quot; , 
+&quot;Commercial - Restaurant&quot; , &quot;Restaurant&quot; , 
+&quot;Commercial - Retail&quot; , &quot;Retail&quot; , 
+&quot;Commercial - Shop&quot; , &quot;Shop&quot; , 
+&quot;Commercial - Show Room&quot; , &quot;Show Room&quot; , 
+&quot;Commercial - Staff Accommodation&quot; , &quot;Staff Accommodation&quot; , 
+&quot;Commercial - Storage&quot; , &quot;Storage&quot; , 
+&quot;Commercial - Store&quot; , &quot;Store&quot; , 
+&quot;Commercial - Villa&quot; , &quot;Villa&quot; , 
+&quot;Commercial - Warehouse&quot; , &quot;Warehouse&quot; , 
+&quot;Commercial - Whole Building&quot; , &quot;Whole Building&quot; , 
+&quot;None&quot;)</expression>
+    </formulas>
+    <formulas>
+        <name>formula_myRule_1</name>
+        <dataType>Boolean</dataType>
+        <expression>true</expression>
+    </formulas>
+    <interviewLabel>Populate_Property_type_fields-2_InterviewLabel</interviewLabel>
+    <label>Populate Property type fields</label>
+    <processMetadataValues>
+        <name>ObjectType</name>
+        <value>
+            <stringValue>pba__Listing__c</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>ObjectVariable</name>
+        <value>
+            <elementReference>myVariable_current</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OldObjectVariable</name>
+        <value>
+            <elementReference>myVariable_old</elementReference>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>TriggerType</name>
+        <value>
+            <stringValue>onAllChanges</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Workflow</processType>
+    <recordUpdates>
+        <processMetadataValues>
+            <name>evaluationType</name>
+            <value>
+                <stringValue>always</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>extraTypeInfo</name>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>isChildRelationship</name>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>reference</name>
+            <value>
+                <stringValue>[pba__Listing__c]</stringValue>
+            </value>
+        </processMetadataValues>
+        <processMetadataValues>
+            <name>referenceTargetField</name>
+        </processMetadataValues>
+        <name>myRule_1_A1</name>
+        <label>Map Property types</label>
+        <locationX>100</locationX>
+        <locationY>200</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <processMetadataValues>
+                <name>implicit</name>
+                <value>
+                    <booleanValue>true</booleanValue>
+                </value>
+            </processMetadataValues>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>myVariable_current.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <processMetadataValues>
+                <name>dataType</name>
+                <value>
+                    <stringValue>Picklist</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>isRequired</name>
+                <value>
+                    <booleanValue>false</booleanValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideLabel</name>
+                <value>
+                    <stringValue>Property Type</stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>leftHandSideReferenceTo</name>
+                <value>
+                    <stringValue></stringValue>
+                </value>
+            </processMetadataValues>
+            <processMetadataValues>
+                <name>rightHandSideType</name>
+                <value>
+                    <stringValue>Formula</stringValue>
+                </value>
+            </processMetadataValues>
+            <field>pba__PropertyType__c</field>
+            <value>
+                <elementReference>formula_2_myRule_1_A1_9608959562</elementReference>
+            </value>
+        </inputAssignments>
+        <object>pba__Listing__c</object>
+    </recordUpdates>
+    <startElementReference>myDecision</startElementReference>
+    <status>Draft</status>
+    <variables>
+        <name>myVariable_current</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>pba__Listing__c</objectType>
+    </variables>
+    <variables>
+        <name>myVariable_old</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>pba__Listing__c</objectType>
+    </variables>
+</Flow>

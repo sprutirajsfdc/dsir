@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Receiving_Inquiries__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>This field is updated by a Process Builder record from the &apos;Inquiry Control&apos; object. 
+This field is also read by the &apos;Inquiry Assignment&apos; object, this controls the allocation and cadence of new Inquiry allocation per agent. If &apos;Receiving Inquiries&apos; is FALSE this will remove the user from the Inquiry distribution automation</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Agent controls if they are receiving new inquiry records via the &apos;Inquiry Control&apos; record (Turned On or Off)</inlineHelpText>
+    <label>Receiving Inquiries</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aml_Was_completed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    RecordTypeId = &apos;0127T000000scUqQAI&apos;,
+    ISPICKVAL( Status__c , &quot;KYC Submitted&quot;),
+    ISBLANK( Seller_Id_Expiry_Date__c )
+
+)</errorConditionFormula>
+    <errorMessage>The Seller ID Expiry Date should not be blank.</errorMessage>
+</ValidationRule>

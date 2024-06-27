@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Payment Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DLD fee</fullName>
+                <default>false</default>
+                <label>DLD fee</label>
+            </value>
+            <value>
+                <fullName>VAT</fullName>
+                <default>false</default>
+                <label>VAT</label>
+            </value>
+            <value>
+                <fullName>Deposit</fullName>
+                <default>false</default>
+                <label>Deposit</label>
+            </value>
+            <value>
+                <fullName>Conveyance Fee</fullName>
+                <default>false</default>
+                <label>Conveyance Fee</label>
+            </value>
+            <value>
+                <fullName>POA Fee</fullName>
+                <default>false</default>
+                <label>POA Fee</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>1st installment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>1st installment</label>
+            </value>
+            <value>
+                <fullName>2nd installment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>2nd installment</label>
+            </value>
+            <value>
+                <fullName>Admin Fees</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Admin Fees</label>
+            </value>
+            <value>
+                <fullName>Installment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Installment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

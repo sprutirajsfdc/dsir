@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sharing_Rule__c</fullName>
+    <defaultValue>&quot;Private&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Sharing Rule</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open to All Countries</fullName>
+                <color>#B6E32E</color>
+                <default>false</default>
+                <label>Open to All Countries</label>
+            </value>
+            <value>
+                <fullName>Private</fullName>
+                <color>#993399</color>
+                <default>false</default>
+                <label>Private</label>
+            </value>
+            <value>
+                <fullName>Exclusive Project UAE</fullName>
+                <color>#663366</color>
+                <default>false</default>
+                <label>Exclusive Project UAE</label>
+            </value>
+            <value>
+                <fullName>UK Sothebys International Realty</fullName>
+                <color>#F96FB7</color>
+                <default>false</default>
+                <label>UK Sotheby&apos;s International Realty</label>
+            </value>
+            <value>
+                <fullName>Saudi Arabia Sothebys International Realty</fullName>
+                <color>#FF9900</color>
+                <default>false</default>
+                <label>Saudi Arabia Sotheby&apos;s International Realty</label>
+            </value>
+            <value>
+                <fullName>UAE Sotheby&apos;s International Realty</fullName>
+                <color>#33CCFF</color>
+                <default>false</default>
+                <label>UAE Sotheby&apos;s International Realty</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

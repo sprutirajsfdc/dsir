@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mobile_Phone__c</fullName>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(
+
+IF(
+NOT(ISBLANK(TEXT(MobileCountry__c))),
+MID(
+TEXT(MobileCountry__c),
+FIND(&quot;+&quot;, TEXT(MobileCountry__c)) + 1,
+FIND(&quot; &quot;, TEXT(MobileCountry__c), FIND(&quot;+&quot;, TEXT(MobileCountry__c))) - FIND(&quot;+&quot;, TEXT(MobileCountry__c))
+),
+&quot;&quot;
+) &amp;
+IF(
+CONTAINS(MobilePhone , &quot; &quot;),
+SUBSTITUTE(MobilePhone , &quot; &quot;, &quot;&quot;),
+IF(
+CONTAINS(MobilePhone , &quot;+&quot;),
+SUBSTITUTE(MobilePhone , &quot;+&quot;, &quot;&quot;),
+IF(
+CONTAINS(MobilePhone , &quot;-&quot;),
+SUBSTITUTE(MobilePhone , &quot;-&quot;, &quot;&quot;),
+IF(
+CONTAINS(MobilePhone , &quot;(&quot;),
+SUBSTITUTE(MobilePhone , &quot;(&quot;, &quot;&quot;),
+IF(
+CONTAINS(MobilePhone , &quot;)&quot;),
+SUBSTITUTE(MobilePhone , &quot;)&quot;, &quot;&quot;),
+MobilePhone
+)
+)
+)
+)
+),
+&quot; &quot;,
+&quot;&quot;
+)</formula>
+    <label>Mobile Number</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

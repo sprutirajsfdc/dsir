@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pending approval</fullName>
+                <default>false</default>
+                <label>Pending approval</label>
+            </value>
+            <value>
+                <fullName>Pending quote</fullName>
+                <default>false</default>
+                <label>Pending quote</label>
+            </value>
+            <value>
+                <fullName>Quote accepted</fullName>
+                <default>false</default>
+                <label>Quote accepted</label>
+            </value>
+            <value>
+                <fullName>Raised</fullName>
+                <default>false</default>
+                <label>Raised</label>
+            </value>
+            <value>
+                <fullName>Raised - Chase every X days</fullName>
+                <default>false</default>
+                <label>Raised - Chase every X days</label>
+            </value>
+            <value>
+                <fullName>Landlord to complete</fullName>
+                <default>false</default>
+                <label>Landlord to complete</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

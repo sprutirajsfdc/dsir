@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>When_status_is_open</fullName>
+    <active>true</active>
+    <description>When The status is &quot;Open&quot; then user can Edit the Record.</description>
+    <errorConditionFormula>AND(
+     NOT(ISPICKVAL( Status__c , &quot;Open&quot;)) ,
+    CONTAINS($Profile.Name , &apos;Agent&apos;)
+   )</errorConditionFormula>
+    <errorMessage>Editing is only permitted when the status is &apos;Open&apos;</errorMessage>
+</ValidationRule>

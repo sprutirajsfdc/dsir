@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Land Registry Pending</fullName>
+        <default>true</default>
+        <label>Land Registry Pending</label>
+    </customValue>
+    <customValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>MA Scheduled</fullName>
+        <default>false</default>
+        <label>MA Scheduled</label>
+    </customValue>
+    <customValue>
+        <fullName>Instructing</fullName>
+        <default>false</default>
+        <label>Instructing</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Instructed</fullName>
+        <default>false</default>
+        <label>Not Instructed</label>
+    </customValue>
+    <customValue>
+        <fullName>Instructed</fullName>
+        <default>false</default>
+        <label>Instructed</label>
+    </customValue>
+    <customValue>
+        <fullName>MA InProgress</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MA InProgress</label>
+    </customValue>
+    <customValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Completed</label>
+    </customValue>
+    <customValue>
+        <fullName>MA Sent</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MA Sent</label>
+    </customValue>
+    <customValue>
+        <fullName>In-Progress</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>In-Progress</label>
+    </customValue>
+    <customValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Open</label>
+    </customValue>
+    <masterLabel>Property Valuation status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>AML_Type__c</field>
+        <field>Status__c</field>
+        <field>AML_Severity__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>AML_KYC_Approved</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <name>AML_High_Risk_Queue</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <criteriaItems>
+                <field>AML__c.Inquiry_Record_Type__c</field>
+                <operation>notEqual</operation>
+                <value>Exclusive Project</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>AML__c.AML_Severity__c</field>
+                <operation>equals</operation>
+                <value>High Risk,Medium Risk</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>RejectRecord</ifCriteriaNotMet>
+        <label>Not Exclusive &amp; High, Medium.</label>
+        <name>Not_Exclusive_High_Medium</name>
+        <rejectionActions>
+            <action>
+                <name>AML_KYC_Rejected</name>
+                <type>FieldUpdate</type>
+            </action>
+        </rejectionActions>
+    </approvalStep>
+    <description>When the AML Status KYC Submitted then Approval Process starts</description>
+    <emailTemplate>unfiled$public/KYC_Approval_Request</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>AML__c.Status__c</field>
+            <operation>equals</operation>
+            <value>KYC Submitted</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>KYC Approval Process</label>
+    <processOrder>2</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

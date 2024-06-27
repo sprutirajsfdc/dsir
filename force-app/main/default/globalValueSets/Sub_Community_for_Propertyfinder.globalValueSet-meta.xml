@@ -1,0 +1,1640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Al Aweer 1</fullName>
+        <default>false</default>
+        <label>Al Aweer 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Aweer Village</fullName>
+        <default>false</default>
+        <label>Al Aweer Village</label>
+    </customValue>
+    <customValue>
+        <fullName>Warsan Estate</fullName>
+        <default>false</default>
+        <label>Warsan Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Murooj Complex</fullName>
+        <default>false</default>
+        <label>Al Murooj Complex</label>
+    </customValue>
+    <customValue>
+        <fullName>Zabeel 1</fullName>
+        <default>false</default>
+        <label>Zabeel 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Zabeel 2</fullName>
+        <default>false</default>
+        <label>Zabeel 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Zabeel Road</fullName>
+        <default>false</default>
+        <label>Zabeel Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Vida Za&apos;abeel</fullName>
+        <default>false</default>
+        <label>Vida Za&apos;abeel</label>
+    </customValue>
+    <customValue>
+        <fullName>Mira</fullName>
+        <default>false</default>
+        <label>Mira</label>
+    </customValue>
+    <customValue>
+        <fullName>Mira Oasis</fullName>
+        <default>false</default>
+        <label>Mira Oasis</label>
+    </customValue>
+    <customValue>
+        <fullName>The Nook</fullName>
+        <default>false</default>
+        <label>The Nook</label>
+    </customValue>
+    <customValue>
+        <fullName>Gardenia Townhomes</fullName>
+        <default>false</default>
+        <label>Gardenia Townhomes</label>
+    </customValue>
+    <customValue>
+        <fullName>Dragon Towers</fullName>
+        <default>false</default>
+        <label>Dragon Towers</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Shaiba Building</fullName>
+        <default>false</default>
+        <label>Al Shaiba Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Studio 101</fullName>
+        <default>false</default>
+        <label>Studio 101</label>
+    </customValue>
+    <customValue>
+        <fullName>The Hive</fullName>
+        <default>false</default>
+        <label>The Hive</label>
+    </customValue>
+    <customValue>
+        <fullName>Samana Golf Avenue</fullName>
+        <default>false</default>
+        <label>Samana Golf Avenue</label>
+    </customValue>
+    <customValue>
+        <fullName>Olivara Residences</fullName>
+        <default>false</default>
+        <label>Olivara Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>GHAPH Studio</fullName>
+        <default>false</default>
+        <label>GHAPH Studio</label>
+    </customValue>
+    <customValue>
+        <fullName>Laya Heights</fullName>
+        <default>false</default>
+        <label>Laya Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Celia Residence</fullName>
+        <default>false</default>
+        <label>Celia Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Samana Santorini</fullName>
+        <default>false</default>
+        <label>Samana Santorini</label>
+    </customValue>
+    <customValue>
+        <fullName>Samana Mykonos</fullName>
+        <default>false</default>
+        <label>Samana Mykonos</label>
+    </customValue>
+    <customValue>
+        <fullName>Glitz</fullName>
+        <default>false</default>
+        <label>Glitz</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial Building 1</fullName>
+        <default>false</default>
+        <label>Commercial Building 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial Building 2</fullName>
+        <default>false</default>
+        <label>Commercial Building 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Azizi Mirage 1</fullName>
+        <default>false</default>
+        <label>Azizi Mirage 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Vida Residence</fullName>
+        <default>false</default>
+        <label>Vida Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>The Hills A</fullName>
+        <default>false</default>
+        <label>The Hills A</label>
+    </customValue>
+    <customValue>
+        <fullName>The Hills B</fullName>
+        <default>false</default>
+        <label>The Hills B</label>
+    </customValue>
+    <customValue>
+        <fullName>The Hills C</fullName>
+        <default>false</default>
+        <label>The Hills C</label>
+    </customValue>
+    <customValue>
+        <fullName>Vida Hotel</fullName>
+        <default>false</default>
+        <label>Vida Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Sun</fullName>
+        <default>false</default>
+        <label>Sun</label>
+    </customValue>
+    <customValue>
+        <fullName>Joy</fullName>
+        <default>false</default>
+        <label>Joy</label>
+    </customValue>
+    <customValue>
+        <fullName>Spring</fullName>
+        <default>false</default>
+        <label>Spring</label>
+    </customValue>
+    <customValue>
+        <fullName>Ruba</fullName>
+        <default>false</default>
+        <label>Ruba</label>
+    </customValue>
+    <customValue>
+        <fullName>Caya</fullName>
+        <default>false</default>
+        <label>Caya</label>
+    </customValue>
+    <customValue>
+        <fullName>Bliss</fullName>
+        <default>false</default>
+        <label>Bliss</label>
+    </customValue>
+    <customValue>
+        <fullName>June</fullName>
+        <default>false</default>
+        <label>June</label>
+    </customValue>
+    <customValue>
+        <fullName>Elie Saab</fullName>
+        <default>false</default>
+        <label>Elie Saab</label>
+    </customValue>
+    <customValue>
+        <fullName>Raya</fullName>
+        <default>false</default>
+        <label>Raya</label>
+    </customValue>
+    <customValue>
+        <fullName>Anya</fullName>
+        <default>false</default>
+        <label>Anya</label>
+    </customValue>
+    <customValue>
+        <fullName>Bliss 2</fullName>
+        <default>false</default>
+        <label>Bliss 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Anya 2</fullName>
+        <default>false</default>
+        <label>Anya 2</label>
+    </customValue>
+    <customValue>
+        <fullName>The Terraces</fullName>
+        <default>false</default>
+        <label>The Terraces</label>
+    </customValue>
+    <customValue>
+        <fullName>The Residences at District One</fullName>
+        <default>false</default>
+        <label>The Residences at District One</label>
+    </customValue>
+    <customValue>
+        <fullName>Wilton Park Residences</fullName>
+        <default>false</default>
+        <label>Wilton Park Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Kensington Waters</fullName>
+        <default>false</default>
+        <label>Kensington Waters</label>
+    </customValue>
+    <customValue>
+        <fullName>Berkeley Place</fullName>
+        <default>false</default>
+        <label>Berkeley Place</label>
+    </customValue>
+    <customValue>
+        <fullName>District One</fullName>
+        <default>false</default>
+        <label>District One</label>
+    </customValue>
+    <customValue>
+        <fullName>District 11</fullName>
+        <default>false</default>
+        <label>District 11</label>
+    </customValue>
+    <customValue>
+        <fullName>Sobha Hartland</fullName>
+        <default>false</default>
+        <label>Sobha Hartland</label>
+    </customValue>
+    <customValue>
+        <fullName>Mediterranean Villas</fullName>
+        <default>false</default>
+        <label>Mediterranean Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Arabic Villas</fullName>
+        <default>false</default>
+        <label>Arabic Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>The Royal Gardens</fullName>
+        <default>false</default>
+        <label>The Royal Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Gemini Splendor</fullName>
+        <default>false</default>
+        <label>Gemini Splendor</label>
+    </customValue>
+    <customValue>
+        <fullName>District 7</fullName>
+        <default>false</default>
+        <label>District 7</label>
+    </customValue>
+    <customValue>
+        <fullName>Wilton Terraces 1</fullName>
+        <default>false</default>
+        <label>Wilton Terraces 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Wilton Terraces 2</fullName>
+        <default>false</default>
+        <label>Wilton Terraces 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Sirdhana</fullName>
+        <default>false</default>
+        <label>Sirdhana</label>
+    </customValue>
+    <customValue>
+        <fullName>Seagate</fullName>
+        <default>false</default>
+        <label>Seagate</label>
+    </customValue>
+    <customValue>
+        <fullName>Seascape</fullName>
+        <default>false</default>
+        <label>Seascape</label>
+    </customValue>
+    <customValue>
+        <fullName>Parkway Vistas</fullName>
+        <default>false</default>
+        <label>Parkway Vistas</label>
+    </customValue>
+    <customValue>
+        <fullName>Hills Business Park</fullName>
+        <default>false</default>
+        <label>Hills Business Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Executive Residences</fullName>
+        <default>false</default>
+        <label>Executive Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Grove</fullName>
+        <default>false</default>
+        <label>Golf Grove</label>
+    </customValue>
+    <customValue>
+        <fullName>Majestic Vistas</fullName>
+        <default>false</default>
+        <label>Majestic Vistas</label>
+    </customValue>
+    <customValue>
+        <fullName>Golfville</fullName>
+        <default>false</default>
+        <label>Golfville</label>
+    </customValue>
+    <customValue>
+        <fullName>Socio Tower</fullName>
+        <default>false</default>
+        <label>Socio Tower</label>
+    </customValue>
+    <customValue>
+        <fullName>Emerald Hills</fullName>
+        <default>false</default>
+        <label>Emerald Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Gardenia Residence</fullName>
+        <default>false</default>
+        <label>Gardenia Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Palm Hills</fullName>
+        <default>false</default>
+        <label>Palm Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Sway Residences</fullName>
+        <default>false</default>
+        <label>Sway Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Pinnacle</fullName>
+        <default>false</default>
+        <label>Pinnacle</label>
+    </customValue>
+    <customValue>
+        <fullName>Collective 2.0</fullName>
+        <default>false</default>
+        <label>Collective 2.0</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Field</fullName>
+        <default>false</default>
+        <label>Park Field</label>
+    </customValue>
+    <customValue>
+        <fullName>Lime Gardens</fullName>
+        <default>false</default>
+        <label>Lime Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Hills Park</fullName>
+        <default>false</default>
+        <label>Hills Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Address Hillcrest</fullName>
+        <default>false</default>
+        <label>Address Hillcrest</label>
+    </customValue>
+    <customValue>
+        <fullName>Ellington House</fullName>
+        <default>false</default>
+        <label>Ellington House</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Horizon</fullName>
+        <default>false</default>
+        <label>Park Horizon</label>
+    </customValue>
+    <customValue>
+        <fullName>Prive Residence</fullName>
+        <default>false</default>
+        <label>Prive Residence</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Point Building D</fullName>
+        <default>false</default>
+        <label>Park Point Building D</label>
+    </customValue>
+    <customValue>
+        <fullName>The Grove by Iman</fullName>
+        <default>false</default>
+        <label>The Grove by Iman</label>
+    </customValue>
+    <customValue>
+        <fullName>399 Hills Park</fullName>
+        <default>false</default>
+        <label>399 Hills Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Heights</fullName>
+        <default>false</default>
+        <label>Park Heights</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Hills</fullName>
+        <default>false</default>
+        <label>Dubai Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Maple at Dubai Hills Estate</fullName>
+        <default>false</default>
+        <label>Maple at Dubai Hills Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Hills Grove</fullName>
+        <default>false</default>
+        <label>Dubai Hills Grove</label>
+    </customValue>
+    <customValue>
+        <fullName>Dubai Hills View</fullName>
+        <default>false</default>
+        <label>Dubai Hills View</label>
+    </customValue>
+    <customValue>
+        <fullName>Sidra Villas</fullName>
+        <default>false</default>
+        <label>Sidra Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Point</fullName>
+        <default>false</default>
+        <label>Park Point</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Ridge</fullName>
+        <default>false</default>
+        <label>Park Ridge</label>
+    </customValue>
+    <customValue>
+        <fullName>Club Villas at Dubai Hills</fullName>
+        <default>false</default>
+        <label>Club Villas at Dubai Hills</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf Place</fullName>
+        <default>false</default>
+        <label>Golf Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Collective</fullName>
+        <default>false</default>
+        <label>Collective</label>
+    </customValue>
+    <customValue>
+        <fullName>Adderbury</fullName>
+        <default>false</default>
+        <label>Adderbury</label>
+    </customValue>
+    <customValue>
+        <fullName>Battersea Park</fullName>
+        <default>false</default>
+        <label>Battersea Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Circus Road North</fullName>
+        <default>false</default>
+        <label>Circus Road North</label>
+    </customValue>
+    <customValue>
+        <fullName>Stubbs Lane</fullName>
+        <default>false</default>
+        <label>Stubbs Lane</label>
+    </customValue>
+    <customValue>
+        <fullName>Grosvenor Crescent</fullName>
+        <default>false</default>
+        <label>Grosvenor Crescent</label>
+    </customValue>
+    <customValue>
+        <fullName>Lyall Street</fullName>
+        <default>false</default>
+        <label>Lyall Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Carlisle Mansions</fullName>
+        <default>false</default>
+        <label>Carlisle Mansions</label>
+    </customValue>
+    <customValue>
+        <fullName>Caroline Terrace</fullName>
+        <default>false</default>
+        <label>Caroline Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Upper Belgrave Street</fullName>
+        <default>false</default>
+        <label>Upper Belgrave Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Chelsea Barracks</fullName>
+        <default>false</default>
+        <label>Chelsea Barracks</label>
+    </customValue>
+    <customValue>
+        <fullName>Chester Square</fullName>
+        <default>false</default>
+        <label>Chester Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Little Chester Street</fullName>
+        <default>false</default>
+        <label>Little Chester Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Headfort Place</fullName>
+        <default>false</default>
+        <label>Headfort Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Eaton Terrace</fullName>
+        <default>false</default>
+        <label>Eaton Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Eaton Mews South</fullName>
+        <default>false</default>
+        <label>Eaton Mews South</label>
+    </customValue>
+    <customValue>
+        <fullName>Chapel Street</fullName>
+        <default>false</default>
+        <label>Chapel Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Chesham Place</fullName>
+        <default>false</default>
+        <label>Chesham Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Bourne Street</fullName>
+        <default>false</default>
+        <label>Bourne Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Eaton Square</fullName>
+        <default>false</default>
+        <label>Eaton Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Chester Street</fullName>
+        <default>false</default>
+        <label>Chester Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Belgrave Mews North</fullName>
+        <default>false</default>
+        <label>Belgrave Mews North</label>
+    </customValue>
+    <customValue>
+        <fullName>Cliveden Place</fullName>
+        <default>false</default>
+        <label>Cliveden Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Eaton Place</fullName>
+        <default>false</default>
+        <label>Eaton Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Ecclestone Mews</fullName>
+        <default>false</default>
+        <label>Ecclestone Mews</label>
+    </customValue>
+    <customValue>
+        <fullName>Chesham Street</fullName>
+        <default>false</default>
+        <label>Chesham Street</label>
+    </customValue>
+    <customValue>
+        <fullName>25-29 Chesham Street</fullName>
+        <default>false</default>
+        <label>25-29 Chesham Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Pavilion Road</fullName>
+        <default>false</default>
+        <label>Pavilion Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Ebury Bridge Road</fullName>
+        <default>false</default>
+        <label>Ebury Bridge Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Redcliffe Square</fullName>
+        <default>false</default>
+        <label>Redcliffe Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Oakley Street</fullName>
+        <default>false</default>
+        <label>Oakley Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Fulham Road</fullName>
+        <default>false</default>
+        <label>Fulham Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Glebe Place</fullName>
+        <default>false</default>
+        <label>Glebe Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Coleherne Court</fullName>
+        <default>false</default>
+        <label>Coleherne Court</label>
+    </customValue>
+    <customValue>
+        <fullName>Thurstan Street</fullName>
+        <default>false</default>
+        <label>Thurstan Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Bywater Street</fullName>
+        <default>false</default>
+        <label>Bywater Street</label>
+    </customValue>
+    <customValue>
+        <fullName>53 Drayton Gardens</fullName>
+        <default>false</default>
+        <label>53 Drayton Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Elm Park Gardens</fullName>
+        <default>false</default>
+        <label>Elm Park Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Hortensia Road</fullName>
+        <default>false</default>
+        <label>Hortensia Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Elystan Place</fullName>
+        <default>false</default>
+        <label>Elystan Place</label>
+    </customValue>
+    <customValue>
+        <fullName>MALLORD STREET</fullName>
+        <default>false</default>
+        <label>MALLORD STREET</label>
+    </customValue>
+    <customValue>
+        <fullName>Sutton Court Road</fullName>
+        <default>false</default>
+        <label>Sutton Court Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Oxshott Rise</fullName>
+        <default>false</default>
+        <label>Oxshott Rise</label>
+    </customValue>
+    <customValue>
+        <fullName>Great Queen Street</fullName>
+        <default>false</default>
+        <label>Great Queen Street</label>
+    </customValue>
+    <customValue>
+        <fullName>The Strand</fullName>
+        <default>false</default>
+        <label>The Strand</label>
+    </customValue>
+    <customValue>
+        <fullName>Eden Valley</fullName>
+        <default>false</default>
+        <label>Eden Valley</label>
+    </customValue>
+    <customValue>
+        <fullName>Bramham Gardens</fullName>
+        <default>false</default>
+        <label>Bramham Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Crown Lane</fullName>
+        <default>false</default>
+        <label>Crown Lane</label>
+    </customValue>
+    <customValue>
+        <fullName>Hanway Street</fullName>
+        <default>false</default>
+        <label>Hanway Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Rumbold Road</fullName>
+        <default>false</default>
+        <label>Rumbold Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Frognal</fullName>
+        <default>false</default>
+        <label>Frognal</label>
+    </customValue>
+    <customValue>
+        <fullName>Wildwood Road</fullName>
+        <default>false</default>
+        <label>Wildwood Road</label>
+    </customValue>
+    <customValue>
+        <fullName>West Heath Road</fullName>
+        <default>false</default>
+        <label>West Heath Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Bishops Avenue</fullName>
+        <default>false</default>
+        <label>Bishops Avenue</label>
+    </customValue>
+    <customValue>
+        <fullName>Lyndhurst Terrace</fullName>
+        <default>false</default>
+        <label>Lyndhurst Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Royal Crescent</fullName>
+        <default>false</default>
+        <label>Royal Crescent</label>
+    </customValue>
+    <customValue>
+        <fullName>Holland Park</fullName>
+        <default>false</default>
+        <label>Holland Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Kensington</fullName>
+        <default>false</default>
+        <label>Kensington</label>
+    </customValue>
+    <customValue>
+        <fullName>Frederick Close</fullName>
+        <default>false</default>
+        <label>Frederick Close</label>
+    </customValue>
+    <customValue>
+        <fullName>Hyde Park Gardens</fullName>
+        <default>false</default>
+        <label>Hyde Park Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Hyde Park Gardens Mews</fullName>
+        <default>false</default>
+        <label>Hyde Park Gardens Mews</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Modern</fullName>
+        <default>false</default>
+        <label>Park Modern</label>
+    </customValue>
+    <customValue>
+        <fullName>Hyde Park Estate</fullName>
+        <default>false</default>
+        <label>Hyde Park Estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Bayswater Road</fullName>
+        <default>false</default>
+        <label>Bayswater Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Liverpool Road</fullName>
+        <default>false</default>
+        <label>Liverpool Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Kensington Gore</fullName>
+        <default>false</default>
+        <label>Kensington Gore</label>
+    </customValue>
+    <customValue>
+        <fullName>Duchess of Bedfords Walk</fullName>
+        <default>false</default>
+        <label>Duchess of Bedfords Walk</label>
+    </customValue>
+    <customValue>
+        <fullName>Stafford Terrace</fullName>
+        <default>false</default>
+        <label>Stafford Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Warwick Gardens</fullName>
+        <default>false</default>
+        <label>Warwick Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Prince of Wales Terrace</fullName>
+        <default>false</default>
+        <label>Prince of Wales Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Radnor Terrace</fullName>
+        <default>false</default>
+        <label>Radnor Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Hornton Court</fullName>
+        <default>false</default>
+        <label>Hornton Court</label>
+    </customValue>
+    <customValue>
+        <fullName>Launceston Place</fullName>
+        <default>false</default>
+        <label>Launceston Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Lexham Gardens</fullName>
+        <default>false</default>
+        <label>Lexham Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Holland Park Villas</fullName>
+        <default>false</default>
+        <label>Holland Park Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Campden Hill</fullName>
+        <default>false</default>
+        <label>Campden Hill</label>
+    </customValue>
+    <customValue>
+        <fullName>Cambridge Place</fullName>
+        <default>false</default>
+        <label>Cambridge Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Palace Gate</fullName>
+        <default>false</default>
+        <label>Palace Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Cheniston Gardens</fullName>
+        <default>false</default>
+        <label>Cheniston Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Prince Consort Road</fullName>
+        <default>false</default>
+        <label>Prince Consort Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Kensington Green</fullName>
+        <default>false</default>
+        <label>Kensington Green</label>
+    </customValue>
+    <customValue>
+        <fullName>Hollandgreen Place</fullName>
+        <default>false</default>
+        <label>Hollandgreen Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Kensington Church Street</fullName>
+        <default>false</default>
+        <label>Kensington Church Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Court Place</fullName>
+        <default>false</default>
+        <label>Old Court Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Hyde Park Gate</fullName>
+        <default>false</default>
+        <label>Hyde Park Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Old Brompton Road</fullName>
+        <default>false</default>
+        <label>Old Brompton Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Hans Place</fullName>
+        <default>false</default>
+        <label>Hans Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Lancelot Place</fullName>
+        <default>false</default>
+        <label>Lancelot Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Ennismore Gardens</fullName>
+        <default>false</default>
+        <label>Ennismore Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Knightsbridge Gate</fullName>
+        <default>false</default>
+        <label>Knightsbridge Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Cheval Place</fullName>
+        <default>false</default>
+        <label>Cheval Place</label>
+    </customValue>
+    <customValue>
+        <fullName>The Lansbury</fullName>
+        <default>false</default>
+        <label>The Lansbury</label>
+    </customValue>
+    <customValue>
+        <fullName>Hans Crescent</fullName>
+        <default>false</default>
+        <label>Hans Crescent</label>
+    </customValue>
+    <customValue>
+        <fullName>William Street</fullName>
+        <default>false</default>
+        <label>William Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Parkside</fullName>
+        <default>false</default>
+        <label>Parkside</label>
+    </customValue>
+    <customValue>
+        <fullName>Lowndes Square</fullName>
+        <default>false</default>
+        <label>Lowndes Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Montpelier Square</fullName>
+        <default>false</default>
+        <label>Montpelier Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Thurloe Square</fullName>
+        <default>false</default>
+        <label>Thurloe Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Thurloe Place</fullName>
+        <default>false</default>
+        <label>Thurloe Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Rutland Gardens</fullName>
+        <default>false</default>
+        <label>Rutland Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Knightsbridge</fullName>
+        <default>false</default>
+        <label>Knightsbridge</label>
+    </customValue>
+    <customValue>
+        <fullName>100 Knightsbridge</fullName>
+        <default>false</default>
+        <label>100 Knightsbridge</label>
+    </customValue>
+    <customValue>
+        <fullName>Sutherland Avenue</fullName>
+        <default>false</default>
+        <label>Sutherland Avenue</label>
+    </customValue>
+    <customValue>
+        <fullName>Bryanston Square</fullName>
+        <default>false</default>
+        <label>Bryanston Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Portland Place</fullName>
+        <default>false</default>
+        <label>Portland Place</label>
+    </customValue>
+    <customValue>
+        <fullName>George Street</fullName>
+        <default>false</default>
+        <label>George Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Welbeck Street</fullName>
+        <default>false</default>
+        <label>Welbeck Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Montagu Mews West</fullName>
+        <default>false</default>
+        <label>Montagu Mews West</label>
+    </customValue>
+    <customValue>
+        <fullName>Great Portland Street</fullName>
+        <default>false</default>
+        <label>Great Portland Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Salisbury Place</fullName>
+        <default>false</default>
+        <label>Salisbury Place</label>
+    </customValue>
+    <customValue>
+        <fullName>York Street</fullName>
+        <default>false</default>
+        <label>York Street</label>
+    </customValue>
+    <customValue>
+        <fullName>West End Gate</fullName>
+        <default>false</default>
+        <label>West End Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Marylebone Lane</fullName>
+        <default>false</default>
+        <label>Marylebone Lane</label>
+    </customValue>
+    <customValue>
+        <fullName>Bolsover Street</fullName>
+        <default>false</default>
+        <label>Bolsover Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Picton Place</fullName>
+        <default>false</default>
+        <label>Picton Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Bryanston Court, George Street</fullName>
+        <default>false</default>
+        <label>Bryanston Court, George Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Sherlock Mews</fullName>
+        <default>false</default>
+        <label>Sherlock Mews</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitzhardinge Street</fullName>
+        <default>false</default>
+        <label>Fitzhardinge Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Park Lane</fullName>
+        <default>false</default>
+        <label>Park Lane</label>
+    </customValue>
+    <customValue>
+        <fullName>South Audley Street</fullName>
+        <default>false</default>
+        <label>South Audley Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Upper Grosvenor Street</fullName>
+        <default>false</default>
+        <label>Upper Grosvenor Street</label>
+    </customValue>
+    <customValue>
+        <fullName>North Audley Street</fullName>
+        <default>false</default>
+        <label>North Audley Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Clarges Mayfair</fullName>
+        <default>false</default>
+        <label>Clarges Mayfair</label>
+    </customValue>
+    <customValue>
+        <fullName>Mayfair Row</fullName>
+        <default>false</default>
+        <label>Mayfair Row</label>
+    </customValue>
+    <customValue>
+        <fullName>Green Street</fullName>
+        <default>false</default>
+        <label>Green Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Cork Street</fullName>
+        <default>false</default>
+        <label>Cork Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Grosvenor Square</fullName>
+        <default>false</default>
+        <label>Grosvenor Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Curzon Street</fullName>
+        <default>false</default>
+        <label>Curzon Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Eaton House</fullName>
+        <default>false</default>
+        <label>Eaton House</label>
+    </customValue>
+    <customValue>
+        <fullName>Brick Street</fullName>
+        <default>false</default>
+        <label>Brick Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Hanover Square</fullName>
+        <default>false</default>
+        <label>Hanover Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Maddox Street</fullName>
+        <default>false</default>
+        <label>Maddox Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Hereford House</fullName>
+        <default>false</default>
+        <label>Hereford House</label>
+    </customValue>
+    <customValue>
+        <fullName>Davies Street</fullName>
+        <default>false</default>
+        <label>Davies Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Mount Street</fullName>
+        <default>false</default>
+        <label>Mount Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Clarges</fullName>
+        <default>false</default>
+        <label>Clarges</label>
+    </customValue>
+    <customValue>
+        <fullName>Charles Street</fullName>
+        <default>false</default>
+        <label>Charles Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Mount Row</fullName>
+        <default>false</default>
+        <label>Mount Row</label>
+    </customValue>
+    <customValue>
+        <fullName>Brook Street</fullName>
+        <default>false</default>
+        <label>Brook Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Barlby Road</fullName>
+        <default>false</default>
+        <label>Barlby Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Palace Court</fullName>
+        <default>false</default>
+        <label>Palace Court</label>
+    </customValue>
+    <customValue>
+        <fullName>Stanley Gardens</fullName>
+        <default>false</default>
+        <label>Stanley Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Victoria Mews</fullName>
+        <default>false</default>
+        <label>Victoria Mews</label>
+    </customValue>
+    <customValue>
+        <fullName>Dawson Place</fullName>
+        <default>false</default>
+        <label>Dawson Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Pembridge Villas</fullName>
+        <default>false</default>
+        <label>Pembridge Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Golborne Road</fullName>
+        <default>false</default>
+        <label>Golborne Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Stanley Crescent</fullName>
+        <default>false</default>
+        <label>Stanley Crescent</label>
+    </customValue>
+    <customValue>
+        <fullName>Oxford Gardens</fullName>
+        <default>false</default>
+        <label>Oxford Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Clydesdale Road</fullName>
+        <default>false</default>
+        <label>Clydesdale Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Lansdowne Crescent</fullName>
+        <default>false</default>
+        <label>Lansdowne Crescent</label>
+    </customValue>
+    <customValue>
+        <fullName>Princes Drive</fullName>
+        <default>false</default>
+        <label>Princes Drive</label>
+    </customValue>
+    <customValue>
+        <fullName>Westerham Road</fullName>
+        <default>false</default>
+        <label>Westerham Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Leinster Gardens</fullName>
+        <default>false</default>
+        <label>Leinster Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Wadham Gardens</fullName>
+        <default>false</default>
+        <label>Wadham Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Elsworthy Terrace</fullName>
+        <default>false</default>
+        <label>Elsworthy Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>St. Edmunds Terrace</fullName>
+        <default>false</default>
+        <label>St. Edmunds Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Regent&apos;s Park Road</fullName>
+        <default>false</default>
+        <label>Regent&apos;s Park Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Elsworthy Road</fullName>
+        <default>false</default>
+        <label>Elsworthy Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Gloucester Gate</fullName>
+        <default>false</default>
+        <label>Gloucester Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Hanover Terrace</fullName>
+        <default>false</default>
+        <label>Hanover Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Cumberland Terrace</fullName>
+        <default>false</default>
+        <label>Cumberland Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Wardour Street</fullName>
+        <default>false</default>
+        <label>Wardour Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Great Marlborough Street</fullName>
+        <default>false</default>
+        <label>Great Marlborough Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Soho Square</fullName>
+        <default>false</default>
+        <label>Soho Square</label>
+    </customValue>
+    <customValue>
+        <fullName>Princes Gate</fullName>
+        <default>false</default>
+        <label>Princes Gate</label>
+    </customValue>
+    <customValue>
+        <fullName>Wetherby Gardens</fullName>
+        <default>false</default>
+        <label>Wetherby Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Ashburn Gardens</fullName>
+        <default>false</default>
+        <label>Ashburn Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>Princes Gate Mews</fullName>
+        <default>false</default>
+        <label>Princes Gate Mews</label>
+    </customValue>
+    <customValue>
+        <fullName>Petersham Place</fullName>
+        <default>false</default>
+        <label>Petersham Place</label>
+    </customValue>
+    <customValue>
+        <fullName>10 Whitehall Place</fullName>
+        <default>false</default>
+        <label>10 Whitehall Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Warwick House Street</fullName>
+        <default>false</default>
+        <label>Warwick House Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Ryder Street</fullName>
+        <default>false</default>
+        <label>Ryder Street</label>
+    </customValue>
+    <customValue>
+        <fullName>St. James Street</fullName>
+        <default>false</default>
+        <label>St. James Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Arlington Street</fullName>
+        <default>false</default>
+        <label>Arlington Street</label>
+    </customValue>
+    <customValue>
+        <fullName>St. Ann&apos;s Terrace</fullName>
+        <default>false</default>
+        <label>St. Ann&apos;s Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Elm Tree Road</fullName>
+        <default>false</default>
+        <label>Elm Tree Road</label>
+    </customValue>
+    <customValue>
+        <fullName>St. John&apos;s Wood Road</fullName>
+        <default>false</default>
+        <label>St. John&apos;s Wood Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Wellington Place</fullName>
+        <default>false</default>
+        <label>Wellington Place</label>
+    </customValue>
+    <customValue>
+        <fullName>Embassy Court</fullName>
+        <default>false</default>
+        <label>Embassy Court</label>
+    </customValue>
+    <customValue>
+        <fullName>Avenue Road</fullName>
+        <default>false</default>
+        <label>Avenue Road</label>
+    </customValue>
+    <customValue>
+        <fullName>Belgrave Gardens</fullName>
+        <default>false</default>
+        <label>Belgrave Gardens</label>
+    </customValue>
+    <customValue>
+        <fullName>St Stephens Close</fullName>
+        <default>false</default>
+        <label>St Stephens Close</label>
+    </customValue>
+    <customValue>
+        <fullName>Acacia Road</fullName>
+        <default>false</default>
+        <label>Acacia Road</label>
+    </customValue>
+    <customValue>
+        <fullName>King Street</fullName>
+        <default>false</default>
+        <label>King Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Carlton Hill</fullName>
+        <default>false</default>
+        <label>Carlton Hill</label>
+    </customValue>
+    <customValue>
+        <fullName>Birds Hill Rise</fullName>
+        <default>false</default>
+        <label>Birds Hill Rise</label>
+    </customValue>
+    <customValue>
+        <fullName>Taplow</fullName>
+        <default>false</default>
+        <label>Taplow</label>
+    </customValue>
+    <customValue>
+        <fullName>Essex Street</fullName>
+        <default>false</default>
+        <label>Essex Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Sugar Quay</fullName>
+        <default>false</default>
+        <label>Sugar Quay</label>
+    </customValue>
+    <customValue>
+        <fullName>Clarges, Mayfair</fullName>
+        <default>false</default>
+        <label>Clarges, Mayfair</label>
+    </customValue>
+    <customValue>
+        <fullName>Millbank</fullName>
+        <default>false</default>
+        <label>Millbank</label>
+    </customValue>
+    <customValue>
+        <fullName>St. James&apos;s Park</fullName>
+        <default>false</default>
+        <label>St. James&apos;s Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Brooklands Lane</fullName>
+        <default>false</default>
+        <label>Brooklands Lane</label>
+    </customValue>
+    <customValue>
+        <fullName>Fountain Park Way</fullName>
+        <default>false</default>
+        <label>Fountain Park Way</label>
+    </customValue>
+    <customValue>
+        <fullName>KSK Homes Residence &amp; Hotel</fullName>
+        <default>false</default>
+        <label>KSK Homes Residence &amp; Hotel</label>
+    </customValue>
+    <customValue>
+        <fullName>Block 3</fullName>
+        <default>false</default>
+        <label>Block 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Block 5</fullName>
+        <default>false</default>
+        <label>Block 5</label>
+    </customValue>
+    <customValue>
+        <fullName>Block 6</fullName>
+        <default>false</default>
+        <label>Block 6</label>
+    </customValue>
+    <customValue>
+        <fullName>Block 7</fullName>
+        <default>false</default>
+        <label>Block 7</label>
+    </customValue>
+    <customValue>
+        <fullName>Block 8</fullName>
+        <default>false</default>
+        <label>Block 8</label>
+    </customValue>
+    <customValue>
+        <fullName>Block 9</fullName>
+        <default>false</default>
+        <label>Block 9</label>
+    </customValue>
+    <customValue>
+        <fullName>Hamda 1 Building</fullName>
+        <default>false</default>
+        <label>Hamda 1 Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Hamda 2 Building</fullName>
+        <default>false</default>
+        <label>Hamda 2 Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Hamda 5 Building</fullName>
+        <default>false</default>
+        <label>Hamda 5 Building</label>
+    </customValue>
+    <customValue>
+        <fullName>wasl 90</fullName>
+        <default>false</default>
+        <label>wasl 90</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Ghazal Luxury</fullName>
+        <default>false</default>
+        <label>Al Ghazal Luxury</label>
+    </customValue>
+    <customValue>
+        <fullName>AHMED AL ABDULLA WAQF Building 2</fullName>
+        <default>false</default>
+        <label>AHMED AL ABDULLA WAQF Building 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Badaa Street</fullName>
+        <default>false</default>
+        <label>Al Badaa Street</label>
+    </customValue>
+    <customValue>
+        <fullName>Arenco Villas</fullName>
+        <default>false</default>
+        <label>Arenco Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Arenco Villas 12</fullName>
+        <default>false</default>
+        <label>Arenco Villas 12</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Badaa Villas</fullName>
+        <default>false</default>
+        <label>Al Badaa Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>The Collection</fullName>
+        <default>false</default>
+        <label>The Collection</label>
+    </customValue>
+    <customValue>
+        <fullName>Chorisia 1 Villas</fullName>
+        <default>false</default>
+        <label>Chorisia 1 Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Chorisia 2 Villas</fullName>
+        <default>false</default>
+        <label>Chorisia 2 Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Barari Villas</fullName>
+        <default>false</default>
+        <label>Al Barari Villas</label>
+    </customValue>
+    <customValue>
+        <fullName>The Reserve</fullName>
+        <default>false</default>
+        <label>The Reserve</label>
+    </customValue>
+    <customValue>
+        <fullName>wadi al safa</fullName>
+        <default>false</default>
+        <label>wadi al safa</label>
+    </customValue>
+    <customValue>
+        <fullName>Seventh Heaven</fullName>
+        <default>false</default>
+        <label>Seventh Heaven</label>
+    </customValue>
+    <customValue>
+        <fullName>Ashjar</fullName>
+        <default>false</default>
+        <label>Ashjar</label>
+    </customValue>
+    <customValue>
+        <fullName>The Nest</fullName>
+        <default>false</default>
+        <label>The Nest</label>
+    </customValue>
+    <customValue>
+        <fullName>Jasmine Leaf</fullName>
+        <default>false</default>
+        <label>Jasmine Leaf</label>
+    </customValue>
+    <customValue>
+        <fullName>Desert Leaf</fullName>
+        <default>false</default>
+        <label>Desert Leaf</label>
+    </customValue>
+    <customValue>
+        <fullName>Silk Leaf</fullName>
+        <default>false</default>
+        <label>Silk Leaf</label>
+    </customValue>
+    <customValue>
+        <fullName>The Neighbourhood</fullName>
+        <default>false</default>
+        <label>The Neighbourhood</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Barsha 1</fullName>
+        <default>false</default>
+        <label>Al Barsha 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Barsha 2</fullName>
+        <default>false</default>
+        <label>Al Barsha 2</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Barsha 3</fullName>
+        <default>false</default>
+        <label>Al Barsha 3</label>
+    </customValue>
+    <customValue>
+        <fullName>Al Barsha South</fullName>
+        <default>false</default>
+        <label>Al Barsha South</label>
+    </customValue>
+    <customValue>
+        <fullName>Villa Lantana</fullName>
+        <default>false</default>
+        <label>Villa Lantana</label>
+    </customValue>
+    <customValue>
+        <fullName>TIME Topaz Hotel Apartments</fullName>
+        <default>false</default>
+        <label>TIME Topaz Hotel Apartments</label>
+    </customValue>
+    <customValue>
+        <fullName>TIME Opal Hotel Apartments</fullName>
+        <default>false</default>
+        <label>TIME Opal Hotel Apartments</label>
+    </customValue>
+    <customValue>
+        <fullName>Aparthotel Adagio Premium Dubai Al Barsha</fullName>
+        <default>false</default>
+        <label>Aparthotel Adagio Premium Dubai Al Barsha</label>
+    </customValue>
+    <masterLabel>Sub Community - for Propertyfinder</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

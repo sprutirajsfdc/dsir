@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NO_STATUS_AGENCY</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Sharing_Rule__c</columns>
+    <columns>Brokerage_Registration__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Varsha,Kenneth</value>
+    </filters>
+    <filters>
+        <field>Sharing_Rule__c</field>
+        <operation>equals</operation>
+        <value>External Brokerage,Internal Brokerage</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Kadam,Aureada</value>
+    </filters>
+    <filters>
+        <field>Brokerage_Registration__c</field>
+        <operation>notEqual</operation>
+        <value>Registered,Broker Agreement Sent,Missing Documents,Brokerage Agreement Sent to ICD,Document not given by the Agency</value>
+    </filters>
+    <label>NO STATUS AGENCY</label>
+    <sharedTo>
+        <role>Call_Center</role>
+        <role>Call_Center_Manager</role>
+    </sharedTo>
+</ListView>

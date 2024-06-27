@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AMLS_is_Zero_Dont_Create_Conveyance</fullName>
+    <active>false</active>
+    <description>when AMLS Count is 0 then the Contract is not created.</description>
+    <errorConditionFormula>AND(
+  NOT(ISPICKVAL(Inquiry__r.InquiryType__c, &apos;Agency&apos;)),
+  Inquiry__r.AML_Count__c = 0
+)</errorConditionFormula>
+    <errorMessage>If  Inquiry Type is other than Agency then Contract cannot be created when No AMLs exist on Inquiry.</errorMessage>
+</ValidationRule>

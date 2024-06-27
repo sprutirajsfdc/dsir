@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Focuse__c</fullName>
+    <externalId>false</externalId>
+    <label>Focus Areas</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Sales_Leasing__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Downtown Dubai</fullName>
+                <default>false</default>
+                <label>Downtown Dubai</label>
+            </value>
+            <value>
+                <fullName>Palm Jumeirah</fullName>
+                <default>false</default>
+                <label>Palm Jumeirah</label>
+            </value>
+            <value>
+                <fullName>Emirates Hills</fullName>
+                <default>false</default>
+                <label>Emirates Hills</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Beach Residence</fullName>
+                <default>false</default>
+                <label>Jumeirah Beach Residence</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Golf Estate</fullName>
+                <default>false</default>
+                <label>Jumeirah Golf Estate</label>
+            </value>
+            <value>
+                <fullName>Al Barari</fullName>
+                <default>false</default>
+                <label>Al Barari</label>
+            </value>
+            <value>
+                <fullName>MBR City</fullName>
+                <default>false</default>
+                <label>MBR City</label>
+            </value>
+            <value>
+                <fullName>DIFC</fullName>
+                <default>false</default>
+                <label>DIFC</label>
+            </value>
+            <value>
+                <fullName>Dubai Hills Estate</fullName>
+                <default>false</default>
+                <label>Dubai Hills Estate</label>
+            </value>
+            <value>
+                <fullName>Dubai Creek Harbour</fullName>
+                <default>false</default>
+                <label>Dubai Creek Harbour</label>
+            </value>
+            <value>
+                <fullName>Dubai Harbour</fullName>
+                <default>false</default>
+                <label>Dubai Harbour</label>
+            </value>
+            <value>
+                <fullName>Jumeirah</fullName>
+                <default>false</default>
+                <label>Jumeirah</label>
+            </value>
+            <value>
+                <fullName>Umm Suqueim</fullName>
+                <default>false</default>
+                <label>Umm Suqueim</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Park</fullName>
+                <default>false</default>
+                <label>Jumeirah Park</label>
+            </value>
+            <value>
+                <fullName>Jumeirah Islands</fullName>
+                <default>false</default>
+                <label>Jumeirah Islands</label>
+            </value>
+            <value>
+                <fullName>Green Community</fullName>
+                <default>false</default>
+                <label>Green Community</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Downtown Dubai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Palm Jumeirah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Emirates Hills</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Jumeirah Beach Residence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Jumeirah Golf Estate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Al Barari</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>MBR City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>DIFC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Dubai Hills Estate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Dubai Creek Harbour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Dubai Harbour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Jumeirah</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Umm Suqueim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Jumeirah Park</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sale</controllingFieldValue>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Jumeirah Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rent</controllingFieldValue>
+            <valueName>Green Community</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

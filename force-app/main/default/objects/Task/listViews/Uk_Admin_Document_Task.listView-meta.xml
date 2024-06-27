@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Uk_Admin_Document_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Uk Admin Document</label>
+    <queue>Uk_Admin_Document</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pba__PriceRange_pb__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Desired Price Range</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0-350k</fullName>
+                <default>false</default>
+                <label>0-350k</label>
+            </value>
+            <value>
+                <fullName>350k-500k</fullName>
+                <default>false</default>
+                <label>350k-500k</label>
+            </value>
+            <value>
+                <fullName>500k-750k</fullName>
+                <default>false</default>
+                <label>500k-750k</label>
+            </value>
+            <value>
+                <fullName>750k-1mil</fullName>
+                <default>false</default>
+                <label>750k-1mil</label>
+            </value>
+            <value>
+                <fullName>1 million+</fullName>
+                <default>false</default>
+                <label>1 million+</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

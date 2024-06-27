@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>58.0</apiVersion>
+    <assignments>
+        <name>Assign_Status_Content_Creation</name>
+        <label>Assign Status Content Creation</label>
+        <locationX>50</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.pba__Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Quality Check</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Status_Content_Creation1</name>
+        <label>Assign Status Content Creation</label>
+        <locationX>1370</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.pba__Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Quality Check</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Status_Lost</name>
+        <label>Assign Status Lost</label>
+        <locationX>842</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.pba__Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Lost</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Status_Lost1</name>
+        <label>Assign Status Lost</label>
+        <locationX>2162</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.pba__Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Lost</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Status_Published</name>
+        <label>Assign Status Published</label>
+        <locationX>314</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.pba__Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Published</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Status_Published1</name>
+        <label>Assign Status Published</label>
+        <locationX>1634</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.pba__Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Published</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Status_Sold1</name>
+        <label>Assign Status Sold</label>
+        <locationX>1898</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.pba__Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Sold</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <name>Assign_Status_Sold4</name>
+        <label>Assign Status Sold</label>
+        <locationX>578</locationX>
+        <locationY>503</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.pba__Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Sold</stringValue>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Check_Listing_Sub_Status</name>
+        <label>Check Listing Sub Status</label>
+        <locationX>578</locationX>
+        <locationY>395</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Pending_AML_Compliance</name>
+            <conditionLogic>((1 OR 2) AND 3) OR ((1 OR 2) AND 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending AML</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending Compliance</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>IsNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Status_Content_Creation</targetReference>
+            </connector>
+            <label>Pending AML &amp; Compliance</label>
+        </rules>
+        <rules>
+            <name>Listing_Sub_Status_Value</name>
+            <conditionLogic>((1 OR 2 OR 3 OR 4 OR 7) AND 5) OR ((1 OR 2 OR 3 OR 4 OR 7) AND 6)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>For Sale - Available</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>For Sale - Unavailable</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Under Offer - Available</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Under Offer - Unavailable</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>IsNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Exchanged</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Status_Published</targetReference>
+            </connector>
+            <label>Listing Sub Status Value</label>
+        </rules>
+        <rules>
+            <name>Completed</name>
+            <conditionLogic>((1 OR 2) AND 3) OR ((1 OR 2) AND 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Completed</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Archived</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>IsNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Status_Sold4</targetReference>
+            </connector>
+            <label>Completed &amp; Archived</label>
+        </rules>
+        <rules>
+            <name>Withdrawn</name>
+            <conditionLogic>(1 AND 2) OR (1 AND 3)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Withdrawn</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>IsNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Status_Lost</targetReference>
+            </connector>
+            <label>Withdrawn</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Listing_Sub_Status1</name>
+        <label>Check Listing Sub Status</label>
+        <locationX>1898</locationX>
+        <locationY>395</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Pending_AML_Content_Creation</name>
+            <conditionLogic>((1 OR 2) AND 3) OR ((1 OR 2) AND 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending AML</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Pending Compliance</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>IsNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Status_Content_Creation1</targetReference>
+            </connector>
+            <label>Pending AML &amp; Content Creation</label>
+        </rules>
+        <rules>
+            <name>Listing_Sub_Status_Value1</name>
+            <conditionLogic>((1 OR 2 OR 3 OR 4 OR 5) AND 6) OR ((1 OR 2 OR 3 OR 4 OR 5) AND 7)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>To Let - Available</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>To Let - Unavailable</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Tenancy Current - Unavailable</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Tenancy Current - Available</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Under Offer - Unavailable</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>IsNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Status_Published1</targetReference>
+            </connector>
+            <label>Listing Sub Status Value</label>
+        </rules>
+        <rules>
+            <name>Tenancy_Finished_Sold</name>
+            <conditionLogic>((1 OR 2) AND 3) OR ((1 OR 2) AND 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Tenancy Finished</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Sold</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>IsNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Status_Sold1</targetReference>
+            </connector>
+            <label>Tenancy Finished &amp; Sold</label>
+        </rules>
+        <rules>
+            <name>Tenancy_Cancelled_Withdrawn</name>
+            <conditionLogic>((1 OR 4) AND 3) OR ((1 OR 4) AND 2)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Withdrawn</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>IsNew</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Listing_Sub_Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Tenancy Cancelled</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Status_Lost1</targetReference>
+            </connector>
+            <label>Tenancy Cancelled &amp; Withdrawn</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Record_Type</name>
+        <label>Check  Record Type</label>
+        <locationX>1634</locationX>
+        <locationY>287</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Sale</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Sale</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Check_Listing_Sub_Status</targetReference>
+            </connector>
+            <label>Sale</label>
+        </rules>
+        <rules>
+            <name>Rent1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.RecordType.DeveloperName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Rent</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Check_Listing_Sub_Status1</targetReference>
+            </connector>
+            <label>Rent</label>
+        </rules>
+    </decisions>
+    <description>When record is created or updated, Update Listing Status based on Listing Sub Status.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>IsNew</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>Listing - Status Update {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Listing Before Flow - Update Listing Status from Listing Sub Status</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>1508</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Record_Type</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Sharing_Rule__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>United Kingdom SIR</stringValue>
+            </value>
+        </filters>
+        <object>pba__Listing__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Draft</status>
+</Flow>

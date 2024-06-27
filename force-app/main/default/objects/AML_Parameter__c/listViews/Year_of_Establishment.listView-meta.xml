@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Year_of_Establishment</fullName>
+    <columns>NAME</columns>
+    <columns>Type__c</columns>
+    <columns>Risk_Score__c</columns>
+    <columns>Score__c</columns>
+    <columns>FATF__c</columns>
+    <columns>UAEIEC__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>AML_Parameter__c.Year_of_Establishment</value>
+    </filters>
+    <label>Year of Establishment</label>
+</ListView>

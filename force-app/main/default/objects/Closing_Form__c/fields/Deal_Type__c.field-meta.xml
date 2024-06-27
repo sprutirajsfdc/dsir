@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deal_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Deal Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Finance Seller to Finance Buyer</fullName>
+                <default>false</default>
+                <label>Finance Seller to Finance Buyer</label>
+            </value>
+            <value>
+                <fullName>Finance Seller to Cash Buyer</fullName>
+                <default>false</default>
+                <label>Finance Seller to Cash Buyer</label>
+            </value>
+            <value>
+                <fullName>Cash Seller to Finance Buyer</fullName>
+                <default>false</default>
+                <label>Cash Seller to Finance Buyer</label>
+            </value>
+            <value>
+                <fullName>Cash Seller to Cash Buyer</fullName>
+                <default>false</default>
+                <label>Cash Seller to Cash Buyer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Year_of_Establishment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Year of Establishment</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>AML_Parameter__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Year of Establishment</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>AML_Parameter__c</referenceTo>
+    <relationshipLabel>Year of Establishment</relationshipLabel>
+    <relationshipName>Year_of_Establishments</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,41 @@
+<template>
+    <div class="filterClass slds-p-around_xx-small">
+            <lightning-combobox
+                name="Project"
+                label="Project"
+                value={selectedProjectName}
+                placeholder='Select project'
+                options={options}
+                onchange={handleValueChange}
+                field-level-help="Please select project"
+            ></lightning-combobox>
+        </div>
+    <div class="project-grid">
+        <template for:each={projects} for:item="project">
+            <div key={project.Id} name={project.Id} class="project-container">
+                <!-- Click event on image URL -->
+                <img src={project.Imageurl__c} alt={project.Name} onclick={toggleUnits} data-id={project.Id} class="project-image" />
+                <!-- Display project name -->
+                <div class="project-name" onclick={toggleUnits} data-id={project.Id}>
+                    <span>{project.Name}</span>
+                </div>
+              <div if:true={project.showUnits} class="unit-details">
+    <div class="unit-grid">
+        <template for:each={project.Properties__r} for:item="unit">
+            <div key={unit.Id} class="unit-item">
+                <div class="unit-info">
+                    <span class="unit-name">{unit.CD_Unit_Number__c}</span>
+                    <span class="unit-status">{unit.Status__c}</span>
+                    <span class="unit-status">{unit.CD_No_of_Beds__c}</span>
+                     <span class="unit-status">{unit.CD_View__c}</span>
+                </div>
+            </div>
+        </template>
+    </div>
+</div>
+
+
+            </div>
+        </template>
+    </div>
+</template>

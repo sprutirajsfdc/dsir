@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gsir_lead_source__c</fullName>
+    <description>Predefined Lead Sources</description>
+    <externalId>false</externalId>
+    <label>Main Lead Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Agent Internal Referral</fullName>
+                <default>false</default>
+                <label>Agent Internal Referral</label>
+            </value>
+            <value>
+                <fullName>Agent Networking</fullName>
+                <default>false</default>
+                <label>Agent Networking</label>
+            </value>
+            <value>
+                <fullName>B2B Referral</fullName>
+                <default>false</default>
+                <label>B2B Referral</label>
+            </value>
+            <value>
+                <fullName>CCE - Did not probe</fullName>
+                <default>false</default>
+                <label>CCE - Did not probe</label>
+            </value>
+            <value>
+                <fullName>Client doenst want to provide</fullName>
+                <default>false</default>
+                <label>Client doenst want to provide</label>
+            </value>
+            <value>
+                <fullName>Cold Call - Agent</fullName>
+                <default>false</default>
+                <label>Cold Call - Agent</label>
+            </value>
+            <value>
+                <fullName>DIFC Office</fullName>
+                <default>false</default>
+                <label>DIFC Office</label>
+            </value>
+            <value>
+                <fullName>Email Campaign</fullName>
+                <default>false</default>
+                <label>Email Campaign</label>
+            </value>
+            <value>
+                <fullName>Existing Client</fullName>
+                <default>false</default>
+                <label>Existing Client</label>
+            </value>
+            <value>
+                <fullName>External Agent Referral</fullName>
+                <default>false</default>
+                <label>External Agent Referral</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>GSIR - Events &amp; Road Shows</fullName>
+                <default>false</default>
+                <label>GSIR - Events &amp; Road Shows</label>
+            </value>
+            <value>
+                <fullName>GSIR -  Magazine</fullName>
+                <default>false</default>
+                <label>GSIR -  Magazine</label>
+            </value>
+            <value>
+                <fullName>GulfSIR.com</fullName>
+                <default>false</default>
+                <label>GulfSIR.com</label>
+            </value>
+            <value>
+                <fullName>Gulf SIR Kiosk</fullName>
+                <default>false</default>
+                <label>Gulf SIR Kiosk</label>
+            </value>
+            <value>
+                <fullName>Inbound Referral</fullName>
+                <default>false</default>
+                <label>Inbound Referral</label>
+            </value>
+            <value>
+                <fullName>Instagram</fullName>
+                <default>false</default>
+                <label>Instagram</label>
+            </value>
+            <value>
+                <fullName>James Edition</fullName>
+                <default>false</default>
+                <label>James Edition</label>
+            </value>
+            <value>
+                <fullName>Lead Farming - External Data</fullName>
+                <default>false</default>
+                <label>Lead Farming - External Data</label>
+            </value>
+            <value>
+                <fullName>Lead Farming - Internal Data</fullName>
+                <default>false</default>
+                <label>Lead Farming - Internal Data</label>
+            </value>
+            <value>
+                <fullName>LinkedIn</fullName>
+                <default>false</default>
+                <label>LinkedIn</label>
+            </value>
+            <value>
+                <fullName>Luxuryestate.com</fullName>
+                <default>false</default>
+                <label>Luxuryestate.com</label>
+            </value>
+            <value>
+                <fullName>Mansion Global</fullName>
+                <default>false</default>
+                <label>Mansion Global</label>
+            </value>
+            <value>
+                <fullName>Open House</fullName>
+                <default>false</default>
+                <label>Open House</label>
+            </value>
+            <value>
+                <fullName>Outbound Referral</fullName>
+                <default>false</default>
+                <label>Outbound Referral</label>
+            </value>
+            <value>
+                <fullName>Propertyfinder.ae</fullName>
+                <default>false</default>
+                <label>Propertyfinder.ae</label>
+            </value>
+            <value>
+                <fullName>Propertywifi.com</fullName>
+                <default>false</default>
+                <label>Propertywifi.com</label>
+            </value>
+            <value>
+                <fullName>Rezora.com</fullName>
+                <default>false</default>
+                <label>Rezora.com</label>
+            </value>
+            <value>
+                <fullName>Right Move</fullName>
+                <default>false</default>
+                <label>Right Move</label>
+            </value>
+            <value>
+                <fullName>Signboard</fullName>
+                <default>false</default>
+                <label>Signboard</label>
+            </value>
+            <value>
+                <fullName>SIR.com</fullName>
+                <default>false</default>
+                <label>SIR.com</label>
+            </value>
+            <value>
+                <fullName>Sotheby&apos;s Catalogue</fullName>
+                <default>false</default>
+                <label>Sotheby&apos;s Catalogue</label>
+            </value>
+            <value>
+                <fullName>Word of Mouth</fullName>
+                <default>false</default>
+                <label>Word of Mouth</label>
+            </value>
+            <value>
+                <fullName>Zoopla</fullName>
+                <default>false</default>
+                <label>Zoopla</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role_Validation_V2</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(
+OR(
+CONTAINS (text (Role__c), &apos;Buyer&apos;),
+CONTAINS (text (Role__c), &apos;Seller&apos;),
+CONTAINS (text (Role__c), &apos;Landlord&apos;),
+CONTAINS (text (Role__c), &apos;Tenant&apos;)
+))</errorConditionFormula>
+    <errorDisplayField>Role__c</errorDisplayField>
+    <errorMessage>Please select a role that includes Buyer ,Seller ,Landlord and Tenant.</errorMessage>
+</ValidationRule>

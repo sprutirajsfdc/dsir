@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MY_Content_Request_Form</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>Listing_Agent__c</columns>
+    <columns>Status__c</columns>
+    <columns>Listing_Status__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Completed,Cancelled</value>
+    </filters>
+    <filters>
+        <field>Listing_Status__c</field>
+        <operation>notContain</operation>
+        <value>Published,Rented,Lost,Sold</value>
+    </filters>
+    <label>1. My Open Content Request Form</label>
+</ListView>

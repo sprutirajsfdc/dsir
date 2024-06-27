@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_verification_2021</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.LAST_UPDATE</columns>
+    <columns>CONTACT.LAST_ACTIVITY</columns>
+    <columns>Email_Verified__c</columns>
+    <columns>Number_Verified__c</columns>
+    <columns>Whatsapp_Verified__c</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <columns>CONTACT.LEAD_SOURCE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <columns>Sharing_Rule__c</columns>
+    <columns>Last_Logged_Activity_By__c</columns>
+    <columns>Linkedin_Link__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_YEAR</value>
+    </filters>
+    <filters>
+        <field>CONTACT.LEAD_SOURCE</field>
+        <operation>notEqual</operation>
+        <value>Four Season Sales centre</value>
+    </filters>
+    <label>Contact verification - 2021</label>
+    <sharedTo>
+        <role>Call_Center</role>
+        <role>Call_Center_Manager</role>
+    </sharedTo>
+</ListView>

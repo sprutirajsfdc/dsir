@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Buyer</fullName>
+        <default>false</default>
+        <label>Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>Seller</fullName>
+        <default>false</default>
+        <label>Seller</label>
+    </customValue>
+    <customValue>
+        <fullName>Landlord</fullName>
+        <default>false</default>
+        <label>Landlord</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenant</fullName>
+        <default>false</default>
+        <label>Tenant</label>
+    </customValue>
+    <customValue>
+        <fullName>Buyer POA</fullName>
+        <default>false</default>
+        <label>Buyer POA</label>
+    </customValue>
+    <customValue>
+        <fullName>Seller POA</fullName>
+        <default>false</default>
+        <label>Seller POA</label>
+    </customValue>
+    <customValue>
+        <fullName>3rd Party Agent</fullName>
+        <default>false</default>
+        <label>3rd Party Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Appraiser</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Appraiser</label>
+    </customValue>
+    <customValue>
+        <fullName>Facility Management</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Facility Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Contractor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Contractor</label>
+    </customValue>
+    <customValue>
+        <fullName>Builder/Developer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Builder/Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Stager</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Stager</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Manager</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Property Manager</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Lender</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lender</label>
+    </customValue>
+    <customValue>
+        <fullName>POA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>POA</label>
+    </customValue>
+    <customValue>
+        <fullName>Mortgage Broker</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mortgage Broker</label>
+    </customValue>
+    <customValue>
+        <fullName>Owner/Investor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Owner/Investor</label>
+    </customValue>
+    <customValue>
+        <fullName>Agent/Broker</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Agent/Broker</label>
+    </customValue>
+    <customValue>
+        <fullName>B2B Buyer</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>B2B Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>Secondary Seller or Vendor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Secondary Seller or Vendor</label>
+    </customValue>
+    <customValue>
+        <fullName>Secondary Buyer or Applicant</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Secondary Buyer or Applicant</label>
+    </customValue>
+    <customValue>
+        <fullName>Primary Buyer or Applicant</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Primary Buyer or Applicant</label>
+    </customValue>
+    <customValue>
+        <fullName>Primary Seller or Vendor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Primary Seller or Vendor</label>
+    </customValue>
+    <masterLabel>Roles</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

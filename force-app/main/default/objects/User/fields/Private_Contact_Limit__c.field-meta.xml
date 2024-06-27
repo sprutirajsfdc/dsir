@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Private_Contact_Limit__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>This field is used in a process to limit a users private contacts.</description>
+    <externalId>false</externalId>
+    <label>Private Contact Limit</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

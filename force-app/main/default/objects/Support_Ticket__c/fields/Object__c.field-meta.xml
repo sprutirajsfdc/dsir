@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Object__c</fullName>
+    <externalId>false</externalId>
+    <label>Object</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contact</fullName>
+                <default>false</default>
+                <label>Contact</label>
+            </value>
+            <value>
+                <fullName>Contact Manager</fullName>
+                <default>false</default>
+                <label>Contact Manager</label>
+            </value>
+            <value>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+                <label>Inquiry</label>
+            </value>
+            <value>
+                <fullName>Listing</fullName>
+                <default>false</default>
+                <label>Listing</label>
+            </value>
+            <value>
+                <fullName>Listing Manager</fullName>
+                <default>false</default>
+                <label>Listing Manager</label>
+            </value>
+            <value>
+                <fullName>Portal Listing</fullName>
+                <default>false</default>
+                <label>Portal Listing</label>
+            </value>
+            <value>
+                <fullName>Closing</fullName>
+                <default>false</default>
+                <label>Closing</label>
+            </value>
+            <value>
+                <fullName>Content Request Form</fullName>
+                <default>false</default>
+                <label>Content Request Form</label>
+            </value>
+            <value>
+                <fullName>Report</fullName>
+                <default>false</default>
+                <label>Report</label>
+            </value>
+            <value>
+                <fullName>Dashboard</fullName>
+                <default>false</default>
+                <label>Dashboard</label>
+            </value>
+            <value>
+                <fullName>Workflow Automation</fullName>
+                <default>false</default>
+                <label>Workflow Automation</label>
+            </value>
+            <value>
+                <fullName>Security &amp; Record Access</fullName>
+                <default>false</default>
+                <label>Security &amp; Record Access</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

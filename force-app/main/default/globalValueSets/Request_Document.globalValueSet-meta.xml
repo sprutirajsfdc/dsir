@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Offer - Offer Accepted Letters</fullName>
+        <default>false</default>
+        <label>Offer - Offer Accepted Letters</label>
+    </customValue>
+    <customValue>
+        <fullName>Offer - Pending Offer Letter - Applicant</fullName>
+        <default>false</default>
+        <label>Offer - Pending Offer Letter - Applicant</label>
+    </customValue>
+    <customValue>
+        <fullName>Offer - Pending Offer Letter - Vendor</fullName>
+        <default>false</default>
+        <label>Offer - Pending Offer Letter - Vendor</label>
+    </customValue>
+    <customValue>
+        <fullName>Offer - Rejected Offer Letters</fullName>
+        <default>false</default>
+        <label>Offer - Rejected Offer Letters</label>
+    </customValue>
+    <customValue>
+        <fullName>Offer - Sealed Bids - Applicant</fullName>
+        <default>false</default>
+        <label>Offer - Sealed Bids - Applicant</label>
+    </customValue>
+    <customValue>
+        <fullName>Offer - Sealed Bids - Vendor</fullName>
+        <default>false</default>
+        <label>Offer - Sealed Bids - Vendor</label>
+    </customValue>
+    <customValue>
+        <fullName>Offer - Withdrawn Offer Letters</fullName>
+        <default>false</default>
+        <label>Offer - Withdrawn Offer Letters</label>
+    </customValue>
+    <customValue>
+        <fullName>Offer - Landlord offer confirmation</fullName>
+        <default>false</default>
+        <label>Offer - Landlord offer confirmation</label>
+    </customValue>
+    <customValue>
+        <fullName>Offer - Tenant offer confirmation AST</fullName>
+        <default>false</default>
+        <label>Offer - Tenant offer confirmation AST</label>
+    </customValue>
+    <customValue>
+        <fullName>Offer - Memorandum of Sale</fullName>
+        <default>false</default>
+        <label>Offer - Memorandum of Sale</label>
+    </customValue>
+    <customValue>
+        <fullName>Contract-Memorandum of Sale</fullName>
+        <default>false</default>
+        <label>Contract-Memorandum of Sale</label>
+    </customValue>
+    <customValue>
+        <fullName>PV-Sole Selling Rights-TOB</fullName>
+        <default>false</default>
+        <label>PV-Sole Selling Rights-TOB</label>
+    </customValue>
+    <customValue>
+        <fullName>PV-Sole Agency-TOB</fullName>
+        <default>false</default>
+        <label>PV-Sole Agency-TOB</label>
+    </customValue>
+    <customValue>
+        <fullName>PV-Joint Sole Agency-TOB</fullName>
+        <default>false</default>
+        <label>PV-Joint Sole Agency-TOB</label>
+    </customValue>
+    <customValue>
+        <fullName>PV-Multiple Agency-TOB</fullName>
+        <default>false</default>
+        <label>PV-Multiple Agency-TOB</label>
+    </customValue>
+    <customValue>
+        <fullName>PV-UK TOB Rental - AST</fullName>
+        <default>false</default>
+        <label>PV-UK TOB Rental - AST</label>
+    </customValue>
+    <customValue>
+        <fullName>PV-UK TOB Rental - NHA</fullName>
+        <default>false</default>
+        <label>PV-UK TOB Rental - NHA</label>
+    </customValue>
+    <customValue>
+        <fullName>PV-Seller Questionarie</fullName>
+        <default>false</default>
+        <label>PV-Seller Questionarie</label>
+    </customValue>
+    <customValue>
+        <fullName>Letting-NHA Agreement 2019</fullName>
+        <default>false</default>
+        <label>Letting-NHA Agreement 2019</label>
+    </customValue>
+    <customValue>
+        <fullName>Letting-Company Let Agreement 2019</fullName>
+        <default>false</default>
+        <label>Letting-Company Let Agreement 2019</label>
+    </customValue>
+    <customValue>
+        <fullName>Letting-Landlord Disclaimer document</fullName>
+        <default>false</default>
+        <label>Letting-Landlord Disclaimer document</label>
+    </customValue>
+    <customValue>
+        <fullName>Letting-Deposit Deduction Statement</fullName>
+        <default>false</default>
+        <label>Letting-Deposit Deduction Statement</label>
+    </customValue>
+    <customValue>
+        <fullName>Letting-Deed of Surrender</fullName>
+        <default>false</default>
+        <label>Letting-Deed of Surrender</label>
+    </customValue>
+    <customValue>
+        <fullName>Letting-Renewal Extension</fullName>
+        <default>false</default>
+        <label>Letting-Renewal Extension</label>
+    </customValue>
+    <customValue>
+        <fullName>Letting-Sotheby_s_Application_for_Tenancy NHA</fullName>
+        <default>false</default>
+        <label>Letting-Sotheby_s_Application_for_Tenancy NHA</label>
+    </customValue>
+    <customValue>
+        <fullName>Letting-Sotheby_s_Application_for_Tenancy AST</fullName>
+        <default>false</default>
+        <label>Letting-Sotheby_s_Application_for_Tenancy AST</label>
+    </customValue>
+    <customValue>
+        <fullName>Letting-Landlord offer confirmation</fullName>
+        <default>false</default>
+        <label>Letting-Landlord offer confirmation</label>
+    </customValue>
+    <customValue>
+        <fullName>Letting-Tenant offer confirmation - NHA</fullName>
+        <default>false</default>
+        <label>Letting-Tenant offer confirmation - NHA</label>
+    </customValue>
+    <customValue>
+        <fullName>Letting-Tenant offer confirmation AST</fullName>
+        <default>false</default>
+        <label>Letting-Tenant offer confirmation AST</label>
+    </customValue>
+    <description>Documents Name</description>
+    <masterLabel>Request Document</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AML_Record_not_Exist</fullName>
+        <categories>Checklist Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AML Record not Exist</shortDescription>
+        <value>*AML Record does not Exist*  -  Please create AMLs</value>
+    </labels>
+    <labels>
+        <fullName>AML_Status_1st_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AML Status 1st Value</shortDescription>
+        <value>KYC Pending</value>
+    </labels>
+    <labels>
+        <fullName>AML_status_2nd_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AML status 2nd Value</shortDescription>
+        <value>KYC Submitted</value>
+    </labels>
+    <labels>
+        <fullName>AML_status_3rd_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AML status 3rd Value</shortDescription>
+        <value>KYC Approved</value>
+    </labels>
+    <labels>
+        <fullName>AML_status_4th_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AML status 4th Value</shortDescription>
+        <value>KYC Completed</value>
+    </labels>
+    <labels>
+        <fullName>AML_status_5th_Value</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AML status 5th Value</shortDescription>
+        <value>KYC Approved</value>
+    </labels>
+    <labels>
+        <fullName>AML_status_is_not_KYC_Pending</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AML status is not &quot;KYC Pending&quot;</shortDescription>
+        <value>To create Conveyance &apos;AML Status&apos; should be - ( &apos;KYC Pending&apos;, &apos;KYC Submitted&apos; , &apos;KYC Approved&apos; &amp; &apos;KYC Completed&apos; )</value>
+    </labels>
+    <labels>
+        <fullName>AgentStatusValue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AgentStatusValue</shortDescription>
+        <value>Available,Red Listed,Sold</value>
+    </labels>
+    <labels>
+        <fullName>Approver_URL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Approver URL</shortDescription>
+        <value>https://gulfsothebysinternational.lightning.force.com/lightning/n/Approval_Request</value>
+    </labels>
+    <labels>
+        <fullName>CRF_Chatter_Group</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CRF Chatter Group</shortDescription>
+        <value>0057T000001QLmIQAW</value>
+    </labels>
+    <labels>
+        <fullName>Chatter_Group_For_CRF</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Chatter Group For CRF</shortDescription>
+        <value>0F97T000000sZWKSA2</value>
+    </labels>
+    <labels>
+        <fullName>Checklist_is_Completed</fullName>
+        <categories>Checklist Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Checklist is Completed</shortDescription>
+        <value>Your checklist is completed, You can create a Contract</value>
+    </labels>
+    <labels>
+        <fullName>Closing_Permmission</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Closing Permmission</shortDescription>
+        <value>Read</value>
+    </labels>
+    <labels>
+        <fullName>ConveyanceChecklist_Doc_Check</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ConveyanceChecklist Doc-Check</shortDescription>
+        <value>&lt;p style=&quot;font-size: 14.5px; padding-left: 20px;&quot;&gt;&lt;/br&gt;
+&lt;b&gt;Contact Documents:&lt;/b&gt;&lt;/br&gt;
+Buyers Passport&lt;/br&gt;
+Buyers Visa&lt;/br&gt;
+Buyers EID&lt;/br&gt;
+Sellers Passport&lt;/br&gt;
+Sellers Visa&lt;/br&gt;
+Sellers EID&lt;/br&gt;
+&lt;/br&gt;
+&lt;b&gt;Property Documents:&lt;/b&gt;&lt;/br&gt;
+Form A, Sales/Leasing form or NOC&lt;/br&gt;
+Tenancy agreement or Ejari&lt;/br&gt;
+Title Deed &lt;/br&gt;
+Form B &lt;/br&gt;
+Form I ( If applicable)&lt;/br&gt;
+&lt;/br&gt;
+&lt;b&gt;Agency Documents:&lt;/b&gt;&lt;/br&gt;
+If Agency Involves&lt;/br&gt;
+Agency License&lt;/br&gt;
+BRN&lt;/br&gt;
+ORN&lt;/br&gt;&lt;/p&gt;</value>
+    </labels>
+    <labels>
+        <fullName>Empty_Field_in_Checklist</fullName>
+        <categories>Checklist Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Empty Field in Checklist</shortDescription>
+        <value>*Please go to the respective records and Update the fields</value>
+    </labels>
+    <labels>
+        <fullName>Favorites_SendRecommendationNoFavoriteSelected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Favorites_SendRecommendationNoFavoriteSelected</shortDescription>
+        <value>Please select at least one favorite.</value>
+    </labels>
+    <labels>
+        <fullName>Inquiry_already_has_Conveyance</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inquiry already has Conveyance</shortDescription>
+        <value>Inquiry already has a Contract</value>
+    </labels>
+    <labels>
+        <fullName>LWC_Contact_RecordId_SIR_Real_Eastate_LLC</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC Contact RecordId SIR Real Eastate LLC</shortDescription>
+        <value>0033X00003uRbeRQAS</value>
+    </labels>
+    <labels>
+        <fullName>LWC_Conveyance_RecordTypeId_Exclusive_project</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC Conveyance RecordTypeId Exclusive project</shortDescription>
+        <value>0127T000000scYxQAI</value>
+    </labels>
+    <labels>
+        <fullName>LWC_Transaction_Type_Always_New_Developments_Exclusive_Project</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LWC Transaction Type  Always New Developments - Exclusive Project</shortDescription>
+        <value>New Developments - Exclusive Projects</value>
+    </labels>
+    <labels>
+        <fullName>Listing_Record_not_Exist</fullName>
+        <categories>Checklist Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Listing Record not Exist</shortDescription>
+        <value>*Listing Record does not Exist*  -  Please create Listing</value>
+    </labels>
+    <labels>
+        <fullName>LuxHabitatIntUserId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LuxHabitatIntUserId</shortDescription>
+        <value>0051t0000023eup</value>
+    </labels>
+    <labels>
+        <fullName>Lwc_Inquiry_RecordTypeId_Exclusive_Project</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Lwc Inquiry RecordTypeId Exclusive Project</shortDescription>
+        <value>0127T000000Gr2oQAC</value>
+    </labels>
+    <labels>
+        <fullName>Manage_Property_Inventory_Reacord_type</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Manage Property Inventory Reacord type</shortDescription>
+        <value>0127T000000Gr2oQAC</value>
+    </labels>
+    <labels>
+        <fullName>No_AML_in_Checklist</fullName>
+        <categories>Checklist Error Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No AML in Checklist</shortDescription>
+        <value>* No AML Found - Please create AML</value>
+    </labels>
+    <labels>
+        <fullName>Offer_Reservation_ConfirmReservation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Offer_Reservation_ConfirmReservation</shortDescription>
+        <value>Do you really want to reserve this listing?</value>
+    </labels>
+    <labels>
+        <fullName>Offer_Reservation_ConfirmReservationCancellation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Offer_Reservation_ConfirmReservationCancellation</shortDescription>
+        <value>Do you really want to cancel the reservation for this listing?</value>
+    </labels>
+    <labels>
+        <fullName>Offer_Reservation_OfferNotActive</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Offer_Reservation_OfferNotActive</shortDescription>
+        <value>Please select an active offer to reserve the listing.</value>
+    </labels>
+    <labels>
+        <fullName>SearchUnitHelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchUnitHelpText</shortDescription>
+        <value>This Filter Works Independently</value>
+    </labels>
+    <labels>
+        <fullName>SearchUnitSeriesHelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchUnitSeriesHelpText</shortDescription>
+        <value>Enter Last Two Digit of Unit Number</value>
+    </labels>
+    <labels>
+        <fullName>X2nd_Page_Title</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>2nd Page Title</shortDescription>
+        <value>Make sure you have the below documents ready to upload:</value>
+    </labels>
+</CustomLabels>

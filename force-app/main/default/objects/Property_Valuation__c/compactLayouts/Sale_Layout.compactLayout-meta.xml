@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sale_Layout</fullName>
+    <fields>Address__c</fields>
+    <fields>Name</fields>
+    <fields>Agency__c</fields>
+    <fields>Listing_Price__c</fields>
+    <fields>MA_Scheduled_Date_Time__c</fields>
+    <fields>Property_Sub_Type__c</fields>
+    <fields>Size__c</fields>
+    <label>Sale Layout</label>
+</CompactLayout>

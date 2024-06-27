@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Google_map_link_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( TEXT(Type) = &apos;Photo shoot&apos;,  ISBLANK( Google_Map_URL__c ))</errorConditionFormula>
+    <errorDisplayField>Google_Map_URL__c</errorDisplayField>
+    <errorMessage>Please provide a google map link of the property address.</errorMessage>
+</ValidationRule>

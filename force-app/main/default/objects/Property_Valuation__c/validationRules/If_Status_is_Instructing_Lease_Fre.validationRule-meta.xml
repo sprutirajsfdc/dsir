@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>If_Status_is_Instructing_Lease_Fre</fullName>
+    <active>true</active>
+    <description>If status Instructing then lease frequency required</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Status__c),
+ISPICKVAL( Status__c , &apos;Instructing&apos;) ,
+RecordType.DeveloperName = CASESAFEID(&apos;Rent&apos;),
+ISBLANK(Text( Lease_Frequency__c  ))
+)</errorConditionFormula>
+    <errorDisplayField>Lease_Frequency__c</errorDisplayField>
+    <errorMessage>Status is Instructing -then fill the Lease Frequency</errorMessage>
+</ValidationRule>

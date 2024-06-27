@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Beneficial_Owner_Country_of_Citizenship__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Beneficial Owner Country of Citizenship</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>AML_Parameter__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Country</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>AML_Parameter__c</referenceTo>
+    <relationshipLabel>Beneficial Owner Country of Citizenship</relationshipLabel>
+    <relationshipName>Beneficial_Owner_Country_of_Citizenships</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

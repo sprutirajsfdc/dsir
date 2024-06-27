@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Showing</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>New Showing</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>var listingId 	= &quot;{!pba__Listing__c.Id}&quot;;
+var contactId = &quot;{!Contact.Id}{!pba__Favorite__c.pba__ContactId__c}&quot;;
+
+	var urlParams = &apos;?action=Showing_New&apos;;
+	if (listingId != &apos;&apos; &amp;&amp; listingId != null) urlParams += &apos;&amp;listingId=&apos; + listingId;
+	if (contactId != &apos;&apos; &amp;&amp; contactId != null) urlParams += &apos;&amp;contactId=&apos;+contactId;
+
+	//urlParams += &apos;&amp;retURL=/&apos;+listingId;
+
+	window.open(&apos;/apex/pba__ActionDispatcher&apos;+urlParams);</url>
+</WebLink>

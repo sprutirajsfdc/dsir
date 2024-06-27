@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Lettings and Full Management</fullName>
+        <default>false</default>
+        <label>Lettings and Full Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Lettings and Rent Collection</fullName>
+        <default>false</default>
+        <label>Lettings and Rent Collection</label>
+    </customValue>
+    <customValue>
+        <fullName>Short Term Lettings</fullName>
+        <default>false</default>
+        <label>Short Term Lettings</label>
+    </customValue>
+    <customValue>
+        <fullName>Full Management</fullName>
+        <default>false</default>
+        <label>Full Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Maintenance Only</fullName>
+        <default>false</default>
+        <label>Maintenance Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Vacant Management</fullName>
+        <default>false</default>
+        <label>Vacant Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Letting only</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Letting only</label>
+    </customValue>
+    <customValue>
+        <fullName>Collect rent Up to Date</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Collect rent Up to Date</label>
+    </customValue>
+    <customValue>
+        <fullName>Collect First Rent Payment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Collect First Rent Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>Rent Collection</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Rent Collection</label>
+    </customValue>
+    <customValue>
+        <fullName>Managed Tenancy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Managed Tenancy</label>
+    </customValue>
+    <customValue>
+        <fullName>Introducing tenant</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Introducing tenant</label>
+    </customValue>
+    <masterLabel>Letting Service</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

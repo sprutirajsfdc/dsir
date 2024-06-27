@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <decisions>
+        <name>check_Inquiry_Red_Listed_Status_Available_Expired_Date</name>
+        <label>check Inquiry Red Listed Status &amp; Available Expired Date</label>
+        <locationX>506</locationX>
+        <locationY>276</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>status_Red_Listed</name>
+            <conditionLogic>(1 AND 2) OR 3</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.pba__Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Red Listed</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Red_Listed_to_Available_Expired_Date__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.pba__Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Inquiry_Red_Listed_Status_Expired</targetReference>
+            </connector>
+            <label>status = Red Listed</label>
+        </rules>
+    </decisions>
+    <description>When inquiry record is update
+Schedule path is on 0 days After 
+If &quot;Status= Red Listed&quot; and &quot;Red Listed to Available Expired Date is null false&quot;.
+then Update inquiry &quot;Red_Listed_Status__c = Expired&quot; and update unit &quot;Status__c= Available&quot;.</description>
+    <environments>Default</environments>
+    <interviewLabel>Inquiry Red Listed: After Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Inquiry Red Listed: After Flow(New)</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Check_Error</name>
+        <label>Check Error</label>
+        <locationX>638</locationX>
+        <locationY>492</locationY>
+        <inputAssignments>
+            <field>Exception_Message__c</field>
+            <value>
+                <elementReference>$Flow.FaultMessage</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MethodName__c</field>
+            <value>
+                <stringValue>Update Red listed Status.</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name__c</field>
+            <value>
+                <stringValue>Inquiry : After Flow - Red Listed Expired</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ObjectID__c</field>
+            <value>
+                <elementReference>$Record.Name</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Object__c</field>
+            <value>
+                <stringValue>Inquiry</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type__c</field>
+            <value>
+                <stringValue>Error</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Error_Log__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>Copy_1_of_Check_Error</name>
+        <label>Check Error</label>
+        <locationX>374</locationX>
+        <locationY>600</locationY>
+        <inputAssignments>
+            <field>Exception_Message__c</field>
+            <value>
+                <elementReference>$Flow.FaultMessage</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MethodName__c</field>
+            <value>
+                <stringValue>Update Unit Status is Available.</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name__c</field>
+            <value>
+                <stringValue>Inquiry : After Flow - Red Listed Expired</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ObjectID__c</field>
+            <value>
+                <elementReference>$Record.Name</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Object__c</field>
+            <value>
+                <stringValue>Inquiry</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type__c</field>
+            <value>
+                <stringValue>Error</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Error_Log__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordUpdates>
+        <name>Update_Inquiry_Red_Listed_Status_Expired</name>
+        <label>Update Inquiry Red Listed Status = Expired</label>
+        <locationX>110</locationX>
+        <locationY>384</locationY>
+        <connector>
+            <targetReference>Update_Unit_Status_Available</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Check_Error</targetReference>
+        </faultConnector>
+        <inputAssignments>
+            <field>Red_Listed_Status__c</field>
+            <value>
+                <stringValue>Expired</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Unit_Status_Available</name>
+        <label>Update Unit  Status = Available</label>
+        <locationX>110</locationX>
+        <locationY>492</locationY>
+        <faultConnector>
+            <targetReference>Copy_1_of_Check_Error</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Unit__r.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Status__c</field>
+            <value>
+                <stringValue>Available</stringValue>
+            </value>
+        </inputAssignments>
+        <object>CD_Property__c</object>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <object>pba__Request__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <scheduledPaths>
+            <name>Check_Red_Listed_to_Available_Expired_Date</name>
+            <connector>
+                <targetReference>check_Inquiry_Red_Listed_Status_Available_Expired_Date</targetReference>
+            </connector>
+            <label>Check Red Listed to Available Expired Date</label>
+            <offsetNumber>0</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>Red_Listed_to_Available_Expired_Date__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

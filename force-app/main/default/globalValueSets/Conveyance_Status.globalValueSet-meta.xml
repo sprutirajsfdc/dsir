@@ -2,7 +2,7 @@
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
         <fullName>Open</fullName>
-        <default>false</default>
+        <default>true</default>
         <label>Open</label>
     </customValue>
     <customValue>
@@ -64,6 +64,30 @@
         <fullName>Fall Through</fullName>
         <default>false</default>
         <label>Fall Through</label>
+    </customValue>
+    <customValue>
+        <fullName>Settellment</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Settellment</label>
+    </customValue>
+    <customValue>
+        <fullName>Final Offer Letter</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Final Offer Letter</label>
+    </customValue>
+    <customValue>
+        <fullName>Valuation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Valuation</label>
+    </customValue>
+    <customValue>
+        <fullName>Request MOS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Request MOS</label>
     </customValue>
     <masterLabel>Conveyance Status</masterLabel>
     <sorted>false</sorted>

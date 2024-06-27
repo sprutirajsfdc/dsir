@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Status__c</columns>
+    <columns>Contract_Value__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <columns>First_Broker__c</columns>
+    <columns>Second_Broker__c</columns>
+    <columns>Inquiry_Listing_Sub_Community__c</columns>
+    <columns>Inquiry_Unit_Number__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Conveyance__c.UAE</value>
+    </filters>
+    <filters>
+        <field>Property_Mortgaged__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <filters>
+        <field>Finance_Conditional__c</field>
+        <operation>equals</operation>
+        <value>YES</value>
+    </filters>
+    <label>All UAE Non Exclusive</label>
+</ListView>

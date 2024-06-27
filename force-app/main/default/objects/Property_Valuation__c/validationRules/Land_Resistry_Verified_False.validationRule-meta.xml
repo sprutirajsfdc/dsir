@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Land_Resistry_Verified_False</fullName>
+    <active>true</active>
+    <description>When Land Registry Verified is false, then it does not update the Status.</description>
+    <errorConditionFormula>AND
+(
+ISCHANGED( Status__c ) , 
+NOT( Land_Registry_Verified__c),
+DATEVALUE(CreatedDate) &gt; DATE(2023, 12, 04)
+)</errorConditionFormula>
+    <errorMessage>Land registry verification is pending - you can’t change the status</errorMessage>
+</ValidationRule>

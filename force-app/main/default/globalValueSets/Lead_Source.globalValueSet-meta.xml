@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>3rd Party Agency</fullName>
+        <default>false</default>
+        <label>3rd Party Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Active Pipe</fullName>
+        <default>false</default>
+        <label>Active Pipe</label>
+    </customValue>
+    <customValue>
+        <fullName>Agent Internal Referral</fullName>
+        <default>false</default>
+        <label>Agent Internal Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>Auction House</fullName>
+        <default>false</default>
+        <label>Auction House</label>
+    </customValue>
+    <customValue>
+        <fullName>Auction House Desk</fullName>
+        <default>false</default>
+        <label>Auction House Desk</label>
+    </customValue>
+    <customValue>
+        <fullName>B2B Personal Relationship</fullName>
+        <default>false</default>
+        <label>B2B Personal Relationship</label>
+    </customValue>
+    <customValue>
+        <fullName>Baccarat Developer</fullName>
+        <default>false</default>
+        <label>Baccarat Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Baccarat Residences Sales Centre</fullName>
+        <default>false</default>
+        <label>Baccarat Residences Sales Centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Baccarat Website</fullName>
+        <default>false</default>
+        <label>Baccarat Website</label>
+    </customValue>
+    <customValue>
+        <fullName>Belgravia Resident&apos;s Journal</fullName>
+        <default>false</default>
+        <label>Belgravia Resident&apos;s Journal</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal Front Residences -Sales Center</fullName>
+        <default>false</default>
+        <label>Canal Front Residences -Sales Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal Front Residences - What&apos;s app Agency Group</fullName>
+        <default>false</default>
+        <label>Canal Front Residences - What&apos;s app Agency Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Canal Front - Website</fullName>
+        <default>false</default>
+        <label>Canal Front - Website</label>
+    </customValue>
+    <customValue>
+        <fullName>CCE - Did not probe</fullName>
+        <default>false</default>
+        <label>CCE - Did not probe</label>
+    </customValue>
+    <customValue>
+        <fullName>Commversion</fullName>
+        <default>false</default>
+        <label>Commversion</label>
+    </customValue>
+    <customValue>
+        <fullName>Developer</fullName>
+        <default>false</default>
+        <label>Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>DMCC Developer</fullName>
+        <default>false</default>
+        <label>DMCC Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>DMCC SO Uptown Sales Center</fullName>
+        <default>false</default>
+        <label>DMCC SO Uptown Sales Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Eden House Canal Developer</fullName>
+        <default>false</default>
+        <label>Eden House Canal Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Eden House Canal Sales Centre</fullName>
+        <default>false</default>
+        <label>Eden House Canal Sales Centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Eden Plots Developer</fullName>
+        <default>false</default>
+        <label>Eden Plots Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>External Agent Referral</fullName>
+        <default>false</default>
+        <label>External Agent Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>Facebook Ads</fullName>
+        <default>false</default>
+        <label>Facebook Ads</label>
+    </customValue>
+    <customValue>
+        <fullName>Four Seasons Abu Dhabi Developer</fullName>
+        <default>false</default>
+        <label>Four Seasons Abu Dhabi Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Four Seasons Abu Dhabi Sales Centre</fullName>
+        <default>false</default>
+        <label>Four Seasons Abu Dhabi Sales Centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Four Seasons DIFC Sales Centre</fullName>
+        <default>false</default>
+        <label>Four Seasons DIFC Sales Centre</label>
+    </customValue>
+    <customValue>
+        <fullName>Four Seasons Retail</fullName>
+        <default>false</default>
+        <label>Four Seasons Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>FT Property Listings</fullName>
+        <default>false</default>
+        <label>FT Property Listings</label>
+    </customValue>
+    <customValue>
+        <fullName>Golder Tower Developer</fullName>
+        <default>false</default>
+        <label>Golder Tower Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Greens Office - Walk in</fullName>
+        <default>false</default>
+        <label>Greens Office - Walk in</label>
+    </customValue>
+    <customValue>
+        <fullName>ICD Referral</fullName>
+        <default>false</default>
+        <label>ICD Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>Inbound Referral</fullName>
+        <default>false</default>
+        <label>Inbound Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>Instagram Ads</fullName>
+        <default>false</default>
+        <label>Instagram Ads</label>
+    </customValue>
+    <customValue>
+        <fullName>International referral</fullName>
+        <default>false</default>
+        <label>International referral</label>
+    </customValue>
+    <customValue>
+        <fullName>James Edition</fullName>
+        <default>false</default>
+        <label>James Edition</label>
+    </customValue>
+    <customValue>
+        <fullName>Juwai.com</fullName>
+        <default>false</default>
+        <label>Juwai.com</label>
+    </customValue>
+    <customValue>
+        <fullName>Knightsbridge Office</fullName>
+        <default>false</default>
+        <label>Knightsbridge Office</label>
+    </customValue>
+    <customValue>
+        <fullName>Krisha.Kz Portal</fullName>
+        <default>false</default>
+        <label>Krisha.Kz Portal</label>
+    </customValue>
+    <customValue>
+        <fullName>KSA Sales Center</fullName>
+        <default>false</default>
+        <label>KSA Sales Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Lead Farming - Internal Data</fullName>
+        <default>false</default>
+        <label>Lead Farming - Internal Data</label>
+    </customValue>
+    <customValue>
+        <fullName>Lead Farming Internal Data March</fullName>
+        <default>false</default>
+        <label>Lead Farming Internal Data March</label>
+    </customValue>
+    <customValue>
+        <fullName>Le Figaro</fullName>
+        <default>false</default>
+        <label>Le Figaro</label>
+    </customValue>
+    <customValue>
+        <fullName>Linkedin Ads</fullName>
+        <default>false</default>
+        <label>Linkedin Ads</label>
+    </customValue>
+    <customValue>
+        <fullName>List Globally</fullName>
+        <default>false</default>
+        <label>List Globally</label>
+    </customValue>
+    <customValue>
+        <fullName>Local Paper - Other Agent</fullName>
+        <default>false</default>
+        <label>Local Paper - Other Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>LSIR - LinkedIn</fullName>
+        <default>false</default>
+        <label>LSIR - LinkedIn</label>
+    </customValue>
+    <customValue>
+        <fullName>LSIR - Magazine</fullName>
+        <default>false</default>
+        <label>LSIR - Magazine</label>
+    </customValue>
+    <customValue>
+        <fullName>luxhabitat.ae - Blogs</fullName>
+        <default>false</default>
+        <label>luxhabitat.ae - Blogs</label>
+    </customValue>
+    <customValue>
+        <fullName>luxhabitat.ae - DataSource</fullName>
+        <default>false</default>
+        <label>luxhabitat.ae - DataSource</label>
+    </customValue>
+    <customValue>
+        <fullName>luxhabitat.ae - Mapto Media</fullName>
+        <default>false</default>
+        <label>luxhabitat.ae - Mapto Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Luxuryestate.com</fullName>
+        <default>false</default>
+        <label>Luxuryestate.com</label>
+    </customValue>
+    <customValue>
+        <fullName>Mansion Global</fullName>
+        <default>false</default>
+        <label>Mansion Global</label>
+    </customValue>
+    <customValue>
+        <fullName>Mayfair Office</fullName>
+        <default>false</default>
+        <label>Mayfair Office</label>
+    </customValue>
+    <customValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </customValue>
+    <customValue>
+        <fullName>New York Times</fullName>
+        <default>false</default>
+        <label>New York Times</label>
+    </customValue>
+    <customValue>
+        <fullName>Nobu Developer</fullName>
+        <default>false</default>
+        <label>Nobu Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Nobu Residences Sales Center</fullName>
+        <default>false</default>
+        <label>Nobu Residences Sales Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Yet Confirmed</fullName>
+        <default>false</default>
+        <label>Not Yet Confirmed</label>
+    </customValue>
+    <customValue>
+        <fullName>One Zaabeel One&amp;Only Youtube</fullName>
+        <default>false</default>
+        <label>One Zaabeel One&amp;Only Youtube</label>
+    </customValue>
+    <customValue>
+        <fullName>OnTheMarket</fullName>
+        <default>false</default>
+        <label>OnTheMarket</label>
+    </customValue>
+    <customValue>
+        <fullName>On the Market</fullName>
+        <default>false</default>
+        <label>On the Market</label>
+    </customValue>
+    <customValue>
+        <fullName>OO Private Homes PC</fullName>
+        <default>false</default>
+        <label>OO Private Homes PC</label>
+    </customValue>
+    <customValue>
+        <fullName>Open House</fullName>
+        <default>false</default>
+        <label>Open House</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Agent Buyer</fullName>
+        <default>false</default>
+        <label>Other Agent Buyer</label>
+    </customValue>
+    <customValue>
+        <fullName>Outbound Referral</fullName>
+        <default>false</default>
+        <label>Outbound Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>Outdoor Signage</fullName>
+        <default>false</default>
+        <label>Outdoor Signage</label>
+    </customValue>
+    <customValue>
+        <fullName>OZ Residences PC</fullName>
+        <default>false</default>
+        <label>OZ Residences PC</label>
+    </customValue>
+    <customValue>
+        <fullName>P &amp; C client - Swiss Referral</fullName>
+        <default>false</default>
+        <label>P &amp; C client - Swiss Referral</label>
+    </customValue>
+    <customValue>
+        <fullName>Paid Search</fullName>
+        <default>false</default>
+        <label>Paid Search</label>
+    </customValue>
+    <customValue>
+        <fullName>Paid Social</fullName>
+        <default>false</default>
+        <label>Paid Social</label>
+    </customValue>
+    <customValue>
+        <fullName>Personal</fullName>
+        <default>false</default>
+        <label>Personal</label>
+    </customValue>
+    <customValue>
+        <fullName>PR</fullName>
+        <default>false</default>
+        <label>PR</label>
+    </customValue>
+    <customValue>
+        <fullName>Prime Location</fullName>
+        <default>false</default>
+        <label>Prime Location</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Residences DIFC Developer</fullName>
+        <default>false</default>
+        <label>Private Residences DIFC Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Properstar</fullName>
+        <default>false</default>
+        <label>Properstar</label>
+    </customValue>
+    <customValue>
+        <fullName>Propertyfinder.ae</fullName>
+        <default>false</default>
+        <label>Propertyfinder.ae</label>
+    </customValue>
+    <customValue>
+        <fullName>Propertyfinder.ae - EDM</fullName>
+        <default>false</default>
+        <label>Propertyfinder.ae - EDM</label>
+    </customValue>
+    <customValue>
+        <fullName>Propertyfinder - Offplan</fullName>
+        <default>false</default>
+        <label>Propertyfinder - Offplan</label>
+    </customValue>
+    <customValue>
+        <fullName>PropGoLuxury</fullName>
+        <default>false</default>
+        <label>PropGoLuxury</label>
+    </customValue>
+    <customValue>
+        <fullName>Raffles Jeddah Developer</fullName>
+        <default>false</default>
+        <label>Raffles Jeddah Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Raffles - Retail</fullName>
+        <default>false</default>
+        <label>Raffles - Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>Relocation Agent</fullName>
+        <default>false</default>
+        <label>Relocation Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Rera App</fullName>
+        <default>false</default>
+        <label>Rera App</label>
+    </customValue>
+    <customValue>
+        <fullName>ReverseAds Digital Agency</fullName>
+        <default>false</default>
+        <label>ReverseAds Digital Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Rightmove</fullName>
+        <default>false</default>
+        <label>Rightmove</label>
+    </customValue>
+    <customValue>
+        <fullName>Ritz Carlton BB Developer</fullName>
+        <default>false</default>
+        <label>Ritz Carlton BB Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Ritz Carlton RAK Developer</fullName>
+        <default>false</default>
+        <label>Ritz Carlton RAK Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Ritz Carlton Rak Sales Center</fullName>
+        <default>false</default>
+        <label>Ritz Carlton Rak Sales Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Ritz Carlton Residences Business Bay Sales Center</fullName>
+        <default>false</default>
+        <label>Ritz Carlton Residences Business Bay Sales Center</label>
+    </customValue>
+    <customValue>
+        <fullName>Signboard</fullName>
+        <default>false</default>
+        <label>Signboard</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS</fullName>
+        <default>false</default>
+        <label>SMS</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS_EK_BD_Platinum</fullName>
+        <default>false</default>
+        <label>SMS_EK_BD_Platinum</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS_SolRE</fullName>
+        <default>false</default>
+        <label>SMS_SolRE</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign</fullName>
+        <default>false</default>
+        <label>SMS Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (AAI_DB)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (AAI_DB)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (Alanazi_DB)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (Alanazi_DB)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (AliGarni_AAS)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (AliGarni_AAS)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (DHE_DXB)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (DHE_DXB)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (DXB_PJ)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (DXB_PJ)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (DXB-DT)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (DXB-DT)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (EH_DXB)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (EH_DXB)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (EK_DB)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (EK_DB)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (External_Tahani)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (External_Tahani)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (MA_Personal)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (MA_Personal)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (Menassat_DB)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (Menassat_DB)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (PJ_DXB)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (PJ_DXB)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign (RR_BM)</fullName>
+        <default>false</default>
+        <label>SMS Campaign (RR_BM)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Campaign - Lost Retargetting</fullName>
+        <default>false</default>
+        <label>SMS Campaign - Lost Retargetting</label>
+    </customValue>
+    <customValue>
+        <fullName>SMS Marketing - 1 Residences</fullName>
+        <default>false</default>
+        <label>SMS Marketing - 1 Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>Snapchat Ads</fullName>
+        <default>false</default>
+        <label>Snapchat Ads</label>
+    </customValue>
+    <customValue>
+        <fullName>Snapchat Organic</fullName>
+        <default>false</default>
+        <label>Snapchat Organic</label>
+    </customValue>
+    <customValue>
+        <fullName>Sotheby&apos;s Catalogue</fullName>
+        <default>false</default>
+        <label>Sotheby&apos;s Catalogue</label>
+    </customValue>
+    <customValue>
+        <fullName>Sothebys.com</fullName>
+        <default>false</default>
+        <label>Sothebys.com</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - AdWords</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - AdWords</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Chat</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Chat</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Edm</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Edm</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Event</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Event</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Instagram</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Instagram</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Linkedin</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Linkedin</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Meta Campaign</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Meta Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Organic</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Organic</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Pinterest</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Pinterest</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - PR</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - PR</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Printed Media</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Printed Media</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Signboards</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Signboards</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - SMS Campaign</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - SMS Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Thread</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Thread</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Website Organic</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Website Organic</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - Whatsapp Marketing</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - Whatsapp Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.ae - YouTube</fullName>
+        <default>false</default>
+        <label>sothebysrealty.ae - YouTube</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - AdWords</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - AdWords</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Chat</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Chat</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Edm</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Edm</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Event</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Event</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Instagram</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Instagram</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Linkedin</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Linkedin</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Meta Campaign</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Meta Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Organic</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Organic</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Pinterest</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Pinterest</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - PR</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - PR</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Printed Media</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Printed Media</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Signboards</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Signboards</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - SMS Campaign</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - SMS Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Thread</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Thread</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Website Organic</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Website Organic</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - Whatsapp Marketing</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - Whatsapp Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.co.uk - YouTube</fullName>
+        <default>false</default>
+        <label>sothebysrealty.co.uk - YouTube</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - AdWords</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - AdWords</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Chat</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Chat</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Edm</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Edm</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Event</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Event</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Instagram</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Instagram</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Linkedin</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Linkedin</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Meta Campaign</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Meta Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Organic</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Organic</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Pinterest</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Pinterest</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - PR</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - PR</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Printed Media</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Printed Media</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Signboards</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Signboards</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - SMS Campaign</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - SMS Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Thread</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Thread</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Website Organic</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Website Organic</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - Whatsapp Marketing</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - Whatsapp Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>sothebysrealty.sa - YouTube</fullName>
+        <default>false</default>
+        <label>sothebysrealty.sa - YouTube</label>
+    </customValue>
+    <customValue>
+        <fullName>Spectre</fullName>
+        <default>false</default>
+        <label>Spectre</label>
+    </customValue>
+    <customValue>
+        <fullName>St. John&apos;s Wood Office</fullName>
+        <default>false</default>
+        <label>St. John&apos;s Wood Office</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunday Times Bricks &amp; Mortar</fullName>
+        <default>false</default>
+        <label>Sunday Times Bricks &amp; Mortar</label>
+    </customValue>
+    <customValue>
+        <fullName>Telegram</fullName>
+        <default>false</default>
+        <label>Telegram</label>
+    </customValue>
+    <customValue>
+        <fullName>Tiktok Marketing - 1 Residences</fullName>
+        <default>false</default>
+        <label>Tiktok Marketing - 1 Residences</label>
+    </customValue>
+    <customValue>
+        <fullName>UK Letters Campaign</fullName>
+        <default>false</default>
+        <label>UK Letters Campaign</label>
+    </customValue>
+    <customValue>
+        <fullName>Walk In</fullName>
+        <default>false</default>
+        <label>Walk In</label>
+    </customValue>
+    <customValue>
+        <fullName>Word of Mouth</fullName>
+        <default>false</default>
+        <label>Word of Mouth</label>
+    </customValue>
+    <customValue>
+        <fullName>Zabeel Saray Sales Center</fullName>
+        <default>false</default>
+        <label>Zabeel Saray Sales Center</label>
+    </customValue>
+    <customValue>
+        <fullName>ZoomProperty.com</fullName>
+        <default>false</default>
+        <label>ZoomProperty.com</label>
+    </customValue>
+    <customValue>
+        <fullName>Zoopla</fullName>
+        <default>false</default>
+        <label>Zoopla</label>
+    </customValue>
+    <masterLabel>Lead Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

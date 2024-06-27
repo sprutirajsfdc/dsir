@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Request_Change_Validation</fullName>
+    <active>true</active>
+    <description>Except when the record type is UK, a contract request is only allowed to change if the previous stage is Open.</description>
+    <errorConditionFormula>AND(
+NOT( RecordType.Name  = &quot;UK&quot;),
+NOT(ISPICKVAL(PRIORVALUE( Status__c ), &quot;Open&quot;)),
+ISCHANGED(Status__c) ,
+(ISPICKVAL(Status__c, &quot;Contract Requested&quot;))
+)</errorConditionFormula>
+    <errorMessage>Contract Request is only allowed to change if the previous Stage is Open.</errorMessage>
+</ValidationRule>

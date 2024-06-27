@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_Document__c</fullName>
+    <externalId>false</externalId>
+    <label>Request Document</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Document_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Request_Document</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Offer</controllingFieldValue>
+            <valueName>Offer - Offer Accepted Letters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offer</controllingFieldValue>
+            <valueName>Offer - Pending Offer Letter - Applicant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offer</controllingFieldValue>
+            <valueName>Offer - Pending Offer Letter - Vendor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offer</controllingFieldValue>
+            <valueName>Offer - Rejected Offer Letters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offer</controllingFieldValue>
+            <valueName>Offer - Sealed Bids - Applicant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offer</controllingFieldValue>
+            <valueName>Offer - Sealed Bids - Vendor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offer</controllingFieldValue>
+            <valueName>Offer - Withdrawn Offer Letters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offer</controllingFieldValue>
+            <valueName>Offer - Landlord offer confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offer</controllingFieldValue>
+            <valueName>Offer - Tenant offer confirmation AST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Offer</controllingFieldValue>
+            <valueName>Offer - Memorandum of Sale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property Valuation</controllingFieldValue>
+            <valueName>PV-Sole Selling Rights-TOB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property Valuation</controllingFieldValue>
+            <valueName>PV-Sole Agency-TOB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property Valuation</controllingFieldValue>
+            <valueName>PV-Joint Sole Agency-TOB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property Valuation</controllingFieldValue>
+            <valueName>PV-Multiple Agency-TOB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property Valuation</controllingFieldValue>
+            <valueName>PV-UK TOB Rental - AST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property Valuation</controllingFieldValue>
+            <valueName>PV-UK TOB Rental - NHA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Property Valuation</controllingFieldValue>
+            <valueName>PV-Seller Questionarie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letting</controllingFieldValue>
+            <valueName>Letting-NHA Agreement 2019</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letting</controllingFieldValue>
+            <valueName>Letting-Company Let Agreement 2019</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letting</controllingFieldValue>
+            <valueName>Letting-Landlord Disclaimer document</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letting</controllingFieldValue>
+            <valueName>Letting-Deposit Deduction Statement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letting</controllingFieldValue>
+            <valueName>Letting-Deed of Surrender</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letting</controllingFieldValue>
+            <valueName>Letting-Renewal Extension</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letting</controllingFieldValue>
+            <valueName>Letting-Sotheby_s_Application_for_Tenancy NHA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letting</controllingFieldValue>
+            <valueName>Letting-Sotheby_s_Application_for_Tenancy AST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letting</controllingFieldValue>
+            <valueName>Letting-Landlord offer confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letting</controllingFieldValue>
+            <valueName>Letting-Tenant offer confirmation - NHA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letting</controllingFieldValue>
+            <valueName>Letting-Tenant offer confirmation AST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Contract-Memorandum of Sale</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Count_should_be_greater_than_0</fullName>
+    <active>true</active>
+    <description>Is Direct Buyer? YES &amp; Is Direct Seller? is YES then Buyer AML &amp; Seller AML count should be &gt;0</description>
+    <errorConditionFormula>IF(TEXT(Is_Direct_Buyer__c)  = &quot;YES&quot; &amp;&amp;  TEXT(Is_Direct_Seller__c) = &quot;YES&quot; &amp;&amp;  ISPICKVAL( Status__c , &apos;Contract Requested&apos;) &amp;&amp; NOT( RecordType.Name = &quot;UK&quot;),
+IF(  Contract_Buyer_AML_Count__c &lt;= 0 ||  Seller_AML_Count__c 
+ &lt;=0,TRUE,false),false)</errorConditionFormula>
+    <errorMessage>If the Seller and Buyer are direct, AML for Seller and Buyer needs to be requested to proceed with contract request.</errorMessage>
+</ValidationRule>

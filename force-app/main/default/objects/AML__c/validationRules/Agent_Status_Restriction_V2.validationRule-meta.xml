@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Status_Restriction_V2</fullName>
+    <active>true</active>
+    <description>Only records with a Status of &apos;Draft&apos;, &apos;Submitted&apos;, or &apos;KYC Submitted&apos; can be updated.
+
+https://gulfsothebysinternational.lightning.force.com/lightning/setup/ObjectManager/01I3X000001LTT5/ValidationRules/03d7T000000Xb3y/view</description>
+    <errorConditionFormula>IF(
+    ISCHANGED(Status__c),
+    AND(
+        NOT(
+            OR(
+                ISPICKVAL(Status__c, &apos;Draft&apos;),
+                ISPICKVAL(Status__c, &apos;Submitted&apos;),
+                ISPICKVAL(Status__c, &apos;Complaince Review&apos;)
+
+                
+            )
+        ),
+        $User.ProfileId = &apos;00e1t000000HkGa&apos; || $User.ProfileId = &apos;00e3X000001RysS&apos; || $User.ProfileId = &apos;00e7T000001A6dg&apos;
+    ),
+    null
+)</errorConditionFormula>
+    <errorMessage>Only Status allowed to update either &apos;Draft&apos; , &apos;Submitted&apos;  Or  &quot;Complaince Review&quot;
+DP AGENT(00e3X000001RysS) &amp; PB Agent(00e1t000000HkGa) &amp; UK Agent (00e7T000001A6dg) .</errorMessage>
+</ValidationRule>

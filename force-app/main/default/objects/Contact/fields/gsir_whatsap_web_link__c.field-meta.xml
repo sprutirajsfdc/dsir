@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gsir_whatsap_web_link__c</fullName>
+    <externalId>false</externalId>
+    <formula>SUBSTITUTE(
+    &quot;https://wa.me/&quot; &amp;
+    IF(
+        NOT(ISBLANK(TEXT(MobileCountry__c))),
+        MID(
+            TEXT(MobileCountry__c),
+            FIND(&quot;+&quot;, TEXT(MobileCountry__c)) + 1,
+            FIND(&quot; &quot;, TEXT(MobileCountry__c), FIND(&quot;+&quot;, TEXT(MobileCountry__c))) - FIND(&quot;+&quot;, TEXT(MobileCountry__c))
+        ),
+        &quot;&quot;
+    ) &amp;
+    IF(
+        CONTAINS(MobilePhone , &quot; &quot;),
+        SUBSTITUTE(MobilePhone , &quot; &quot;, &quot;&quot;),
+        IF(
+            CONTAINS(MobilePhone , &quot;+&quot;),
+            SUBSTITUTE(MobilePhone , &quot;+&quot;, &quot;&quot;),
+            IF(
+                CONTAINS(MobilePhone , &quot;-&quot;),
+                SUBSTITUTE(MobilePhone , &quot;-&quot;, &quot;&quot;),
+                IF(
+                    CONTAINS(MobilePhone , &quot;(&quot;),
+                    SUBSTITUTE(MobilePhone , &quot;(&quot;, &quot;&quot;),
+                    IF(
+                        CONTAINS(MobilePhone , &quot;)&quot;),
+                        SUBSTITUTE(MobilePhone , &quot;)&quot;, &quot;&quot;),
+                        MobilePhone
+                    )
+                )
+            )
+        )
+    ),
+    &quot; &quot;,
+    &quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Whatsap Web Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

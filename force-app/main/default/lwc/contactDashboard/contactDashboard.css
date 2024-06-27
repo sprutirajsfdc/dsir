@@ -1,0 +1,23 @@
+.main{
+	    margin-left: 20px;
+		font-size: 16px;
+
+}
+.power-bi-link {
+    color: #0070d2; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.power-bi-link:hover {
+    background-color: #f0f0f0; 
+}
+
+iframe {
+    border: 1px solid #d8dde6; 
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1); 
+    margin-top: 1rem;
+}

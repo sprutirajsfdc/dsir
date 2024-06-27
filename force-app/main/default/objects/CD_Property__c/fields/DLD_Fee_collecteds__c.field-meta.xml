@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DLD_Fee_collecteds__c</fullName>
+    <description>This is Formula percent field of Dld Fee Collected Aggregate Result Field upon Dld Fee Formula field.
+where,
+Dld Fee = 4% of Final Net price .</description>
+    <externalId>false</externalId>
+    <formula>(DLD_Fee_Collected__c/Dld_Fee__c )</formula>
+    <inlineHelpText>Need to fill Dld Fee Collected and Dld fee field to get  this value..</inlineHelpText>
+    <label>DLD Fee collected (%)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

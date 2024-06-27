@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_2_days_before_End_Date__c</fullName>
+    <description>This checkbox will be true if it is 2 days before the Contract End date.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+  TODAY() = EndDate__c - 2,
+  true,
+  false
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Is 2 days before End Date</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

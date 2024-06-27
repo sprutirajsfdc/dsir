@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Form_Info</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Price__c</columns>
+    <columns>Project_Name__c</columns>
+    <columns>Message__c</columns>
+    <columns>Form_Name__c</columns>
+    <columns>Form_Location__c</columns>
+    <columns>FormRegion__c</columns>
+    <columns>URL__c</columns>
+    <columns>Listing_Type__c</columns>
+    <columns>Reference_ID__c</columns>
+    <columns>Currency__c</columns>
+    <columns>Bedrooms__c</columns>
+    <columns>Agent_Name__c</columns>
+    <columns>Agent_Email__c</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Form_Name__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Form Info</label>
+</ListView>

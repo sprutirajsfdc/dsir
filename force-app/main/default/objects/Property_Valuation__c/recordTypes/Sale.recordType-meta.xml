@@ -1,0 +1,4836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sale</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Sale_Layout</compactLayoutAssignment>
+    <label>Sale</label>
+    <picklistValues>
+        <picklist>Age__c</picklist>
+        <values>
+            <fullName>Modern</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Period</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agency__c</picklist>
+        <values>
+            <fullName>Joint Sole</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multiple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sole</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Are_You_Aware_Of_Impending_Increases__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Building_And_Fire_Regs_Compliance__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Commercial_Amenities__c</picklist>
+        <values>
+            <fullName>6-8 cars off-street parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acreage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Availabe Networked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Available Furnished</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCTV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conservatory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Covered Parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dining in Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fireplace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgian Architecture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Greens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grand Hall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grand Staircase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Ceilings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Theatre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Library</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Listed Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marble Finishings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massive Rooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modern Finishings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail in Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared Gym</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared Spa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennis Court</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terrace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underfloor Heating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utility Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Victorian Architecture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>View of Landmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>View of Water</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waterfront</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wine Cellar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wooden Floors</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Completion_Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offplan Primary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Damp_Proofing_or_Timber_Treatment__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Decoration__c</picklist>
+        <values>
+            <fullName>Fair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unmodernised</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Very Good</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Disposal__c</picklist>
+        <values>
+            <fullName>By Auction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>By Tender</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confidential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offers Invited</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Treaty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared Ownership</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Do_You_Have_Planning_Consent_For__c</picklist>
+        <values>
+            <fullName>works carried out%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>works proposed%3F</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Do_you_have_Secondary_Property_Owner__c</picklist>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Furnished__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Has_Property_Suffered_From_flooding__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Has_building_extension_work_been_carried__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>If_YES_Do_You_Have_A_Guarantee__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>If_YES_Do_You_Have_A_Guarantees__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_Insurance_Included_in_Charges__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>YES</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Land_Registry_Primary_Owner_Salutation__c</picklist>
+        <values>
+            <fullName>Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Land_Registry_Secondary_Owner_Salutation__c</picklist>
+        <values>
+            <fullName>Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miss</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Land_Registry__c</picklist>
+        <values>
+            <fullName>Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lease_Frequency__c</picklist>
+        <values>
+            <fullName>Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lease_Type__c</picklist>
+        <values>
+            <fullName>Long-Let</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short-Let</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Letting_Fee_Colloection__c</picklist>
+        <values>
+            <fullName>28 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Half Yearly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upfront</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upfront Over 2 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yearly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Letting_Service__c</picklist>
+        <values>
+            <fullName>Full Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lettings and Full Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lettings and Rent Collection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maintenance Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Short Term Lettings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vacant Management</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Listing_Category__c</picklist>
+        <values>
+            <fullName>Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secondary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Listing_Type__c</picklist>
+        <values>
+            <fullName>Rent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sale</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Locality__c</picklist>
+        <values>
+            <fullName>Riverside</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rural</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seaside%2FSeaview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Town%2FCity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Village</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Management_Fee_Collection__c</picklist>
+        <values>
+            <fullName>Half Yearly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yearly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marketing_Exposure__c</picklist>
+        <values>
+            <fullName>ActivePipe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Portals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lonres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propertyfinder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rightmove UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK SIR Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zoopla UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Ecom</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership_Type__c</picklist>
+        <values>
+            <fullName>Flying freehold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Freehold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leasehold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Freehold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Share of freehold</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Parking__c</picklist>
+        <values>
+            <fullName>Double Garage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gated Parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Off Street Parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resident Parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Triple Garage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Private_Amenities__c</picklist>
+        <values>
+            <fullName>6-8 cars off-street parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acreage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Balcony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Built in Kitchen Appliances</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Built in Wardrobes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCTV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central A%2FC %26 Heating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communal Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conservatory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Covered Parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dated and Development</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct views over Hyde Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Driver%27s Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fireplace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgian Architecture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Greens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grand Hall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grand Staircase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Ceilings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Cinema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Theatre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Library</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Listed Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maid Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maids Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marble Finishings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massive Rooms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modern Finishings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Original Period Features</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pets Allowed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Gym</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Jacuzzi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sauna %26 Steam Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Share of freehold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared Gym</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared Spa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Staff Accommodation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Storage Units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Study</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennis Court</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terrace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Treatment Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Underfloor Heating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utility Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Victorian Architecture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>View of Landmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>View of Water</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walk in Closet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waterfront</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wine Cellar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wine Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wooden Floors</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Property_Orientation__c</picklist>
+        <values>
+            <fullName>Corner Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single Row</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Property_Ownership__c</picklist>
+        <values>
+            <fullName>Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Household</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trust</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Property_Sub_Type__c</picklist>
+        <values>
+            <fullName>Bungalow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Bulk Units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Factory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Full floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Half floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Hotel Apartment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Labor Camp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Medical Facility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Office Space</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Plot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Restaurant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Shop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Show Room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Staff Accommodation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Villa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial - Whole Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cottage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>End of Terrace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mid Terrace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Apartment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Bulk Units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Bungalow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Chalet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Compound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Duplex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Full floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Half floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Labor Camp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Land</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Penthouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Terrace House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Townhouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Villa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Residential - Whole Building</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-detached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terraced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Townhouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Property_Type__c</picklist>
+        <values>
+            <fullName>Apartment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barn Conversion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bungalow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chalet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commercial Floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Development Plot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Farm House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flat%2FApartment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Half floor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel Apartment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Houseboat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Land</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Land Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Land Residential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Loft Apartment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lot%2FLand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maisonette</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Multiple Sale Units</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Specified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Space</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Penthouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Studio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Townhouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Villa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Whole Building</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason__c</picklist>
+        <values>
+            <fullName>Cannot conduct viewings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Won%27t Lower Price</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client not contacable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Stock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance document Falsified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance%3A Signature Mismatch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate Listing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Form A Expiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Agent Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rented by Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rented by Competing Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rented by Direct Landlord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rented by LSIR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sold by Competing Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sold by Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sold by Direct Owner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Select_Ara_Town__c</picklist>
+        <values>
+            <fullName>Ascot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battersea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bayswater</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belgravia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campden Hill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chelsea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chelsea Creek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chiswick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chobham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cobham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotswolds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Covent Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuffley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Earls Court</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Horsley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Effingham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Farnham Common</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fetcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finchley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fitzvoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fulham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guilford</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hampstead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hampstead Garden Suburb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hampstead Heath</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Haywards Heath</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hertfordshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highgate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holland Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hyde Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kensington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kingston upon Thames</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knightsbridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Little Venice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>London</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maida Vale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marylebone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayfair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nine Elms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Kensington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notting Hill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oxshott</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oxted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paddington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pimlico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potters Bar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primrose Hill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Putney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regent%27s Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Hampstead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Kensington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St James%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St John%27s Wood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunningdale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swiss Cottage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Little Boltons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia Water</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walton-on-Thames</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Lane</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Horsley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Westminster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weybridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windsor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Select_Area_Town__c</picklist>
+        <values>
+            <fullName>Ascot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Battersea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bayswater</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belgravia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campden Hill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chelsea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chelsea Creek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chiswick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chobham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cobham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotswolds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Covent Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuffley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Earls Court</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>East Horsley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Effingham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Farnham Common</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fetcham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finchley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fitzvoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fulham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guilford</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hampstead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hampstead Garden Suburb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hampstead Heath</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Haywards Heath</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hertfordshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highgate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holland Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hyde Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kensington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kingston upon Thames</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knightsbridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Little Venice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>London</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maida Vale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marylebone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayfair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nine Elms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Kensington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notting Hill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oxshott</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oxted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paddington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pimlico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potters Bar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primrose Hill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Putney</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regent%27s Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Hampstead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Kensington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St James%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St John%27s Wood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunningdale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swiss Cottage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temple</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Little Boltons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia Water</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walton-on-Thames</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Lane</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Horsley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Westminster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weybridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windsor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Seller_LeadSource__c</picklist>
+        <values>
+            <fullName>3rd Party Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Active Pipe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agent Internal Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arts Night 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auction House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auction House Desk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B2B Personal Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baccarat Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baccarat Residences Sales Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baccarat Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belgravia Resident%27s Journal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boat Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCE - Did not probe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal Front - Website</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal Front Residences - What%27s app Agency Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal Front Residences -Sales Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commversion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DMCC Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DMCC SO Uptown Sales Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eden House Canal Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eden House Canal Sales Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eden Plots Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Agent Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F1 Jeddah 2024</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FT Property Listings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Four Seasons Abu Dhabi Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Four Seasons Abu Dhabi Reception</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Four Seasons Abu Dhabi Sales Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Four Seasons DIFC Sales Centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Four Seasons Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golden Tower CC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golden Tower Sales Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golder Tower Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greens Office - Walk in</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICD Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inbound Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instagram Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>International referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>James Edition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Juwai%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KSA Sales Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knightsbridge Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Krisha%2EKz Portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LSIR - LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LSIR - Magazine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Le Figaro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Farming - Internal Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Farming Internal Data March</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Linkedin Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>List Globally</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Paper - Other Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxuryestate%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mansion Global</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Market appraisal and applicant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mayfair Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York Times</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nobu Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nobu Residences Sales Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Yet Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OO Private Homes PC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OZ Residences PC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On the Market</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OnTheMarket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Zaabeel One%26Only Youtube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Agent Buyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outbound Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Signage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P %26 C client - Swiss Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prime Location</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Residences DIFC Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PropGoLuxury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Properstar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propertyfinder - Offplan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propertyfinder%2Eae</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Propertyfinder%2Eae - EDM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raffles - Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raffles Jeddah Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Raffles Jeddah Sales Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relocation Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rera App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ReverseAds Digital Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rightmove</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ritz Carlton BB Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ritz Carlton RAK Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ritz Carlton Rak Sales Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ritz Carlton Residences Business Bay Sales Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28AAI_DB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28Alanazi_DB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28AliGarni_AAS%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28DHE_DXB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28DXB-DT%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28DXB_PJ%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28EH_DXB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28EK_DB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28External_Tahani%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28MA_Personal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28Menassat_DB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28PJ_DXB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign %28RR_BM%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Campaign - Lost Retargetting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS Marketing - 1 Residences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS_EK_BD_Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMS_SolRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snapchat Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Snapchat Organic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sotheby%27s Catalogue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sothebys%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spectre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>St%2E John%27s Wood Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sunday Times Bricks %26 Mortar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telegram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tiktok Marketing - 1 Residences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK Letters Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walk In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of Mouth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zabeel Saray Sales Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZoomProperty%2Ecom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zoopla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>luxhabitat%2Eae - Blogs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>luxhabitat%2Eae - DataSource</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>luxhabitat%2Eae - Mapto Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Edm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Linkedin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Meta Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Organic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Pinterest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Printed Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - SMS Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Signboards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Thread</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Website Organic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - Whatsapp Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eae - YouTube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Edm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Linkedin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Meta Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Organic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Pinterest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Printed Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - SMS Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Signboards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Thread</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Website Organic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - Whatsapp Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Eco%2Euk - YouTube</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Edm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Linkedin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Meta Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Organic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - PR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Pinterest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Printed Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - SMS Campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Signboards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Thread</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Website Organic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - Whatsapp Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>sothebysrealty%2Esa - YouTube</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sharing_Region__c</picklist>
+        <values>
+            <fullName>Saudi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UAE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sharing_Rule__c</picklist>
+        <values>
+            <fullName>Gulf Sothebys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Brokerage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saudi Arabia Sotheby%27s International Realty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UK Sotheby%27s International Realty</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sharing_Sub_Region__c</picklist>
+        <values>
+            <fullName>Abha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Abu Dhabi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ajman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al-Baha</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al-Madinah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ar%27ar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buraidah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dammam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fujairah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hayel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jazan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jeddah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liverpool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Makkah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manchester</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Najran</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ras Al Khaimah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Riyadh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sakaka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sharjah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tabouk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Umm Al Quwain</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Land Registry Pending</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>MA Scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Instructed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Property__c</picklist>
+        <values>
+            <fullName>Freehold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leasehold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leasehold%2FShare of freehold</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Upgrades__c</picklist>
+        <values>
+            <fullName>Fully Upgraded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi upgraded</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>View__c</picklist>
+        <values>
+            <fullName>Address Lake Hotel and Dubai Mall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al Khail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al Qudra Road</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al Seef Tower and Partial Palm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Al Seef Tower and Partial Palm and Dubai Marina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arabian Gulf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arabian Gulf %26 Burj Khalifa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arabian Gulf %26 The Dubai Frame</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arabian Gulf %2F The Dubai Frame %2F Zaabeel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlantis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlantis %26 Burj Al Arab View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlantis and Burj Al Arab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlantis and Marina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atlantis and Palm Jumeirah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BELLEVUE%2FBB view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BLVD 4 view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back to Back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bellevue and Business Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blvd Street View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blvd view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boulevard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boulevard View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bounce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bounce and Courtyard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Building View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj %26 Fountain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj %2F Fountain %2F Iconic Tower View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj %2F Iconic Tower View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj %2F Park View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Al Arab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Al Arab view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa %26 Downtown Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa %26 Fountain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa %26 community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa %2F Zabeel - Pool View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa %2F Zabeel View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa and Business Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa and Creek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa and Fountain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa and Fountain view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa%2C Canal%2C Meydan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa%2C Dancing Fountains%2C DIFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa%2C Downtown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa%2C Downtown%2C Marina%2C JLT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa%2C Lakeview</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khalifa%2F Creek View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Khlaifa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj and Boulevard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj and DIFC View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj and Fountain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj and Fountain View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj and Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Burj%2C Garden and Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Bay Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Bay View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Bay and Downtown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Bay and Old Town</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CREEK HARBOUR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal %26 BLVD 5 view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal %26 BLVD View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal %26 Burj View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal and BLVD5 view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal and Burj View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal and Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal and Marina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal and Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal and Sea View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal and Sikka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canal%2C Business Bay%2C SZR%2C Partial Burj Khalifa View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cantara and Community View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ccommunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Garden View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Garden%2F SZR and Street view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Central Garden%2F street view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Circle Mall View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City %2F Pool View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commnity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commumity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community %26 Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community %2F Canal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community %2F SZR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Park View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Road</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community View %2F Park View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community View with Partial Marina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community and Courtyard view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community and Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community and Pool View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community%2C Partial Sea %26 Marina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corner Plot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corner plot with water stream view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creek View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creek and Lagoon View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crystal Lagoon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crystal Lagoons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIFC %26 Zaabeel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIFC %2F Burj Khalifa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIFC %2F Zaabeel View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIFC View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIFC and Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIFC and Sea view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deluxe Palm View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deluxe Sea View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deluxe sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desert Scape</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Double side lake view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downtown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downtown Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downtown Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downtown Skyline View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Downtown and DIFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dual View Sea %2B Boulevard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Canal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Canal view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Mall and Foutains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Marina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Marina and Partial Sea View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Marina%2C Marina 23 Tower and SZR View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Marina%2C Marina 23 Tower%2C SHZ Rd view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Skyline View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Skyline%2FGolf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dubai Water Canal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EMAAR Business Park %2F Sheikh Zayed Road View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Earth Course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emirates Living</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emirates Livings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F C Road View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fire %26 Earth Golf Course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fountain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fountain view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Front view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Burj Khalifa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Burj Khalifa %26 Fountain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Burj Khalifa and Fountain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Burj Khalifa and Fountain and DIFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Burj Khalifa and Fountain view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Burj Khalifa view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Burj%2C Fountain and Canal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Canal %26 Burj Khalifa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Canal View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Creek and Lagoon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Creek and Lagoon View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Creek%2FLagoon %26 Burj View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Creek%2FLagoon and Burj View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Crystal Lagoon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Fountain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Golf Course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Lagoon%2F Burj Khalifa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Lake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Lake View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Marina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Marina View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Marina and Sea view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Marina and sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Marina%26Community view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Pool%2C 2 Lakes and Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Sea View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Sea View %26 Atlantis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Sea and Dubai Marina Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Sea and Palm Jumeirah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Sea and Palm View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full fountain view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full sea view with Dubai Eye%26Palm Jumeirah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GREEN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garden %2F Community View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garden View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garden views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garden%2CPool %26 Burj Khalifa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gardens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Godolphin Stables</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Course %26 LAke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Course %2F Marina %2F Sea View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Course %2F Marina View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Course and Dubai Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf Course and Lake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf and Canal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf and Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf course View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf course and Burj Khalifa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf course%2C park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf%2C Lake and Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Golf%2C landscape and community view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gulf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gulf Course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hessa street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iconic Tower%2F Creek View%2F Swimming Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iconic Tower%2FCreek View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial area</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inner Court View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intermediate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBR View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JLT Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jabal Ali</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jebel Ali</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jebel Ali %2B Sea view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jumeirah Golf Estates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jumeirah Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jumeirah Village Triangle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jumeirah and Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jumierah Island View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kids Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kids Pool View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lagoon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lagoon Burj khalifa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lake %26 Golf Course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lake %2F Island View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lake View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lake and Fountain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lake and Marina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lake and Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lake and SZR view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lake%2C Dubai Marina%2C and Emirates Living views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lake%2CBeside park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscape</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscape %2F Dubailand %2F Neighbour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscape %2F Restaurant %2F Pool View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscape View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscape with private garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscape%2C Dubailand %26 neighbor view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscaped%2Flake%2FBurj Khalifa%2FBusiness Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landscaping View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lazy River</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARINA%2C SZR%2C COMMUNITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Main Road %26 Community Garden View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Main Road View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Main View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Main road</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina Full Sea View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina Skyline %26 Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina Skyline and Palm Jumeirah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina Views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina and Burj Al Arab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina and Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina and Community Views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina and Golf course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina and Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina and Sea View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina and Sea Views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina and pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marina%26Community View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meadows</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mediterranean Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mesmerizing Lake and Fountain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meydan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meydan view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meydan%2C MBR City%2C Pool %26 Golf Putting Range</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Middle Row</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miracle Garden View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighbor View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighborhood view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighbour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neighbour View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Tower View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North %2F Corner View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North %2F West View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Obstructed View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ocean view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Old Town</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open view of the creek and facing Burj Khalifa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overlooking the Lake - Partial Marina and Sheikh Zayed Road</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POOL %26 PARK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palm %2F City %2F Pool View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palm Jumeirah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palm Jumeirah and Burj Arab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palm and Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panorama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panoramic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panoramic %2F SZR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panoramic Sea View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panoramic Sea and Atlantis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panoramic Sea and Sheikh Zayed Road View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Panoramic view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park Facing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park View%2F Swimming Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park and Lake Views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park and Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park n pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park%2C skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Park%2F Dubiotech %2F Neighbour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Marina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Part Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Burj Khalifa %26 Full sea views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Burj Khalifa %2B Canal %2B Community View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Burj Khalifa and Fountain view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Burj View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Burj and Blvd Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Canal %26 Burj View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Canal View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Canal%2F Partial Tower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Fountain %26 SZR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Golf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Golf Course view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Lake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Lake View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Marina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Marina %26 sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Marina Views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Marina and Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Marina view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Marina%26Community View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Marina%26Community Views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Marina%2C Sea and Golf course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Palm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Panoramic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Park View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Pool view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial fountain view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial golf view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial lake and fountain view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial palm view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial sea view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Penthouse view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Picturesque Burj Khalifa Views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Polo Field View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool %26 Garden View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool %26 Golf Course View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool %26 Partial Marina View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool %2F City View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool %2F Corner View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool %2F Wharf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool and Canal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool and Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool and Garden View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool and Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool and Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool and Theme Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool and garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool%2C Community%2C and Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pool%2C Skyline and Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium Panoramic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Communal Terrace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Race Course %26 Canal View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Race Course %26 Partial Canal View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Race Course View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reserve and Garden with stream</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reserve and water stream</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ritz and Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>River</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rivers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Road</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Road %26 Landscape</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Road View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Road facing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Road%2FPartial Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Road%2FSea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roadside View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SZR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SZR View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SZR and Dubai Marina views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SZR and Lake views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SZR and Sea view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea %26 Burj Al Arab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea %26 DIFC View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea %26 Dubai Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea %26 Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea Side</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea View and Dubai Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea and Atlantis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea and Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea and Marina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea and Marina Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea and Palm view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea and Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea and SZR view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea and Sunset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea%2FCommunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea%2FMedia City%2FGolf Course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sea%2FPool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheikh Mohammed Bin Zayed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheikh Mohammed Bin Zayed and Garden View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheikh Zayed Road</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheikh Zayed Road View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheikh Zayed Road and Dubai Canal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sheikh Zayed Road%2C Dubai Canal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side Road</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side Road View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Side Rode View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Single Row</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skyline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skyline View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skyline and Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skyline and park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Ridge and Community</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stable %2F Business Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stable and Business Bay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stables view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Palm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard neighbour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard sea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street and JGE View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Street view%2F Jumeirah Golf Estates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swimming Pool View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swimming Pool and Theme Park view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swimming pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swimming pool and Boulevard View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TH%2FCommunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Burj view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Dubai Frame</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Dubai Frame %26 Zaabeel View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Dubai Frame %2F Zaabeel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Greens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Greens%2C Barsha Heights%2C SZR views</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Iconic Tower%2FCreek View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Tower - Burj Khalifa View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Tower - Pool View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Tower View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Villa view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tree Lined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Versace Palazzo%2FWharf%2FPool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>View of Garden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Walkway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Canal %26 Burj View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waterfront</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>World Trade Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zaabeel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zaabeel %26 DIFC %2F Burj Khalifa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zabeel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zabeel %26 DIFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zabeel Neighborhood</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zabeel Park %26 Swimming Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zabeel Park view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zabeel View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zabeel and New Tower View</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>lake view%2Fpartial golf course</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>land mark view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>oberoi view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>palm view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>park%2FDubiotech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>pool and side</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>skyline and palace view</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>vincitore boulevard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>with landscape%2C dubailand %26 neighbor view</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

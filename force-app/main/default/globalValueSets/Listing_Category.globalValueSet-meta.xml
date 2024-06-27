@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Primary - New Home</fullName>
+        <default>false</default>
+        <label>Primary - New Home</label>
+    </customValue>
+    <customValue>
+        <fullName>Secondary - Second Hand</fullName>
+        <default>false</default>
+        <label>Secondary - Second Hand</label>
+    </customValue>
+    <masterLabel>Listing Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

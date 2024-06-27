@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AML_Approved_or_Rejected_Status_Lock</fullName>
+    <active>false</active>
+    <description>Once  Approved or Rejected then Can not change Status to anything else.</description>
+    <errorConditionFormula>AND(
+    OR(
+        (ISPICKVAL(PRIORVALUE(Status__c), &apos;Approved&apos;)),
+        (ISPICKVAL(PRIORVALUE(Status__c), &apos;Rejected&apos;))
+    ),
+    RecordType.Name = &apos;UK&apos;,
+    ISCHANGED(Status__c)
+)</errorConditionFormula>
+    <errorMessage>AML Status is Approved or Rejected - Status can&apos;t be changed</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Land_Registry_Verified_and_Check_Owner</fullName>
+    <active>true</active>
+    <description>When the land registry verification is true, and the owner is inactive, attempting to edit the record will result in an error for updating the owner. Please ensure that the information provided is correct and try again.</description>
+    <errorConditionFormula>AND(
+    Land_Registry_Verified__c = true,
+    ISCHANGED(Land_Registry_Verified__c),
+    NOT( Owner:User.IsActive )
+)</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>Agent is Inactive - Please assign to new Agent  and then try the same</errorMessage>
+</ValidationRule>

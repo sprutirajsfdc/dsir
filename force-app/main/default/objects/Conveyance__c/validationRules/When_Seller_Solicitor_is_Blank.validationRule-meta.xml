@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>When_Seller_Solicitor_is_Blank</fullName>
+    <active>true</active>
+    <description>Mandatory to fill Seller Solicitor if Status is Exchanged or Completed.</description>
+    <errorConditionFormula>AND(
+RecordType.Name == &apos;UK&apos;,
+OR(
+ISPICKVAL( Status__c , &apos;Completed&apos;),
+ISPICKVAL( Status__c , &apos;Exchanged&apos;)
+),
+ISBLANK( Seller_Solicitor__c )
+)</errorConditionFormula>
+    <errorDisplayField>Seller_Solicitor__c</errorDisplayField>
+    <errorMessage>Mandatory to fill Seller Solicitor if Status is Exchanged or Completed.</errorMessage>
+</ValidationRule>

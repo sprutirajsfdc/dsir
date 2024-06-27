@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ongoing_Property_Proposals_or_Disputes__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Do you have any knowledge of ongoing proposals or disputes involving this
+property with individuals or public entities? If so, kindly provide
+comprehensive details.</inlineHelpText>
+    <label>Ongoing Property Proposals or Disputes</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_Colleted__c</fullName>
+    <description>This is Formula percentange Field of  (Total Amount Paid/Final Net price)</description>
+    <externalId>false</externalId>
+    <formula>Total_Amount_Paid__c/CD_Final_net_price__c</formula>
+    <inlineHelpText>Need to fill Total Amount Paid and Final Net price field to get value.</inlineHelpText>
+    <label>Amount Colleted (%)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

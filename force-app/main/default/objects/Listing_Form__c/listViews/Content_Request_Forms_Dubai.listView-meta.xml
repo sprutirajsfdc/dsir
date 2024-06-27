@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Content_Request_Forms_Dubai</fullName>
+    <columns>CRF_Number__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>NAME</columns>
+    <columns>Listing_Agent__c</columns>
+    <columns>Status__c</columns>
+    <columns>Listing_Status__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>9/30/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>NAME</field>
+        <operation>startsWith</operation>
+        <value>GS-</value>
+    </filters>
+    <filters>
+        <field>Listing_Status__c</field>
+        <operation>notContain</operation>
+        <value>Published,Lost,Rented,Sold</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Completed</value>
+    </filters>
+    <label>Content Request Forms - Dubai</label>
+</ListView>

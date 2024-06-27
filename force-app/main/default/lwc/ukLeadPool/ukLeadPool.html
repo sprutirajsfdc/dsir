@@ -1,0 +1,106 @@
+<template>
+   <div class="slds-box slds-box_x-small" style="background-color:#002349;color:white">
+       <h1 class="slds-align_absolute-center"><strong>UK INQUIRY LEAD POOL</strong></h1>
+    </div>
+    <lightning-card>
+        <div class="slds-p-around_medium">
+            <div class="slds-grid slds-wrap">
+                <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                    <lightning-input type="text" label="Search Community" value={searchcommunity} onchange={handleSearchcommunity}></lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                    <lightning-input type="text" label="Search Sub Community" value={searchSubcommunity} onchange={handleSearchSubcommunity}></lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                    <lightning-input type="text" label="Search Inquiry Name" value={searchKeyword} onchange={handleSearch}></lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                    <lightning-combobox label="Inquiry Type" options={inquiryOptions} value={selectedinquiryTypeSearch} onchange={handleTYPESearch}></lightning-combobox>
+                </div>
+                <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                    <lightning-combobox label="Status" options={statusOptions} value={selectedStatusSearch} onchange={handleStatusSearch}></lightning-combobox>
+                </div>
+                <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                    <lightning-combobox label="Property Type" options={typeOptions} value={selectedTypeSearch} onchange={handleViewSearch}></lightning-combobox>
+                </div>
+                <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                    <lightning-input type="number" label="Price - Min" value={pricemin} onchange={handlepriceMinChange}></lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                    <lightning-input type="number" label="Price - Max" value={pricemax} onchange={handlepriceMaxChange}></lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                    <lightning-input type="number" label="Bedrooms - Min" value={bedmin} onchange={handlebedroomMinChange}></lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                    <lightning-input type="number" label="Bedrooms - Max" value={bedmax} onchange={handlebedroomMaxChange}></lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                    <lightning-input type="date" label="Created Start Date" value={createStartDate} onchange={handleCreateStartDateChange}></lightning-input>
+                </div>
+                <div class="slds-col slds-size_1-of-4 slds-p-around_medium">
+                    <lightning-input type="date" label="Created End Date" value={createEndDate} onchange={handleCreateEndDateChange}></lightning-input>
+                </div>
+            </div>
+        </div>
+          <div class="container">
+    <table class="unit-table" style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+        <thead>
+            <tr style="background-color: #f2f2f2;">
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Inquiry Name</th>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Inquiry Type</th>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Status</th>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Community PropertyFinder</th>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Sub Community PropertyFinder</th>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Property Type</th>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Bedroom Min</th>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Bedroom Max</th>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Price Min</th>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Price Max</th>
+                <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Created Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            <template for:each={recordsToDisplay} for:item="unit">
+                <tr key={unit.Id}>
+                    <td class="link-style" style="padding: 10px; border: 1px solid #ddd; text-align: left; cursor: pointer; color: blue; text-decoration: underline;" onclick={navigateToProject} role="button" data-id={unit.Id}>{unit.Name}</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">{unit.InquiryType__c}</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">{unit.pba__Status__c}</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">{unit.pba_uaefields__Community_Propertyfinder__c}</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">{unit.pba_uaefields__Sub_Community_Propertyfinder__c}</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">{unit.pba__PropertyType__c}</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">{unit.pba__Bedrooms_pb_min__c}</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">{unit.pba__Bedrooms_pb_max__c}</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">{unit.pba__ListingPrice_pb_min__c}</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">{unit.pba__ListingPrice_pb_max__c}</td>
+                    <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">{unit.CreatedDateFormatted}</td>
+                </tr>
+            </template>
+        </tbody>
+    </table>
+</div>
+
+        <div class="slds-p-around_medium slds-grid slds-grid_align-spread">
+            <div class="slds-col slds-text-title">
+                Page Size:
+                <select class="slds-select" onchange={handleRecordsPerPage}>
+                    <template for:each={pageSizeOptions} for:item="option">
+                        <option key={option.value} value={option.value} selected={option.selected}>{option.value}</option>
+                    </template>
+                </select>
+            </div>
+            <div class="slds-col slds-text-align_center">
+                <lightning-button-group>
+                    <lightning-button label="First" onclick={firstPage} disabled={bDisableFirst}></lightning-button>
+                    <lightning-button label="Previous" onclick={previousPage} disabled={bDisableFirst}></lightning-button>
+                    <span class="slds-badge">Showing {pageNumber} of {totalPages} Page(s)</span>
+                    <lightning-button label="Next" onclick={nextPage} disabled={bDisableLast}></lightning-button>
+                    <lightning-button label="Last" onclick={lastPage} disabled={bDisableLast}></lightning-button>
+                </lightning-button-group>
+            </div>
+            <div class="slds-col slds-float_right">
+                <span class="slds-badge">Total Records: {totalRecords}</span>
+            </div>
+        </div>
+    </lightning-card>
+</template>

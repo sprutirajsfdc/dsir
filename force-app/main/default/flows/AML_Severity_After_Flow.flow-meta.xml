@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <decisions>
+        <name>Check_record_type_of_AML</name>
+        <label>Check record type of AML</label>
+        <locationX>527</locationX>
+        <locationY>371</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>UK</name>
+            <conditionLogic>((1 AND 2) OR  (3 AND 4)  OR (3 AND 5) ) AND 6</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Approved</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Rejected</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Approved</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Rejected</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>UK</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AML_Severity_Update</targetReference>
+            </connector>
+            <label>UK</label>
+        </rules>
+        <rules>
+            <name>UAE</name>
+            <conditionLogic>((1 AND 5 AND 6) OR (2 AND 3) OR (2 AND 4)) AND 7</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>KYC Completed</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>KYC Approved</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>KYC Rejected</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>KYC Approved</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>KYC Rejected</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>UAE</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>AML_Severity_Update</targetReference>
+            </connector>
+            <label>UAE</label>
+        </rules>
+    </decisions>
+    <description>Score will not calculated if status of AML = Kyc completed. Added record type</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>AMLSeverity1</name>
+        <dataType>String</dataType>
+        <expression>IF(ISPICKVAL({!$Record.AML_Type__c}, &apos;Corporate&apos;),
+IF(
+OR(
+{!$Record.Customer_s_Country_of_Registration__r.FATF__c}=&quot;FATF HRC&quot;, 
+AND(
+{!$Record.Customer_s_Country_of_Registration__r.FATF__c} = &quot;FATF JUIM&quot;, 
+NOT({!$Record.Customer_s_Country_of_Registration__r.Name} = &quot;United Arab Emirates&quot;)
+),
+{!$Record.Customer_s_Country_of_Registration__r.UAEIEC__c}=&quot;UN Sanctions&quot;, 
+{!$Record.Beneficial_Owner_Country_of_Citizenship__r.UAEIEC__c}=&quot;UN Sanctions&quot;,
+{!$Record.Industry__r.UAEIEC__c}=&quot;UN Sanctions&quot;
+),&quot;High Risk&quot;,
+	IF(
+	OR(
+	{!$Record.Screening_Shareholder__r.Name}=&quot;PEP identified&quot;,
+	{!$Record.Screening_Shareholder__r.Name}=&quot;On relevant lists&quot;
+	),&quot;High Risk&quot;,
+		IF(
+		{!$Record.Total_Weighted_Score_New__c}&gt;60,&quot;High Risk&quot;,
+			IF(
+			{!$Record.Total_Weighted_Score_New__c}&gt;30,&quot;Medium Risk&quot;,
+				IF(
+				{!$Record.Total_Weighted_Score_New__c}&lt;=30 &amp;&amp; {!$Record.Total_Weighted_Score_New__c} &gt; 0 ,&quot;Low Risk&quot;,&quot;&quot;))))),
+IF(ISPICKVAL({!$Record.AML_Type__c}, &apos;Individual&apos;),				
+IF(
+OR(
+{!$Record.Nationality__r.FATF__c} =&quot;FATF HRC&quot;, 
+AND({!$Record.Nationality__r.FATF__c} = &quot;FATF JUIM&quot;, NOT({!$Record.Nationality__r.Name} = &quot;United Arab Emirates&quot;)),
+{!$Record.Nationality__r.UAEIEC__c}=&quot;UN Sanctions&quot;, 
+{!$Record.Country_Of_Birth__r.UAEIEC__c}=&quot;UN Sanctions&quot;,
+{!$Record.Country_Of_Residence__r.UAEIEC__c}=&quot;UN Sanctions&quot;
+),
+&quot;High Risk&quot;,
+    IF(
+    OR(
+    {!$Record.Screening_Shareholder__r.Name}=&quot;PEP identified&quot;,
+    {!$Record.Screening_Shareholder__r.Name}=&quot;On relevant lists&quot;
+    ),
+    &quot;High Risk&quot;,
+        IF(
+        OR(
+        {!$Record.Employment_Type__r.Name}=&quot;Unemployed&quot;
+        ),
+        &quot;High Risk&quot;,
+            IF({!$Record.Total_Weighted_Score_New__c}&gt;60,&quot;High Risk&quot;,
+                IF({!$Record.Total_Weighted_Score_New__c}&gt;30,&quot;Medium Risk&quot;,
+                    IF({!$Record.Total_Weighted_Score_New__c}&lt;=30 &amp;&amp; {!$Record.Total_Weighted_Score_New__c} &gt; 0 ,&quot;Low Risk&quot;,&quot;&quot;)))))),
+&quot;&quot;
+)
+)</expression>
+    </formulas>
+    <interviewLabel>AML Severity {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>AML Severity After Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Error_Log</name>
+        <label>Error Log</label>
+        <locationX>892</locationX>
+        <locationY>531</locationY>
+        <inputAssignments>
+            <field>Exception_Message__c</field>
+            <value>
+                <elementReference>$Flow.FaultMessage</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MethodName__c</field>
+            <value>
+                <stringValue>Update AML Severity Status.</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Name__c</field>
+            <value>
+                <stringValue>Update AML Severity Status.</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ObjectID__c</field>
+            <value>
+                <elementReference>$Record.Name</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Object__c</field>
+            <value>
+                <stringValue>AML</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Type__c</field>
+            <value>
+                <stringValue>Error</stringValue>
+            </value>
+        </inputAssignments>
+        <object>Error_Log__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordUpdates>
+        <name>AML_Severity_Update</name>
+        <label>AML Severity Update</label>
+        <locationX>799</locationX>
+        <locationY>364</locationY>
+        <faultConnector>
+            <targetReference>Error_Log</targetReference>
+        </faultConnector>
+        <inputAssignments>
+            <field>AML_Severity__c</field>
+            <value>
+                <elementReference>AMLSeverity1</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>401</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Check_record_type_of_AML</targetReference>
+        </connector>
+        <object>AML__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

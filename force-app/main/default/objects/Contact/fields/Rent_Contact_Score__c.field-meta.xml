@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rent_Contact_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Contact_Listing_Rent_Count__c &gt; 0, 10,0) + IF( Tenant_Inquiry_Count__c &gt; 0 ,10 ,0) +
+IF( Closing_Seller_Count__c &gt;0 ,10 ,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Rent Contact Score:</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

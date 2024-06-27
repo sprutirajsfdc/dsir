@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Individual_AML_Parameters_req</fullName>
+    <active>true</active>
+    <description>The record&apos;s Inquiry object is related to a specific record type called&quot;Exclusive_Project&quot;and the Status field is set to &quot;Submitted&quot;OR The Inquiry object is related to a record type other than&quot;Exclusive_Project&quot;and the Status field is set to&quot;KYC Submitted</description>
+    <errorConditionFormula>AND
+(
+ISPICKVAL(AML_Type__c, &apos;Individual&apos;),
+RecordType.Name = &apos;UAE&apos;,
+OR
+(
+AND
+(
+Inquiry__r.RecordType.DeveloperName = &quot;Exclusive_Project&quot;,
+ISPICKVAL( Status__c , &apos;Submitted&apos;)
+)
+,
+AND
+(
+Inquiry__r.RecordType.DeveloperName &lt;&gt; &quot;Exclusive_Project&quot;,
+ISPICKVAL( Status__c , &apos;KYC Submitted&apos;)
+)
+)
+,
+NOT( ISBLANK(Contact__c )),
+(ISBLANK(Nationality__c ) ||
+ISBLANK(Country_Of_Birth__c )||
+ISBLANK(Country_Of_Residence__c )||
+ISBLANK(Source_of_Fund_Wealth__c ) ||
+ISBLANK(Employment_Type__c ) ||
+ISBLANK(Business_Location__c )||
+ISBLANK(Screening_Shareholder__c ) ||
+ISBLANK(Mode_of_Payment__c )||
+ISBLANK(Industry__c )
+)
+)</errorConditionFormula>
+    <errorMessage>All Individual  AML Parameters are Required.</errorMessage>
+</ValidationRule>

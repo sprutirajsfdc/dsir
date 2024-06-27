@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_businesses_of_the_client__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Other businesses of the client</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>AML_Parameter__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Other Business</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>AML_Parameter__c</referenceTo>
+    <relationshipLabel>Other businesses of the client</relationshipLabel>
+    <relationshipName>Other_business_of_the_clients</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

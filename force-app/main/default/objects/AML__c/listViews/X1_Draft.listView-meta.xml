@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X1_Draft</fullName>
+    <columns>NAME</columns>
+    <columns>Inquiry__c</columns>
+    <columns>Contact__c</columns>
+    <columns>AML_Severity__c</columns>
+    <columns>AML_Severity_Color__c</columns>
+    <columns>Status__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Draft</value>
+    </filters>
+    <label>1. Draft</label>
+</ListView>

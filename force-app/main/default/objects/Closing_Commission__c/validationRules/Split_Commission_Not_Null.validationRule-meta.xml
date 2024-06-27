@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Split_Commission_Not_Null</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(TEXT( Agent_Split_Commision_Type__c ))),
+ISBLANK( Agent_Split_Commission1__c )
+)
+
+||
+AND(
+ISBLANK(TEXT(Agent_Split_Commision_Type__c)),
+NOT(ISBLANK( Agent_Split_Commission1__c ))
+)</errorConditionFormula>
+    <errorMessage>Agent Split Commission Type &amp; Agent Split Commission is required</errorMessage>
+</ValidationRule>

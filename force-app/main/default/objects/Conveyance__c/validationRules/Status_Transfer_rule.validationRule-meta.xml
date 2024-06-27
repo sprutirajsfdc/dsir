@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Transfer_rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+    ISPICKVAL(Status__c, &apos;Transfer Completed&apos;) &amp;&amp; NOT( RecordType.Name = &quot;UK&quot;) &amp;&amp; (
+        ISBLANK(TEXT(Source_of_fund_Received__c)) ||
+        ISBLANK(TEXT(KYC_Received__c)) ||
+        ISBLANK(Transfer_Date__c)
+    ),
+    true,
+    false
+)</errorConditionFormula>
+    <errorMessage>If you move the stage  from &apos;Transfer Completed&apos;  Then  &quot;Estimated Transfer Date,KYC Received &amp; Source of Fund Received &quot; is required.</errorMessage>
+</ValidationRule>

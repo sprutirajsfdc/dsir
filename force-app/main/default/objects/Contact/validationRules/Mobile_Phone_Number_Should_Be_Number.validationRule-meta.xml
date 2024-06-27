@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mobile_Phone_Number_Should_Be_Number</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(ISNUMBER( MobilePhone ))</errorConditionFormula>
+    <errorDisplayField>MobilePhone</errorDisplayField>
+    <errorMessage>Text Format Are Not Allowed In The Mobile &amp; Phone Field</errorMessage>
+</ValidationRule>

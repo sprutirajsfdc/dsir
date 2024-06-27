@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conveyance_status_is_Contract_Executed</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( AND(ISPICKVAL( Status__c , &apos;Contract Executed&apos;) ,NOT( RecordType.Name = &quot;UK&quot;)),
+OR( ISBLANK(Text(KYC_Received__c) ) , 
+    ISBLANK(Text( Source_of_fund_Received__c) )) , False)</errorConditionFormula>
+    <errorMessage>Mandatory to fill below fields :
+KYC Received ?
+Source of fund Received ?</errorMessage>
+</ValidationRule>

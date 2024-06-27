@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pba__Timeline_pb__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Timeline</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1-4 weeks</fullName>
+                <default>false</default>
+                <label>1-4 weeks</label>
+            </value>
+            <value>
+                <fullName>1-3 months</fullName>
+                <default>false</default>
+                <label>1-3 months</label>
+            </value>
+            <value>
+                <fullName>3-6 months</fullName>
+                <default>false</default>
+                <label>3-6 months</label>
+            </value>
+            <value>
+                <fullName>6-12 months</fullName>
+                <default>false</default>
+                <label>6-12 months</label>
+            </value>
+            <value>
+                <fullName>Just Looking</fullName>
+                <default>false</default>
+                <label>Just Looking</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

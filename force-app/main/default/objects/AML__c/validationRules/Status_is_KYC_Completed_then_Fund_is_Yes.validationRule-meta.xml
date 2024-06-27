@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_is_KYC_Completed_then_Fund_is_Yes</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(ISPICKVAL( Status__c , &quot;KYC Completed&quot;), 
+    NOT(ISPICKVAL(Upload_Source_of_Fund__c, &quot;Yes&quot;)),
+    false
+)</errorConditionFormula>
+    <errorDisplayField>Upload_Source_of_Fund__c</errorDisplayField>
+    <errorMessage>When the Status is &quot;KYC Completed&quot; then mandatory to choose the field  Upload Source of Fund ? and It has to be YES.</errorMessage>
+</ValidationRule>

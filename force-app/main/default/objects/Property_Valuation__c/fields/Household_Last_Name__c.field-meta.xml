@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Household_Last_Name__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+NOT(ISBLANK( Contact__c )) &amp;&amp; NOT(ISBLANK( Secondary_Property_Owner__c )),
+TEXT(Contact__r.Salutation) &amp; &apos; &apos; &amp;  Contact__r.LastName  &amp; &apos; &amp; &apos; &amp;  TEXT( Secondary_Property_Owner__r.Salutation )  &amp; &apos; &apos; &amp;  Secondary_Property_Owner__r.LastName,
+IF(
+NOT(ISBLANK( Contact__c )) &amp;&amp; ISBLANK( Secondary_Property_Owner__c ),
+TEXT(Contact__r.Salutation) &amp; &apos; &apos; &amp;  Contact__r.LastName , 
+IF(
+ISBLANK( Contact__c ) &amp;&amp;  NOT(ISBLANK( Secondary_Property_Owner__c )) ,
+  TEXT(Secondary_Property_Owner__r.Salutation)   &amp; &apos; &apos; &amp;  Secondary_Property_Owner__r.LastName,
+NULL
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Household Last Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

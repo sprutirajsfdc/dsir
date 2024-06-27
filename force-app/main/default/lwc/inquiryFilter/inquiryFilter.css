@@ -1,0 +1,19 @@
+.custom-input-wrapper {
+    max-width: 400px; /* Adjust this value based on your preference */
+    margin: 0 auto; /* Centers the input within the column */
+}
+
+@media (max-width: 768px) {
+    .custom-input-wrapper {
+        max-width: 100%; /* Allows full width on smaller screens */
+    }
+}
+.narrow-input {
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.scrollable-inputs {
+    max-height: 500px; /* Adjust this value based on your needs */
+    overflow-y: auto; /* This enables vertical scrolling */
+}

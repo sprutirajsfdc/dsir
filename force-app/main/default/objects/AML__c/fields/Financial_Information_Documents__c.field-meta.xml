@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Financial_Information_Documents__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Financial Information Documents</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>AML_Parameter__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Financial Information Documents</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>AML_Parameter__c</referenceTo>
+    <relationshipLabel>Financial Information Documents</relationshipLabel>
+    <relationshipName>Financial_Information_Documents</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

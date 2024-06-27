@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CD_Net_selling_price__c</fullName>
+    <externalId>false</externalId>
+    <formula>CD_Sales_Price__c  +  CD_VAT_5__c  +  CD_Convenyacing_fees__c  +  CD_Additional_fees__c  +  CD_Other_fees__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Net selling price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

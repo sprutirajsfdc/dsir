@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>By Auction</fullName>
+        <default>false</default>
+        <label>By Auction</label>
+    </customValue>
+    <customValue>
+        <fullName>Confidential</fullName>
+        <default>false</default>
+        <label>Confidential</label>
+    </customValue>
+    <customValue>
+        <fullName>By Tender</fullName>
+        <default>false</default>
+        <label>By Tender</label>
+    </customValue>
+    <customValue>
+        <fullName>Offers Invited</fullName>
+        <default>false</default>
+        <label>Offers Invited</label>
+    </customValue>
+    <customValue>
+        <fullName>Private Treaty</fullName>
+        <default>false</default>
+        <label>Private Treaty</label>
+    </customValue>
+    <customValue>
+        <fullName>Shared Ownership</fullName>
+        <default>false</default>
+        <label>Shared Ownership</label>
+    </customValue>
+    <masterLabel>Disposal</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

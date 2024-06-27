@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2C_Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>ContactType__c</columns>
+    <columns>Brokerage_Registration__c</columns>
+    <columns>Record_Type_Name__c</columns>
+    <columns>Sharing_Rule__c</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sharing_Rule__c</field>
+        <operation>equals</operation>
+        <value>Internal Brokerage,Development Projects Team</value>
+    </filters>
+    <label>B2C Contacts</label>
+    <sharedTo>
+        <role>Internal_Brokerage_Management</role>
+    </sharedTo>
+</ListView>

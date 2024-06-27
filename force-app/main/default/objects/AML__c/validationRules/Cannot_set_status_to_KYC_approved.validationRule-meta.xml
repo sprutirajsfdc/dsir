@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_set_status_to_KYC_approved</fullName>
+    <active>true</active>
+    <description>In a &quot;UAE&quot; Record Type,When the AML is Created at that time User can Not set AML as KYC approved.</description>
+    <errorConditionFormula>AND(
+ISNEW(),
+ISPICKVAL(Status__c, &apos;KYC Approved&apos;),
+RecordType.DeveloperName = &apos;UAE&apos;
+)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>When Creating AML the status cannot be set as &apos;KYC Approved&apos;.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enquiries_Received_From_Buyers_Lawyers1__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If you tick &apos;Enquiries Received From Buyers Lawyers&apos; and keep this blank then It will automatically Update</inlineHelpText>
+    <label>Enquiries Received From Buyers Lawyers</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

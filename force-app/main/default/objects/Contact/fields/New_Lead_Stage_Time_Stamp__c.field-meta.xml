@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Lead_Stage_Time_Stamp__c</fullName>
+    <description>As soon as the contact enters the New Lead stage, a time stamp is set by a workflow</description>
+    <externalId>false</externalId>
+    <label>New Lead Stage Time Stamp</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

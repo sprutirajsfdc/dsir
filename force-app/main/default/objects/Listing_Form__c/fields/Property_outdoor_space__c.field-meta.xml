@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Property_outdoor_space__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>i.e Garden, balcony, garage or pool - shared or private.. etc</inlineHelpText>
+    <label>Property outdoor space</label>
+    <length>2500</length>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

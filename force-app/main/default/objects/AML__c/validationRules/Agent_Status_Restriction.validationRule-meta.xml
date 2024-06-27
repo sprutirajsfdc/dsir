@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agent_Status_Restriction</fullName>
+    <active>false</active>
+    <description>Only records with a Status of &apos;Draft&apos;, &apos;Submitted&apos;, or &apos;KYC Submiited&apos; can be updated.</description>
+    <errorConditionFormula>IF(
+    ISCHANGED(Status__c),
+    AND(
+        NOT(
+            OR(
+                ISPICKVAL(Status__c, &apos;Draft&apos;),
+                ISPICKVAL(Status__c, &apos;Submitted&apos;)
+                
+            )
+        ),
+        $User.ProfileId = &apos;00e1t000000HkGa&apos; || $User.ProfileId = &apos;00e3X000001RysS&apos;
+    ),
+    null
+)</errorConditionFormula>
+    <errorMessage>Only Status allowed to update either &apos;Draft&apos; or &apos;Submitted&apos; 
+DP AGENT(00e3X000001RysS) &amp; PB Agent(00e1t000000HkGa)</errorMessage>
+</ValidationRule>

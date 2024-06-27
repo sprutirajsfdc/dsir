@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>This is the Inquiry that has been reassigned from the agent</inlineHelpText>
+    <label>Inquiry Record</label>
+    <referenceTo>pba__Request__c</referenceTo>
+    <relationshipLabel>Inquiry Reassignments</relationshipLabel>
+    <relationshipName>Inquiry_Reassignments</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

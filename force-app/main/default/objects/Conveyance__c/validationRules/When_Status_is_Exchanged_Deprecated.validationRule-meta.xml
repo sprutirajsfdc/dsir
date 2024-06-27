@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>When_Status_is_Exchanged_Deprecated</fullName>
+    <active>false</active>
+    <description>If Offer&apos;s Property Instructed is set to &apos;NO&apos;, Status is &apos;Exchanged&apos;, then Primary Seller / Landlord, Buyer Solicitor and Potential Buyer / Tenant, Seller Solicitor fields should not Blank.</description>
+    <errorConditionFormula>AND(
+RecordType.Name == &apos;UK&apos;,
+ OR(
+  ISPICKVAL( Status__c , &apos;Completed&apos;),
+  ISPICKVAL( Status__c , &apos;Exchanged&apos;)
+ ) ,
+ OR(
+  ISBLANK( Buyer_Contact__c ),
+  ISBLANK( Seller_Contact__c ),
+  ISBLANK( Buyer_Solicitor__c ),
+  ISBLANK( Seller_Solicitor__c )
+ ) 
+)</errorConditionFormula>
+    <errorMessage>Mandatory to fill 
+Buyer Contact, 
+Buyer Solicitor, 
+Seller Contact, 
+Seller Solicitor, 
+if Status is Exchanged or Completed.</errorMessage>
+</ValidationRule>

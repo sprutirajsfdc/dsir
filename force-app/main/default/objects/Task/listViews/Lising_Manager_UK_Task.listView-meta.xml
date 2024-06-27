@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lising_Manager_UK_Task</fullName>
+    <filterScope>Queue</filterScope>
+    <label>UK Listing Manager</label>
+    <queue>Lising_Manager_UK</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

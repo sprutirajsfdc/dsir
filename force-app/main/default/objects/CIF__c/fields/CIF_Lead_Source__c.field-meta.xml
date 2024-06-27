@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CIF_Lead_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Source</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Walkin</fullName>
+                <default>false</default>
+                <label>Walkin</label>
+            </value>
+            <value>
+                <fullName>Developer</fullName>
+                <default>false</default>
+                <label>Developer</label>
+            </value>
+            <value>
+                <fullName>3rd Party Agency</fullName>
+                <default>false</default>
+                <label>3rd Party Agency</label>
+            </value>
+            <value>
+                <fullName>Sales Centre</fullName>
+                <default>false</default>
+                <label>Sales Centre</label>
+            </value>
+            <value>
+                <fullName>Word of Mouth</fullName>
+                <default>false</default>
+                <label>Word of Mouth</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Billboard</fullName>
+                <default>false</default>
+                <label>Billboard</label>
+            </value>
+            <value>
+                <fullName>Google Search</fullName>
+                <default>false</default>
+                <label>Google Search</label>
+            </value>
+            <value>
+                <fullName>Facebook</fullName>
+                <default>false</default>
+                <label>Facebook</label>
+            </value>
+            <value>
+                <fullName>Personal Contact</fullName>
+                <default>false</default>
+                <label>Personal Contact</label>
+            </value>
+            <value>
+                <fullName>Existing Client</fullName>
+                <default>false</default>
+                <label>Existing Client</label>
+            </value>
+            <value>
+                <fullName>Cityscape</fullName>
+                <default>false</default>
+                <label>Cityscape</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Auction House</fullName>
+                <default>false</default>
+                <label>Auction House</label>
+            </value>
+            <value>
+                <fullName>Arts Night 2024</fullName>
+                <default>false</default>
+                <label>Arts Night 2024</label>
+            </value>
+            <value>
+                <fullName>F1 Jeddah 2024</fullName>
+                <default>false</default>
+                <label>F1 Jeddah 2024</label>
+            </value>
+            <value>
+                <fullName>Paid Programmatic Ads</fullName>
+                <default>false</default>
+                <label>Paid Programmatic Ads</label>
+            </value>
+            <value>
+                <fullName>Solidere Newsletter</fullName>
+                <default>false</default>
+                <label>Solidere Newsletter</label>
+            </value>
+            <value>
+                <fullName>Jeddah Airport</fullName>
+                <default>false</default>
+                <label>Jeddah Airport</label>
+            </value>
+            <value>
+                <fullName>Mecca Clock Tower</fullName>
+                <default>false</default>
+                <label>Mecca Clock Tower</label>
+            </value>
+            <value>
+                <fullName>Sotheby&apos;s Auction House Saudi</fullName>
+                <default>false</default>
+                <label>Sotheby&apos;s Auction House Saudi</label>
+            </value>
+            <value>
+                <fullName>Postcards</fullName>
+                <default>false</default>
+                <label>Postcards</label>
+            </value>
+            <value>
+                <fullName>Nobu Website</fullName>
+                <default>false</default>
+                <label>Nobu Website</label>
+            </value>
+            <value>
+                <fullName>Riyadh Sales Center</fullName>
+                <default>false</default>
+                <label>Riyadh Sales Center</label>
+            </value>
+            <value>
+                <fullName>Referred by Existing client</fullName>
+                <default>false</default>
+                <label>Referred by Existing client</label>
+            </value>
+            <value>
+                <fullName>Existing Lead - Ongoing relationship</fullName>
+                <default>false</default>
+                <label>Existing Lead - Ongoing relationship</label>
+            </value>
+            <value>
+                <fullName>SIR Management</fullName>
+                <default>false</default>
+                <label>SIR Management</label>
+            </value>
+            <value>
+                <fullName>Baccarat Launch Event</fullName>
+                <default>false</default>
+                <label>Baccarat Launch Event</label>
+            </value>
+            <value>
+                <fullName>sothebysrealty.ae - Direct Traffic</fullName>
+                <default>false</default>
+                <label>sothebysrealty.ae - Direct Traffic</label>
+            </value>
+            <value>
+                <fullName>sothebysrealty.uk - Direct Traffic</fullName>
+                <default>false</default>
+                <label>sothebysrealty.uk - Direct Traffic</label>
+            </value>
+            <value>
+                <fullName>sothebysrealty.sa - Direct Traffic</fullName>
+                <default>false</default>
+                <label>sothebysrealty.sa - Direct Traffic</label>
+            </value>
+            <value>
+                <fullName>H&amp;H Developer</fullName>
+                <default>false</default>
+                <label>H&amp;H Developer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

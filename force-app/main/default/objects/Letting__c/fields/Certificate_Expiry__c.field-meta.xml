@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Certificate_Expiry__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Gas_Certificate_No_Gas__c = True, &apos;N/A&apos;, &apos;NO Certificate&apos;)</formula>
+    <label>Certificate Expiry</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

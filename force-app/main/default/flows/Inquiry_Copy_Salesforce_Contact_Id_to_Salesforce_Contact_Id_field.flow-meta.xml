@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <assignments>
+        <name>Assign_Salesforce_Contact_Id_value_to_Contact_lookup</name>
+        <label>Assign Salesforce Contact Id value to Contact lookup</label>
+        <locationX>499</locationX>
+        <locationY>402</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.pba__Contact__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Salesforce_Contact_Id__c</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <description>If &apos;Salesforce Contact Id&apos; field is not blank, then copy this value to &apos;Salesforce Contact Id&apos; field on Inquiry.</description>
+    <environments>Default</environments>
+    <interviewLabel>Inquiry | Copy record id to &apos;Hubspot Inquiry Name&apos; field {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Inquiry | Copy Salesforce Contact Id to Salesforce Contact lookup field</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>373</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Assign_Salesforce_Contact_Id_value_to_Contact_lookup</targetReference>
+        </connector>
+        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Salesforce_Contact_Id__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>pba__Request__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

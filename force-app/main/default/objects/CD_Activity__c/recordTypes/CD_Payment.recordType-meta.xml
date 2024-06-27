@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CD_Payment</fullName>
+    <active>true</active>
+    <label>Payment</label>
+    <picklistValues>
+        <picklist>CD_Activity__c</picklist>
+        <values>
+            <fullName>Payment Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reservation Signed by Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signed Reservation Submitted to Developer %2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CD_Installment_Type__c</picklist>
+        <values>
+            <fullName>1st installment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2nd installment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admin Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheque bounced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DLD fees</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CD_Invoice_Issued__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CD_Receipt_Issued__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Documents_Activity__c</picklist>
+        <values>
+            <fullName>Cancelltion issued</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developer signed the SPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Due Diligence pending with Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EOI and Document received%2C Payment missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EOI and Payment received%2C document missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fully Executed SPA submitted to the Buyer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oqood Registered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment %26 Document received EOI Missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reservation Signed by Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reservation issued</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPA in Process with Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPA issued by Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPA signed by Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signed Reservation Submitted to Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signed SPA submitted to Developer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Title deed issued</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Title deed registration pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Totals days to last activity</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

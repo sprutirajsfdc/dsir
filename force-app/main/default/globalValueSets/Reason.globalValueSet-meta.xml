@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cannot conduct viewings</fullName>
+        <default>false</default>
+        <label>Cannot conduct viewings</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Cancelled</fullName>
+        <default>false</default>
+        <label>Client Cancelled</label>
+    </customValue>
+    <customValue>
+        <fullName>Client not contacable</fullName>
+        <default>false</default>
+        <label>Client not contacable</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Won&apos;t Lower Price</fullName>
+        <default>false</default>
+        <label>Client Won&apos;t Lower Price</label>
+    </customValue>
+    <customValue>
+        <fullName>Form A Expiry</fullName>
+        <default>false</default>
+        <label>Form A Expiry</label>
+    </customValue>
+    <customValue>
+        <fullName>Sold by Competing Agency</fullName>
+        <default>false</default>
+        <label>Sold by Competing Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Compliance document Falsified</fullName>
+        <default>false</default>
+        <label>Compliance document Falsified</label>
+    </customValue>
+    <customValue>
+        <fullName>Compliance: Signature Mismatch</fullName>
+        <default>false</default>
+        <label>Compliance: Signature Mismatch</label>
+    </customValue>
+    <customValue>
+        <fullName>Rented by Competing Agency</fullName>
+        <default>false</default>
+        <label>Rented by Competing Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Rented by LSIR</fullName>
+        <default>false</default>
+        <label>Rented by LSIR</label>
+    </customValue>
+    <customValue>
+        <fullName>Sold by Direct Owner</fullName>
+        <default>false</default>
+        <label>Sold by Direct Owner</label>
+    </customValue>
+    <customValue>
+        <fullName>Rented by Direct Landlord</fullName>
+        <default>false</default>
+        <label>Rented by Direct Landlord</label>
+    </customValue>
+    <customValue>
+        <fullName>Company Stock</fullName>
+        <default>false</default>
+        <label>Company Stock</label>
+    </customValue>
+    <customValue>
+        <fullName>Sold by Developer</fullName>
+        <default>false</default>
+        <label>Sold by Developer</label>
+    </customValue>
+    <customValue>
+        <fullName>Rented by Client</fullName>
+        <default>false</default>
+        <label>Rented by Client</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate Listing</fullName>
+        <default>false</default>
+        <label>Duplicate Listing</label>
+    </customValue>
+    <customValue>
+        <fullName>Other Agent Property</fullName>
+        <default>false</default>
+        <label>Other Agent Property</label>
+    </customValue>
+    <masterLabel>Reason</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Documents_Activity__c</fullName>
+    <externalId>false</externalId>
+    <label>Documents Activity</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EOI and Document received, Payment missing</fullName>
+                <default>false</default>
+                <label>EOI and Document received, Payment missing</label>
+            </value>
+            <value>
+                <fullName>EOI and Payment received, document missing</fullName>
+                <default>false</default>
+                <label>EOI and Payment received, document missing</label>
+            </value>
+            <value>
+                <fullName>Payment &amp; Document received EOI Missing</fullName>
+                <default>false</default>
+                <label>Payment &amp; Document received EOI Missing</label>
+            </value>
+            <value>
+                <fullName>Reservation issued</fullName>
+                <default>false</default>
+                <label>Reservation issued</label>
+            </value>
+            <value>
+                <fullName>Reservation Signed by Client</fullName>
+                <default>false</default>
+                <label>Reservation Signed by Client</label>
+            </value>
+            <value>
+                <fullName>Signed Reservation Submitted to Developer</fullName>
+                <default>false</default>
+                <label>Signed Reservation Submitted to Developer</label>
+            </value>
+            <value>
+                <fullName>Due Diligence pending with Developer</fullName>
+                <default>false</default>
+                <label>Due Diligence pending with Developer</label>
+            </value>
+            <value>
+                <fullName>SPA in Process with Developer</fullName>
+                <default>false</default>
+                <label>SPA in Process with Developer</label>
+            </value>
+            <value>
+                <fullName>SPA issued by Developer</fullName>
+                <default>false</default>
+                <label>SPA issued by Developer</label>
+            </value>
+            <value>
+                <fullName>SPA signed by Client</fullName>
+                <default>false</default>
+                <label>SPA signed by Client</label>
+            </value>
+            <value>
+                <fullName>Signed SPA submitted to Developer</fullName>
+                <default>false</default>
+                <label>Signed SPA submitted to Developer</label>
+            </value>
+            <value>
+                <fullName>Developer signed the SPA</fullName>
+                <default>false</default>
+                <label>Developer signed the SPA</label>
+            </value>
+            <value>
+                <fullName>Fully Executed SPA submitted to the Buyer</fullName>
+                <default>false</default>
+                <label>Fully Executed SPA submitted to the Buyer</label>
+            </value>
+            <value>
+                <fullName>Oqood Registered</fullName>
+                <default>false</default>
+                <label>Oqood Registered</label>
+            </value>
+            <value>
+                <fullName>Title deed registration pending</fullName>
+                <default>false</default>
+                <label>Title deed registration pending</label>
+            </value>
+            <value>
+                <fullName>Title deed issued</fullName>
+                <default>false</default>
+                <label>Title deed issued</label>
+            </value>
+            <value>
+                <fullName>Cancelltion issued</fullName>
+                <default>false</default>
+                <label>Cancelltion issued</label>
+            </value>
+            <value>
+                <fullName>Totals days to last activity</fullName>
+                <default>false</default>
+                <label>Totals days to last activity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

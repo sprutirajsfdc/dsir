@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CD_Installment_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Installment Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1st installment</fullName>
+                <default>false</default>
+                <label>1st installment</label>
+            </value>
+            <value>
+                <fullName>2nd installment</fullName>
+                <default>false</default>
+                <label>2nd installment</label>
+            </value>
+            <value>
+                <fullName>DLD fees</fullName>
+                <default>false</default>
+                <label>DLD fees</label>
+            </value>
+            <value>
+                <fullName>Admin Fees</fullName>
+                <default>false</default>
+                <label>Admin Fees</label>
+            </value>
+            <value>
+                <fullName>Cheque bounced</fullName>
+                <default>false</default>
+                <label>Cheque bounced</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

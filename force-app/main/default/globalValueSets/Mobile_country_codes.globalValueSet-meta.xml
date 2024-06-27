@@ -471,7 +471,7 @@
         <label>+354</label>
     </customValue>
     <customValue>
-        <fullName>+91</fullName>
+        <fullName>India</fullName>
         <default>false</default>
         <label>+91</label>
     </customValue>
@@ -1165,6 +1165,6 @@
         <default>false</default>
         <label>+263</label>
     </customValue>
-    <masterLabel>Mobile country codes</masterLabel>
+    <masterLabel>Mobile country code2</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

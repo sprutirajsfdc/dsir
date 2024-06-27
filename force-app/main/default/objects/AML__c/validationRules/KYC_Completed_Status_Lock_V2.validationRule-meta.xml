@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KYC_Completed_Status_Lock_V2</fullName>
+    <active>true</active>
+    <description>Once KYC Completed then No one can Change Status to anything else.
+
+https://gulfsothebysinternational.lightning.force.com/lightning/setup/ObjectManager/01I3X000001LTT5/ValidationRules/03d7T000000Xb5TQAS/view</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(PRIORVALUE(Status__c), &apos;KYC Completed&apos;),
+    RecordType.Name = &apos;UAE&apos;,
+    ISCHANGED(Status__c)
+)</errorConditionFormula>
+    <errorMessage>Once KYC Completed then Can not change Status</errorMessage>
+</ValidationRule>

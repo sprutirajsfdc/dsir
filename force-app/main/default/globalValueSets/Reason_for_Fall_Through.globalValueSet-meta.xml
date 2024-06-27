@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Tenant pulled out</fullName>
+        <default>false</default>
+        <label>Tenant pulled out</label>
+    </customValue>
+    <customValue>
+        <fullName>LL pulled out</fullName>
+        <default>false</default>
+        <label>LL pulled out</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenant failed referencing</fullName>
+        <default>false</default>
+        <label>Tenant failed referencing</label>
+    </customValue>
+    <customValue>
+        <fullName>LL sold</fullName>
+        <default>false</default>
+        <label>LL sold</label>
+    </customValue>
+    <customValue>
+        <fullName>Tenant not processable</fullName>
+        <default>false</default>
+        <label>Tenant not processable</label>
+    </customValue>
+    <customValue>
+        <fullName>Buyer / Tenant withdrew</fullName>
+        <default>false</default>
+        <label>Buyer / Tenant withdrew</label>
+    </customValue>
+    <customValue>
+        <fullName>Vendor / LL withdrew</fullName>
+        <default>false</default>
+        <label>Vendor / LL withdrew</label>
+    </customValue>
+    <customValue>
+        <fullName>Change in buyer circumstances</fullName>
+        <default>false</default>
+        <label>Change in buyer circumstances</label>
+    </customValue>
+    <customValue>
+        <fullName>Change in seller circumstances</fullName>
+        <default>false</default>
+        <label>Change in seller circumstances</label>
+    </customValue>
+    <customValue>
+        <fullName>Failed renegotiation of price</fullName>
+        <default>false</default>
+        <label>Failed renegotiation of price</label>
+    </customValue>
+    <customValue>
+        <fullName>Legal issue</fullName>
+        <default>false</default>
+        <label>Legal issue</label>
+    </customValue>
+    <customValue>
+        <fullName>Mistake (by broker)</fullName>
+        <default>false</default>
+        <label>Mistake (by broker)</label>
+    </customValue>
+    <masterLabel>Reason for Fall Through</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -2,7 +2,7 @@
 <ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Contact_Type_Validation</fullName>
     <active>false</active>
-    <errorConditionFormula>IF(ISPICKVAL(PRIORVALUE( os_ContactType__c ),&quot;Agent&quot;) || ISPICKVAL(PRIORVALUE(os_ContactType__c ),&quot;Agency&quot;) ,ISCHANGED(os_ContactType__c ) &amp;&amp; NOT(ISPICKVAL(os_ContactType__c , &quot;Agency&quot;) || ISPICKVAL(os_ContactType__c , &quot;Agent&quot;)) , False)</errorConditionFormula>
-    <errorDisplayField>os_ContactType__c</errorDisplayField>
+    <errorConditionFormula>IF(ISPICKVAL(PRIORVALUE(ContactType__c),&quot;Agent&quot;) || ISPICKVAL(PRIORVALUE(ContactType__c),&quot;Agency&quot;) ,ISCHANGED(ContactType__c) &amp;&amp; NOT(ISPICKVAL(ContactType__c , &quot;Agency&quot;) || ISPICKVAL(ContactType__c , &quot;Agent&quot;)) , False)</errorConditionFormula>
+    <errorDisplayField>ContactType__c</errorDisplayField>
     <errorMessage>Contact Type can&apos;t be change</errorMessage>
 </ValidationRule>

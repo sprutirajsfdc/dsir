@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VARSHA_NO_SHARING_RULE</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Sharing_Rule__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Varsha</value>
+    </filters>
+    <filters>
+        <field>Sharing_Rule__c</field>
+        <operation>notEqual</operation>
+        <value>External Brokerage,Internal Brokerage</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Kadam</value>
+    </filters>
+    <label>VARSHA NO SHARING RULE</label>
+    <sharedTo>
+        <role>Call_Center</role>
+        <role>Call_Center_Manager</role>
+    </sharedTo>
+</ListView>

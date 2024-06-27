@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Link_to_Record__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Copy and paste the URL from the record that is impacted 
+(i.e. https://gulfsothebysinternational.lightning.force.com/lightning/r/pba__Request__c/a0Q3X00000gjLWAUA8/view?0.source=alohaHeader</inlineHelpText>
+    <label>Link to Record</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

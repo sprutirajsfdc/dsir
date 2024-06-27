@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>This module will help in managing contracts, associated contacts, and document attachments, monitor document expiries, user assignments, and timely notifications.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Contract Management System</label>
+    <navType>Standard</navType>
+    <tabs>Home_Contract_Mgmt</tabs>
+    <tabs>Contract_Management__c</tabs>
+    <tabs>Brand__c</tabs>
+    <tabs>ContractDocument__c</tabs>
+    <tabs>Password_Manager</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Contract_Management_System_UtilityBar</utilityBar>
+</CustomApplication>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Land_registry_Verified_File_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+     Land_Registry_Verified__c = TRUE,
+    OR(
+        ISBLANK( Postcode__c ),
+        ISBLANK( Apartment_House_Unit_Number__c )
+    )
+)</errorConditionFormula>
+    <errorMessage>House Number &amp; postcode mandatory before marking as land registry verified</errorMessage>
+</ValidationRule>

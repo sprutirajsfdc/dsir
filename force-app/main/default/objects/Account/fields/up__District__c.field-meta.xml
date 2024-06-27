@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>up__District__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>District</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>up__Region__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>South North East</fullName>
+                <default>false</default>
+                <label>South North East</label>
+            </value>
+            <value>
+                <fullName>California</fullName>
+                <default>false</default>
+                <label>California</label>
+            </value>
+            <value>
+                <fullName>Nevada</fullName>
+                <default>false</default>
+                <label>Nevada</label>
+            </value>
+            <value>
+                <fullName>West California</fullName>
+                <default>false</default>
+                <label>West California</label>
+            </value>
+            <value>
+                <fullName>South California 234</fullName>
+                <default>false</default>
+                <label>South California 234</label>
+            </value>
+            <value>
+                <fullName>New York</fullName>
+                <default>false</default>
+                <label>New York</label>
+            </value>
+            <value>
+                <fullName>Test North East</fullName>
+                <default>false</default>
+                <label>Test North East</label>
+            </value>
+            <value>
+                <fullName>North Carolina</fullName>
+                <default>false</default>
+                <label>North Carolina</label>
+            </value>
+            <value>
+                <fullName>Maine</fullName>
+                <default>false</default>
+                <label>Maine</label>
+            </value>
+            <value>
+                <fullName>South California 23</fullName>
+                <default>false</default>
+                <label>South California 23</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>North East</controllingFieldValue>
+            <valueName>South North East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North East</controllingFieldValue>
+            <valueName>New York</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>North East</controllingFieldValue>
+            <valueName>Test North East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>test</controllingFieldValue>
+            <valueName>North Carolina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>test</controllingFieldValue>
+            <valueName>Maine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>East</controllingFieldValue>
+            <valueName>South California 23</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>Nevada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>West California</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>West</controllingFieldValue>
+            <valueName>South California 234</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

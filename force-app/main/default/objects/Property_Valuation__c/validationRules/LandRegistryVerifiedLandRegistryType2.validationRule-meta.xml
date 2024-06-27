@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LandRegistryVerifiedLandRegistryType2</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+Land_Registry_Verified__c = True,
+ISPICKVAL( Land_Registry__c , &apos;Company&apos;),
+ISBLANK( TOB_Registered_Company__c ))</errorConditionFormula>
+    <errorMessage>Please fill - Registered Company</errorMessage>
+</ValidationRule>

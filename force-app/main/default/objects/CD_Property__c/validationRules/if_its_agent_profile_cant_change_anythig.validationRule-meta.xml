@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>if_its_agent_profile_cant_change_anythig</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(CONTAINS($Profile.Name, &quot;Agent&quot;), True, False)</errorConditionFormula>
+    <errorMessage>It is agent profile so can not change anything</errorMessage>
+</ValidationRule>

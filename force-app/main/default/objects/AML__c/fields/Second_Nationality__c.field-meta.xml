@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Second_Nationality__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>AML Parameter Lookup Field</inlineHelpText>
+    <label>Second Nationality</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>AML_Parameter__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Country</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>AML_Parameter__c</referenceTo>
+    <relationshipLabel>Second Nationality</relationshipLabel>
+    <relationshipName>Second_Nationalities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

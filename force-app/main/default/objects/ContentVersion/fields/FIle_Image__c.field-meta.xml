@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FIle_Image__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(
+  File_Extension_Type__c,
+  &quot;docx&quot;, IMAGE(&quot;https://upload.wikimedia.org/wikipedia/commons/f/fb/.docx_icon.svg&quot;, &quot;docx&quot;, 34, 34),
+  &quot;pdf&quot;, IMAGE(&quot;https://upload.wikimedia.org/wikipedia/commons/3/38/Icon_pdf_file.svg&quot;, &quot;pdf&quot;, 34, 34),
+  IMAGE(&quot;https://example.com/default_image.png&quot;, &quot;default&quot;, 24, 32)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>FIle Image</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

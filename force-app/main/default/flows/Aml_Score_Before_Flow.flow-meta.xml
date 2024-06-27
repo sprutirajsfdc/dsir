@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <name>Total_Score_Without_Weightage_Assignment</name>
+        <label>Total Score Without Weightage Assignment</label>
+        <locationX>527</locationX>
+        <locationY>527</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Total_Score_Without_Weightage_New__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>TotalScoreWithoutWeightageFormula</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Total_Value_New__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>TotalValueFormula</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Total_Weighted_Score_New__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>TotalWeightedScoreFormula</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Check_record_type</name>
+        <label>Check record type</label>
+        <locationX>866</locationX>
+        <locationY>270</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>UAE</name>
+            <conditionLogic>((1 AND 5 AND 6) OR (2 AND 3) OR (2 AND 4)) AND 7</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>KYC Completed</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>KYC Approved</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>KYC Rejected</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>KYC Approved</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>KYC Rejected</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>UAE</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Total_Score_Without_Weightage_Assignment</targetReference>
+            </connector>
+            <label>UAE</label>
+        </rules>
+        <rules>
+            <name>UK</name>
+            <conditionLogic>((1 AND 2) OR  (3 AND 4)  OR (3 AND 5) ) AND 6</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Approved</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue>Rejected</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Approved</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Status__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Rejected</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.RecordType.Name</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>UK</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Total_Score_Without_Weightage_Assignment</targetReference>
+            </connector>
+            <label>UK</label>
+        </rules>
+    </decisions>
+    <description>Flow will not run if Status of AML = KYC Completed other wise it will count the score.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>TotalScoreWithoutWeightageFormula</name>
+        <dataType>Number</dataType>
+        <expression>IF(ISPICKVAL({!$Record.AML_Type__c}, &apos;Corporate&apos;),
+IF(
+NOT(ISBLANK({!$Record.Customer_s_Country_of_Registration__r.Risk_Score__c})),
+{!$Record.Customer_s_Country_of_Registration__r.Risk_Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Beneficial_Owner_Country_of_Citizenship__r.Risk_Score__c})),
+{!$Record.Beneficial_Owner_Country_of_Citizenship__r.Risk_Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Industry__r.Risk_Score__c})),
+{!$Record.Industry__r.Risk_Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Year_of_Establishment__r.Risk_Score__c})),
+{!$Record.Year_of_Establishment__r.Risk_Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Financial_Information_Documents__r.Risk_Score__c})),
+{!$Record.Financial_Information_Documents__r.Risk_Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Mode_of_Payment__r.Risk_Score__c} )),
+{!$Record.Mode_of_Payment__r.Risk_Score__c} ,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Other_businesses_of_the_client__r.Risk_Score__c})),
+{!$Record.Other_businesses_of_the_client__r.Risk_Score__c},
+ 0
+)+
+IF(
+NOT(ISBLANK({!$Record.Screening_Shareholder__r.Risk_Score__c})),
+{!$Record.Screening_Shareholder__r.Risk_Score__c},
+ 0
+)
+,IF( ISPICKVAL({!$Record.AML_Type__c}, &apos;Individual&apos;),
+IF(
+NOT(ISBLANK({!$Record.Nationality__r.Risk_Score__c})),
+{!$Record.Nationality__r.Risk_Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Country_Of_Birth__r.Risk_Score__c})),
+{!$Record.Country_Of_Birth__r.Risk_Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Country_Of_Residence__r.Risk_Score__c})),
+{!$Record.Country_Of_Residence__r.Risk_Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Screening_Shareholder__r.Risk_Score__c})),
+{!$Record.Screening_Shareholder__r.Risk_Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Employment_Type__r.Risk_Score__c})),
+{!$Record.Employment_Type__r.Risk_Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Industry__r.Risk_Score__c})),
+{!$Record.Industry__r.Risk_Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Business_Location__r.Risk_Score__c})),
+{!$Record.Business_Location__r.Risk_Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Mode_of_Payment__r.Risk_Score__c} )),
+{!$Record.Mode_of_Payment__r.Risk_Score__c} ,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Source_of_Fund_Wealth__r.Risk_Score__c})),
+{!$Record.Source_of_Fund_Wealth__r.Risk_Score__c},
+ 0
+)
+,0))</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <name>TotalValueFormula</name>
+        <dataType>Number</dataType>
+        <expression>IF(
+NOT(ISBLANK({!$Record.Nationality__r.Score__c})),
+{!$Record.Nationality__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Country_Of_Birth__r.Score__c})),
+{!$Record.Country_Of_Birth__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Country_Of_Residence__r.Score__c})),
+{!$Record.Country_Of_Residence__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Industry__r.Score__c})),
+{!$Record.Industry__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Source_of_Fund_Wealth__r.Score__c})),
+{!$Record.Source_of_Fund_Wealth__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Business_Location__r.Score__c})),
+{!$Record.Business_Location__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Employment_Type__r.Score__c})),
+{!$Record.Employment_Type__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Screening_Shareholder__r.Score__c})),
+{!$Record.Screening_Shareholder__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Second_Nationality__r.Score__c})),
+{!$Record.Second_Nationality__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Mode_of_Payment__r.Score__c})),
+{!$Record.Mode_of_Payment__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Customer_s_Country_of_Registration__r.Score__c})),
+{!$Record.Customer_s_Country_of_Registration__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Beneficial_Owner_Country_of_Citizenship__r.Score__c})),
+{!$Record.Beneficial_Owner_Country_of_Citizenship__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Year_of_Establishment__r.Score__c})),
+{!$Record.Year_of_Establishment__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Financial_Information_Documents__r.Score__c})),
+{!$Record.Financial_Information_Documents__r.Score__c},
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Other_businesses_of_the_client__r.Score__c})),
+{!$Record.Other_businesses_of_the_client__r.Score__c},
+ 0
+)</expression>
+        <scale>2</scale>
+    </formulas>
+    <formulas>
+        <name>TotalWeightedScoreFormula</name>
+        <dataType>Number</dataType>
+        <expression>IF(ISPICKVAL({!$Record.AML_Type__c}, &apos;Corporate&apos;),
+IF(
+NOT(ISBLANK({!$Record.Customer_s_Country_of_Registration__r.Risk_Score__c})),
+{!$Record.Customer_s_Country_of_Registration__r.Risk_Score__c}*20/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Beneficial_Owner_Country_of_Citizenship__r.Risk_Score__c})),
+{!$Record.Beneficial_Owner_Country_of_Citizenship__r.Risk_Score__c}*15/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Industry__r.Risk_Score__c})),
+{!$Record.Industry__r.Risk_Score__c}*10/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Year_of_Establishment__r.Risk_Score__c})),
+{!$Record.Year_of_Establishment__r.Risk_Score__c}*5/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Financial_Information_Documents__r.Risk_Score__c})),
+{!$Record.Financial_Information_Documents__r.Risk_Score__c}*15/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Mode_of_Payment__r.Risk_Score__c} )),
+{!$Record.Mode_of_Payment__r.Risk_Score__c}*15/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Other_businesses_of_the_client__r.Risk_Score__c})),
+{!$Record.Other_businesses_of_the_client__r.Risk_Score__c}*5/100,
+ 0
+)+
+IF(
+NOT(ISBLANK({!$Record.Screening_Shareholder__r.Risk_Score__c})),
+{!$Record.Screening_Shareholder__r.Risk_Score__c}*15/100,
+ 0
+)
+,IF( ISPICKVAL({!$Record.AML_Type__c}, &apos;Individual&apos;),
+IF(
+NOT(ISBLANK({!$Record.Nationality__r.Risk_Score__c})),
+{!$Record.Nationality__r.Risk_Score__c}*10/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Country_Of_Birth__r.Risk_Score__c})),
+{!$Record.Country_Of_Birth__r.Risk_Score__c}*10/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Country_Of_Residence__r.Risk_Score__c})),
+{!$Record.Country_Of_Residence__r.Risk_Score__c}*10/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Screening_Shareholder__r.Risk_Score__c})),
+{!$Record.Screening_Shareholder__r.Risk_Score__c}*10/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Employment_Type__r.Risk_Score__c})),
+{!$Record.Employment_Type__r.Risk_Score__c}*10/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Industry__r.Risk_Score__c})),
+{!$Record.Industry__r.Risk_Score__c}*10/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Business_Location__r.Risk_Score__c})),
+{!$Record.Business_Location__r.Risk_Score__c}*10/100,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Mode_of_Payment__r.Risk_Score__c} )),
+{!$Record.Mode_of_Payment__r.Risk_Score__c}*15/100 ,
+ 0
+) +
+IF(
+NOT(ISBLANK({!$Record.Source_of_Fund_Wealth__r.Risk_Score__c})),
+{!$Record.Source_of_Fund_Wealth__r.Risk_Score__c}*15/100,
+ 0
+)
+,0))*10</expression>
+        <scale>0</scale>
+    </formulas>
+    <interviewLabel>Aml Score Before Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Aml Score Before Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>401</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>Check_record_type</targetReference>
+        </connector>
+        <object>AML__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

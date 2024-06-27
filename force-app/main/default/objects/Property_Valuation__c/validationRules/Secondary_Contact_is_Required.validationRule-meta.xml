@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Contact_is_Required</fullName>
+    <active>true</active>
+    <description>If the &quot;Do you have Secondary Property Owner&quot; picklist field is set to &quot;Yes,&quot; then update the Secondary Property Owner field as needed.</description>
+    <errorConditionFormula>AND(
+  ISPICKVAL( Do_you_have_Secondary_Property_Owner__c , &quot;Yes&quot;),
+OR(
+AND(
+ISBLANK( CIF__c ),
+ ISBLANK( Secondary_Property_Owner__c ) 
+)
+)
+)</errorConditionFormula>
+    <errorMessage>If the Secondary Owner is Yes then  Select Secondary Property Owner OR Add Additional CIF Contact through button.</errorMessage>
+</ValidationRule>

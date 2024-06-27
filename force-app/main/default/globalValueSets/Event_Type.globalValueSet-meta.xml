@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Appointment</fullName>
+        <default>false</default>
+        <label>Appointment</label>
+    </customValue>
+    <customValue>
+        <fullName>Check In</fullName>
+        <default>false</default>
+        <label>Check In</label>
+    </customValue>
+    <customValue>
+        <fullName>Check Out</fullName>
+        <default>false</default>
+        <label>Check Out</label>
+    </customValue>
+    <customValue>
+        <fullName>EPC Survey</fullName>
+        <default>false</default>
+        <label>EPC Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Services Appointment</fullName>
+        <default>false</default>
+        <label>Financial Services Appointment</label>
+    </customValue>
+    <customValue>
+        <fullName>Holiday</fullName>
+        <default>false</default>
+        <label>Holiday</label>
+    </customValue>
+    <customValue>
+        <fullName>Instruction Appointment</fullName>
+        <default>false</default>
+        <label>Instruction Appointment</label>
+    </customValue>
+    <customValue>
+        <fullName>Market Appraisal</fullName>
+        <default>false</default>
+        <label>Market Appraisal</label>
+    </customValue>
+    <customValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Inspection</fullName>
+        <default>false</default>
+        <label>Property Inspection</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Launch</fullName>
+        <default>false</default>
+        <label>Property Launch</label>
+    </customValue>
+    <customValue>
+        <fullName>Rent Review</fullName>
+        <default>false</default>
+        <label>Rent Review</label>
+    </customValue>
+    <customValue>
+        <fullName>RICS Valuation</fullName>
+        <default>false</default>
+        <label>RICS Valuation</label>
+    </customValue>
+    <customValue>
+        <fullName>Survey</fullName>
+        <default>false</default>
+        <label>Survey</label>
+    </customValue>
+    <customValue>
+        <fullName>Viewing</fullName>
+        <default>false</default>
+        <label>Viewing</label>
+    </customValue>
+    <masterLabel>Event Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

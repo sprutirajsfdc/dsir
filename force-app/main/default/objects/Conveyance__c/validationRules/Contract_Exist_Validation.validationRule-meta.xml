@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Exist_Validation</fullName>
+    <active>true</active>
+    <description>In the UK Record Type, when a record is created, if an offer is made and there is already a contract created for the same offer, then restrict it.</description>
+    <errorConditionFormula>AND(ISNEW(),
+     Offer__r.Contract_Count__c  &lt;&gt; 0, 
+     RecordType.DeveloperName  = &quot;UK&quot;
+  )</errorConditionFormula>
+    <errorMessage>Contract is already exist - Please check the Contract list on Offer and review the same</errorMessage>
+</ValidationRule>

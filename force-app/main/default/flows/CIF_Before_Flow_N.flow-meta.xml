@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <name>Assign_Currency</name>
+        <label>Assign Currency</label>
+        <locationX>182</locationX>
+        <locationY>1595</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.CurrencyIsoCode</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Project__r.CurrencyIsoCode</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>If_Admin_Team_email_is_not_Blank</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Email_on_CIF</name>
+        <label>Assign Email on CIF</label>
+        <locationX>50</locationX>
+        <locationY>1811</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Project_Admin_Team_Email__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Project__r.Project_Admin_Team_Email__c</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <assignments>
+        <description>Assigned Project equals United Kingdom.</description>
+        <name>Assign_Project</name>
+        <label>Assign Project</label>
+        <locationX>182</locationX>
+        <locationY>395</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Project__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>AssignProjectbasedonResion</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>User_generated_CIF_user_is_a_CIF_Owner</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Project_Admin</name>
+        <label>Assign Project Admin</label>
+        <locationX>446</locationX>
+        <locationY>911</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Project_Admin__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Project__r.Project_Admin__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>$Record.Project_Admin_2__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.Project__r.Project_Admin_2__r.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>User_generated_CIF_user_is_a_CIF_Owner</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Project_Agency</name>
+        <label>Assign Project Agency</label>
+        <locationX>446</locationX>
+        <locationY>611</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Project_Agency__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>get_Project_Agency_records.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Check_Project_Admin</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_User_Generated_CIF_user_as_CIF_Owner</name>
+        <label>Assign User Generated CIF user as  CIF Owner</label>
+        <locationX>248</locationX>
+        <locationY>1295</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.OwnerId</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.User_Generated_CIF__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Currency_Based_on_Project</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>Check_Project_Admin</name>
+        <label>Check Project Admin</label>
+        <locationX>578</locationX>
+        <locationY>803</locationY>
+        <defaultConnector>
+            <targetReference>User_generated_CIF_user_is_a_CIF_Owner</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Project_Admin</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Project__r.Project_Admin__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Project_Admin</targetReference>
+            </connector>
+            <label>Project Admin</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Decision_based_on_3rd_Party_Agency</name>
+        <label>Decision based on 3rd Party Agency</label>
+        <locationX>578</locationX>
+        <locationY>395</locationY>
+        <defaultConnector>
+            <targetReference>Check_Project_Admin</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>X3rd_Party_Agency_is_Null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Client_Agent__c</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Client_Agent__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>get_Project_Agency_records</targetReference>
+            </connector>
+            <label>3rd Party Agency is !=Null  or Changed</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Decision_based_on_CIF_Type</name>
+        <label>Decision based on CIF Type</label>
+        <locationX>380</locationX>
+        <locationY>287</locationY>
+        <defaultConnector>
+            <targetReference>Decision_based_on_3rd_Party_Agency</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>If_CIF_Type_Contact_Request</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.CIF_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>CONTACT REQUEST</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Project</targetReference>
+            </connector>
+            <label>If CIF Type Contact Request</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>If_Admin_Team_email_is_not_Blank</name>
+        <label>If Admin Team email is not Blank</label>
+        <locationX>182</locationX>
+        <locationY>1703</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Admin_Team_EMial_Not_Blank</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Project__r.Project_Admin_Team_Email__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Email_on_CIF</targetReference>
+            </connector>
+            <label>Admin Team Email Not Blank</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Update_Currency_Based_on_Project</name>
+        <label>Update CIF Currency Based on Project Currency</label>
+        <locationX>380</locationX>
+        <locationY>1487</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Currency_based_on_project_Currency</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Project__r.CurrencyIsoCode</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Currency</targetReference>
+            </connector>
+            <label>Currency based on project Currency</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>User_generated_CIF_user_is_a_CIF_Owner</name>
+        <label>User generated CIF user is a CIF Owner</label>
+        <locationX>380</locationX>
+        <locationY>1187</locationY>
+        <defaultConnector>
+            <targetReference>Update_Currency_Based_on_Project</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>User_generated_CIF_is_not_null</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.User_Generated_CIF__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ISNEW</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.User_Generated_CIF__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.OwnerId</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_User_Generated_CIF_user_as_CIF_Owner</targetReference>
+            </connector>
+            <label>User generated CIF is not null</label>
+        </rules>
+    </decisions>
+    <description>When record is create, CIF type is COntact Request -  Assign Project based on Region.
+If CIF type is not Contact request, get Project agency where 
+Project Agency.Contact = CIF.Contact and Project Agency.Project = CIF.Project,
+Update that Project Agency on CIF.Project Agency
+If User generated CIF is not CIF owner then assign User Generated cif = CIF Owner.</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>AssignProjectbasedonResion</name>
+        <dataType>String</dataType>
+        <expression>CASE({!$Record.Owner:User.Region__c}, &quot;UAE&quot;, &quot;a2D7T00000GvGKsUAN&quot;, &quot;UK&quot;, &quot;a2D7T00000GvFtpUAF&quot;, &quot;Saudi&quot;, &quot;a2D7T00000GvGKtUAN&quot;, &quot;ALL&quot;, &quot;a2D7T00000GvGKsUAN&quot;, &quot;&quot;, &quot;a2D7T00000GvGKsUAN&quot;, &quot;&quot; )</expression>
+    </formulas>
+    <formulas>
+        <name>ISNEW</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>CIF Before Flow 1 {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>CIF Before Flow N</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>get_Project_Agency_records</name>
+        <label>get Project Agency records</label>
+        <locationX>446</locationX>
+        <locationY>503</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Assign_Project_Agency</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>X3rd_Party_Agent__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Client_Agent__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Project__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Project__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Project_Agency__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>254</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Decision_based_on_CIF_Type</targetReference>
+        </connector>
+        <object>CIF__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

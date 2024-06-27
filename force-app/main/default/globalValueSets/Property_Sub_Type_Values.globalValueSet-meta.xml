@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Residential - Apartment</fullName>
+        <default>false</default>
+        <label>Residential - Apartment</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Bulk Units</fullName>
+        <default>false</default>
+        <label>Residential - Bulk Units</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Bungalow</fullName>
+        <default>false</default>
+        <label>Residential - Bungalow</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Chalet</fullName>
+        <default>false</default>
+        <label>Residential - Chalet</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Compound</fullName>
+        <default>false</default>
+        <label>Residential - Compound</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Duplex</fullName>
+        <default>false</default>
+        <label>Residential - Duplex</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Full floor</fullName>
+        <default>false</default>
+        <label>Residential - Full floor</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Half floor</fullName>
+        <default>false</default>
+        <label>Residential - Half floor</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - House</fullName>
+        <default>false</default>
+        <label>Residential - House</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Labor Camp</fullName>
+        <default>false</default>
+        <label>Residential - Labor Camp</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Land</fullName>
+        <default>false</default>
+        <label>Residential - Land</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Penthouse</fullName>
+        <default>false</default>
+        <label>Residential - Penthouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Townhouse</fullName>
+        <default>false</default>
+        <label>Residential - Townhouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Villa</fullName>
+        <default>false</default>
+        <label>Residential - Villa</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Whole Building</fullName>
+        <default>false</default>
+        <label>Residential - Whole Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Bulk Units</fullName>
+        <default>false</default>
+        <label>Commercial - Bulk Units</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Factory</fullName>
+        <default>false</default>
+        <label>Commercial - Factory</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Full floor</fullName>
+        <default>false</default>
+        <label>Commercial - Full floor</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Half floor</fullName>
+        <default>false</default>
+        <label>Commercial - Half floor</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Hotel Apartment</fullName>
+        <default>false</default>
+        <label>Commercial - Hotel Apartment</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Labor Camp</fullName>
+        <default>false</default>
+        <label>Commercial - Labor Camp</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Medical Facility</fullName>
+        <default>false</default>
+        <label>Commercial - Medical Facility</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Office Space</fullName>
+        <default>false</default>
+        <label>Commercial - Office Space</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Plot</fullName>
+        <default>false</default>
+        <label>Commercial - Plot</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Restaurant</fullName>
+        <default>false</default>
+        <label>Commercial - Restaurant</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Retail</fullName>
+        <default>false</default>
+        <label>Commercial - Retail</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Shop</fullName>
+        <default>false</default>
+        <label>Commercial - Shop</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Show Room</fullName>
+        <default>false</default>
+        <label>Commercial - Show Room</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Staff Accommodation</fullName>
+        <default>false</default>
+        <label>Commercial - Staff Accommodation</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Storage</fullName>
+        <default>false</default>
+        <label>Commercial - Storage</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Store</fullName>
+        <default>false</default>
+        <label>Commercial - Store</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Villa</fullName>
+        <default>false</default>
+        <label>Commercial - Villa</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Warehouse</fullName>
+        <default>false</default>
+        <label>Commercial - Warehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Commercial - Whole Building</fullName>
+        <default>false</default>
+        <label>Commercial - Whole Building</label>
+    </customValue>
+    <customValue>
+        <fullName>Flat</fullName>
+        <default>false</default>
+        <label>Flat</label>
+    </customValue>
+    <customValue>
+        <fullName>Detached</fullName>
+        <default>false</default>
+        <label>Detached</label>
+    </customValue>
+    <customValue>
+        <fullName>Semi-detached</fullName>
+        <default>false</default>
+        <label>Semi-detached</label>
+    </customValue>
+    <customValue>
+        <fullName>Terraced</fullName>
+        <default>false</default>
+        <label>Terraced</label>
+    </customValue>
+    <customValue>
+        <fullName>Mid Terrace</fullName>
+        <default>false</default>
+        <label>Mid Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>End of Terrace</fullName>
+        <default>false</default>
+        <label>End of Terrace</label>
+    </customValue>
+    <customValue>
+        <fullName>Bungalow</fullName>
+        <default>false</default>
+        <label>Bungalow</label>
+    </customValue>
+    <customValue>
+        <fullName>Townhouse</fullName>
+        <default>false</default>
+        <label>Townhouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Cottage</fullName>
+        <default>false</default>
+        <label>Cottage</label>
+    </customValue>
+    <customValue>
+        <fullName>Residential - Terrace House</fullName>
+        <default>false</default>
+        <label>Residential - Terrace House</label>
+    </customValue>
+    <masterLabel>Property Sub Type Values</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

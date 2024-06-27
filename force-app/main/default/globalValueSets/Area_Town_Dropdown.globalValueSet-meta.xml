@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Battersea</fullName>
+        <default>false</default>
+        <label>Battersea</label>
+    </customValue>
+    <customValue>
+        <fullName>Bayswater</fullName>
+        <default>false</default>
+        <label>Bayswater</label>
+    </customValue>
+    <customValue>
+        <fullName>Belgravia</fullName>
+        <default>false</default>
+        <label>Belgravia</label>
+    </customValue>
+    <customValue>
+        <fullName>Campden Hill</fullName>
+        <default>false</default>
+        <label>Campden Hill</label>
+    </customValue>
+    <customValue>
+        <fullName>Chelsea</fullName>
+        <default>false</default>
+        <label>Chelsea</label>
+    </customValue>
+    <customValue>
+        <fullName>Chelsea Creek</fullName>
+        <default>false</default>
+        <label>Chelsea Creek</label>
+    </customValue>
+    <customValue>
+        <fullName>Chiswick</fullName>
+        <default>false</default>
+        <label>Chiswick</label>
+    </customValue>
+    <customValue>
+        <fullName>Cotswolds</fullName>
+        <default>false</default>
+        <label>Cotswolds</label>
+    </customValue>
+    <customValue>
+        <fullName>Covent Garden</fullName>
+        <default>false</default>
+        <label>Covent Garden</label>
+    </customValue>
+    <customValue>
+        <fullName>Cuffley</fullName>
+        <default>false</default>
+        <label>Cuffley</label>
+    </customValue>
+    <customValue>
+        <fullName>Earls Court</fullName>
+        <default>false</default>
+        <label>Earls Court</label>
+    </customValue>
+    <customValue>
+        <fullName>Farnham Common</fullName>
+        <default>false</default>
+        <label>Farnham Common</label>
+    </customValue>
+    <customValue>
+        <fullName>Finchley</fullName>
+        <default>false</default>
+        <label>Finchley</label>
+    </customValue>
+    <customValue>
+        <fullName>Fitzvoria</fullName>
+        <default>false</default>
+        <label>Fitzvoria</label>
+    </customValue>
+    <customValue>
+        <fullName>Fulham</fullName>
+        <default>false</default>
+        <label>Fulham</label>
+    </customValue>
+    <customValue>
+        <fullName>Hampstead</fullName>
+        <default>false</default>
+        <label>Hampstead</label>
+    </customValue>
+    <customValue>
+        <fullName>Hampstead Garden Suburb</fullName>
+        <default>false</default>
+        <label>Hampstead Garden Suburb</label>
+    </customValue>
+    <customValue>
+        <fullName>Hampstead Heath</fullName>
+        <default>false</default>
+        <label>Hampstead Heath</label>
+    </customValue>
+    <customValue>
+        <fullName>Haywards Heath</fullName>
+        <default>false</default>
+        <label>Haywards Heath</label>
+    </customValue>
+    <customValue>
+        <fullName>Hertfordshire</fullName>
+        <default>false</default>
+        <label>Hertfordshire</label>
+    </customValue>
+    <customValue>
+        <fullName>Highgate</fullName>
+        <default>false</default>
+        <label>Highgate</label>
+    </customValue>
+    <customValue>
+        <fullName>Holland Park</fullName>
+        <default>false</default>
+        <label>Holland Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Hyde Park</fullName>
+        <default>false</default>
+        <label>Hyde Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Kensington</fullName>
+        <default>false</default>
+        <label>Kensington</label>
+    </customValue>
+    <customValue>
+        <fullName>Kingston upon Thames</fullName>
+        <default>false</default>
+        <label>Kingston upon Thames</label>
+    </customValue>
+    <customValue>
+        <fullName>Knightsbridge</fullName>
+        <default>false</default>
+        <label>Knightsbridge</label>
+    </customValue>
+    <customValue>
+        <fullName>Little Venice</fullName>
+        <default>false</default>
+        <label>Little Venice</label>
+    </customValue>
+    <customValue>
+        <fullName>London</fullName>
+        <default>false</default>
+        <label>London</label>
+    </customValue>
+    <customValue>
+        <fullName>Marylebone</fullName>
+        <default>false</default>
+        <label>Marylebone</label>
+    </customValue>
+    <customValue>
+        <fullName>Mayfair</fullName>
+        <default>false</default>
+        <label>Mayfair</label>
+    </customValue>
+    <customValue>
+        <fullName>Nine Elms</fullName>
+        <default>false</default>
+        <label>Nine Elms</label>
+    </customValue>
+    <customValue>
+        <fullName>North Kensington</fullName>
+        <default>false</default>
+        <label>North Kensington</label>
+    </customValue>
+    <customValue>
+        <fullName>Notting Hill</fullName>
+        <default>false</default>
+        <label>Notting Hill</label>
+    </customValue>
+    <customValue>
+        <fullName>Oxted</fullName>
+        <default>false</default>
+        <label>Oxted</label>
+    </customValue>
+    <customValue>
+        <fullName>Paddington</fullName>
+        <default>false</default>
+        <label>Paddington</label>
+    </customValue>
+    <customValue>
+        <fullName>Pimlico</fullName>
+        <default>false</default>
+        <label>Pimlico</label>
+    </customValue>
+    <customValue>
+        <fullName>Potters Bar</fullName>
+        <default>false</default>
+        <label>Potters Bar</label>
+    </customValue>
+    <customValue>
+        <fullName>Primrose Hill</fullName>
+        <default>false</default>
+        <label>Primrose Hill</label>
+    </customValue>
+    <customValue>
+        <fullName>Putney</fullName>
+        <default>false</default>
+        <label>Putney</label>
+    </customValue>
+    <customValue>
+        <fullName>Regent&apos;s Park</fullName>
+        <default>false</default>
+        <label>Regent&apos;s Park</label>
+    </customValue>
+    <customValue>
+        <fullName>Soho</fullName>
+        <default>false</default>
+        <label>Soho</label>
+    </customValue>
+    <customValue>
+        <fullName>South Hampstead</fullName>
+        <default>false</default>
+        <label>South Hampstead</label>
+    </customValue>
+    <customValue>
+        <fullName>South Kensington</fullName>
+        <default>false</default>
+        <label>South Kensington</label>
+    </customValue>
+    <customValue>
+        <fullName>St James&apos;s</fullName>
+        <default>false</default>
+        <label>St James&apos;s</label>
+    </customValue>
+    <customValue>
+        <fullName>St John&apos;s Wood</fullName>
+        <default>false</default>
+        <label>St John&apos;s Wood</label>
+    </customValue>
+    <customValue>
+        <fullName>Swiss Cottage</fullName>
+        <default>false</default>
+        <label>Swiss Cottage</label>
+    </customValue>
+    <customValue>
+        <fullName>Temple</fullName>
+        <default>false</default>
+        <label>Temple</label>
+    </customValue>
+    <customValue>
+        <fullName>The Little Boltons</fullName>
+        <default>false</default>
+        <label>The Little Boltons</label>
+    </customValue>
+    <customValue>
+        <fullName>Water Lane</fullName>
+        <default>false</default>
+        <label>Water Lane</label>
+    </customValue>
+    <customValue>
+        <fullName>Westminster</fullName>
+        <default>false</default>
+        <label>Westminster</label>
+    </customValue>
+    <customValue>
+        <fullName>Weybridge</fullName>
+        <default>false</default>
+        <label>Weybridge</label>
+    </customValue>
+    <customValue>
+        <fullName>Oxshott</fullName>
+        <default>false</default>
+        <label>Oxshott</label>
+    </customValue>
+    <customValue>
+        <fullName>Cobham</fullName>
+        <default>false</default>
+        <label>Cobham</label>
+    </customValue>
+    <customValue>
+        <fullName>Esher</fullName>
+        <default>false</default>
+        <label>Esher</label>
+    </customValue>
+    <customValue>
+        <fullName>Walton-on-Thames</fullName>
+        <default>false</default>
+        <label>Walton-on-Thames</label>
+    </customValue>
+    <customValue>
+        <fullName>Ascot</fullName>
+        <default>false</default>
+        <label>Ascot</label>
+    </customValue>
+    <customValue>
+        <fullName>Sunningdale</fullName>
+        <default>false</default>
+        <label>Sunningdale</label>
+    </customValue>
+    <customValue>
+        <fullName>Virginia Water</fullName>
+        <default>false</default>
+        <label>Virginia Water</label>
+    </customValue>
+    <customValue>
+        <fullName>Chobham</fullName>
+        <default>false</default>
+        <label>Chobham</label>
+    </customValue>
+    <customValue>
+        <fullName>Windsor</fullName>
+        <default>false</default>
+        <label>Windsor</label>
+    </customValue>
+    <customValue>
+        <fullName>East Horsley</fullName>
+        <default>false</default>
+        <label>East Horsley</label>
+    </customValue>
+    <customValue>
+        <fullName>West Horsley</fullName>
+        <default>false</default>
+        <label>West Horsley</label>
+    </customValue>
+    <customValue>
+        <fullName>Fetcham</fullName>
+        <default>false</default>
+        <label>Fetcham</label>
+    </customValue>
+    <customValue>
+        <fullName>Effingham</fullName>
+        <default>false</default>
+        <label>Effingham</label>
+    </customValue>
+    <customValue>
+        <fullName>Guilford</fullName>
+        <default>false</default>
+        <label>Guilford</label>
+    </customValue>
+    <customValue>
+        <fullName>Maida Vale</fullName>
+        <default>false</default>
+        <label>Maida Vale</label>
+    </customValue>
+    <masterLabel>Area / Town</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

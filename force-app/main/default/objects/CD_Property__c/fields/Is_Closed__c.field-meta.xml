@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Closed__c</fullName>
+    <description>If Status = Sold Then True Is Closed
+Else If Status = Registered Then True Is Closed
+Else If Status = Commission Then True Is Closed
+Else If Status = Closed Then True Is Closed</description>
+    <externalId>false</externalId>
+    <formula>(IF( OR(
+ISPICKVAL( Status__c ,&apos;Sold&apos;),
+ISPICKVAL( Status__c ,&apos;Registered DLD&apos;), 
+ISPICKVAL( Status__c ,&apos;Commission&apos;),
+ISPICKVAL( Status__c ,&apos;Closed&apos;)
+),True,False))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Based On Status Field Display Is Closed Checkbox</inlineHelpText>
+    <label>Is Closed</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

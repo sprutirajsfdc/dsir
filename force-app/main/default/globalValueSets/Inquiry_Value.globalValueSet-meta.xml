@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Agent did not respond</fullName>
+        <default>false</default>
+        <label>Agent did not respond</label>
+    </customValue>
+    <customValue>
+        <fullName>Agent said he will call back</fullName>
+        <default>false</default>
+        <label>Agent said he will call back</label>
+    </customValue>
+    <customValue>
+        <fullName>Budget low</fullName>
+        <default>false</default>
+        <label>Budget low</label>
+    </customValue>
+    <customValue>
+        <fullName>Call Connected to Agent</fullName>
+        <default>false</default>
+        <label>Call Connected to Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Client asked for call back from Agent</fullName>
+        <default>false</default>
+        <label>Client asked for call back from Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Client didn&apos;t respond due to Time Difference.</fullName>
+        <default>false</default>
+        <label>Client didn&apos;t respond due to Time Difference.</label>
+    </customValue>
+    <customValue>
+        <fullName>Client did not respond</fullName>
+        <default>false</default>
+        <label>Client did not respond</label>
+    </customValue>
+    <customValue>
+        <fullName>Client in Contact with Agent</fullName>
+        <default>false</default>
+        <label>Client in Contact with Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Not contactable</fullName>
+        <default>false</default>
+        <label>Client Not contactable</label>
+    </customValue>
+    <customValue>
+        <fullName>Client wants to be contacted via Email</fullName>
+        <default>false</default>
+        <label>Client wants to be contacted via Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Client wants to be contacted via Whatsapp</fullName>
+        <default>false</default>
+        <label>Client wants to be contacted via Whatsapp</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate Enquiry</fullName>
+        <default>false</default>
+        <label>Duplicate Enquiry</label>
+    </customValue>
+    <customValue>
+        <fullName>Incorrect Email</fullName>
+        <default>false</default>
+        <label>Incorrect Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Incorrect mobile</fullName>
+        <default>false</default>
+        <label>Incorrect mobile</label>
+    </customValue>
+    <customValue>
+        <fullName>Incorrect mobile &amp; Email</fullName>
+        <default>false</default>
+        <label>Incorrect mobile &amp; Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Invalid lead</fullName>
+        <default>false</default>
+        <label>Invalid lead</label>
+    </customValue>
+    <customValue>
+        <fullName>Job Seeker</fullName>
+        <default>false</default>
+        <label>Job Seeker</label>
+    </customValue>
+    <customValue>
+        <fullName>Real Estate Brokers</fullName>
+        <default>false</default>
+        <label>Real Estate Brokers</label>
+    </customValue>
+    <customValue>
+        <fullName>Telemarketing</fullName>
+        <default>false</default>
+        <label>Telemarketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Bad customer service / Customer Complaint</fullName>
+        <default>false</default>
+        <label>Bad customer service / Customer Complaint</label>
+    </customValue>
+    <customValue>
+        <fullName>Not contacted - Found a suitable property</fullName>
+        <default>false</default>
+        <label>Not contacted - Found a suitable property</label>
+    </customValue>
+    <customValue>
+        <fullName>Client not contacted- Agent did not respond</fullName>
+        <default>false</default>
+        <label>Client not contacted- Agent did not respond</label>
+    </customValue>
+    <customValue>
+        <fullName>Client not contacted- Lead Redirected (Negative)</fullName>
+        <default>false</default>
+        <label>Client not contacted- Lead Redirected (Negative)</label>
+    </customValue>
+    <customValue>
+        <fullName>Client was not contacted by Agent - now not interested</fullName>
+        <default>false</default>
+        <label>Client was not contacted by Agent - now not interested</label>
+    </customValue>
+    <customValue>
+        <fullName>Client was not contacted by Agent- CCE connected the call to the agent</fullName>
+        <default>false</default>
+        <label>Client was not contacted by Agent- CCE connected the call to the agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Client contacted by Agent</fullName>
+        <default>false</default>
+        <label>Client contacted by Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Client contacted by Agent - Client not Interested</fullName>
+        <default>false</default>
+        <label>Client contacted by Agent - Client not Interested</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Requested Agent to Call back</fullName>
+        <default>false</default>
+        <label>Client Requested Agent to Call back</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Requested Agent to send Email</fullName>
+        <default>false</default>
+        <label>Client Requested Agent to send Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Requested Agent to send Whatsapp</fullName>
+        <default>false</default>
+        <label>Client Requested Agent to send Whatsapp</label>
+    </customValue>
+    <customValue>
+        <fullName>Client_Not Contactable</fullName>
+        <default>false</default>
+        <label>Client_Not Contactable</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Didn&apos;t Respond</fullName>
+        <default>false</default>
+        <label>Client Didn&apos;t Respond</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Not contacted by Agent - Requested to get back to the client</fullName>
+        <default>false</default>
+        <label>Client Not contacted by Agent - Requested to get back to the client</label>
+    </customValue>
+    <customValue>
+        <fullName>Invalid_Lead</fullName>
+        <default>false</default>
+        <label>Invalid_Lead</label>
+    </customValue>
+    <customValue>
+        <fullName>Budget is low</fullName>
+        <default>false</default>
+        <label>Budget is low</label>
+    </customValue>
+    <customValue>
+        <fullName>Non-Focus Area</fullName>
+        <default>false</default>
+        <label>Non-Focus Area</label>
+    </customValue>
+    <customValue>
+        <fullName>SPAM</fullName>
+        <default>false</default>
+        <label>SPAM</label>
+    </customValue>
+    <customValue>
+        <fullName>Irrelevant</fullName>
+        <default>false</default>
+        <label>Irrelevant</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Lost- Due to no contact from Agent</fullName>
+        <default>false</default>
+        <label>Client Lost- Due to no contact from Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Purchased a property through another Real estate</fullName>
+        <default>false</default>
+        <label>Client Purchased a property through another Real estate</label>
+    </customValue>
+    <customValue>
+        <fullName>Interested</fullName>
+        <default>false</default>
+        <label>Interested</label>
+    </customValue>
+    <customValue>
+        <fullName>Client Not contactable – 3 attempts made by CCE</fullName>
+        <default>false</default>
+        <label>Client Not contactable – 3 attempts made by CCE</label>
+    </customValue>
+    <customValue>
+        <fullName>Agent Updated incorrect information</fullName>
+        <default>false</default>
+        <label>Agent Updated incorrect information</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Interested to Buy or Rent a Property</fullName>
+        <default>false</default>
+        <label>Not Interested to Buy or Rent a Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Incomplete Contact Details</fullName>
+        <default>false</default>
+        <label>Incomplete Contact Details</label>
+    </customValue>
+    <customValue>
+        <fullName>Mortgage Not Approved</fullName>
+        <default>false</default>
+        <label>Mortgage Not Approved</label>
+    </customValue>
+    <customValue>
+        <fullName>Deal Fell Off</fullName>
+        <default>false</default>
+        <label>Deal Fell Off</label>
+    </customValue>
+    <customValue>
+        <fullName>Property Match Not available</fullName>
+        <default>false</default>
+        <label>Property Match Not available</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Serious</fullName>
+        <default>false</default>
+        <label>Not Serious</label>
+    </customValue>
+    <customValue>
+        <fullName>Window Shopping</fullName>
+        <default>false</default>
+        <label>Window Shopping</label>
+    </customValue>
+    <customValue>
+        <fullName>Inquiry Won</fullName>
+        <default>false</default>
+        <label>Inquiry Won</label>
+    </customValue>
+    <customValue>
+        <fullName>Client request agent to call back</fullName>
+        <default>false</default>
+        <label>Client request agent to call back</label>
+    </customValue>
+    <customValue>
+        <fullName>Was Interested - Now not contactable</fullName>
+        <default>false</default>
+        <label>Was Interested - Now not contactable</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate Inquiry</fullName>
+        <default>false</default>
+        <label>Duplicate Inquiry</label>
+    </customValue>
+    <masterLabel>Inquiry Value</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

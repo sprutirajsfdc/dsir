@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Agent_Panle</fullName>
+    <fields>Name</fields>
+    <fields>Project__c</fields>
+    <fields>Registration__c</fields>
+    <label>Project Agent Panle</label>
+</CompactLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllOpenLeads</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>Currency__c</columns>
+    <columns>Form_Name__c</columns>
+    <columns>Price__c</columns>
+    <columns>Project_Name__c</columns>
+    <columns>utmCampaign__c</columns>
+    <columns>utmContent__c</columns>
+    <columns>utmLeadsource__c</columns>
+    <columns>utmMedium__c</columns>
+    <columns>utmSource__c</columns>
+    <columns>utmTerm__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Open Leads</label>
+</ListView>

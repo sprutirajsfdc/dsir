@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>pba__ListingPrice_pb__c</field>
+        <field>pba_uaefields__Community_Propertyfinder__c</field>
+        <field>pba_uaefields__Sub_Community_Propertyfinder__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Status_Update_to_ContentCreation</name>
+                <type>FieldUpdate</type>
+            </action>
+            <action>
+                <name>Update_QualityCheck_TimeStamp</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <name>Gulf_SIR_Sales_Management</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Price Check Gulf Sir</label>
+        <name>Price_Check_Gulf_Sir</name>
+    </approvalStep>
+    <description>Price must be approved by Sales Manager</description>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <formula>AND 
+( 
+ISPICKVAL(pba__Status__c,&quot;Off-Market&quot;) 
+, 
+OR 
+( 
+$UserRole.Id=&quot;00E1t0000019jxx&quot;, 
+$UserRole.Id=&quot;00E1t0000019jxs&quot; 
+))</formula>
+    </entryCriteria>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Listing_rejected_by_Listing_Admin</name>
+            <type>Task</type>
+        </action>
+        <action>
+            <name>Status_Update_to_Draft</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Status_Update_to_Content_Creation</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_PriceCheck_Timestamp</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Price Check Gulf Sir</label>
+    <processOrder>2</processOrder>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

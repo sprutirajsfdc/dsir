@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Office_Location__c</fullName>
+    <externalId>false</externalId>
+    <label>Office Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Dubai Sotheby&apos;s International Realty</fullName>
+                <default>false</default>
+                <label>Dubai Sotheby&apos;s International Realty</label>
+            </value>
+            <value>
+                <fullName>Dubai Sotheby&apos;s International Realty - Exclusive Projects</fullName>
+                <default>false</default>
+                <label>Dubai Sotheby&apos;s International Realty - Exclusive Projects</label>
+            </value>
+            <value>
+                <fullName>Saudi Arabia Sotheby&apos;s International Realty</fullName>
+                <default>false</default>
+                <label>Saudi Arabia Sotheby&apos;s International Realty</label>
+            </value>
+            <value>
+                <fullName>48 Conduit Street, London, W1S 2YR</fullName>
+                <default>false</default>
+                <label>48 Conduit Street, London, W1S 2YR</label>
+            </value>
+            <value>
+                <fullName>One Conveyancing</fullName>
+                <default>false</default>
+                <label>One Conveyancing</label>
+            </value>
+            <value>
+                <fullName>AKW Consultants</fullName>
+                <default>false</default>
+                <label>AKW Consultants</label>
+            </value>
+            <value>
+                <fullName>United Kingdom Sotheby&apos;s International Realty</fullName>
+                <default>false</default>
+                <label>United Kingdom Sotheby&apos;s International Realty</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

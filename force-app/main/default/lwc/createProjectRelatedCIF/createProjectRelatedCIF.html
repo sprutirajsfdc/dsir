@@ -1,0 +1,397 @@
+<template>  
+  <div class="backGround">
+    <div if:false={isLoaded} class="slds-m-around_large slds-spinner_inline spinner-padding spinner-container">
+      <div class="spinner-overlay spinner-container">
+        <div class="spinner-Text">Please Wait...</div><br/>
+        <lightning-spinner alternative-text="Loading..." 
+                            variant="brand" 
+                            data-text="Please Wait..."
+                            class="spinner-overlay spinner-container">
+        </lightning-spinner>
+      
+      </div>
+    </div>
+    <!-- <div class="spinner"><template if:true={isLoading}><lightning-spinner alternative-text="Loading" variant="brand" size="large"></lightning-spinner></template></div> -->
+    <div if:true={isLoaded} class="backGroundclass">
+      <div>
+        <template if:true={cifForm}>
+          <lightning-record-edit-form object-api-name={objectApiName} onsubmit={handleSubmit} onsuccess={handleSuccess} density="comfy">
+            <lightning-messages></lightning-messages>
+          <div class="slds-p-around_xx-small">
+          <lightning-layout multiple-rows="true" horizontal-align="space">
+            <lightning-layout-item size="12" class="bgBlack" flexibility="auto" padding="around-small" large-device-size="8" >
+              <div class="heading-style  slds-align_absolute-center">
+                <div class="custom-box">CIF DATA FORM</div>
+              </div>
+            </lightning-layout-item>
+          </lightning-layout>
+         
+          <lightning-layout multiple-rows="true" horizontal-align="space">
+            <lightning-layout-item size="12" class="bgBlack1 inquiryLabel" flexibility="auto" large-device-size="8">
+              <label class="slds-form-element__label inquiryLabel" >INQUIRY TYPE</label>
+              </lightning-layout-item>
+                <lightning-layout-item size="12" class="bgBlack2" flexibility="auto" large-device-size="8">
+              <div class="labelStyle1 custom-radio-group" >
+                <!-- <span class="custom-radio-group"> -->
+                  <!-- label="INQUIRY TYPE" -->
+                <lightning-radio-group
+                                name="radioGroup" 
+                                class="radioGroup1 custom-radio-group slds-radio" 
+                                options={options} 
+                                
+                                value={value} 
+                                type="radio" 
+                                onchange={handleRadioChange}>
+                </lightning-radio-group>
+              <!-- </span> -->
+              </div>
+<!-- 
+              <div class="custom-radio-group">
+                <c-custom-radio-button
+                    name="radioGroup"
+                    label="AGENCY BRIEFING"
+                    value="AGENCY BRIEFING"
+                    is-checked='AGENCY BRIEFING'
+                    onchange={handleRadioChange}
+                ></c-custom-radio-button>   <br/>
+                <c-custom-radio-button
+                    name="radioGroup"
+                    label="AGENCY BUYER"
+                    value="AGENCY BUYER"
+                    is-checked='AGENCY BUYER'
+                    onchange={handleRadioChange}
+                ></c-custom-radio-button>   <br/>
+                <c-custom-radio-button
+                    name="radioGroup"
+                    label="DIRECT BUYER"
+                    value="DIRECT BUYER"
+                    is-checked='DIRECT BUYER'
+                    onchange={handleRadioChange}
+                ></c-custom-radio-button>   <br/>
+            </div> -->
+            </lightning-layout-item>
+          </lightning-layout>
+          <lightning-layout multiple-rows="true" horizontal-align="space">
+              <lightning-layout-item size="12" class="bgBlack" padding="around-small" flexibility="auto" large-device-size="8">
+                <div class="page-footer page-section">
+                  <template if:true={showAgencyBriefingForm}>
+                    <div class="slds-p-around_x-small ">
+                      <lightning-accordion class="accordionClass" active-section-name="A" allow-multiple-sections-open onsectiontoggle={handleSectionToggle}>
+                        <lightning-accordion-section name="A" label="AGENCY DETAILS" class="accordionClass" style="border-radius: 10px;">
+                          <br />
+                          <lightning-record-edit-form object-api-name={objectApiName} onsubmit={handleSubmit} onsuccess={handleSuccess} density="comfy">
+                            <lightning-messages></lightning-messages>
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle ">{agencyN}</label>
+                              <lightning-input-field label="AGENCY NAME (REQUIRED)" field-name={agencyName} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{agencyReraN}</label>
+                              <lightning-input-field label="AGENCY RERA NUMBER (OPTIONAL)" field-name={agencyReraNumber} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{agencyBRN}</label>
+                              <lightning-input-field label="AGENT BRN (OPTIONAL)" field-name={agentBRN} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{agentN}</label>
+                              <lightning-input-field label="AGENT NAME (REQUIRED)" field-name={agentName} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{agencyMob}</label>
+                              <lightning-input-field label="AGENT MOBILE (REQUIRED)" field-name={agentMobile} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{agentE}</label>
+                              <lightning-input-field label="AGENT EMAIL (REQUIRED)" field-name={agentEmail} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{country}</label>
+                              <lightning-input-field label="CONUNTRY (REQUIRED)" field-name={sharing_reg} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <label class="slds-form-element__label userBack">{cifUser}</label>
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <c-custom-lookup icon-name="standard:user" s-object-api-name="user" label="*" variant="label-hidden" onlookupupdate={handleLookupSelection} placeholder="Search User here..." default-record-id={userId}></c-custom-lookup>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{requestCreate}</label>
+                              <lightning-input-field field-name={request_create} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{comments}</label>
+                              <lightning-input-field label="COMMENTS IF ANY (OPTIONAL)" field-name={commentsField} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <br />
+                            <div class="slds-align_absolute-center buttonBack slds-button_stretch slds-size_6-of-12">
+                              <lightning-button variant="brand" type="submit" name="save" label="SUBMIT" style="font-weight:bold;"></lightning-button>
+                            </div>
+                          </lightning-record-edit-form>
+                        </lightning-accordion-section>
+                      </lightning-accordion>
+                    </div>
+                  </template>
+                  <template if:true={showDirectBuyerForm}>
+                    <div class="slds-p-around_x-small">
+                      <lightning-accordion class="accordionClass" active-section-name="A" allow-multiple-sections-open onsectiontoggle={handleSectionToggle}>
+                        <lightning-accordion-section name="A" label="BUYER DETAILS">
+                          <br />
+                          <lightning-record-edit-form object-api-name={objectApiName} onsubmit={handleSubmit} onsuccess={handleSuccess} density="comfy">
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{nameOwner}</label>
+                              <lightning-input-field label="NAME OF THE OWNER (REQUIRED)" field-name={nameOfOwner} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{joint}</label>
+                              <lightning-input-field label="JOINT OWNER (OPTIONAL)" field-name={jointOwner} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{mobCountry}</label>
+                              <lightning-input-field label="MOBILE COUNTRY CODE (OPTIONAL)" field-name={mobileCountryCode} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{mob}</label>
+                              <lightning-input-field label="MOBILE (REQUIRED)" field-name={mobile} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{mail}</label>
+                              <lightning-input-field label="E-MAIL (REQUIRED)" field-name={email} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{hearAbout}</label>
+                              <lightning-input-field label="HOW DID YOU HEAR ABOUT US? (REQUIRED)" field-name={leadsource} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{unitTy}</label>
+                              <lightning-input-field label="UNIT TYPE (OPTIONAL)" field-name={unitType} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{payment}</label>
+                              <lightning-input-field label="PREFERRED PAYMENT METHOD ? (OPTIONAL)" field-name={paymentMethod} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{cont}</label>
+                              <lightning-input-field label="HOW WOULD YOU LIKE US TO CONTACT YOU? (OPTIONAL)" field-name={contact} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{country}</label>
+                              <lightning-input-field label="CONUNTRY (REQUIRED)" field-name={sharing_reg} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <label class="slds-form-element__label userBack">{cifUser}</label>
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <c-custom-lookup icon-name="standard:user" s-object-api-name="user" label="*" variant="label-hidden" onlookupupdate={handleLookupSelection} placeholder="Search User here..." default-record-id={userId}></c-custom-lookup>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{requestCreate}</label>
+                              <lightning-input-field field-name={request_create} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{comments}</label>
+                              <lightning-input-field label="COMMENTS IF ANY (OPTIONAL)" field-name={commentsField} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <br />
+                            <div class="slds-align_absolute-center buttonBack">
+                              <lightning-button variant="brand" type="submit" name="save" label="SUBMIT" style="font-weight:bold;"></lightning-button>
+                            </div>
+                          </lightning-record-edit-form>
+                          <lightning-messages></lightning-messages>
+                        </lightning-accordion-section>
+                      </lightning-accordion>
+                    </div>
+                  </template>
+                  <template if:true={showAgencyBuyerForm}>
+                    <div class="slds-p-around_x-small">
+                      <lightning-record-edit-form object-api-name={objectApiName} onsubmit={handleSubmit} onsuccess={handleSuccess} density="comfy">
+                        <lightning-accordion class="accordionClass" active-section-name="A" allow-multiple-sections-open onsectiontoggle={handleSectionToggle}>
+                          <lightning-accordion-section name="A" label="BUYER DETAILS">
+                            <br />
+                            <lightning-messages></lightning-messages>
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{nameOwner}</label>
+                              <lightning-input-field label="NAME OF THE OWNER (REQUIRED)" field-name={nameOfOwner} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{joint}</label>
+                              <lightning-input-field label="JOINT OWNER (OPTIONAL)" field-name={jointOwner} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{mobCountry}</label>
+                              <lightning-input-field label="MOBILE COUNTRY CODE (OPTIONAL)" field-name={mobileCountryCode} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{mob}</label>
+                              <lightning-input-field label="MOBILE (REQUIRED)" field-name={mobile} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{mail}</label>
+                              <lightning-input-field label="E-MAIL (REQUIRED)" field-name={email} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{hearAbout}</label>
+                              <lightning-input-field label="HOW DID YOU HEAR ABOUT US? (REQUIRED)" field-name={leadsource} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{unitTy}</label>
+                              <lightning-input-field label="UNIT TYPE (OPTIONAL)" field-name={unitType} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{payment}</label>
+                              <lightning-input-field label="PREFERRED PAYMENT METHOD ? (OPTIONAL)" field-name={paymentMethod} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{cont}</label>
+                              <lightning-input-field label="HOW WOULD YOU LIKE US TO CONTACT YOU? (OPTIONAL)" field-name={contact} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                          </lightning-accordion-section>
+                        </lightning-accordion>
+                        <lightning-accordion class="accordionClass" active-section-name="A" allow-multiple-sections-open onsectiontoggle={handleSectionToggle}>
+                          <lightning-accordion-section name="A" label="AGENCY DETAILS">
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{agencyN}</label>
+                              <lightning-input-field label="AGENCY NAME (REQUIRED)" field-name={agencyName} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{agencyReraN}</label>
+                              <lightning-input-field label="AGENCY RERA NUMBER (OPTIONAL)" field-name={agencyReraNumber} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{agencyBRN}</label>
+                              <lightning-input-field label="AGENT BRN (OPTIONAL)" field-name={agentBRN} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{agentN}</label>
+                              <lightning-input-field label="AGENT NAME (REQUIRED)" field-name={agentName} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{agencyMob}</label>
+                              <lightning-input-field label="AGENT MOBILE (REQUIRED)" field-name={agentMobile} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{agentE}</label>
+                              <lightning-input-field label="AGENT EMAIL (REQUIRED)" field-name={agentEmail} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{country}</label>
+                              <lightning-input-field label="CONUNTRY (REQUIRED)" field-name={sharing_reg} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <label class="slds-form-element__label userBack">{cifUser}</label>
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <c-custom-lookup icon-name="standard:user" s-object-api-name="user" label="*" variant="label-hidden" onlookupupdate={handleLookupSelection} placeholder="Search User here..." default-record-id={userId}></c-custom-lookup>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{requestCreate}</label>
+                              <lightning-input-field field-name={request_create} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <div class="slds-form-element slds-col slds-size_1-of-2">
+                              <label class="labelStyle">{comments}</label>
+                              <lightning-input-field label="COMMENTS IF ANY (OPTIONAL)" field-name={commentsField} variant="label-hidden"></lightning-input-field>
+                            </div>
+                            <br />
+                            <br />
+                            <div class="slds-align_absolute-center buttonBack">
+                              <lightning-button variant="brand" type="submit" name="save" label="SUBMIT" style="font-weight:bold;"></lightning-button>
+                            </div>
+                            <lightning-messages></lightning-messages>
+                          </lightning-accordion-section>
+                        </lightning-accordion>
+                      </lightning-record-edit-form>
+                    </div>
+                  </template>
+                </div>
+              </lightning-layout-item>
+            </lightning-layout>
+          </div></lightning-record-edit-form>
+        </template>
+        <template if:true={thankYouPage}>
+          <div if:true={isLoaded} class="slds-p-around_xx-small">
+            <lightning-layout multiple-rows="true" horizontal-align="space">
+              <lightning-layout-item size="12" class="bgBlack" flexibility="auto" padding="around-small" large-device-size="8" >
+                <div class="heading-style  slds-align_absolute-center">
+                  <div class="custom-box">THANK YOU</div>
+                </div>
+              </lightning-layout-item>
+            </lightning-layout>
+            <lightning-layout multiple-rows="true" horizontal-align="space">
+              <lightning-layout-item size="12" class="bgBlack" flexibility="auto" padding="around-small" large-device-size="8">
+                <div class="custom-box labelStyleThanku slds-align_absolute-center ">Your Form has been Submitted Successfully</div>
+              </lightning-layout-item>
+            </lightning-layout>
+            <lightning-layout multiple-rows="true" horizontal-align="space">
+              <lightning-layout-item size="12" class="bgBlack" flexibility="auto" padding="around-small" large-device-size="8">
+            <div class="slds-align_absolute-center buttonBack">
+              <lightning-button variant="brand" type="submit" name="save" label="BACK" style="font-weight:bold;" onclick={handleBackButton}></lightning-button>
+            </div>
+            </lightning-layout-item>
+            </lightning-layout>
+          </div>
+          <!-- <div if:true={isLoaded} class="fp-auto-height-responsive">
+            <article style="background-color: black;" class="slds-card" part="card">
+              <div class="slds-card__body slds-card__body_inner">
+                <h1>
+                  <div slot="title" class="heading-style footer slds-align_absolute-center ">
+                    <lightning-layout pull-to-boundary="medium" horizontal-align="space">
+                      <lightning-layout-item flexibility="auto" padding="around-small">
+                        <div class="custom-box">THANK YOU</div>
+                      </lightning-layout-item>
+                    </lightning-layout>
+                  </div>
+                  <div>
+                    <lightning-layout pull-to-boundary="large" horizontal-align="space">
+                      <lightning-layout-item flexibility="auto" padding="around-small">
+                        <div class="custom-box labelStyleThanku">Your Form has been Submitted Successfully</div>
+                      </lightning-layout-item>
+                    </lightning-layout>
+                  </div>
+                  <div class="slds-align_absolute-center buttonBack">
+                    <lightning-button variant="brand" type="submit" name="save" label="BACK" style="font-weight:bold;" onclick={handleBackButton}></lightning-button>
+                  </div>
+                </h1>
+              </div>
+            </article>
+          </div> -->
+        </template>
+      </div>
+    </div>
+  </div>
+</template>

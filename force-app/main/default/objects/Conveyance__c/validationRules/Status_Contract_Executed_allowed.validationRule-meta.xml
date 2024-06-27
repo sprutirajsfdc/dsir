@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Contract_Executed_allowed</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISCHANGED( Status__c )  
+&amp;&amp;  
+ISPICKVAL(Status__c, &apos;Contract Executed&apos;)  
+&amp;&amp; 
+(
+  (Contract_Buyer_AML_Count__c  == 0)
+   &amp;&amp;
+  (Seller_AML_Count__c  == 0)
+)</errorConditionFormula>
+    <errorMessage>When the status is Contract Executed, (Buyer AML / 3rd Party Buyer) and (Seller AML / 3rd party Seller) should be linked to Contract.</errorMessage>
+</ValidationRule>

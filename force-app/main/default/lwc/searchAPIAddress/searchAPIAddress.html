@@ -1,0 +1,51 @@
+<template>
+ <div class='slds-box slds-theme–default'>
+       <lightning-combobox name="recordType" label="Record Type" 
+                            options={recordTypeOptions} 
+                            onchange={handleRecordTypeChange} 
+                            placeholder="Select Record Type"
+                            required=true>
+        </lightning-combobox> 
+        <!-- onsubmit={handleSubmit} -->
+        <!-- record-id={recordId} -->
+     <lightning-record-edit-form  object-api-name=Property_Valuation__c  onsuccess={handleSuccess} onsubmit={handleSubmit}  >
+    <lightning-messages>
+    </lightning-messages>
+    <lightning-input-address
+    address-label='Address'
+    street-label='Street'
+    city-label='City'
+    unit-label='Apartment / House / Unit Number'
+    country-label='Country'
+    province-label='State/ Province'
+    postal-code-label='Zip/ Postal Code'
+    onchange={addressInputChange}
+    show-address-lookup>
+    </lightning-input-address>
+    <lightning-input label="Area/Town"
+                         name="areaTown"
+                         value={areatown}
+                         onchange={handleareaChange}>
+        </lightning-input>
+        <lightning-combobox label="Select Area Town" options={statusOptions} onchange={handleStatusSelect} field-level-help="Please select Status"></lightning-combobox>
+         <lightning-input label='Apartment / House / Unit Number'
+                             name='unit'
+                             value={doorNumber}
+                             onchange={handleInputChange}>
+            </lightning-input>
+            <lightning-input label='House / Building Name'
+                             name='unit'
+                             value={housename}
+                             onchange={handleInputhouseChange}>
+            </lightning-input>
+           
+          
+
+            <div class='slds-align_absolute-center'>
+                <lightning-button class='slds-m-top_small' variant="brand" type='submit' label='Create Valuation Record'>
+                </lightning-button>
+            </div>
+    </lightning-record-edit-form>
+    </div> 
+    
+</template>

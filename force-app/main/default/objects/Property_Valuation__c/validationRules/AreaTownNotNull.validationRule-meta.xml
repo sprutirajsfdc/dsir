@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AreaTownNotNull</fullName>
+    <active>false</active>
+    <description>Deprecated.
+Created for Property valuation vf page</description>
+    <errorConditionFormula>AND( ISPICKVAL( Select_Ara_Town__c ,&apos;&apos;) ,
+ISBLANK( Are_Town__c ))</errorConditionFormula>
+    <errorMessage>Please select the Area/Town</errorMessage>
+</ValidationRule>

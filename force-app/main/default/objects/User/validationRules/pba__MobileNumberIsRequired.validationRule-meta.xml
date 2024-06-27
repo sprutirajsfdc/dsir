@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pba__MobileNumberIsRequired</fullName>
+    <active>true</active>
+    <description>Mobile number is required if the User has opted in to receive text messages.</description>
+    <errorConditionFormula>AND($User.pba__HasOptedInToTextMessages__c = true, ISBLANK($User.MobilePhone))</errorConditionFormula>
+    <errorDisplayField>MobilePhone</errorDisplayField>
+    <errorMessage>To enable text messages, please fill out mobile number.</errorMessage>
+</ValidationRule>

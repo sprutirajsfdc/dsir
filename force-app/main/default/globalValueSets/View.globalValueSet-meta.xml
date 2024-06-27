@@ -2395,11 +2395,6 @@
         <default>false</default>
         <label>The Dubai Frame / Zaabeel</label>
     </customValue>
-    <customValue>
-        <fullName>Wynn Al Marjan Island view</fullName>
-        <default>false</default>
-        <label>Wynn Al Marjan Island view</label>
-    </customValue>
     <masterLabel>View</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

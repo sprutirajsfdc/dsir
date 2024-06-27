@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conversion_New_Lead_to_Working__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(Working_Stage_Time_Stamp__c) = FALSE,
+TEXT( 
+FLOOR(Working_Stage_Time_Stamp__c - New_Lead_Stage_Time_Stamp__c) 
+) &amp; &quot; Days &quot; &amp; 
+TEXT( 
+FLOOR(MOD((Working_Stage_Time_Stamp__c - New_Lead_Stage_Time_Stamp__c)*24,24)) 
+) &amp;&quot; Hours &quot; &amp; 
+TEXT( 
+ROUND(MOD((Working_Stage_Time_Stamp__c - New_Lead_Stage_Time_Stamp__c)*1440,60),0) 
+) &amp;&quot; Minutes &quot;, &quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Conversion: New Lead to Working</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

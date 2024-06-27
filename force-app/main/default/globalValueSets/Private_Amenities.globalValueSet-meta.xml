@@ -310,6 +310,36 @@
         <default>false</default>
         <label>Wooden Floors</label>
     </customValue>
+    <customValue>
+        <fullName>Treatment Room</fullName>
+        <default>false</default>
+        <label>Treatment Room</label>
+    </customValue>
+    <customValue>
+        <fullName>Sauna &amp; Steam Room</fullName>
+        <default>false</default>
+        <label>Sauna &amp; Steam Room</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Cinema</fullName>
+        <default>false</default>
+        <label>Home Cinema</label>
+    </customValue>
+    <customValue>
+        <fullName>Wine Room</fullName>
+        <default>false</default>
+        <label>Wine Room</label>
+    </customValue>
+    <customValue>
+        <fullName>Staff Accommodation</fullName>
+        <default>false</default>
+        <label>Staff Accommodation</label>
+    </customValue>
+    <customValue>
+        <fullName>Storage Units</fullName>
+        <default>false</default>
+        <label>Storage Units</label>
+    </customValue>
     <masterLabel>Private Amenities</masterLabel>
-    <sorted>false</sorted>
+    <sorted>true</sorted>
 </GlobalValueSet>

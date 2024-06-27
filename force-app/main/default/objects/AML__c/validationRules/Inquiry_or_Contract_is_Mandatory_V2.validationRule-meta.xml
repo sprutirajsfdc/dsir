@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inquiry_or_Contract_is_Mandatory_V2</fullName>
+    <active>true</active>
+    <description>https://gulfsothebysinternational.lightning.force.com/lightning/setup/ObjectManager/01I3X000001LTT5/ValidationRules/03d7T000000PCUyQAO/view</description>
+    <errorConditionFormula>AND(
+ISNEW(),
+ISBLANK(Inquiry__c),
+ISBLANK(Conveyance__c),
+ISBLANK(Listing__c),
+ISBLANK(Closing__c),
+ISBLANK( Property_Valuation__c ),
+ISBLANK( Offer__c ),
+ISBLANK( Contact__c )
+
+)</errorConditionFormula>
+    <errorMessage>&quot;Please fill in the required fields: Inquiry, Conveyance, Listing, Closing, Property Valuation or  Offer. at least one field must be Required for Creating AML.&quot;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Personal_Interest_Disclosure_Foxtons__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Declaration of interest :- 
+
+We are required to disclose any personal interest, as defi ned by Section 21 of
+the Estate Agents Act 1979, to any prospective buyer. Are you aware of any
+relationship you, your spouse/partner, immediate family, or business associates
+have with Foxtons? If yes, please give details.</inlineHelpText>
+    <label>Personal Interest Disclosure</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

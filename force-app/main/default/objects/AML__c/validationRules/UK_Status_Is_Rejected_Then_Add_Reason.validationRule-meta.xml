@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UK_Status_Is_Rejected_Then_Add_Reason</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(AND( RecordType.Name = &apos;UK&apos;,ISPICKVAL( Status__c , &apos;Rejected&apos;) ), ISBLANK( Rejected_Reason_Details__c )  , False)</errorConditionFormula>
+    <errorDisplayField>Rejected_Reason_Details__c</errorDisplayField>
+    <errorMessage>Please Provide Rejected Reason Details.</errorMessage>
+</ValidationRule>

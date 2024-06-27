@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Joint Sole</fullName>
+        <default>false</default>
+        <label>Joint Sole</label>
+    </customValue>
+    <customValue>
+        <fullName>Multiple</fullName>
+        <default>false</default>
+        <label>Multiple</label>
+    </customValue>
+    <customValue>
+        <fullName>Sole</fullName>
+        <default>false</default>
+        <label>Sole</label>
+    </customValue>
+    <customValue>
+        <fullName>Clients Only</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Clients Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Sub Agent</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sub Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Joint Sole - Fee Available</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Joint Sole - Fee Available</label>
+    </customValue>
+    <customValue>
+        <fullName>Multiple - Fee Available</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Multiple - Fee Available</label>
+    </customValue>
+    <customValue>
+        <fullName>Sole Agent</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sole Agent</label>
+    </customValue>
+    <customValue>
+        <fullName>Sole Agent - Fee Available</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sole Agent - Fee Available</label>
+    </customValue>
+    <customValue>
+        <fullName>Sole Selling Rights</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sole Selling Rights</label>
+    </customValue>
+    <customValue>
+        <fullName>Discreet</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Discreet</label>
+    </customValue>
+    <customValue>
+        <fullName>Multi Agency</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Multi Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Sole Agency</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sole Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Joint Agency</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Joint Agency</label>
+    </customValue>
+    <customValue>
+        <fullName>Joint Sole Agency</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Joint Sole Agency</label>
+    </customValue>
+    <masterLabel>Agency</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

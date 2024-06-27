@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inquiry_is_Required_Except_RecordType_UK</fullName>
+    <active>true</active>
+    <description>When The Record is Created and edit Except the record Type is UK Then inquiry is Required in a record.</description>
+    <errorConditionFormula>AND(
+    ISBLANK( Inquiry__c ),
+     RecordType.Name   &lt;&gt; &quot;UK&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Inquiry__c</errorDisplayField>
+    <errorMessage>Inquiry is Require Except Record Type is UK.</errorMessage>
+</ValidationRule>

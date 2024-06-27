@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Submitted_Rule</fullName>
+    <active>false</active>
+    <description>The &quot;Submitted&quot; status cannot be selected if the previous value was also &quot;Submitted&quot;.</description>
+    <errorConditionFormula>IF(
+ISPICKVAL( PRIORVALUE ( Status__c ) , &apos;Submitted&apos;),
+NOT(
+OR(
+ISPICKVAL( Status__c , &apos;Draft&apos;) ,
+ISPICKVAL( Status__c , &apos;Submitted&apos;)
+)
+),
+null)</errorConditionFormula>
+    <errorMessage>Please choose a different Status. The &quot;Submitted&quot; status cannot be selected if the previous value was also &quot;Submitted&quot;.</errorMessage>
+</ValidationRule>

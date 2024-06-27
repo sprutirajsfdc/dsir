@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_KYC_Approved_to_KYC_Completed</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF( AND(ISCHANGED(Status__c),ISPICKVAL( PRIORVALUE(Status__c ) , &apos;KYC Approved&apos;), RecordType.Name = &apos;UAE&apos;),NOT(ISPICKVAL( Status__c , &apos;KYC Completed&apos;)) , False)</errorConditionFormula>
+    <errorDisplayField>Status__c</errorDisplayField>
+    <errorMessage>From KYC Approved only KYC Completed is allowed.</errorMessage>
+</ValidationRule>

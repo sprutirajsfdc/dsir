@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_is_Instructing_then_Content</fullName>
+    <active>false</active>
+    <description>When Status is Instructed then Content Creation Updated = False</description>
+    <errorConditionFormula>AND(
+  ISCHANGED(Status__c),
+  ISPICKVAL(Status__c, &quot;Instructing&quot;),
+  OR(
+    Content_Creation_Updated__c = false
+    )
+)</errorConditionFormula>
+    <errorMessage>Please ensure that you update the fields using the &quot;Update Listing Content&quot; button provided above before changing the Property Valuation status to &apos;Instructing&apos;.</errorMessage>
+</ValidationRule>

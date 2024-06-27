@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pba__Stage_pb__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Lead</fullName>
+                <default>false</default>
+                <label>New Lead</label>
+            </value>
+            <value>
+                <fullName>Contacted Lead</fullName>
+                <default>false</default>
+                <label>Contacted Lead</label>
+            </value>
+            <value>
+                <fullName>Disqualified</fullName>
+                <default>false</default>
+                <label>Disqualified</label>
+            </value>
+            <value>
+                <fullName>Converted Lead</fullName>
+                <default>false</default>
+                <label>Converted Lead</label>
+            </value>
+            <value>
+                <fullName>Current Client</fullName>
+                <default>false</default>
+                <label>Current Client</label>
+            </value>
+            <value>
+                <fullName>Past Client</fullName>
+                <default>false</default>
+                <label>Past Client</label>
+            </value>
+            <value>
+                <fullName>Hot Lead</fullName>
+                <default>false</default>
+                <label>Hot Lead</label>
+            </value>
+            <value>
+                <fullName>Nurture</fullName>
+                <default>false</default>
+                <label>Nurture</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

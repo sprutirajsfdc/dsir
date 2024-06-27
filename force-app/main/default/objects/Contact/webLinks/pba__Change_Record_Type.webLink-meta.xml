@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>pba__Change_Record_Type</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Change Record Type</masterLabel>
+    <openType>sidebar</openType>
+    <page>pba__ContactChangeRecordType</page>
+    <protected>false</protected>
+</WebLink>
